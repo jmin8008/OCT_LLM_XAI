@@ -1,0 +1,32 @@
+Device: cuda
+GPU: NVIDIA H100 80GB HBM3
+
+Loading data via prepare.py...
+Train patients: 188, Val patients: 33
+Train bags: 2810, Val bags: 491
+Model: ConvNeXt-Tiny + MIL Max Pool + MixUp + Batch 16 + Dropout 0.5
+Total params: 28,217,444, Trainable: 28,217,444
+MixUp: alpha=0.2, prob=0.5
+pos_weight: {'IRF': '1.00', 'SRF': '1.60', 'PED': '4.12', 'HRF': '1.00'}
+
+Starting training for 100 epochs (TIME_BUDGET=900s)...
+------------------------------------------------------------------------------------------
+epoch: 1, train_loss: 0.4824, val_mean_auc: 0.8717, irf_auc: 0.9404, srf_auc: 0.8795, ped_auc: 0.9730, hrf_auc: 0.6939
+epoch: 2, train_loss: 0.3514, val_mean_auc: 0.9444, irf_auc: 0.9621, srf_auc: 0.9449, ped_auc: 0.9759, hrf_auc: 0.8949
+epoch: 3, train_loss: 0.3445, val_mean_auc: 0.9283, irf_auc: 0.9470, srf_auc: 0.9395, ped_auc: 0.9743, hrf_auc: 0.8523
+epoch: 4, train_loss: 0.3154, val_mean_auc: 0.9192, irf_auc: 0.9267, srf_auc: 0.9438, ped_auc: 0.9763, hrf_auc: 0.8301
+epoch: 5, train_loss: 0.3115, val_mean_auc: 0.9148, irf_auc: 0.9526, srf_auc: 0.9498, ped_auc: 0.9744, hrf_auc: 0.7822
+epoch: 6, train_loss: 0.3096, val_mean_auc: 0.9136, irf_auc: 0.9378, srf_auc: 0.9513, ped_auc: 0.9767, hrf_auc: 0.7888
+epoch: 7, train_loss: 0.3082, val_mean_auc: 0.9140, irf_auc: 0.9613, srf_auc: 0.9264, ped_auc: 0.9669, hrf_auc: 0.8015
+epoch: 8, train_loss: 0.2809, val_mean_auc: 0.9075, irf_auc: 0.9433, srf_auc: 0.9229, ped_auc: 0.9668, hrf_auc: 0.7970
+epoch: 9, train_loss: 0.2743, val_mean_auc: 0.9077, irf_auc: 0.9427, srf_auc: 0.9547, ped_auc: 0.9666, hrf_auc: 0.7669
+epoch: 10, train_loss: 0.2649, val_mean_auc: 0.9328, irf_auc: 0.9459, srf_auc: 0.9324, ped_auc: 0.9697, hrf_auc: 0.8831
+epoch: 11, train_loss: 0.2455, val_mean_auc: 0.9102, irf_auc: 0.9228, srf_auc: 0.9515, ped_auc: 0.9757, hrf_auc: 0.7909
+epoch: 12, train_loss: 0.2562, val_mean_auc: 0.9121, irf_auc: 0.9266, srf_auc: 0.9424, ped_auc: 0.9695, hrf_auc: 0.8098
+
+Early stopping at epoch 12 (patience=10)
+val_mean_auc: 0.9444
+peak_vram_mb: 32998
+
+Training complete. Best val_mean_auc: 0.9444 at epoch 2
+Total time: 779.4s / 900s budget

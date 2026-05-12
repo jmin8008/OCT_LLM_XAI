@@ -1,0 +1,29 @@
+Device: cuda
+GPU: NVIDIA H100 80GB HBM3
+
+Loading data via prepare.py...
+Train patients: 188, Val patients: 33
+Train bags: 2810, Val bags: 491
+Model: ConvNeXt-Tiny + MIL Max Pool
+Total params: 28,217,444, Trainable: 28,217,444
+pos_weight: {'IRF': '1.00', 'SRF': '1.60', 'PED': '4.12', 'HRF': '1.00'}
+
+Starting training for 100 epochs (TIME_BUDGET=900s)...
+------------------------------------------------------------------------------------------
+epoch: 1, train_loss: 0.4228, val_mean_auc: 0.8953, irf_auc: 0.9474, srf_auc: 0.8864, ped_auc: 0.9704, hrf_auc: 0.7771
+epoch: 2, train_loss: 0.2851, val_mean_auc: 0.9098, irf_auc: 0.9504, srf_auc: 0.9523, ped_auc: 0.9718, hrf_auc: 0.7648
+epoch: 3, train_loss: 0.2492, val_mean_auc: 0.9121, irf_auc: 0.9550, srf_auc: 0.9548, ped_auc: 0.9674, hrf_auc: 0.7712
+epoch: 4, train_loss: 0.2520, val_mean_auc: 0.8989, irf_auc: 0.9445, srf_auc: 0.9184, ped_auc: 0.9795, hrf_auc: 0.7534
+epoch: 5, train_loss: 0.2356, val_mean_auc: 0.9210, irf_auc: 0.9436, srf_auc: 0.9132, ped_auc: 0.9627, hrf_auc: 0.8646
+epoch: 6, train_loss: 0.2061, val_mean_auc: 0.9344, irf_auc: 0.9634, srf_auc: 0.9669, ped_auc: 0.9745, hrf_auc: 0.8328
+epoch: 7, train_loss: 0.1941, val_mean_auc: 0.9418, irf_auc: 0.9552, srf_auc: 0.9419, ped_auc: 0.9758, hrf_auc: 0.8945
+epoch: 8, train_loss: 0.1754, val_mean_auc: 0.9217, irf_auc: 0.9508, srf_auc: 0.9571, ped_auc: 0.9555, hrf_auc: 0.8233
+epoch: 9, train_loss: 0.1437, val_mean_auc: 0.9253, irf_auc: 0.9568, srf_auc: 0.9503, ped_auc: 0.9775, hrf_auc: 0.8165
+epoch: 10, train_loss: 0.1417, val_mean_auc: 0.9360, irf_auc: 0.9562, srf_auc: 0.9365, ped_auc: 0.9592, hrf_auc: 0.8920
+
+TIME_BUDGET (900s) exceeded at epoch 11. Stopping.
+val_mean_auc: 0.9418
+peak_vram_mb: 16614
+
+Training complete. Best val_mean_auc: 0.9418 at epoch 7
+Total time: 968.2s / 900s budget

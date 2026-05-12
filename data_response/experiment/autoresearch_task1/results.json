@@ -1,0 +1,202 @@
+[
+  {
+    "exp": 13,
+    "method": "Snapshot Ensemble (top-5 checkpoints, AUC-weighted)",
+    "mean_auc": 0.9458,
+    "irf_auc": 0.9677,
+    "srf_auc": 0.9729,
+    "ped_auc": 0.9814,
+    "hrf_auc": 0.8610,
+    "verdict": "FAILED - below 0.9491 baseline"
+  },
+  {
+    "exp": 14,
+    "method": "7-Seed Ensemble, patience=3, LR=2e-4",
+    "mean_auc": 0.8558,
+    "irf_auc": 0.9183,
+    "srf_auc": 0.8345,
+    "ped_auc": 0.9637,
+    "hrf_auc": 0.7066,
+    "verdict": "FAILED - only 1 epoch per seed, insufficient convergence"
+  },
+  {
+    "exp": "14b",
+    "method": "3-Seed Rank-Based Weighted Ensemble",
+    "mean_auc": 0.9496,
+    "irf_auc": 0.9624,
+    "srf_auc": 0.9724,
+    "ped_auc": 0.9727,
+    "hrf_auc": 0.8909,
+    "verdict": "NEW BEST - +0.0005 over simple mean ensemble"
+  },
+  {
+    "exp": 15,
+    "method": "3-Seed Per-Class Best Epoch + Simple Mean Ensemble",
+    "mean_auc": 0.9527,
+    "irf_auc": 0.9668,
+    "srf_auc": 0.9721,
+    "ped_auc": 0.9809,
+    "hrf_auc": 0.8911,
+    "verdict": "NEW BEST - +0.0036 over simple mean ensemble, breaks 0.95!"
+  },
+  {
+    "exp": 16,
+    "method": "3-Seed Per-Class Best Epoch + Squared-AUC Weighted Ensemble",
+    "mean_auc": 0.9542,
+    "irf_auc": 0.9722,
+    "srf_auc": 0.9721,
+    "ped_auc": 0.9808,
+    "hrf_auc": 0.8919,
+    "verdict": "NEW BEST - +0.0051 over baseline, +0.0015 over Exp #15"
+  },
+  {
+    "exp": 18,
+    "method": "5-Seed + HRF Loss Boost (pos_weight=3.0) + Per-Class Best + Squared-AUC",
+    "mean_auc": 0.9244,
+    "irf_auc": 0.9564,
+    "srf_auc": 0.9561,
+    "ped_auc": 0.9725,
+    "hrf_auc": 0.8123,
+    "verdict": "FAILED - HRF boost too aggressive, 5 seeds insufficient epochs"
+  },
+  {
+    "exp": 19,
+    "method": "3-Seed CosWarmRestart(T0=3) + TTA + Per-Class Best + Cubed-AUC",
+    "mean_auc": 0.9525,
+    "irf_auc": 0.9712,
+    "srf_auc": 0.9696,
+    "ped_auc": 0.9816,
+    "hrf_auc": 0.8877,
+    "verdict": "BELOW BASELINE - TTA too slow, seed 123 HRF=0.9119 but others worse"
+  },
+  {
+    "exp": 20,
+    "method": "3-Seed x 2-Pool (max+mean) 6-model + Per-Class Best + Cubed-AUC",
+    "mean_auc": 0.9437,
+    "irf_auc": 0.9669,
+    "srf_auc": 0.9737,
+    "ped_auc": 0.9764,
+    "hrf_auc": 0.8580,
+    "verdict": "FAILED - mean pooling hurts HRF, too few epochs per model"
+  },
+  {
+    "exp": 21,
+    "method": "3-Seed HRF-Boost(1.5) + MixUp-Diversity + Per-Class Best + Cubed-AUC",
+    "mean_auc": 0.9474,
+    "irf_auc": 0.9703,
+    "srf_auc": 0.9744,
+    "ped_auc": 0.9842,
+    "hrf_auc": 0.8608,
+    "verdict": "FAILED - even gentle HRF boost hurts, MixUp diversity no help"
+  },
+  {
+    "exp": 22,
+    "method": "3-Seed EMA(0.999) + Per-Class Best + Squared-AUC Weighted",
+    "mean_auc": 0.9576,
+    "irf_auc": 0.9708,
+    "srf_auc": 0.9708,
+    "ped_auc": 0.9801,
+    "hrf_auc": 0.9087,
+    "verdict": "NEW BEST - +0.0034 over Exp #16, EMA dramatically stabilizes HRF!"
+  },
+  {
+    "exp": 23,
+    "method": "4-Seed EMA(0.999) + Per-Class Best + Cubed-AUC",
+    "mean_auc": 0.9495,
+    "irf_auc": 0.9698,
+    "srf_auc": 0.9722,
+    "ped_auc": 0.9821,
+    "hrf_auc": 0.8739,
+    "verdict": "FAILED - 4 seeds too many, seed 777 only 2 epochs"
+  },
+  {
+    "exp": 24,
+    "method": "3-Seed EMA(0.999) + TTA(flip) + Per-Class Best + Squared-AUC",
+    "mean_auc": 0.9557,
+    "irf_auc": 0.9704,
+    "srf_auc": 0.9727,
+    "ped_auc": 0.9825,
+    "hrf_auc": 0.8973,
+    "verdict": "BELOW BEST - TTA marginal benefit but costs time, fewer epochs"
+  },
+  {
+    "exp": 25,
+    "method": "3-Seed EMA-Diversity (0.998/0.999/0.9995) + Per-Class Best + Squared-AUC",
+    "mean_auc": 0.9468,
+    "irf_auc": 0.9702,
+    "srf_auc": 0.9670,
+    "ped_auc": 0.9791,
+    "hrf_auc": 0.8708,
+    "verdict": "FAILED - EMA(0.9995) too slow for seed 2024, only 4 epochs"
+  },
+  {
+    "exp": 26,
+    "method": "3-Seed ConvNeXt-Small + EMA(0.999) + Per-Class Best + Cubed-AUC",
+    "mean_auc": 0.9447,
+    "irf_auc": 0.9726,
+    "srf_auc": 0.9743,
+    "ped_auc": 0.9827,
+    "hrf_auc": 0.8492,
+    "verdict": "FAILED - ConvNeXt-Small too slow, only 3-4 epochs per seed, EMA can't stabilize HRF"
+  },
+  {
+    "exp": 27,
+    "method": "3-Seed LR-Diversity(1e-4/1e-4/5e-5) EMA(0.999) + Per-Class Best + Cubed-AUC",
+    "mean_auc": 0.9607,
+    "irf_auc": 0.9734,
+    "srf_auc": 0.9723,
+    "ped_auc": 0.9820,
+    "hrf_auc": 0.9152,
+    "verdict": "NEW BEST - +0.0031 over Exp #22, slower LR for seed 2024 delays HRF peak to epoch 5!"
+  },
+  {
+    "exp": 28,
+    "method": "3-Seed ALL lr=5e-5 EMA(0.999) + Per-Class Best + Squared-AUC",
+    "mean_auc": 0.9609,
+    "irf_auc": 0.9738,
+    "srf_auc": 0.9721,
+    "ped_auc": 0.9806,
+    "hrf_auc": 0.9170,
+    "verdict": "NEW BEST - +0.0002 over Exp #27, seed 123 benefits from 5e-5 but seed 42 worse"
+  },
+  {
+    "exp": 29,
+    "method": "3-Seed Optimal-LR(1e-4/5e-5/5e-5) EMA(0.999) + Per-Class Best + Simple Mean",
+    "mean_auc": 0.9614,
+    "irf_auc": 0.9735,
+    "srf_auc": 0.9710,
+    "ped_auc": 0.9815,
+    "hrf_auc": 0.9199,
+    "verdict": "NEW BEST - +0.0005 over Exp #28, per-seed optimal LR combination"
+  },
+  {
+    "exp": 30,
+    "method": "3-Seed Fine-Tuned-LR(7.5e-5/5e-5/5e-5) EMA(0.999) + Per-Class Best + Cubed-AUC",
+    "mean_auc": 0.9630,
+    "irf_auc": 0.9742,
+    "srf_auc": 0.9730,
+    "ped_auc": 0.9835,
+    "hrf_auc": 0.9214,
+    "verdict": "NEW BEST - +0.0016 over Exp #29, cubed-AUC weights favor stronger seeds 123/2024"
+  },
+  {
+    "exp": 31,
+    "method": "3-Seed ALL lr=5e-5 EMA(0.999) + Per-Class Best + Squared-AUC (re-run)",
+    "mean_auc": 0.9609,
+    "irf_auc": 0.9737,
+    "srf_auc": 0.9720,
+    "ped_auc": 0.9805,
+    "hrf_auc": 0.9174,
+    "verdict": "BELOW BEST - same as Exp #28, equal budget split didn't test 2-seed deep hypothesis"
+  },
+  {
+    "exp": 32,
+    "method": "2-Seed Deep(440s) lr=5e-5 EMA(0.999) + Per-Class Best + Squared-AUC",
+    "mean_auc": 0.9636,
+    "irf_auc": 0.9751,
+    "srf_auc": 0.9738,
+    "ped_auc": 0.9831,
+    "hrf_auc": 0.9227,
+    "verdict": "NEW BEST - +0.0006 over Exp #30, 2 deep seeds > 3 seeds, no weak seed 42"
+  }
+]

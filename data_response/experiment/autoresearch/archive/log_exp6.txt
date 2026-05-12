@@ -1,0 +1,26 @@
+Device: cuda
+GPU: NVIDIA H100 80GB HBM3
+
+Loading data via prepare.py...
+Train patients: 188, Val patients: 33
+Train bags: 2810, Val bags: 491
+Model: ConvNeXt-Tiny + MIL Max Pool + MixUp + HRF pw_tuning
+Total params: 28,217,444, Trainable: 28,217,444
+MixUp: alpha=0.3, prob=0.5
+pos_weight: {'IRF': '1.00', 'SRF': '1.60', 'PED': '4.12', 'HRF': '0.50'}
+
+Starting training for 100 epochs (TIME_BUDGET=900s)...
+------------------------------------------------------------------------------------------
+epoch: 1, train_loss: 0.4650, val_mean_auc: 0.9116, irf_auc: 0.9364, srf_auc: 0.8805, ped_auc: 0.9621, hrf_auc: 0.8674
+epoch: 2, train_loss: 0.3552, val_mean_auc: 0.9422, irf_auc: 0.9563, srf_auc: 0.9533, ped_auc: 0.9681, hrf_auc: 0.8913
+epoch: 3, train_loss: 0.2965, val_mean_auc: 0.9127, irf_auc: 0.9469, srf_auc: 0.9464, ped_auc: 0.9800, hrf_auc: 0.7773
+epoch: 4, train_loss: 0.2909, val_mean_auc: 0.9242, irf_auc: 0.9551, srf_auc: 0.9611, ped_auc: 0.9736, hrf_auc: 0.8070
+epoch: 5, train_loss: 0.3009, val_mean_auc: 0.9467, irf_auc: 0.9652, srf_auc: 0.9679, ped_auc: 0.9803, hrf_auc: 0.8733
+epoch: 6, train_loss: 0.2963, val_mean_auc: 0.9395, irf_auc: 0.9576, srf_auc: 0.9640, ped_auc: 0.9816, hrf_auc: 0.8549
+epoch: 7, train_loss: 0.2690, val_mean_auc: 0.9276, irf_auc: 0.9431, srf_auc: 0.9558, ped_auc: 0.9686, hrf_auc: 0.8428
+epoch: 8, train_loss: 0.2558, val_mean_auc: 0.9330, irf_auc: 0.9488, srf_auc: 0.9456, ped_auc: 0.9523, hrf_auc: 0.8852
+epoch: 9, train_loss: 0.2398, val_mean_auc: 0.9414, irf_auc: 0.9637, srf_auc: 0.9485, ped_auc: 0.9735, hrf_auc: 0.8799
+epoch: 10, train_loss: 0.2669, val_mean_auc: 0.8403, irf_auc: 0.9516, srf_auc: 0.9443, ped_auc: 0.9630, hrf_auc: 0.5025
+epoch: 11, train_loss: 0.2594, val_mean_auc: 0.8973, irf_auc: 0.9412, srf_auc: 0.9398, ped_auc: 0.9789, hrf_auc: 0.7292
+epoch: 12, train_loss: 0.2435, val_mean_auc: 0.9082, irf_auc: 0.9464, srf_auc: 0.9199, ped_auc: 0.9787, hrf_auc: 0.7879
+epoch: 13, train_loss: 0.2466, val_mean_auc: 0.8957, irf_auc: 0.9136, srf_auc: 0.9316, ped_auc: 0.9767, hrf_auc: 0.7608

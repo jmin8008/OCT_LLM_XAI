@@ -1,0 +1,38 @@
+Device: cuda
+GPU: NVIDIA H100 80GB HBM3
+
+Loading data via prepare.py...
+Train patients: 188, Val patients: 33
+Train bags: 2810, Val bags: 491
+Model: ConvNeXt-Tiny + MIL Max Pool + MixUp + SWA (dropout=0.3)
+Total params: 28,217,444, Trainable: 28,217,444
+MixUp: alpha=0.2, prob=0.5
+pos_weight: {'IRF': '1.00', 'SRF': '1.60', 'PED': '4.12', 'HRF': '1.00'}
+
+Starting training for 100 epochs (TIME_BUDGET=900s)...
+SWA starts at epoch 6
+------------------------------------------------------------------------------------------
+epoch: 1, train_loss: 0.4370, val_mean_auc: 0.8897, irf_auc: 0.9151, srf_auc: 0.9116, ped_auc: 0.9573, hrf_auc: 0.7746
+epoch: 2, train_loss: 0.3349, val_mean_auc: 0.8871, irf_auc: 0.9570, srf_auc: 0.9421, ped_auc: 0.9787, hrf_auc: 0.6705
+epoch: 3, train_loss: 0.3117, val_mean_auc: 0.9184, irf_auc: 0.9535, srf_auc: 0.9621, ped_auc: 0.9781, hrf_auc: 0.7801
+epoch: 4, train_loss: 0.2914, val_mean_auc: 0.9242, irf_auc: 0.9493, srf_auc: 0.9559, ped_auc: 0.9776, hrf_auc: 0.8138
+epoch: 5, train_loss: 0.2820, val_mean_auc: 0.9413, irf_auc: 0.9593, srf_auc: 0.9588, ped_auc: 0.9754, hrf_auc: 0.8718
+epoch: 6, train_loss: 0.2710, val_mean_auc: 0.8920, irf_auc: 0.9642, srf_auc: 0.9318, ped_auc: 0.9750, hrf_auc: 0.6972
+epoch: 7, train_loss: 0.2332, val_mean_auc: 0.9165, irf_auc: 0.9598, srf_auc: 0.9585, ped_auc: 0.9666, hrf_auc: 0.7811
+epoch: 8, train_loss: 0.2182, val_mean_auc: 0.9061, irf_auc: 0.9463, srf_auc: 0.9495, ped_auc: 0.9753, hrf_auc: 0.7534
+epoch: 9, train_loss: 0.2004, val_mean_auc: 0.9304, irf_auc: 0.9427, srf_auc: 0.9551, ped_auc: 0.9827, hrf_auc: 0.8409
+epoch: 10, train_loss: 0.1947, val_mean_auc: 0.9214, irf_auc: 0.9524, srf_auc: 0.9370, ped_auc: 0.9834, hrf_auc: 0.8129
+epoch: 11, train_loss: 0.1588, val_mean_auc: 0.9124, irf_auc: 0.9592, srf_auc: 0.9310, ped_auc: 0.9794, hrf_auc: 0.7799
+epoch: 12, train_loss: 0.1411, val_mean_auc: 0.8956, irf_auc: 0.9388, srf_auc: 0.9115, ped_auc: 0.9839, hrf_auc: 0.7483
+epoch: 13, train_loss: 0.1561, val_mean_auc: 0.9268, irf_auc: 0.9561, srf_auc: 0.9520, ped_auc: 0.9867, hrf_auc: 0.8125
+epoch: 14, train_loss: 0.1373, val_mean_auc: 0.9103, irf_auc: 0.9578, srf_auc: 0.8995, ped_auc: 0.9824, hrf_auc: 0.8013
+
+TIME_BUDGET (900s) exceeded at epoch 15. Stopping.
+
+Updating BN stats for SWA model...
+swa_val_mean_auc: 0.9256, irf: 0.9677, srf: 0.9560, ped: 0.9834, hrf: 0.7953
+val_mean_auc: 0.9413
+peak_vram_mb: 16882
+
+Training complete. Best val_mean_auc: 0.9413 at epoch 5
+Total time: 948.8s / 900s budget

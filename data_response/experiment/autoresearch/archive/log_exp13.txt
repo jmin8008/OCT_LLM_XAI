@@ -1,0 +1,89 @@
+Device: cuda
+GPU: NVIDIA H100 80GB HBM3
+
+Multi-seed Ensemble: [42, 123, 2024, 7, 999]
+Per-seed budget: 180s, Total budget: 900s
+
+Loading data via prepare.py...
+Train patients: 188, Val patients: 33
+Train bags: 2810, Val bags: 491
+
+============================================================
+  SEED 42 — budget: 179s
+============================================================
+Model: ConvNeXt-Tiny + MIL Max Pool + MixUp (dropout=0.3)
+Total params: 28,217,444
+pos_weight: {'IRF': '1.00', 'SRF': '1.60', 'PED': '4.12', 'HRF': '1.00'}
+  seed=42, epoch: 1, train_loss: 0.4512, val_mean_auc: 0.8615, irf: 0.9241, srf: 0.8839, ped: 0.9484, hrf: 0.6898
+  seed=42, epoch: 2, train_loss: 0.3804, val_mean_auc: 0.9138, irf: 0.9352, srf: 0.9417, ped: 0.9694, hrf: 0.8089
+  seed=42, epoch: 3, train_loss: 0.3319, val_mean_auc: 0.9271, irf: 0.9335, srf: 0.9592, ped: 0.9727, hrf: 0.8430
+  Seed 42: TIME_BUDGET (179s) exceeded at epoch 4
+  Seed 42: Best val_mean_auc: 0.9271 at epoch 3 (201.5s)
+
+============================================================
+  SEED 123 — budget: 171s
+============================================================
+Model: ConvNeXt-Tiny + MIL Max Pool + MixUp (dropout=0.3)
+Total params: 28,217,444
+pos_weight: {'IRF': '1.00', 'SRF': '1.60', 'PED': '4.12', 'HRF': '1.00'}
+  seed=123, epoch: 1, train_loss: 0.4804, val_mean_auc: 0.8443, irf: 0.9005, srf: 0.8175, ped: 0.9541, hrf: 0.7051
+  seed=123, epoch: 2, train_loss: 0.4047, val_mean_auc: 0.9004, irf: 0.9383, srf: 0.9179, ped: 0.9599, hrf: 0.7856
+  seed=123, epoch: 3, train_loss: 0.3514, val_mean_auc: 0.9063, irf: 0.9397, srf: 0.9464, ped: 0.9725, hrf: 0.7667
+  Seed 123: TIME_BUDGET (171s) exceeded at epoch 4
+  Seed 123: Best val_mean_auc: 0.9063 at epoch 3 (202.6s)
+
+============================================================
+  SEED 2024 — budget: 158s
+============================================================
+Model: ConvNeXt-Tiny + MIL Max Pool + MixUp (dropout=0.3)
+Total params: 28,217,444
+pos_weight: {'IRF': '1.00', 'SRF': '1.60', 'PED': '4.12', 'HRF': '1.00'}
+  seed=2024, epoch: 1, train_loss: 0.4521, val_mean_auc: 0.8840, irf: 0.9361, srf: 0.9557, ped: 0.9699, hrf: 0.6742
+  seed=2024, epoch: 2, train_loss: 0.3812, val_mean_auc: 0.9286, irf: 0.9241, srf: 0.9493, ped: 0.9523, hrf: 0.8888
+  seed=2024, epoch: 3, train_loss: 0.3383, val_mean_auc: 0.9052, irf: 0.9573, srf: 0.9570, ped: 0.9699, hrf: 0.7366
+  Seed 2024: TIME_BUDGET (158s) exceeded at epoch 4
+  Seed 2024: Best val_mean_auc: 0.9286 at epoch 2 (201.4s)
+
+============================================================
+  SEED 7 — budget: 133s
+============================================================
+Model: ConvNeXt-Tiny + MIL Max Pool + MixUp (dropout=0.3)
+Total params: 28,217,444
+pos_weight: {'IRF': '1.00', 'SRF': '1.60', 'PED': '4.12', 'HRF': '1.00'}
+  seed=7, epoch: 1, train_loss: 0.4477, val_mean_auc: 0.9003, irf: 0.9229, srf: 0.9557, ped: 0.9766, hrf: 0.7458
+  seed=7, epoch: 2, train_loss: 0.3620, val_mean_auc: 0.8588, irf: 0.9615, srf: 0.9629, ped: 0.9822, hrf: 0.5288
+  Seed 7: TIME_BUDGET (133s) exceeded at epoch 3
+  Seed 7: Best val_mean_auc: 0.9003 at epoch 1 (133.5s)
+
+============================================================
+  SEED 999 — budget: 125s
+============================================================
+Model: ConvNeXt-Tiny + MIL Max Pool + MixUp (dropout=0.3)
+Total params: 28,217,444
+pos_weight: {'IRF': '1.00', 'SRF': '1.60', 'PED': '4.12', 'HRF': '1.00'}
+  seed=999, epoch: 1, train_loss: 0.4696, val_mean_auc: 0.9015, irf: 0.9449, srf: 0.8579, ped: 0.9774, hrf: 0.8256
+  seed=999, epoch: 2, train_loss: 0.3802, val_mean_auc: 0.9096, irf: 0.9402, srf: 0.9507, ped: 0.9589, hrf: 0.7884
+  Seed 999: TIME_BUDGET (125s) exceeded at epoch 3
+  Seed 999: Best val_mean_auc: 0.9096 at epoch 2 (133.4s)
+
+============================================================
+  ENSEMBLE RESULTS
+============================================================
+  Seed 42: AUC=0.9271 (epoch 3, 201s)
+  Seed 123: AUC=0.9063 (epoch 3, 203s)
+  Seed 2024: AUC=0.9286 (epoch 2, 201s)
+  Seed 7: AUC=0.9003 (epoch 1, 134s)
+  Seed 999: AUC=0.9096 (epoch 2, 133s)
+
+  Ensemble Mean AUC: 0.9356
+    IRF: 0.9526
+    SRF: 0.9684
+    PED: 0.9706
+    HRF: 0.8506
+
+  Best single seed AUC: 0.9286 (seed=2024)
+  Ensemble improvement: +0.0069
+
+  peak_vram_mb: 16768
+
+Total time: 916.2s / 900s budget

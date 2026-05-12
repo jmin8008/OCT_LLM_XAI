@@ -1,0 +1,26 @@
+Device: cuda
+GPU: NVIDIA H100 80GB HBM3
+
+Loading data via prepare.py...
+Train patients: 188, Val patients: 33
+Train bags: 2810, Val bags: 491
+Model: ConvNeXt-Tiny + MIL Max Pool + MixUp + 384x384 (dropout=0.3)
+Total params: 28,217,444, Trainable: 28,217,444
+MixUp: alpha=0.2, prob=0.5
+Image size: 384x384, Batch: 4
+pos_weight: {'IRF': '1.00', 'SRF': '1.60', 'PED': '4.12', 'HRF': '1.00'}
+
+Starting training for 100 epochs (TIME_BUDGET=900s)...
+------------------------------------------------------------------------------------------
+epoch: 1, train_loss: 0.4096, val_mean_auc: 0.9461, irf_auc: 0.9628, srf_auc: 0.9549, ped_auc: 0.9660, hrf_auc: 0.9006
+epoch: 2, train_loss: 0.3296, val_mean_auc: 0.9369, irf_auc: 0.9579, srf_auc: 0.9669, ped_auc: 0.9804, hrf_auc: 0.8424
+epoch: 3, train_loss: 0.3129, val_mean_auc: 0.9317, irf_auc: 0.9565, srf_auc: 0.9535, ped_auc: 0.9803, hrf_auc: 0.8366
+epoch: 4, train_loss: 0.3081, val_mean_auc: 0.9455, irf_auc: 0.9558, srf_auc: 0.9469, ped_auc: 0.9902, hrf_auc: 0.8892
+epoch: 5, train_loss: 0.3094, val_mean_auc: 0.9189, irf_auc: 0.9629, srf_auc: 0.9259, ped_auc: 0.9864, hrf_auc: 0.8004
+
+TIME_BUDGET (900s) exceeded at epoch 6. Stopping.
+val_mean_auc: 0.9461
+peak_vram_mb: 24344
+
+Training complete. Best val_mean_auc: 0.9461 at epoch 1
+Total time: 946.7s / 900s budget
