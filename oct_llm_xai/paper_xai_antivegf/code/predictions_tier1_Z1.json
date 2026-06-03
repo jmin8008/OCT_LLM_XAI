@@ -1,0 +1,923 @@
+[
+  {
+    "eye_id": "5L",
+    "diagnosis": "PCV",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 274.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided pre-treatment macular OCT B-scan of a patient with polypoidal choroidal vasculopathy (PCV):\n\n1.  **Fluid and PED Presence:**\n    *   **IRF (Intraretinal Fluid):** **Yes.** There is a distinct, hyporeflective (dark) space within the retinal layers, particularly noticeable in the inner nuclear layer and outer plexiform layer, indicating fluid accumulation within the retina.\n    *   **SRF (Subretinal Fluid):** **Yes.** There is a hyporeflective space located between the retinal pigment epithelium (RPE) and the neurosensory retina, appearing as a dark band just beneath the RPE.\n    *   **PED (Pigment Epithelial Detachment):** **Yes.** There is a well-defined, dome-shaped, hyporeflective elevation of the RPE and Bruch's membrane complex, which",
+    "ci_pred": "uncertain",
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "9L",
+    "diagnosis": "PCV",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 287.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided pre-treatment macular OCT B-scan of a patient with polypoidal choroidal vasculopathy (PCV):\n\n1.  **Fluid and PED Assessment:**\n    *   **IRF (Intraretinal Fluid):** **Not present.** The retinal layers appear relatively intact and continuous, without any hyporeflective spaces within the retinal layers.\n    *   **SRF (Subretinal Fluid):** **Present.** There is a distinct, well-defined, hyporeflective (dark) space located between the neurosensory retina and the retinal pigment epithelium (RPE). This is the classic appearance of SRF.\n    *   **PED (Pigment Epithelial Detachment):** **Not present.** There is no dome-shaped, well-demarcated elevation of the RPE layer away from the underlying choroid. The RPE appears relatively flat, though the SRF is present",
+    "ci_pred": "uncertain",
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "20R",
+    "diagnosis": "PCV",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 297.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Present  \nSRF: Present  \nPED: Present  \n\ncontinue\n\nExplanation:  \nThis pre-treatment macular OCT shows multiple hallmark features of polypoidal choroidal vasculopathy (PCV):  \n- Intraretinal fluid (IRF) — seen as hyporeflective spaces within the retinal layers.  \n- Subretinal fluid (SRF) — visible as a hyporeflective space beneath the retina, indicating leakage from choroidal vessels.  \n- Pigment epithelial detachment (PED) — a dome-shaped elevation of the RPE and Bruch’s membrane, often associated with choroidal neovascularization or polypoidal lesions in PCV.  \n\nIn PCV, the presence of SRF, IRF, and PED indicates active disease with ongoing leakage and structural disruption. Anti-VEGF therapy is the standard first-line treatment for PCV to reduce leakage, edema, and prevent further vision loss. Even though PCV is not as",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "45L",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 515.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided pre-treatment macular OCT B-scan of a patient with CNVM (choroidal neovascular membrane):\n\n1.  **Fluid Presentations:**\n    *   **IRF (Intraretinal Fluid):** **Yes.** There is a distinct, hyporeflective (dark) space within the retinal layers, particularly noticeable in the inner nuclear layer and outer plexiform layer, consistent with fluid accumulation within the retina.\n    *   **SRF (Subretinal Fluid):** **Yes.** There is a hyporeflective space located between the neurosensory retina and the retinal pigment epithelium (RPE), which is a classic sign of SRF.\n    *   **PED (Pigment Epithelial Detachment):** **Yes.** There is a well-defined, dome-shaped, hyporeflective elevation of the RPE and Bruch's membrane, which is characteristic of a PED.",
+    "ci_pred": "uncertain",
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 350.0
+  },
+  {
+    "eye_id": "69R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 309.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "IRF: No  \nSRF: Yes  \nPED: Yes  \n\ncontinue\n\nExplanation:  \nThis OCT scan shows subretinal fluid (SRF) and a pigment epithelial detachment (PED), which are classic features of a choroidal neovascular membrane (CNVM) — often associated with wet age-related macular degeneration (AMD). The presence of SRF indicates active leakage from the CNVM, which can cause rapid vision loss if left untreated. PED suggests that the CNVM is causing structural disruption and may be associated with fluid accumulation beneath the retina. Although intraretinal fluid (IRF) is not present, the presence of SRF and PED confirms active disease activity. Anti-VEGF therapy is the standard of care for wet AMD and is indicated to inhibit vascular leakage and promote resolution of SRF and PED. Therefore, continued anti-VEGF injections are necessary to prevent further vision loss and promote anatomical and functional recovery. The treatment plan should be individualized based on",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "110R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 333.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided OCT B-scan:\n\n1.  **Fluid Presentations:**\n    *   **IRF (Intraretinal Fluid):** **Not present.** The retinal layers appear relatively intact and continuous without any obvious cystic spaces or hyporeflective areas within the retinal layers.\n    *   **SRF (Subretinal Fluid):** **Present.** There is a distinct, hyporeflective (dark) space located between the retinal pigment epithelium (RPE) and the neurosensory retina. This is a classic sign of subretinal fluid.\n    *   **PED (Pigment Epithelial Detachment):** **Not present.** The RPE layer appears relatively flat and continuous without any significant elevation or dome-shaped detachment from the underlying choroid.\n\n2.  **Decision: Continue**\n\n**Explanation:**\n\nThe presence of **subretinal fluid (SRF)** is a key indicator of active",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "115R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 466.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided pre-treatment macular OCT B-scan of a patient with CNVM (choroidal neovascular membrane):\n\n1.  **Fluid Presentations:**\n    *   **IRF (Intraretinal Fluid):** **Yes.** There is a clear, hyporeflective (dark) space within the retinal layers, particularly noticeable in the inner nuclear layer and outer plexiform layer, consistent with fluid accumulation within the retina.\n    *   **SRF (Subretinal Fluid):** **Yes.** There is a distinct, hyporeflective space located between the retinal pigment epithelium (RPE) and the neurosensory retina, which is characteristic of subretinal fluid.\n    *   **PED (Pigment Epithelial Detachment):** **Yes.** There is a well-defined, dome-shaped, hyporeflective elevation of the RPE layer, which is a classic sign of a PED",
+    "ci_pred": "uncertain",
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "128R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 270.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided OCT B-scan:\n\n1.  **Fluid Presentations:**\n    *   **IRF (Intraretinal Fluid):** **Not present.** The retinal layers appear relatively intact and continuous without any obvious cystic spaces or hyporeflective areas within the retinal layers.\n    *   **SRF (Subretinal Fluid):** **Present.** There is a distinct, hyporeflective (dark) space located between the neurosensory retina and the retinal pigment epithelium (RPE). This is the classic appearance of SRF.\n    *   **PED (Pigment Epithelial Detachment):** **Present.** There is a well-defined, dome-shaped, hyporeflective elevation of the RPE layer, which is separate from the SRF. This is characteristic of a PED.\n\n2.  **Decision: Continue or Stop Anti-VEGF?**\n\n    **Answer: continue**",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "167R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 352.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided OCT B-scan:\n\n1.  **Fluid Presentations:**\n    *   **IRF (Intraretinal Fluid):** **Yes.** There is a distinct, hyporeflective (dark) space within the retinal layers, particularly noticeable in the inner nuclear layer and outer plexiform layer, indicating fluid accumulation within the retina.\n    *   **SRF (Subretinal Fluid):** **Yes.** There is a hyporeflective space located between the retinal pigment epithelium (RPE) and the neurosensory retina, which is characteristic of SRF.\n    *   **PED (Pigment Epithelial Detachment):** **Yes.** There is a well-defined, dome-shaped, hyporeflective area beneath the RPE, which is consistent with a PED. It appears to be associated with the SRF.\n\n2.  **Treatment Decision:**\n    *   **Answer: continue",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "183R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 305.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided pre-treatment macular OCT B-scan of a patient with CNVM (choroidal neovascular membrane):\n\n1.  **Fluid Presentations:**\n    *   **IRF (Intraretinal Fluid):** **Yes.** There is a distinct, hyporeflective (dark) space within the retinal layers, particularly noticeable in the inner nuclear layer and outer plexiform layer, consistent with fluid accumulation within the retina.\n    *   **SRF (Subretinal Fluid):** **Yes.** There is a hyporeflective space located between the retinal pigment epithelium (RPE) and the neurosensory retina, which is a classic sign of subretinal fluid.\n    *   **PED (Pigment Epithelial Detachment):** **Yes.** There is a well-defined, dome-shaped, hyporeflective elevation of the RPE layer, which is characteristic of a PED. This",
+    "ci_pred": "uncertain",
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "193L",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 291.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided pre-treatment macular OCT B-scan of a patient with CNVM (choroidal neovascular membrane):\n\n1.  **Fluid Presentations:**\n    *   **IRF (Intraretinal Fluid):** **Yes.** There is a distinct, hyporeflective (dark) space within the retinal layers, particularly noticeable in the inner nuclear layer and outer plexiform layer, consistent with fluid accumulation within the retina.\n    *   **SRF (Subretinal Fluid):** **Yes.** There is a hyporeflective space located between the neurosensory retina and the retinal pigment epithelium (RPE), which is a classic sign of SRF.\n    *   **PED (Pigment Epithelial Detachment):** **Yes.** There is a well-defined, dome-shaped, hyporeflective elevation of the RPE layer, which is characteristic of a PED. This is often associated",
+    "ci_pred": "uncertain",
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "206L",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 256.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided macular OCT B-scan:\n\n1.  **Fluid Presentations:**\n    *   **IRF (Intraretinal Fluid):** **Not present.** There is no evidence of fluid within the retinal layers themselves. The retinal layers appear relatively intact and continuous.\n    *   **SRF (Subretinal Fluid):** **Present.** There is a well-defined, hyporeflective (dark) space located between the neurosensory retina and the retinal pigment epithelium (RPE). This is characteristic of subretinal fluid.\n    *   **PED (Pigment Epithelial Detachment):** **Not present.** While there is SRF, there is no distinct, dome-shaped elevation of the RPE layer away from the underlying choroid. The RPE appears to be relatively flat beneath the SRF.\n\n2.  **Decision: Continue or Stop Anti-VEGF?**\n\n    **Answer",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "209R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 257.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided OCT B-scan:\n\n1.  **Fluid Presentations:**\n    *   **IRF (Intraretinal Fluid):** **Not present.** The retinal layers appear relatively intact and continuous without any obvious cystic spaces or hyporeflective areas within the retinal layers.\n    *   **SRF (Subretinal Fluid):** **Not present.** There is no hyporeflective space between the retinal pigment epithelium (RPE) and the neurosensory retina. The RPE is relatively flat and adherent to the underlying choroid.\n    *   **PED (Pigment Epithelial Detachment):** **Not present.** There is no dome-shaped elevation of the RPE layer away from the underlying choroid.\n\n2.  **Decision: Stop**\n\n**Explanation:**\n\nThe OCT scan shows a relatively quiescent macula with no evidence of active fluid accumulation (IRF or SRF",
+    "ci_pred": 0,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "211R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.079999998,
+    "y_cst": 204.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided OCT B-scan:\n\n1.  **Fluid Presentations:**\n    *   **IRF (Intraretinal Fluid):** **Not present.** There is no evidence of hyporeflective spaces within the retinal layers that would indicate fluid accumulation inside the retina.\n    *   **SRF (Subretinal Fluid):** **Present.** There is a well-defined, hyporeflective space located between the neurosensory retina and the retinal pigment epithelium (RPE), which is characteristic of SRF.\n    *   **PED (Pigment Epithelial Detachment):** **Present.** There is a dome-shaped, hyporeflective elevation of the RPE layer, which is consistent with a PED. This appears to be a relatively well-defined, non-exudative PED.\n\n2.  **Decision: Continue or Stop Anti-VEGF Injections?**\n\n    **Answer: continue**\n\n    **",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "222R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 341.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Present  \nSRF: Present  \nPED: Absent  \n\ncontinue\n\nExplanation:  \nThis pre-treatment macular OCT B-scan shows clear evidence of intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of diabetic macular edema (DME). The presence of both fluid types indicates active disease and significant macular thickening, which typically responds to anti-VEGF therapy. Since this is a pre-treatment scan, the patient has not yet received any intervention. Anti-VEGF injections are the first-line treatment for DME and are indicated when fluid is present to reduce macular edema and improve visual acuity. Therefore, the patient should continue anti-VEGF therapy. The absence of PED is not a concern in this context, as PED is more commonly associated with chronic or atypical presentations and is not the primary driver of vision loss in DME. The goal is to resolve the fluid and stabilize or",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "224R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 200.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple hyporeflective spaces within the retinal layers, especially in the inner and outer nuclear layers)\nSRF: Yes (hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no well-defined, dome-shaped elevation of the RPE without associated fluid)\n\nDecision: continue\n\nExplanation: This patient has active DME with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of ongoing vascular leakage and macular edema. The presence of SRF suggests that fluid is accumulating under the retina, which can lead to vision loss if not treated. Although there is no PED, the presence of both IRF and SRF indicates that the disease is active and requires continued anti-VEGF therapy to reduce vascular permeability, resolve fluid, and prevent further vision decline. Anti-VEGF injections are the standard of care for DME and are typically continued until",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 350.0
+  },
+  {
+    "eye_id": "226R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 438.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple hyporeflective spaces within the retinal layers, especially in the inner and outer nuclear layers)\nSRF: Yes (hyporeflective space between the neurosensory retina and RPE, just above the hyperreflective RPE line)\nPED: No (no dome-shaped elevation of the RPE with associated fluid or hyperreflective material beneath it)\n\ncontinue\n\nExplanation: This patient has active diabetic macular edema (DME) with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are key indicators of ongoing retinal inflammation and vascular leakage. The presence of SRF suggests active exudation and possible choroidal involvement, which typically requires continued anti-VEGF therapy to reduce vascular permeability and fluid accumulation. While PED is not present, the combination of IRF and SRF indicates that the disease is not yet resolved and that anti-VEGF treatment should be continued to prevent further vision loss",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 350.0
+  },
+  {
+    "eye_id": "230L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 406.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Present  \nSRF: Present  \nPED: Absent  \n\ncontinue\n\nExplanation:  \nThis pre-treatment macular OCT shows significant intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark features of diabetic macular edema (DME). The presence of both IRF and SRF indicates active fluid accumulation within and beneath the retina, which is typically driven by vascular leakage from abnormal blood vessels (neovascularization) or diffuse vascular permeability. Although no pigment epithelial detachment (PED) is visible, the presence of SRF and IRF alone is sufficient to indicate active disease requiring intervention.  \n\nAnti-VEGF therapy is the first-line treatment for DME because it targets vascular endothelial growth factor (VEGF), the primary mediator of vascular permeability and leakage. The goal of anti-VEGF treatment is to reduce fluid accumulation and improve visual acuity. Since this is a pre-treatment scan, the patient has not",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "273L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 436.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple hyporeflective spaces within the retinal layers, especially in the inner nuclear layer and outer plexiform layer)\nSRF: Yes (hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no well-defined, dome-shaped elevation of the RPE with associated fluid or hyperreflective material beneath it)\n\nContinue\n\nExplanation: This patient has active diabetic macular edema (DME) with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are key indicators of ongoing disease activity. The presence of SRF suggests that fluid is accumulating under the retina, which can lead to vision loss if not treated. Anti-VEGF therapy is the first-line treatment for DME and is effective at reducing macular edema and improving vision. Since the OCT shows active fluid accumulation, continuing anti-VEGF injections is indicated to reduce fluid, prevent further vision loss,",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "312L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 279.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple hyporeflective spaces within the retinal layers, especially in the inner and outer nuclear layers)\nSRF: Yes (hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no well-defined, dome-shaped elevation of the RPE with associated fluid or hyperreflective material beneath it)\n\nDecision: continue\n\nExplanation: This patient has active DME with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of ongoing vascular leakage and retinal edema. The presence of SRF suggests that fluid has accumulated under the retina, which can lead to vision loss if not treated. Anti-VEGF therapy is the first-line treatment for DME and is effective at reducing vascular permeability and resolving fluid. Since the OCT shows active fluid accumulation, continuing anti-VEGF injections is indicated to resolve the edema and prevent further vision loss. The absence of",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "319R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 627.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple hyporeflective spaces within the retinal layers, especially in the inner and outer nuclear layers)\nSRF: Yes (hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no well-defined, dome-shaped elevation of the RPE without overlying fluid)\n\nDecision: continue\n\nExplanation: This patient has active DME with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of ongoing vascular leakage and retinal edema. The presence of SRF suggests that fluid has accumulated under the retina, which can lead to vision loss if not treated. Although there is no PED, the presence of both IRF and SRF indicates that the disease is active and requires continued anti-VEGF therapy to reduce vascular permeability, resolve fluid, and prevent further vision loss. Stopping treatment at this stage would likely result in persistent or worsening edema and potential",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "325L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 181.0,
+    "y_biomarkers": {},
+    "error": "no_pre_bscan"
+  },
+  {
+    "eye_id": "343R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 465.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple dark, hyporeflective spaces within the retinal layers, especially in the inner and outer nuclear layers)\nSRF: Yes (a bright, hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no well-defined, dome-shaped elevation of the RPE with associated fluid or hyperreflective material)\n\nDecision: continue\n\nExplanation: This patient has active diabetic macular edema (DME) with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are key indicators of ongoing retinal inflammation and vascular leakage. The presence of SRF suggests active exudation and possible choroidal involvement, which typically requires continued anti-VEGF therapy to reduce vascular permeability and promote fluid resolution. While PED is absent, the presence of both IRF and SRF indicates that the disease is not yet resolved and that anti-VEGF treatment should be continued to prevent further",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "345R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 566.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (visible as hyporeflective spaces within the retinal layers, especially in the inner nuclear layer and outer plexiform layer)\nSRF: Yes (visible as a hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no well-defined, dome-shaped elevation of the RPE with associated fluid or hyperreflective material beneath it)\n\nDecision: continue\n\nExplanation: This patient has active DME with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of ongoing vascular leakage and retinal edema. The presence of SRF suggests that fluid is accumulating under the retina, which can lead to vision loss if not treated. Anti-VEGF therapy is the first-line treatment for DME and is effective at reducing vascular permeability and resolving fluid. Since the OCT shows active fluid accumulation, continuing anti-VEGF injections is indicated to resolve the edema and",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "351R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.170000002,
+    "y_cst": 663.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes  \nSRF: Yes  \nPED: No  \n\ncontinue\n\nExplanation:  \nThis OCT scan shows clear evidence of intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark features of diabetic macular edema (DME). The presence of both fluid types indicates active disease and ongoing vascular leakage. Although there is no pigment epithelial detachment (PED), which is more commonly associated with chronic or inflammatory conditions, the presence of SRF and IRF confirms active macular edema requiring intervention. Anti-VEGF therapy is the first-line treatment for DME and is indicated when fluid is present, as it helps reduce vascular permeability and resolve edema. Given the active fluid, continued anti-VEGF injections are necessary to prevent vision loss and promote macular stabilization. The decision to continue is based on the presence of active disease, not the absence of PED.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 275.0
+  },
+  {
+    "eye_id": "382L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 400.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple hyporeflective spaces within the retinal layers, especially in the inner and outer nuclear layers)\nSRF: Yes (hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no well-defined, dome-shaped elevation of the RPE without overlying fluid)\n\nDecision: continue\n\nExplanation: This patient has active DME with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of ongoing vascular leakage and retinal edema. The presence of SRF suggests active choroidal neovascularization or significant leakage from the choroid into the subretinal space, which is often associated with persistent vascular endothelial growth factor (VEGF) activity. Although there is no PED, the combination of IRF and SRF indicates that the disease is not resolved and requires continued anti-VEGF therapy to reduce vascular permeability, decrease edema, and prevent",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 350.0
+  },
+  {
+    "eye_id": "388L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 397.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Present  \nSRF: Present  \nPED: Absent  \n\ncontinue\n\nExplanation:  \nThis pre-treatment macular OCT B-scan shows clear evidence of intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of diabetic macular edema (DME). The presence of both fluid types indicates active disease and significant macular thickening, which is likely causing visual impairment. Although there is no pigment epithelial detachment (PED), the presence of SRF and IRF confirms active vascular leakage and fluid accumulation. In clinical practice, patients with DME who have active fluid (especially SRF and IRF) typically require continued anti-VEGF therapy to reduce vascular permeability, resolve fluid, and prevent further vision loss. Stopping treatment at this stage would likely lead to persistent or worsening edema and vision decline. Therefore, continued anti-VEGF injections are indicated.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "398R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 490.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple hyporeflective spaces within the retinal layers, especially in the inner and outer nuclear layers)\nSRF: Yes (hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no dome-shaped elevation of the RPE with associated fluid or hyperreflective material beneath it)\n\nContinue\n\nExplanation: This patient has active DME with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of ongoing vascular leakage and retinal edema. The presence of SRF suggests that fluid has accumulated under the retina, which can lead to vision loss if not treated. Anti-VEGF therapy is the first-line treatment for DME and is effective at reducing vascular permeability and resolving fluid. Since the OCT shows active fluid accumulation, continuing anti-VEGF injections is indicated to resolve the edema and prevent further vision loss. The absence of PED is not a concern",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 350.0
+  },
+  {
+    "eye_id": "402L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 818.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple hyporeflective spaces within the retinal layers, especially in the inner and outer nuclear layers)\nSRF: Yes (hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no well-defined, dome-shaped elevation of the RPE without overlying fluid)\n\nDecision: continue\n\nExplanation: This patient has active DME with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of ongoing vascular leakage and retinal edema. The presence of SRF suggests that fluid is accumulating under the retina, which can lead to vision loss if not treated. Although there is no PED, the presence of both IRF and SRF indicates that the disease is active and requires continued anti-VEGF therapy to reduce vascular permeability, resolve fluid, and prevent further vision loss. Anti-VEGF injections are the standard of care for DME and are typically continued",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 350.0
+  },
+  {
+    "eye_id": "429L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 620.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (visible as hyporeflective spaces within the retinal layers, especially in the inner nuclear layer and outer plexiform layer)\nSRF: Yes (visible as a hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no well-defined, dome-shaped elevation of the RPE with associated fluid or hyperreflective material beneath it)\n\nDecision: continue\n\nExplanation: This patient has active DME with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of ongoing disease activity. The presence of SRF suggests that fluid is accumulating under the retina, which can lead to vision loss if not treated. Anti-VEGF therapy is the standard of care for DME and is effective at reducing fluid and improving vision. Since the OCT shows active fluid accumulation, continuing anti-VEGF injections is indicated to control the disease and prevent further vision loss. The absence of",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 350.0
+  },
+  {
+    "eye_id": "461L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 492.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Present  \nSRF: Present  \nPED: Absent  \n\ncontinue\n\nExplanation:  \nThis macular OCT B-scan shows clear evidence of intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of diabetic macular edema (DME). The presence of both fluid types indicates active disease and ongoing vascular leakage, which typically requires continued anti-VEGF therapy to reduce edema, improve visual acuity, and prevent further structural damage. Pigment epithelial detachment (PED) is not present, which is a positive finding as PED is often associated with more chronic or advanced disease and may require different management. Given the active fluid accumulation, continued anti-VEGF injections are indicated to achieve optimal visual outcomes.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "463L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 252.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple hyporeflective spaces within the retinal layers, especially in the inner nuclear layer and outer plexiform layer)\nSRF: Yes (hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no dome-shaped elevation of the RPE with associated fluid or hyperreflective material beneath it)\n\nDecision: continue\n\nExplanation: This patient has active diabetic macular edema (DME) with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are key indicators of ongoing retinal inflammation and vascular leakage. The presence of SRF suggests active exudation and possible choroidal involvement, which typically requires continued anti-VEGF therapy to reduce vascular permeability and fluid accumulation. While PED is absent, the presence of both IRF and SRF indicates that the disease is not yet resolved and that anti-VEGF treatment should be continued to prevent further vision loss and",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "497R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 260.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes (multiple hyporeflective spaces within the retinal layers, especially in the inner and outer nuclear layers)\nSRF: Yes (hyporeflective space beneath the neurosensory retina, just above the RPE)\nPED: No (no well-defined, dome-shaped elevation of the RPE without associated fluid)\n\nDecision: continue\n\nExplanation: This patient has active DME with both intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of ongoing disease activity. The presence of SRF and IRF indicates that the retinal vasculature is still leaking fluid, and the retina is not resolving inflammation or edema on its own. Anti-VEGF therapy is the standard of care for DME and is most effective when administered before significant structural damage occurs. Continued anti-VEGF injections are indicated to reduce fluid accumulation, improve visual acuity, and prevent further retinal thickening or atrophy. The absence",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 275.0
+  },
+  {
+    "eye_id": "534R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 371.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes  \nSRF: Yes  \nPED: No  \n\ncontinue\n\nExplanation: The OCT scan shows clear evidence of intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of diabetic macular edema (DME). The presence of both fluid types indicates active disease and ongoing vascular leakage. Although there is no pigment epithelial detachment (PED), which is often associated with chronic or inflammatory processes, the presence of SRF and IRF confirms active macular edema requiring intervention. Anti-VEGF therapy is the first-line treatment for DME and is indicated when fluid is present to reduce vascular permeability and promote resolution of edema. Given the active fluid, continued anti-VEGF injections are necessary to prevent vision loss and promote macular stabilization. The decision to continue is based on the presence of active disease, not the absence of PED.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "540R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.100000001,
+    "y_cst": 600.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Yes  \nSRF: Yes  \nPED: No  \n\ncontinue\n\nExplanation:  \nThis pre-treatment macular OCT B-scan shows clear evidence of intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of diabetic macular edema (DME). The presence of both fluid types indicates active disease and significant macular thickening, which typically responds to anti-VEGF therapy. There is no pigment epithelial detachment (PED), which is reassuring as PED is more commonly associated with chronic or inflammatory conditions rather than acute DME. Given that this is a pre-treatment scan, the patient is likely to benefit from anti-VEGF injections to reduce fluid accumulation, improve visual acuity, and prevent further macular damage. Therefore, continued anti-VEGF treatment is indicated.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 300.0
+  },
+  {
+    "eye_id": "595L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 431.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: Present  \nSRF: Present  \nPED: Absent  \n\ncontinue\n\nExplanation:  \nThis pre-treatment macular OCT shows both intraretinal fluid (IRF) and subretinal fluid (SRF), which are hallmark signs of diabetic macular edema (DME). The presence of SRF is particularly concerning as it indicates active leakage and fluid accumulation beneath the retina, which can lead to significant vision loss if not treated. While there is no pigment epithelial detachment (PED), the presence of both IRF and SRF confirms active disease requiring intervention. Anti-VEGF therapy is the first-line treatment for DME and is indicated in cases with fluid accumulation, especially when vision is threatened. Therefore, this patient should continue anti-VEGF injections to reduce macular edema, improve visual acuity, and prevent further vision loss. The goal is to resolve the fluid and stabilize or improve vision.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.3,
+    "cst_pred": 250.0
+  }
+]

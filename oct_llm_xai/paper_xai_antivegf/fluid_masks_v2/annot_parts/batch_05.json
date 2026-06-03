@@ -1,0 +1,16 @@
+{
+  "195L": {"fluid_cells": [[4, 4], [4, 5]], "types_seen": ["IRF"], "confidence": "med", "note": "small subfoveal intraretinal cyst"},
+  "198R": {"fluid_cells": [[3, 3], [3, 4], [3, 5], [3, 6], [3, 7], [4, 2], [4, 3], [4, 7], [4, 8], [4, 9]], "types_seen": ["SRF", "PED"], "confidence": "med", "note": "elevated PED dome with subretinal fluid temporally"},
+  "199R": {"fluid_cells": [[3, 4], [4, 3], [4, 4], [4, 5], [4, 6], [5, 3], [5, 4], [5, 5]], "types_seen": ["SRF", "IRF"], "confidence": "med", "note": "subfoveal SRF dome plus small intraretinal cysts"},
+  "202R": {"fluid_cells": [[2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [3, 2], [3, 3], [3, 4], [3, 5], [3, 6], [3, 7], [3, 8]], "types_seen": ["IRF", "SRF", "PED"], "confidence": "med", "note": "large intraretinal cysts over subretinal fluid and PED"},
+  "204R": {"fluid_cells": [[3, 4], [3, 5], [3, 6], [3, 7], [3, 8], [4, 4], [4, 5], [4, 6], [4, 7]], "types_seen": ["SRF", "PED"], "confidence": "med", "note": "shallow PED dome with thin subretinal fluid"},
+  "206L": {"fluid_cells": [[3, 1], [3, 2], [3, 3], [3, 4], [3, 5], [4, 0], [4, 1], [4, 2], [4, 3]], "types_seen": ["SRF", "PED"], "confidence": "med", "note": "subretinal fluid beneath elevated nasal band, PED"},
+  "207R": {"fluid_cells": [[4, 3], [4, 4], [4, 5], [4, 6], [4, 7], [4, 8], [5, 4], [5, 5], [5, 6], [5, 7]], "types_seen": ["PED"], "confidence": "med", "note": "dome-shaped RPE elevation, pigment-epithelial detachment"},
+  "208R": {"fluid_cells": [[3, 1], [3, 2], [3, 3], [4, 1], [4, 2], [4, 6], [4, 7]], "types_seen": ["IRF", "PED"], "confidence": "med", "note": "nasal PED with small temporal intraretinal cyst"},
+  "209R": {"fluid_cells": [], "types_seen": [], "confidence": "high", "note": "negative control, no fluid present"},
+  "210L": {"fluid_cells": [[2, 6], [2, 7], [2, 8], [2, 9], [3, 5], [3, 6], [3, 7], [3, 8], [3, 9], [4, 6], [4, 7]], "types_seen": ["PED", "SRF"], "confidence": "med", "note": "temporal PED dome with adjacent subretinal fluid"},
+  "211R": {"fluid_cells": [[4, 0], [4, 1], [5, 0], [5, 1], [5, 2]], "types_seen": ["SRF", "PED", "IRF"], "confidence": "low", "note": "tilted scan, subretinal fluid under nasal band"},
+  "214R": {"fluid_cells": [[2, 6], [2, 7], [3, 0], [3, 1], [3, 4], [3, 5], [3, 6], [4, 5], [4, 6]], "types_seen": ["IRF", "PED"], "confidence": "med", "note": "intraretinal cysts in thickened retina, basal PED"},
+  "217R": {"fluid_cells": [[2, 1], [2, 2], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [2, 8], [3, 2], [3, 3], [3, 4], [3, 5], [3, 6], [3, 7]], "types_seen": ["IRF"], "confidence": "high", "note": "diffuse cystoid macular edema, multiple intraretinal cysts"},
+  "220L": {"fluid_cells": [[2, 8], [2, 9], [3, 4], [3, 5], [3, 6], [3, 7], [3, 8], [4, 4], [4, 5], [4, 6]], "types_seen": ["IRF"], "confidence": "med", "note": "large central intraretinal cysts in thickened retina"}
+}

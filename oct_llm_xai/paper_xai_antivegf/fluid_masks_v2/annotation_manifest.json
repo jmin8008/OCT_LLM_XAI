@@ -1,0 +1,2137 @@
+[
+ {
+  "eye_id": "2L",
+  "grid_png": "grid/2L.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "5L",
+  "grid_png": "grid/5L.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "7R",
+  "grid_png": "grid/7R.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "9L",
+  "grid_png": "grid/9L.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "11L",
+  "grid_png": "grid/11L.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "12R",
+  "grid_png": "grid/12R.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "13L",
+  "grid_png": "grid/13L.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "15L",
+  "grid_png": "grid/15L.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "17R",
+  "grid_png": "grid/17R.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "19L",
+  "grid_png": "grid/19L.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "20R",
+  "grid_png": "grid/20R.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "22R",
+  "grid_png": "grid/22R.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "25L",
+  "grid_png": "grid/25L.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "27R",
+  "grid_png": "grid/27R.png",
+  "diagnosis": "PCV",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "29R",
+  "grid_png": "grid/29R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "32R",
+  "grid_png": "grid/32R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "33R",
+  "grid_png": "grid/33R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "36R",
+  "grid_png": "grid/36R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "43R",
+  "grid_png": "grid/43R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "44R",
+  "grid_png": "grid/44R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "45L",
+  "grid_png": "grid/45L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "46L",
+  "grid_png": "grid/46L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "47R",
+  "grid_png": "grid/47R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "50R",
+  "grid_png": "grid/50R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "51L",
+  "grid_png": "grid/51L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "53R",
+  "grid_png": "grid/53R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "54R",
+  "grid_png": "grid/54R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "57R",
+  "grid_png": "grid/57R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "63R",
+  "grid_png": "grid/63R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "69R",
+  "grid_png": "grid/69R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "71R",
+  "grid_png": "grid/71R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "77L",
+  "grid_png": "grid/77L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "79L",
+  "grid_png": "grid/79L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "80R",
+  "grid_png": "grid/80R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "83L",
+  "grid_png": "grid/83L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "84L",
+  "grid_png": "grid/84L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "86R",
+  "grid_png": "grid/86R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "102R",
+  "grid_png": "grid/102R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "105L",
+  "grid_png": "grid/105L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "108L",
+  "grid_png": "grid/108L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "110R",
+  "grid_png": "grid/110R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "111L",
+  "grid_png": "grid/111L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "112R",
+  "grid_png": "grid/112R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "114R",
+  "grid_png": "grid/114R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [],
+  "has_fluid": 0
+ },
+ {
+  "eye_id": "115R",
+  "grid_png": "grid/115R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "116R",
+  "grid_png": "grid/116R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "117R",
+  "grid_png": "grid/117R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "120R",
+  "grid_png": "grid/120R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "122R",
+  "grid_png": "grid/122R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "128R",
+  "grid_png": "grid/128R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "129L",
+  "grid_png": "grid/129L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "133R",
+  "grid_png": "grid/133R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "134L",
+  "grid_png": "grid/134L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "136L",
+  "grid_png": "grid/136L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "139R",
+  "grid_png": "grid/139R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "143L",
+  "grid_png": "grid/143L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "147L",
+  "grid_png": "grid/147L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "149R",
+  "grid_png": "grid/149R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "152R",
+  "grid_png": "grid/152R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "155L",
+  "grid_png": "grid/155L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "157L",
+  "grid_png": "grid/157L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "163L",
+  "grid_png": "grid/163L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "167R",
+  "grid_png": "grid/167R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "169R",
+  "grid_png": "grid/169R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "183R",
+  "grid_png": "grid/183R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "184R",
+  "grid_png": "grid/184R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "188L",
+  "grid_png": "grid/188L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "190L",
+  "grid_png": "grid/190L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "191L",
+  "grid_png": "grid/191L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "193L",
+  "grid_png": "grid/193L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "195L",
+  "grid_png": "grid/195L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "198R",
+  "grid_png": "grid/198R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "199R",
+  "grid_png": "grid/199R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "202R",
+  "grid_png": "grid/202R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "204R",
+  "grid_png": "grid/204R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "206L",
+  "grid_png": "grid/206L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "207R",
+  "grid_png": "grid/207R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "208R",
+  "grid_png": "grid/208R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "209R",
+  "grid_png": "grid/209R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [],
+  "has_fluid": 0
+ },
+ {
+  "eye_id": "210L",
+  "grid_png": "grid/210L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "211R",
+  "grid_png": "grid/211R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "214R",
+  "grid_png": "grid/214R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "217R",
+  "grid_png": "grid/217R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "220L",
+  "grid_png": "grid/220L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "221L",
+  "grid_png": "grid/221L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "222R",
+  "grid_png": "grid/222R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "224R",
+  "grid_png": "grid/224R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "226R",
+  "grid_png": "grid/226R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "229R",
+  "grid_png": "grid/229R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "230L",
+  "grid_png": "grid/230L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "262R",
+  "grid_png": "grid/262R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "264L",
+  "grid_png": "grid/264L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "265L",
+  "grid_png": "grid/265L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "269R",
+  "grid_png": "grid/269R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "271L",
+  "grid_png": "grid/271L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "273L",
+  "grid_png": "grid/273L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "278R",
+  "grid_png": "grid/278R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "280R",
+  "grid_png": "grid/280R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "281L",
+  "grid_png": "grid/281L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "292R",
+  "grid_png": "grid/292R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "294L",
+  "grid_png": "grid/294L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "295R",
+  "grid_png": "grid/295R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "299R",
+  "grid_png": "grid/299R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "300R",
+  "grid_png": "grid/300R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "302L",
+  "grid_png": "grid/302L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "303R",
+  "grid_png": "grid/303R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "304L",
+  "grid_png": "grid/304L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "307L",
+  "grid_png": "grid/307L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "311R",
+  "grid_png": "grid/311R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "312L",
+  "grid_png": "grid/312L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "313L",
+  "grid_png": "grid/313L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "316R",
+  "grid_png": "grid/316R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "319R",
+  "grid_png": "grid/319R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "322R",
+  "grid_png": "grid/322R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "326R",
+  "grid_png": "grid/326R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "327R",
+  "grid_png": "grid/327R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "328L",
+  "grid_png": "grid/328L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "330R",
+  "grid_png": "grid/330R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "332L",
+  "grid_png": "grid/332L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "341L",
+  "grid_png": "grid/341L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "342R",
+  "grid_png": "grid/342R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "343R",
+  "grid_png": "grid/343R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "345R",
+  "grid_png": "grid/345R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "347R",
+  "grid_png": "grid/347R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "348L",
+  "grid_png": "grid/348L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "349L",
+  "grid_png": "grid/349L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "351R",
+  "grid_png": "grid/351R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "352L",
+  "grid_png": "grid/352L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "357R",
+  "grid_png": "grid/357R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "360L",
+  "grid_png": "grid/360L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "361L",
+  "grid_png": "grid/361L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "368L",
+  "grid_png": "grid/368L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "371R",
+  "grid_png": "grid/371R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "375L",
+  "grid_png": "grid/375L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "376R",
+  "grid_png": "grid/376R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "377L",
+  "grid_png": "grid/377L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "378L",
+  "grid_png": "grid/378L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "382L",
+  "grid_png": "grid/382L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "388L",
+  "grid_png": "grid/388L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "396L",
+  "grid_png": "grid/396L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "397L",
+  "grid_png": "grid/397L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "398R",
+  "grid_png": "grid/398R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "402L",
+  "grid_png": "grid/402L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "404L",
+  "grid_png": "grid/404L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "406L",
+  "grid_png": "grid/406L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "411R",
+  "grid_png": "grid/411R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "412R",
+  "grid_png": "grid/412R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "413L",
+  "grid_png": "grid/413L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "416R",
+  "grid_png": "grid/416R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "417L",
+  "grid_png": "grid/417L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "419L",
+  "grid_png": "grid/419L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "420R",
+  "grid_png": "grid/420R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "422L",
+  "grid_png": "grid/422L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "423L",
+  "grid_png": "grid/423L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "426L",
+  "grid_png": "grid/426L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "427L",
+  "grid_png": "grid/427L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "428L",
+  "grid_png": "grid/428L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "429L",
+  "grid_png": "grid/429L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "431R",
+  "grid_png": "grid/431R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "438R",
+  "grid_png": "grid/438R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "453L",
+  "grid_png": "grid/453L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "454L",
+  "grid_png": "grid/454L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "456R",
+  "grid_png": "grid/456R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "457L",
+  "grid_png": "grid/457L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "458R",
+  "grid_png": "grid/458R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "461L",
+  "grid_png": "grid/461L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "463L",
+  "grid_png": "grid/463L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "467L",
+  "grid_png": "grid/467L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "468L",
+  "grid_png": "grid/468L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "474L",
+  "grid_png": "grid/474L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "475L",
+  "grid_png": "grid/475L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "478R",
+  "grid_png": "grid/478R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "484L",
+  "grid_png": "grid/484L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "487R",
+  "grid_png": "grid/487R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "494L",
+  "grid_png": "grid/494L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "495R",
+  "grid_png": "grid/495R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "497R",
+  "grid_png": "grid/497R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "500L",
+  "grid_png": "grid/500L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "501L",
+  "grid_png": "grid/501L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "502L",
+  "grid_png": "grid/502L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "503R",
+  "grid_png": "grid/503R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "507R",
+  "grid_png": "grid/507R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "511L",
+  "grid_png": "grid/511L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "513L",
+  "grid_png": "grid/513L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "516L",
+  "grid_png": "grid/516L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "520L",
+  "grid_png": "grid/520L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "521L",
+  "grid_png": "grid/521L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "523L",
+  "grid_png": "grid/523L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "530L",
+  "grid_png": "grid/530L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "531L",
+  "grid_png": "grid/531L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "532L",
+  "grid_png": "grid/532L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "534R",
+  "grid_png": "grid/534R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "540R",
+  "grid_png": "grid/540R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "541L",
+  "grid_png": "grid/541L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "545L",
+  "grid_png": "grid/545L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "549L",
+  "grid_png": "grid/549L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "551L",
+  "grid_png": "grid/551L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "554R",
+  "grid_png": "grid/554R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "556L",
+  "grid_png": "grid/556L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "558L",
+  "grid_png": "grid/558L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "562R",
+  "grid_png": "grid/562R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "564L",
+  "grid_png": "grid/564L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "565L",
+  "grid_png": "grid/565L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "568L",
+  "grid_png": "grid/568L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "569L",
+  "grid_png": "grid/569L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "570L",
+  "grid_png": "grid/570L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "571L",
+  "grid_png": "grid/571L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "576L",
+  "grid_png": "grid/576L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "577L",
+  "grid_png": "grid/577L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "580R",
+  "grid_png": "grid/580R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "581L",
+  "grid_png": "grid/581L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "585R",
+  "grid_png": "grid/585R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "587R",
+  "grid_png": "grid/587R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "589R",
+  "grid_png": "grid/589R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "590R",
+  "grid_png": "grid/590R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "593L",
+  "grid_png": "grid/593L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "595L",
+  "grid_png": "grid/595L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1
+ },
+ {
+  "eye_id": "596L",
+  "grid_png": "grid/596L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1
+ }
+]

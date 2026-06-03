@@ -1,0 +1,151 @@
+[
+ {
+  "eye_id": "195L",
+  "grid_png": "grid/195L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/195L.png"
+ },
+ {
+  "eye_id": "198R",
+  "grid_png": "grid/198R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/198R.png"
+ },
+ {
+  "eye_id": "199R",
+  "grid_png": "grid/199R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/199R.png"
+ },
+ {
+  "eye_id": "202R",
+  "grid_png": "grid/202R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/202R.png"
+ },
+ {
+  "eye_id": "204R",
+  "grid_png": "grid/204R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/204R.png"
+ },
+ {
+  "eye_id": "206L",
+  "grid_png": "grid/206L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/206L.png"
+ },
+ {
+  "eye_id": "207R",
+  "grid_png": "grid/207R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "PED"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/207R.png"
+ },
+ {
+  "eye_id": "208R",
+  "grid_png": "grid/208R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/208R.png"
+ },
+ {
+  "eye_id": "209R",
+  "grid_png": "grid/209R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [],
+  "has_fluid": 0,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/209R.png"
+ },
+ {
+  "eye_id": "210L",
+  "grid_png": "grid/210L.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/210L.png"
+ },
+ {
+  "eye_id": "211R",
+  "grid_png": "grid/211R.png",
+  "diagnosis": "CNVM",
+  "fluid_types_present": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/211R.png"
+ },
+ {
+  "eye_id": "214R",
+  "grid_png": "grid/214R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/214R.png"
+ },
+ {
+  "eye_id": "217R",
+  "grid_png": "grid/217R.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/217R.png"
+ },
+ {
+  "eye_id": "220L",
+  "grid_png": "grid/220L.png",
+  "diagnosis": "DME",
+  "fluid_types_present": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "grid_abs": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/fluid_masks_v2/grid/220L.png"
+ }
+]

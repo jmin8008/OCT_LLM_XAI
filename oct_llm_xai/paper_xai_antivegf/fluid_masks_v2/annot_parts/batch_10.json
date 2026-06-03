@@ -1,0 +1,16 @@
+{
+  "397L": {"fluid_cells": [[3,1],[3,2],[4,1],[4,2]], "types_seen": ["IRF"], "confidence": "med", "note": "left intraretinal cyst within thickened retina"},
+  "398R": {"fluid_cells": [[3,2],[3,3],[3,4],[3,5],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7]], "types_seen": ["IRF"], "confidence": "high", "note": "multicystic DME, large intraretinal cysts"},
+  "402L": {"fluid_cells": [[3,1],[3,2],[3,3],[3,4],[3,5],[4,1],[4,2],[4,3],[4,4],[4,5]], "types_seen": ["IRF"], "confidence": "high", "note": "two large intraretinal cysts central macula"},
+  "404L": {"fluid_cells": [[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[4,1],[4,2],[4,3],[4,4],[4,5],[4,6]], "types_seen": ["IRF"], "confidence": "high", "note": "thickened dome with multiple intraretinal cysts"},
+  "406L": {"fluid_cells": [[1,2],[1,3],[1,4],[2,2],[2,3],[2,4],[2,5],[3,3],[3,4],[3,5]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "large intraretinal cyst plus subretinal space"},
+  "411R": {"fluid_cells": [[5,1],[5,2],[5,3],[6,1],[6,2],[6,3]], "types_seen": ["IRF"], "confidence": "low", "note": "noisy scan, faint intraretinal cysts"},
+  "412R": {"fluid_cells": [[5,0],[5,1],[6,0],[6,1]], "types_seen": ["IRF"], "confidence": "low", "note": "tilted low-quality scan, small left cyst"},
+  "413L": {"fluid_cells": [[3,2],[3,3],[3,4],[3,5],[4,3],[4,4],[4,5],[4,6]], "types_seen": ["IRF"], "confidence": "low", "note": "noisy scan, central intraretinal cyst"},
+  "416R": {"fluid_cells": [[3,1],[3,2],[3,3],[4,1],[4,2],[4,3]], "types_seen": ["IRF"], "confidence": "med", "note": "left intraretinal cyst, adjacent hyperreflective foci"},
+  "417L": {"fluid_cells": [[4,2],[4,3],[4,4],[4,5],[5,1],[5,2],[5,3],[5,4],[5,5],[5,6],[5,7]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "intraretinal cysts with subretinal fluid beneath band"},
+  "419L": {"fluid_cells": [[2,2],[2,3],[2,4],[2,5],[2,6],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[4,3],[4,4],[4,5]], "types_seen": ["IRF","SRF"], "confidence": "high", "note": "large multicystic DME, intraretinal cysts dominant"},
+  "420R": {"fluid_cells": [[4,1],[4,2],[4,3],[4,4],[4,5],[4,6],[5,1],[5,2],[5,3],[5,4],[5,5]], "types_seen": ["IRF"], "confidence": "med", "note": "broad intraretinal cystic space central retina"},
+  "422L": {"fluid_cells": [[3,5],[3,6],[3,7],[4,4],[4,5],[4,6],[4,7]], "types_seen": ["IRF"], "confidence": "low", "note": "thickened retina, faint intraretinal cyst nasally"},
+  "423L": {"fluid_cells": [[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[4,1],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7]], "types_seen": ["IRF"], "confidence": "high", "note": "multicystic DME, multiple large intraretinal cysts"}
+}

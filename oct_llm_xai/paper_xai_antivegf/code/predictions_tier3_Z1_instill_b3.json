@@ -1,0 +1,706 @@
+[
+ {
+  "eye_id": "5L",
+  "diagnosis": "PCV",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "Here, the frequency of the city is the frequency of the country, S (subretinal fluid), and PED (pigment epithelial detachment) are present. The frequency of the city is the frequency of the country, S (subretinal fluid), and PED (pigment epithelial detachment) are present. This is a pre-treatment.",
+  "ci_pred": "uncertain",
+  "bm_text": "Here, the frequency of the image is a special case. The frequency of the image is a special case. The frequency of the image is a special case. The frequency of the image is a special case. The frequency of the image is a special case. The frequency of the image is a special case. The frequency of the image is a special case. The frequency of the image is a special case. The frequency of the image is a special case. The frequency of the",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "9L",
+  "diagnosis": "PCV",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "Onoloher-deited A-Siite this state\nThis may be this state\nThis state\nThis state\nThis state\nThis may be detected Makiite-dein this state\nThis state\nThis may-heri\nSofe\nThis may-sheif-de\nThis state\nThis state\nThis state\nThis may-heri\nThis may-lead to-reaction\nThis state\nThis may-de\nThis state\nThis may-lead to-department\nThis may-heri\nThis state\nThis may-lead to-department\nThis may-heri\nThis may-lead to-department\nThis may-heri\nThis may-lead to-department\nThis may-heri",
+  "ci_pred": "uncertain",
+  "bm_text": "This may of course-dein-deviewiheriherof-cofheri\n-heresofher-occoping-Sofiso\nSofe\nThis may-de\nThis may-beheresofher\nThis may-heresofe-de\nSofe\nThis may-occaden\nThis may-lead to-de\nThis may-heresofheresofher\nThis may-lead to-heresofher\nThis may",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "20R",
+  "diagnosis": "PCV",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "The conclusion is to highlight the findings.",
+  "ci_pred": "uncertain",
+  "bm_text": "In conclusion, the absence of biomarkers in the image of the \"HRF\" \"PED\": \"present|absent\", \"HRF\": \"HRF\": \"HRF\":",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "45L",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "The image is a part of the world. It is a part of the world, and the answer is:'stop' and continue'stop' and explain.",
+  "ci_pred": 0,
+  "bm_text": "Present|absent\": \"SRF\": \"<present|absent>\"}.\"",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "69R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "This image: The image: The image: The image: The image: The image: The image: The image: The image: The fluid, S: The image: The image: The image: The image: The image: The image: The image: The image: The image: The fluid, S: The image: The image: The image: The image: The 50: The image: The image: The fluid, S: The image: The image: The 50: The image: The image: The 50: The image: The 60: The image: The 60: The image: The 60: The image: The 60: The image: The 60: The image: The",
+  "ci_pred": "uncertain",
+  "bm_text": "This image: The image: The image: The image: The image: The image: The 6. The image: The 6. The image: The image: The 6. The image: The 6. The image: The 6. The image: The 6. The image: The 6. The 6. The image: The 6. The image: The 6. The 6. The 6. The image:",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "110R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": ".ddi\n. Choudi\nn, and:.dd\n. Choudi\nn, and:Michoudi\nn, and: for the lastn, and: for the Central West, and: for the Central West, and: for the final, and: for the Central West, and: for the Central West, and: for the Central West, and: for the Central West, and: for the Central West, and: for the Central West, and: for the Central West, and: for the Central West, and: for the Central West, and: for the Central West, and: for the Central West, and: for the Central West, and: for the Central West, and: for",
+  "ci_pred": "uncertain",
+  "bm_text": ". Choudi,note:Michoudi, that, and:Michoudi, [m,Michoud, [m,Michoud, that, and,Michoud, [m,Michoud, and, [m,Michoud, and, [m, and, that,Michoud, and, that, and, that, and, that, and, that, and, that, and, that, and, that, and, that,",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "115R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "Continue to the final product. The final product is a\nContinue to the final product. The final product is a\nContinue to the final product. The final product is a\nContinue to the final product.",
+  "ci_pred": 1,
+  "bm_text": "In all of the\nIn addition to the\nIn addition to the\nIn addition to the\nIn conclusion, the\nIn addition to the\nIn addition to the\nIn conclusion, the\nIn addition to the\nIn conclusion, the\nIn addition to the\nIn addition to the\nIn conclusion, the\nIn addition to the\nIn addition to the\nIn conclusion, the\nIn addition to the\nIn addition to the\nIn addition to the\nIn",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "128R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "-division-shore-imit-sequip-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-convex-Im-are-",
+  "ci_pred": "uncertain",
+  "bm_text": "late very large-scale Shannon's are-cognomer: N-Bay-regularly-coupe-Sharon's are-cognomer: N-regularly-coupe-Sharon's are-regularly-coupe-Sharon's are-cognomer: N-regularly-coupe-Sharon's are-cognomer: N-regularly-coupe-Sharon's are-cognomer: N-regularly-coupe-Sharon's are-cogn",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "167R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "*subretinal fluid), SRF (subretinal fluid), and PED (pigment epithelial detachment) are present. Then decide: will this patient need continued anti-VEGF, SRF (subretinal fluid), and PED (pigment epithelial detachment) are present. Then decide: will this patient need continued anti-VEGF, SRF (subretinal fluid), and PED (pigment epithelial detachment) are present. Then decide: will this patient need continued anti-VEGF, SRF (subretinal fluid), and PED (pigment epithelial detachment) are present. Then decide: will this patient need continued anti-VEGF, SRF (subretinal fluid), and PED (pig",
+  "ci_pred": 1,
+  "bm_text": "*absent\", \"SRF\": \"<present|absent\", \"HRF\": \"<present|absent\", \"PED\": \"<present|absent\", \"HRF\": \"<present|absent\", \"PED\": \"<present|absent\", \"HRF\": \"<present|absent\", \"PED\": \"<present|absent\", \"HRF\": \"<present|absent\", \"PED\": \"<present|absent\", \"HRF\": \"<present",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "183R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "* The first state whether IRF (subretinal fluid), and PED (pigment epithelial detachment) are present. Then decide: will this patient need continued anti-VEGF injections? Answer 'continue' or'stop' and explain.",
+  "ci_pred": 1,
+  "bm_text": "This is a macular OCT B-scan. For each one choose EXACTLY ONE word \u2014 or \"absent\", never both, never uncertain. Respond with ONLY a JSON object and no other text: \"<present|absent>\", \"HRF\": \"<present|absent>\" \u2014 the image of the retinal OCT B-scan. For each one choose EXACTLY ONE word \u2014 or \"absent\", never both, never uncertain. Respond with ONLY a JSON",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "193L",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "### to the observed are in the US, they will be in the first to the observed are in the US-lead to a pre-activated are in the US-lead to a new model. They followed in the US-lead to a new model. They used to continue to lead in the US-lead to a new model. They followed in the US. They used to continue to lead in the US. They used to continue to lead in the US. They used to continue to lead in the US. They used to continue to lead in the US. They used to continue to lead in the US. They used to continue to lead in the US. They used to continue to lead in the US. They used to continue to lead",
+  "ci_pred": 1,
+  "bm_text": "### to the late become-novel-absent\"-\"become\" in a one-of-its-kind-BH-almost-are-always-novel-absent\"-\"become\" to the late become-novel-absent\"-\"become\" in the late become-novel-absent\"-\"become\" to the late become-novel-absent\"-\"become\" to the late become-novel-absent\"-\"become\"",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "206L",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "from the state of the file, the last year 2016 (this year 2016, the Stn are present a large number of late sub-Engr\nHoffman, the last year 2016, the Stn are present a large number of late sub-2016, the Stn are present a large number of late sub-2016, the Stn are present a large number of late sub-2016, the Stn are present a large number of late sub-2016, the Stn are present a large number of late sub-2016, the Stn are present a large number of late sub-2016, the Stn are present a large number of late sub-2016",
+  "ci_pred": "uncertain",
+  "bm_text": "the St138-2015, the Stett of the St138-2014, the Stett of the St138-2015, the St are-constituted, the St138-2015, the St are-constituted, the St138-2015, the St are-constituted, the St138-2015, the St are-constituted, the St138-2015, the St are-constituted",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "209R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are all present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "211R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "Alonso. The answer is not simply a survey of the literature. The main takeaway is the most easily accessible survey of this project: a survey of the literature to determine the most suitable 'pin' at the European Union. This is not simply a survey of the literature to determine the most suitable for your project. You never want to know this. Finally, your answer is simply that. The main takeaway is the most surprising result. You can't at 'not simply a survey of the literature. The answer is not just a snapshot of the project. You can't at 'update your project. The main takeaway is the most surprising result. You will shift the focus to the most promising project. The result is a shift away from the literature to",
+  "ci_pred": "uncertain",
+  "bm_text": "- this is a high-quality issue. The answer is a high-quality one. The question is what is the question. The answer is a high-quality issue. The rest is a high-quality issue. The most relevant information is a high-quality answer. The question is what kind of change. The answer is a high-quality issue. The rest is a high-quality issue. At the end of the day, the question is what kind of change. The answer is a high-quality issue",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "222R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "This new is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this is this",
+  "ci_pred": "uncertain",
+  "bm_text": "The last\n\nThe last\n\nThe last\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new 3\n\nThe new",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "224R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "Dome. The image of a patient with a condition that has just been given a chance to see a patient. The image of a patient with a condition that has just been given a chance to see a patient with a condition that has just been given a chance to see a patient with a condition that has just been given a chance to see a patient with a condition that has just been given a chance to see a patient with a condition that has just been given a chance to see a patient with a condition that has just been given a chance to see a patient with a condition that has just been given a chance to see a patient with a condition that has just been given a chance to see a patient with a condition that has just been given a chance",
+  "ci_pred": "uncertain",
+  "bm_text": "The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city. The city.",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "226R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "The image is the focus of the image is the focus on the image is the focus on the image is the focus on the center of the image is the focus on the center of the image is the focus on the center of the image is the focus on the center of the image is the focus on the center of the image is the focus of the center of the image is the focus of the center of the image is the focus of the center of the image is the focus of the center of the image is the focus of the center of the image is the focus of the center of the image is the focus of the center of the image is the focus of the center of the image is the focus of the center of the image is the focus of",
+  "ci_pred": "uncertain",
+  "bm_text": "The most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is the most recent one\" is",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "230L",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "Here's the image, and explain: will this patient need continued anti-VE (subretinal fluid), and explain: will this patient need continued anti-VE (subretinal fluid), and explain: will this patient need continued anti-VE (subretinal fluid), and explain: will this patient need continued anti-VE (subretinal fluid), and explain: will this patient need continued anti-VE (subretinal fluid), and explain: will this patient need continued anti-VE (subretinal fluid), and explain: will this patient need continued anti-VE (subretinal fluid), and explain: will this patient need continued anti-VE (subretinal fluid), and explain: will this patient need continued anti",
+  "ci_pred": 1,
+  "bm_text": "IRF\": \"SRF\": \"<present|absent>\", \"HRF\": \"present|absent>\", \"PED\": \"<present|absent>\", \"HRF\": \"present|absent>\", \"SRF\": \"<present|absent>\", \"PED\": \"present|absent>\", \"HRF\": \"present|absent>\", \"SRF\": \"present|absent>\", \"HRF\": \"present|absent>\", \"PED\": \"<",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "273L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "#stop# and #continue, and the result is the 'continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue# and #stop# and #continue",
+  "ci_pred": 0,
+  "bm_text": "This is a present|absence|absence: \"present\" - \"absence\" - \"present\" - \"absence\" - \"present\" - \"absence\" - \"present\" - \"present\" - \"absence\" - \"present\" - \"absence\" - \"present\" - \"absence\" - \"present\" - \"absence\" - \"present\" - \"absence\" - \"present\" - \"absence\" -",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "312L",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "The\u00a0. This\u00a0. This. The last. The. The. The. The. The. The. This. For\u00a0. This. The. The. For. This. The. The. For. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. The. For. 6. This. The. For. This. The. The. The. The. The. The. The. For. This. The. The. The. The. The. The. The. The. The. For. This. The. The. The. The. The. The. The. The. The. The",
+  "ci_pred": "uncertain",
+  "bm_text": "For this\u00a0. The\u00a0. The. For the. For this. For this. The. For the. For this\n\nFor this. For this\n\nFor this. For this\n\nFor this. For this\n\nFor this. For this\n\nFor this. For this\n\nFor this. For this. For this. For this. For this. For this. For this. For this. For this. For this. For this. For this. For this. For",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "319R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "The patient will need continued follow-up. The image shows a patient with DME.",
+  "ci_pred": 1,
+  "bm_text": "The image is a macula, never both, never uncertain.",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "325L",
+  "error": "no_bscan_or_mask"
+ },
+ {
+  "eye_id": "343R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "The image\nThe image\nThe OCT image\nin the middle\nThe first state\nin the middle\nThe second state\nin the middle\nThe image\nThe second\nin the middle\nThe first state\nin the middle\nThe second\nin the middle\nThe image\nThe first state\nin the middle\nThe second state\nin the middle\nThe image\nThe first state\nin the middle\nThe second state\nin the middle\nThe image\nThe first state\nin the middle\nThe second state\nin the middle\nThe image\nThe first state\nin the middle\nThe second state\nin the middle\nThe image\nThe first state\nin the middle\nThe second state\nin the middle\n",
+  "ci_pred": "uncertain",
+  "bm_text": "The image\nThe OCT\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\nThe image\n",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "345R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "*The image is a snapshot of the current state. The patient's'status' is a'mixed' of 'fluid' and 'PED' of 'no' action. The'stop' is a 'no-action' in the 'fluid' of 'no' response. The 'no' answer is a'stop' in the 'fluid' of 'no' action. The 'no' response is a'stop' in the 'fluid' of 'no' action. The 'no' answer is a'stop' in the 'fluid' of 'no' response. The 'no' response is a'stop' in the 'fluid' of 'no' action. The 'no' answer is a'stop",
+  "ci_pred": 0,
+  "bm_text": "*no other text*.",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "351R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "* will they continue to answer 'continue' or'stop' and explain the main findings.",
+  "ci_pred": 1,
+  "bm_text": "no other text. For each one choose \"present\" or \"absent\" the other text.\n\nNo other text.",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "382L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "This is a healthy, healthy, healthy.",
+  "ci_pred": "uncertain",
+  "bm_text": "This is a \"no\" \u2014 \"absent\", never both, never uncertain. For each one, never both, never other \u2014 \"absent\", \"absent\", \"HRF\": \"<present|absent>\", \"SRF\": \"<present|absent\", \"PED\": \"<present|absent\", \"HRF\": \"<present|absent\", \"absent\", \"absent\", \"absent\", \"absent\", \"absent\", \"abs",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "388L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "This is the retina.",
+  "ci_pred": "uncertain",
+  "bm_text": "This is a\n\"SRF\": \"<present|absent>\", \"PED\": \"<present|absent>\", \"HRF\": \"<present|absent>\", \"PED\": \"<present|absent>\", \"HRF\": \"<present|absent>\", \"PED\": \"<present|absent>\", \"HRF\": \"<present|absent>\", \"PED\": \"<present|absent>\", \"HRF\": \"<present|absent>\", \"PED\": \"<present|",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "398R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "The patient with a new, SWS, and continue to monitor 'advanced' and'stop' and 'continue' to 'answer' and 'pigment' to 'continue' and 'decide' to'stop' and 'explain' to 'new' and 'latest' to 'continue' and 'decide' to 'answer' and 'pigment' to 'continue' and 'latest' and 'best' to 'bring' and 'blessed' to 'continue' and 'decide' to 'answer' and 'pigment' to 'continue' and 'decide' to'stop' and 'latest' to 'bring' and 'best' to 'continue' and 'decide'",
+  "ci_pred": 1,
+  "bm_text": "Complement\" with the image, and add that to the list of necessary care.\">. The image, with the scan, and add that to the list of necessary findings, and, from one image to the complete list of findings.\">. The list of necessary findings, with a scan, and, from one image to the complete list of findings, \"Complement\" with the image, and add that to the list of necessary findings, \"Complement\" with",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "402L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "n: and continue: and explain: and terminate: and terminate: and explain: and terminate: and terminate: and explain: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and terminate: and",
+  "ci_pred": 1,
+  "bm_text": "### which is the '':.",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "429L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "In the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following is the following",
+  "ci_pred": "uncertain",
+  "bm_text": "This is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is and is at 3rd and is and is and is and is",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "461L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "are in a pre-treatment, state the details. The first state is a retinal F, state the details. The second state is a retinal F, state the details. The third state is a retinal F, state the details. The first state is a retinal F, state the details. The second state is a retinal F, state the details. The first state is a retinal F, state the details. The second state is a retinal F, state the details. The third state is a retinal F, state the details. The first state is a retinal F, state the details. The second state is a retinal F, state the details. The third state is a retinal F,",
+  "ci_pred": "uncertain",
+  "bm_text": "are in a retinal OCT, no other text.\n\nThe image is a retinal OCT. The chat is in a retinal OCT. The specialists are in a retinal OCT. The chat is in a retinal OCT. The specialists are in a retinal OCT. The chat is in a retinal OCT. The chat is in a retinal OCT. The specialists are in a retinal OCT. The chat is in a retinal OCT. The chat is in a",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "463L",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "This patient with a large central macula: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to be explained: will this patient need continued to",
+  "ci_pred": 1,
+  "bm_text": "This is a good choice\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HRF\": \"HR",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "497R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "The last steps in the last steps in the last of the last. The last steps in the last of the last of the last. The last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of",
+  "ci_pred": "uncertain",
+  "bm_text": "This is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis is a new\nThis",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "534R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "Comnences. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is present. It is",
+  "ci_pred": "uncertain",
+  "bm_text": "Comnhees\" and\" and\" and\" and\" and\" and\" and\" and\" and\" and\" and\" and\" and\" and\" and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and' and",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "540R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "The patient has been given a specific diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a diagnosis of advanced (advanced) patient has been given a",
+  "ci_pred": "uncertain",
+  "bm_text": "The image of the absence of any signs of advanced active intervention with the absence of any signs of advanced active intervention with the presence of advanced active intervention with the absence of any signs of advanced active intervention with the presence of advanced active intervention with the absence of any signs of advanced active intervention with the presence of advanced active intervention with the absence of any signs of advanced active intervention with the presence of advanced active intervention with the absence of any signs of advanced active intervention with the presence of advanced active",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "595L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "To the left, it is the image of the image.",
+  "ci_pred": "uncertain",
+  "bm_text": "1: \"present\" or \"absent\", \"HR\" in a row, no other text: \"present\" or \"absent\", \"HR\" in a row, \"present\" or \"absent\", \"HRF\": \"present\" or \"absent\", \"HR\" in a row, \"present\" or \"absent\", \"HR\" in a row, \"present\" or \"absent\", \"HR\" in a row, \"present\"",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ }
+]

@@ -1,0 +1,702 @@
+[
+ {
+  "eye_id": "5L",
+  "diagnosis": "PCV",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "9L",
+  "diagnosis": "PCV",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "20R",
+  "diagnosis": "PCV",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "45L",
+  "diagnosis": "CNVM",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "69R",
+  "diagnosis": "CNVM",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "110R",
+  "diagnosis": "CNVM",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "115R",
+  "diagnosis": "CNVM",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "128R",
+  "diagnosis": "CNVM",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "167R",
+  "diagnosis": "CNVM",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "183R",
+  "diagnosis": "CNVM",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "193L",
+  "diagnosis": "CNVM",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "206L",
+  "diagnosis": "CNVM",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "209R",
+  "diagnosis": "CNVM",
+  "has_fluid": 0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "211R",
+  "diagnosis": "CNVM",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "222R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "224R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "226R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "230L",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "273L",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "312L",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "319R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "343R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "345R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "351R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "382L",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "388L",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   125,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "398R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "402L",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "429L",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "461L",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "463L",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "497R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 0
+ },
+ {
+  "eye_id": "534R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "540R",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ },
+ {
+  "eye_id": "595L",
+  "diagnosis": "DME",
+  "has_fluid": 1,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "img_size": [
+   210,
+   596
+  ],
+  "grid": [
+   8,
+   12
+  ],
+  "continue_injection": 1
+ }
+]

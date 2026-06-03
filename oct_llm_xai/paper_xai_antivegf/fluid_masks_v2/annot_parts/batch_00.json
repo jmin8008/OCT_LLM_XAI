@@ -1,0 +1,16 @@
+{
+ "2L": {"fluid_cells": [[5,2],[5,3],[5,4],[5,5],[5,6],[5,7],[6,2],[6,3],[6,4],[6,5],[6,6]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "subretinal dark space under lifted band, PED dome"},
+ "5L": {"fluid_cells": [[5,5],[5,6],[5,7],[5,8],[6,4],[6,5],[6,6],[6,7],[6,8],[7,5],[7,6],[7,7]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "large subretinal hyporeflective dome beneath band"},
+ "7R": {"fluid_cells": [[3,2],[3,3],[3,4],[3,5],[4,2],[4,3],[4,4],[4,5],[4,6]], "types_seen": ["IRF","SRF"], "confidence": "low", "note": "noisy crop, dark cystic spaces within elevated band"},
+ "9L": {"fluid_cells": [[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "large subretinal dome under elevated retina"},
+ "11L": {"fluid_cells": [[4,1],[4,2],[4,3],[5,1],[5,2],[5,3]], "types_seen": ["SRF"], "confidence": "low", "note": "small subretinal dark space below band fragment"},
+ "12R": {"fluid_cells": [[4,4],[4,5],[4,6],[4,7],[5,4],[5,5],[5,6],[5,7],[6,5],[6,6]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "subretinal pocket and intraretinal cysts under dome"},
+ "13L": {"fluid_cells": [[2,3],[2,4],[2,5],[2,6],[2,7],[3,3],[3,4],[3,5],[3,6]], "types_seen": ["PED"], "confidence": "med", "note": "smooth dome elevation of RPE band, PED"},
+ "15L": {"fluid_cells": [[5,1],[5,2],[5,3],[5,4],[6,1],[6,2],[6,3]], "types_seen": ["IRF"], "confidence": "low", "note": "round dark intraretinal cysts below band"},
+ "17R": {"fluid_cells": [[3,5],[3,6],[3,7],[4,5],[4,6],[4,7],[4,8],[5,6],[5,7]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "subretinal dark dome under elevated band"},
+ "19L": {"fluid_cells": [[2,2],[2,3],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[3,8],[4,2],[4,3],[4,4],[4,5]], "types_seen": ["IRF","SRF","PED"], "confidence": "high", "note": "large subretinal dome plus intraretinal cysts"},
+ "20R": {"fluid_cells": [[4,1],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7],[5,3],[5,4],[5,5],[5,6]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "subretinal hyporeflective space beneath lifted band"},
+ "22R": {"fluid_cells": [[3,5],[3,6],[3,7],[4,5],[4,6],[4,7],[5,5],[5,6],[5,7],[5,8]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "cystic dark spaces within and under elevated band"},
+ "25L": {"fluid_cells": [[4,1],[4,2],[4,3],[4,4],[5,1],[5,2],[5,3],[5,4],[5,5]], "types_seen": ["IRF","SRF"], "confidence": "low", "note": "dark cystic subretinal spaces beneath diagonal band"},
+ "27R": {"fluid_cells": [[2,3],[2,4],[2,5],[2,6],[3,2],[3,3],[3,4],[3,5],[3,6],[4,3],[4,4]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "subretinal dark dome under elevated retinal band"}
+}

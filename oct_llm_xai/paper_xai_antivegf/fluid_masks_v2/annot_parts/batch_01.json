@@ -1,0 +1,16 @@
+{
+  "29R": {"fluid_cells": [[3,5],[3,6],[3,7],[4,2],[4,3],[4,4],[4,5],[4,6],[5,2],[5,3],[5,4]], "types_seen": ["SRF","PED","IRF"], "confidence": "med", "note": "elevated band with subretinal dark space and PED dome"},
+  "32R": {"fluid_cells": [[3,1],[3,2],[3,5],[4,1],[4,2],[4,3],[4,5],[4,6]], "types_seen": ["IRF","PED"], "confidence": "high", "note": "large intraretinal cysts over elevated RPE"},
+  "33R": {"fluid_cells": [[2,2],[2,3],[3,2],[3,3],[4,2],[4,3],[4,4],[4,5],[4,6],[5,3],[5,4],[5,5]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "intraretinal cyst plus subretinal dark band"},
+  "36R": {"fluid_cells": [[3,1],[3,2],[4,0],[4,1],[4,2],[4,3],[5,0],[5,1],[5,2],[5,3]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "nasal cysts with subretinal fluid and PED"},
+  "43R": {"fluid_cells": [[3,1],[4,1],[4,2],[4,3],[4,4],[4,5],[4,6],[5,2],[5,3],[5,4],[5,5]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "subretinal dome with PED and small cyst"},
+  "44R": {"fluid_cells": [[4,0],[4,1],[4,2],[4,3],[4,4],[4,5],[5,3],[5,4],[5,5],[5,6]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "subretinal fluid temporal, PED nasal"},
+  "45L": {"fluid_cells": [[3,1],[3,2],[3,3],[3,4],[4,1],[4,2],[4,3],[4,4],[4,5],[5,2],[5,3]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "subretinal dome with overlying cysts and PED"},
+  "46L": {"fluid_cells": [[2,0],[2,1],[3,0],[3,1],[3,2],[4,1],[4,2],[4,3],[5,1],[5,2],[5,3]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "nasal intraretinal cyst, subretinal fluid, PED"},
+  "47R": {"fluid_cells": [[4,3],[4,4],[4,5],[4,6],[4,7],[5,4],[5,5],[5,6],[5,7]], "types_seen": ["IRF","PED"], "confidence": "med", "note": "intraretinal disturbance over broad PED elevation"},
+  "50R": {"fluid_cells": [[1,1],[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[2,1],[2,2],[2,6],[2,7],[3,1],[4,3],[4,4],[4,5]], "types_seen": ["PED","IRF"], "confidence": "med", "note": "large dome PED with intraretinal cysts at base"},
+  "51L": {"fluid_cells": [[4,0],[4,1],[5,0],[5,1],[5,2],[6,1],[6,2],[6,3]], "types_seen": ["IRF","PED"], "confidence": "low", "note": "tilted scan, hyporeflective wedge under band"},
+  "53R": {"fluid_cells": [[2,2],[2,3],[3,2],[3,3],[3,4],[3,5],[4,3],[4,4],[4,5]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "subfoveal subretinal fluid with cyst and PED"},
+  "54R": {"fluid_cells": [[4,1],[4,2],[4,3],[4,4],[5,1],[5,2],[5,3],[5,4],[5,5],[5,6],[6,2],[6,3],[6,4]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "multiple intraretinal cysts with subretinal fluid"},
+  "57R": {"fluid_cells": [[3,2],[3,3],[3,4],[3,5],[4,0],[4,1],[4,2],[4,3],[4,4],[5,1],[5,2],[5,3]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "subretinal fluid nasal with PED and cysts"}
+}

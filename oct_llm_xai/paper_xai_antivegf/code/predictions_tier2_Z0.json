@@ -1,0 +1,923 @@
+[
+  {
+    "eye_id": "5L",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 274.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "9L",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 287.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "20R",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 297.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "45L",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 515.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "69R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 309.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the anti-VEGF injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "110R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 333.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the anti-VEGF injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "115R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 466.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "128R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 270.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "167R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 352.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the anti-VEGF injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "183R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 305.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the anti-VEGF injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "193L",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 291.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the anti-VEGF injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "206L",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 256.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the anti-VEGF injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "209R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 257.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the anti-VEGF injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "211R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.079999998,
+    "y_cst": 204.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "factors to determine if the patient should continue or stop the injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "222R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 341.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "224R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 200.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "226R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 438.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "230L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 406.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "273L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 436.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "312L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 279.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue or stop the injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "319R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 627.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "325L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 181.0,
+    "y_biomarkers": {},
+    "error": "no_pre_bscan"
+  },
+  {
+    "eye_id": "343R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 465.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "345R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 566.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "351R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.170000002,
+    "y_cst": 663.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "the patient's condition and determine if continued anti-VEGF injections are necessary or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "382L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 400.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "388L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 397.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue or stop the anti-VEGF injections. It is always best to consult with a healthcare professional for personalized advice and treatment recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "398R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 490.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "402L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 818.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "429L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 620.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "461L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 492.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "463L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 252.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "497R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 260.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "534R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 371.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "540R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.100000001,
+    "y_cst": 600.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "595L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 431.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "these factors to determine if the patient should continue with anti-VEGF injections or if the treatment can be stopped. It is always best to consult with a healthcare professional for personalized advice and recommendations.",
+    "ci_pred": 1,
+    "bm_text": "",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  }
+]

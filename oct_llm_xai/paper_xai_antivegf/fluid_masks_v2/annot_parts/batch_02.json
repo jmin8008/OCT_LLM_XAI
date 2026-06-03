@@ -1,0 +1,16 @@
+{
+ "63R": {"fluid_cells": [[4,0],[4,1],[5,0],[5,1],[5,2],[5,3],[6,0],[6,1],[6,2]], "types_seen": ["SRF","IRF"], "confidence": "low", "note": "tilted noisy scan, dark subretinal space under lifted band"},
+ "69R": {"fluid_cells": [[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[3,8],[4,4],[4,5],[4,6],[4,7],[4,8],[4,9]], "types_seen": ["PED","SRF","IRF"], "confidence": "med", "note": "elevated RPE dome with sub-band hyporeflective space"},
+ "71R": {"fluid_cells": [[3,6],[3,7],[3,8],[3,9],[4,0],[4,1],[4,2],[4,3],[4,4],[5,0],[5,1],[5,2],[5,3]], "types_seen": ["PED","SRF","IRF"], "confidence": "med", "note": "elevated mound right, subretinal dark space left of band"},
+ "77L": {"fluid_cells": [[4,0],[4,1],[4,2],[4,3],[4,4],[5,0],[5,1],[5,2],[5,3],[5,4],[5,5]], "types_seen": ["PED"], "confidence": "med", "note": "irregular elevated RPE band, left-central PED"},
+ "79L": {"fluid_cells": [[5,8],[5,9],[6,2],[6,3]], "types_seen": ["IRF"], "confidence": "low", "note": "thin tilted band, faint intraretinal cysts"},
+ "80R": {"fluid_cells": [[5,0],[5,1],[5,2],[6,0],[6,1],[6,2],[6,3],[6,4],[6,5],[6,6],[6,7]], "types_seen": ["SRF","PED","IRF"], "confidence": "med", "note": "subretinal dark cleft and RPE elevation under band"},
+ "83L": {"fluid_cells": [[3,5],[3,6],[3,7],[3,8],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7],[4,8],[4,9]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "diffuse thickened edematous band with intraretinal cysts"},
+ "84L": {"fluid_cells": [[2,1],[3,0],[4,0],[4,1],[4,3],[4,4],[5,1],[5,2]], "types_seen": ["IRF","SRF"], "confidence": "high", "note": "clear round intraretinal cysts within left thickened band"},
+ "86R": {"fluid_cells": [[2,0],[2,1],[2,2],[3,1],[3,2],[3,3],[3,4],[3,5]], "types_seen": ["SRF","PED","IRF"], "confidence": "med", "note": "elevated band with subretinal hyporeflective space left"},
+ "102R": {"fluid_cells": [[4,1],[4,2],[4,3]], "types_seen": ["IRF"], "confidence": "low", "note": "mild left band thickening, faint intraretinal hyporeflectivity"},
+ "105L": {"fluid_cells": [[2,7],[2,8],[2,9],[2,10],[2,11],[3,8],[3,9],[3,10]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "thickened elevated retinal dome right side, intraretinal spaces"},
+ "108L": {"fluid_cells": [[1,7],[1,8],[2,2],[2,3],[2,4],[3,1],[3,2]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "round intraretinal cyst left, small RPE bump right"},
+ "110R": {"fluid_cells": [[4,2],[4,3],[4,4],[4,5],[4,6],[4,7],[4,8],[5,4],[5,8]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "diffuse thickened band with intraretinal cystic dips"},
+ "111L": {"fluid_cells": [[3,8],[3,9],[3,10],[3,11],[4,2],[4,3],[4,4],[4,5],[4,6],[5,2],[5,3]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "intraretinal cysts within band, elevated retinal dome right"}
+}

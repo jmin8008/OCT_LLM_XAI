@@ -1,0 +1,846 @@
+[
+ {
+  "eye_id": "2L",
+  "mask_key": "2L"
+ },
+ {
+  "eye_id": "5L",
+  "mask_key": "5L"
+ },
+ {
+  "eye_id": "7R",
+  "mask_key": "7R"
+ },
+ {
+  "eye_id": "9L",
+  "mask_key": "9L"
+ },
+ {
+  "eye_id": "11L",
+  "mask_key": "11L"
+ },
+ {
+  "eye_id": "12R",
+  "mask_key": "12R"
+ },
+ {
+  "eye_id": "15L",
+  "mask_key": "15L"
+ },
+ {
+  "eye_id": "17R",
+  "mask_key": "17R"
+ },
+ {
+  "eye_id": "19L",
+  "mask_key": "19L"
+ },
+ {
+  "eye_id": "20R",
+  "mask_key": "20R"
+ },
+ {
+  "eye_id": "22R",
+  "mask_key": "22R"
+ },
+ {
+  "eye_id": "25L",
+  "mask_key": "25L"
+ },
+ {
+  "eye_id": "27R",
+  "mask_key": "27R"
+ },
+ {
+  "eye_id": "29R",
+  "mask_key": "29R"
+ },
+ {
+  "eye_id": "32R",
+  "mask_key": "32R"
+ },
+ {
+  "eye_id": "33R",
+  "mask_key": "33R"
+ },
+ {
+  "eye_id": "36R",
+  "mask_key": "36R"
+ },
+ {
+  "eye_id": "43R",
+  "mask_key": "43R"
+ },
+ {
+  "eye_id": "44R",
+  "mask_key": "44R"
+ },
+ {
+  "eye_id": "45L",
+  "mask_key": "45L"
+ },
+ {
+  "eye_id": "46L",
+  "mask_key": "46L"
+ },
+ {
+  "eye_id": "47R",
+  "mask_key": "47R"
+ },
+ {
+  "eye_id": "50R",
+  "mask_key": "50R"
+ },
+ {
+  "eye_id": "51L",
+  "mask_key": "51L"
+ },
+ {
+  "eye_id": "53R",
+  "mask_key": "53R"
+ },
+ {
+  "eye_id": "54R",
+  "mask_key": "54R"
+ },
+ {
+  "eye_id": "57R",
+  "mask_key": "57R"
+ },
+ {
+  "eye_id": "63R",
+  "mask_key": "63R"
+ },
+ {
+  "eye_id": "69R",
+  "mask_key": "69R"
+ },
+ {
+  "eye_id": "71R",
+  "mask_key": "71R"
+ },
+ {
+  "eye_id": "79L",
+  "mask_key": "79L"
+ },
+ {
+  "eye_id": "80R",
+  "mask_key": "80R"
+ },
+ {
+  "eye_id": "83L",
+  "mask_key": "83L"
+ },
+ {
+  "eye_id": "84L",
+  "mask_key": "84L"
+ },
+ {
+  "eye_id": "86R",
+  "mask_key": "86R"
+ },
+ {
+  "eye_id": "102R",
+  "mask_key": "102R"
+ },
+ {
+  "eye_id": "105L",
+  "mask_key": "105L"
+ },
+ {
+  "eye_id": "108L",
+  "mask_key": "108L"
+ },
+ {
+  "eye_id": "110R",
+  "mask_key": "110R"
+ },
+ {
+  "eye_id": "111L",
+  "mask_key": "111L"
+ },
+ {
+  "eye_id": "112R",
+  "mask_key": "112R"
+ },
+ {
+  "eye_id": "115R",
+  "mask_key": "115R"
+ },
+ {
+  "eye_id": "116R",
+  "mask_key": "116R"
+ },
+ {
+  "eye_id": "117R",
+  "mask_key": "117R"
+ },
+ {
+  "eye_id": "120R",
+  "mask_key": "120R"
+ },
+ {
+  "eye_id": "122R",
+  "mask_key": "122R"
+ },
+ {
+  "eye_id": "128R",
+  "mask_key": "128R"
+ },
+ {
+  "eye_id": "133R",
+  "mask_key": "133R"
+ },
+ {
+  "eye_id": "134L",
+  "mask_key": "134L"
+ },
+ {
+  "eye_id": "136L",
+  "mask_key": "136L"
+ },
+ {
+  "eye_id": "139R",
+  "mask_key": "139R"
+ },
+ {
+  "eye_id": "143L",
+  "mask_key": "143L"
+ },
+ {
+  "eye_id": "147L",
+  "mask_key": "147L"
+ },
+ {
+  "eye_id": "149R",
+  "mask_key": "149R"
+ },
+ {
+  "eye_id": "152R",
+  "mask_key": "152R"
+ },
+ {
+  "eye_id": "157L",
+  "mask_key": "157L"
+ },
+ {
+  "eye_id": "163L",
+  "mask_key": "163L"
+ },
+ {
+  "eye_id": "167R",
+  "mask_key": "167R"
+ },
+ {
+  "eye_id": "169R",
+  "mask_key": "169R"
+ },
+ {
+  "eye_id": "183R",
+  "mask_key": "183R"
+ },
+ {
+  "eye_id": "184R",
+  "mask_key": "184R"
+ },
+ {
+  "eye_id": "188L",
+  "mask_key": "188L"
+ },
+ {
+  "eye_id": "190L",
+  "mask_key": "190L"
+ },
+ {
+  "eye_id": "191L",
+  "mask_key": "191L"
+ },
+ {
+  "eye_id": "193L",
+  "mask_key": "193L"
+ },
+ {
+  "eye_id": "195L",
+  "mask_key": "195L"
+ },
+ {
+  "eye_id": "198R",
+  "mask_key": "198R"
+ },
+ {
+  "eye_id": "199R",
+  "mask_key": "199R"
+ },
+ {
+  "eye_id": "202R",
+  "mask_key": "202R"
+ },
+ {
+  "eye_id": "204R",
+  "mask_key": "204R"
+ },
+ {
+  "eye_id": "206L",
+  "mask_key": "206L"
+ },
+ {
+  "eye_id": "208R",
+  "mask_key": "208R"
+ },
+ {
+  "eye_id": "210L",
+  "mask_key": "210L"
+ },
+ {
+  "eye_id": "211R",
+  "mask_key": "211R"
+ },
+ {
+  "eye_id": "214R",
+  "mask_key": "214R"
+ },
+ {
+  "eye_id": "217R",
+  "mask_key": "217R"
+ },
+ {
+  "eye_id": "220L",
+  "mask_key": "220L"
+ },
+ {
+  "eye_id": "221L",
+  "mask_key": "221L"
+ },
+ {
+  "eye_id": "222R",
+  "mask_key": "222R"
+ },
+ {
+  "eye_id": "224R",
+  "mask_key": "224R"
+ },
+ {
+  "eye_id": "226R",
+  "mask_key": "226R"
+ },
+ {
+  "eye_id": "229R",
+  "mask_key": "229R"
+ },
+ {
+  "eye_id": "230L",
+  "mask_key": "230L"
+ },
+ {
+  "eye_id": "262R",
+  "mask_key": "262R"
+ },
+ {
+  "eye_id": "264L",
+  "mask_key": "264L"
+ },
+ {
+  "eye_id": "265L",
+  "mask_key": "265L"
+ },
+ {
+  "eye_id": "269R",
+  "mask_key": "269R"
+ },
+ {
+  "eye_id": "271L",
+  "mask_key": "271L"
+ },
+ {
+  "eye_id": "273L",
+  "mask_key": "273L"
+ },
+ {
+  "eye_id": "278R",
+  "mask_key": "278R"
+ },
+ {
+  "eye_id": "280R",
+  "mask_key": "280R"
+ },
+ {
+  "eye_id": "281L",
+  "mask_key": "281L"
+ },
+ {
+  "eye_id": "292R",
+  "mask_key": "292R"
+ },
+ {
+  "eye_id": "294L",
+  "mask_key": "294L"
+ },
+ {
+  "eye_id": "295R",
+  "mask_key": "295R"
+ },
+ {
+  "eye_id": "299R",
+  "mask_key": "299R"
+ },
+ {
+  "eye_id": "300R",
+  "mask_key": "300R"
+ },
+ {
+  "eye_id": "302L",
+  "mask_key": "302L"
+ },
+ {
+  "eye_id": "303R",
+  "mask_key": "303R"
+ },
+ {
+  "eye_id": "304L",
+  "mask_key": "304L"
+ },
+ {
+  "eye_id": "307L",
+  "mask_key": "307L"
+ },
+ {
+  "eye_id": "311R",
+  "mask_key": "311R"
+ },
+ {
+  "eye_id": "312L",
+  "mask_key": "312L"
+ },
+ {
+  "eye_id": "313L",
+  "mask_key": "313L"
+ },
+ {
+  "eye_id": "316R",
+  "mask_key": "316R"
+ },
+ {
+  "eye_id": "319R",
+  "mask_key": "319R"
+ },
+ {
+  "eye_id": "322R",
+  "mask_key": "322R"
+ },
+ {
+  "eye_id": "326R",
+  "mask_key": "326R"
+ },
+ {
+  "eye_id": "327R",
+  "mask_key": "327R"
+ },
+ {
+  "eye_id": "328L",
+  "mask_key": "328L"
+ },
+ {
+  "eye_id": "330R",
+  "mask_key": "330R"
+ },
+ {
+  "eye_id": "332L",
+  "mask_key": "332L"
+ },
+ {
+  "eye_id": "341L",
+  "mask_key": "341L"
+ },
+ {
+  "eye_id": "342R",
+  "mask_key": "342R"
+ },
+ {
+  "eye_id": "343R",
+  "mask_key": "343R"
+ },
+ {
+  "eye_id": "345R",
+  "mask_key": "345R"
+ },
+ {
+  "eye_id": "347R",
+  "mask_key": "347R"
+ },
+ {
+  "eye_id": "348L",
+  "mask_key": "348L"
+ },
+ {
+  "eye_id": "349L",
+  "mask_key": "349L"
+ },
+ {
+  "eye_id": "351R",
+  "mask_key": "351R"
+ },
+ {
+  "eye_id": "352L",
+  "mask_key": "352L"
+ },
+ {
+  "eye_id": "357R",
+  "mask_key": "357R"
+ },
+ {
+  "eye_id": "360L",
+  "mask_key": "360L"
+ },
+ {
+  "eye_id": "361L",
+  "mask_key": "361L"
+ },
+ {
+  "eye_id": "368L",
+  "mask_key": "368L"
+ },
+ {
+  "eye_id": "371R",
+  "mask_key": "371R"
+ },
+ {
+  "eye_id": "375L",
+  "mask_key": "375L"
+ },
+ {
+  "eye_id": "376R",
+  "mask_key": "376R"
+ },
+ {
+  "eye_id": "377L",
+  "mask_key": "377L"
+ },
+ {
+  "eye_id": "378L",
+  "mask_key": "378L"
+ },
+ {
+  "eye_id": "382L",
+  "mask_key": "382L"
+ },
+ {
+  "eye_id": "388L",
+  "mask_key": "388L"
+ },
+ {
+  "eye_id": "396L",
+  "mask_key": "396L"
+ },
+ {
+  "eye_id": "397L",
+  "mask_key": "397L"
+ },
+ {
+  "eye_id": "398R",
+  "mask_key": "398R"
+ },
+ {
+  "eye_id": "402L",
+  "mask_key": "402L"
+ },
+ {
+  "eye_id": "404L",
+  "mask_key": "404L"
+ },
+ {
+  "eye_id": "406L",
+  "mask_key": "406L"
+ },
+ {
+  "eye_id": "411R",
+  "mask_key": "411R"
+ },
+ {
+  "eye_id": "412R",
+  "mask_key": "412R"
+ },
+ {
+  "eye_id": "413L",
+  "mask_key": "413L"
+ },
+ {
+  "eye_id": "416R",
+  "mask_key": "416R"
+ },
+ {
+  "eye_id": "417L",
+  "mask_key": "417L"
+ },
+ {
+  "eye_id": "419L",
+  "mask_key": "419L"
+ },
+ {
+  "eye_id": "420R",
+  "mask_key": "420R"
+ },
+ {
+  "eye_id": "422L",
+  "mask_key": "422L"
+ },
+ {
+  "eye_id": "423L",
+  "mask_key": "423L"
+ },
+ {
+  "eye_id": "426L",
+  "mask_key": "426L"
+ },
+ {
+  "eye_id": "427L",
+  "mask_key": "427L"
+ },
+ {
+  "eye_id": "428L",
+  "mask_key": "428L"
+ },
+ {
+  "eye_id": "429L",
+  "mask_key": "429L"
+ },
+ {
+  "eye_id": "431R",
+  "mask_key": "431R"
+ },
+ {
+  "eye_id": "438R",
+  "mask_key": "438R"
+ },
+ {
+  "eye_id": "453L",
+  "mask_key": "453L"
+ },
+ {
+  "eye_id": "454L",
+  "mask_key": "454L"
+ },
+ {
+  "eye_id": "456R",
+  "mask_key": "456R"
+ },
+ {
+  "eye_id": "457L",
+  "mask_key": "457L"
+ },
+ {
+  "eye_id": "458R",
+  "mask_key": "458R"
+ },
+ {
+  "eye_id": "461L",
+  "mask_key": "461L"
+ },
+ {
+  "eye_id": "463L",
+  "mask_key": "463L"
+ },
+ {
+  "eye_id": "467L",
+  "mask_key": "467L"
+ },
+ {
+  "eye_id": "468L",
+  "mask_key": "468L"
+ },
+ {
+  "eye_id": "474L",
+  "mask_key": "474L"
+ },
+ {
+  "eye_id": "475L",
+  "mask_key": "475L"
+ },
+ {
+  "eye_id": "478R",
+  "mask_key": "478R"
+ },
+ {
+  "eye_id": "484L",
+  "mask_key": "484L"
+ },
+ {
+  "eye_id": "487R",
+  "mask_key": "487R"
+ },
+ {
+  "eye_id": "494L",
+  "mask_key": "494L"
+ },
+ {
+  "eye_id": "495R",
+  "mask_key": "495R"
+ },
+ {
+  "eye_id": "497R",
+  "mask_key": "497R"
+ },
+ {
+  "eye_id": "500L",
+  "mask_key": "500L"
+ },
+ {
+  "eye_id": "501L",
+  "mask_key": "501L"
+ },
+ {
+  "eye_id": "502L",
+  "mask_key": "502L"
+ },
+ {
+  "eye_id": "503R",
+  "mask_key": "503R"
+ },
+ {
+  "eye_id": "507R",
+  "mask_key": "507R"
+ },
+ {
+  "eye_id": "511L",
+  "mask_key": "511L"
+ },
+ {
+  "eye_id": "513L",
+  "mask_key": "513L"
+ },
+ {
+  "eye_id": "516L",
+  "mask_key": "516L"
+ },
+ {
+  "eye_id": "520L",
+  "mask_key": "520L"
+ },
+ {
+  "eye_id": "521L",
+  "mask_key": "521L"
+ },
+ {
+  "eye_id": "523L",
+  "mask_key": "523L"
+ },
+ {
+  "eye_id": "530L",
+  "mask_key": "530L"
+ },
+ {
+  "eye_id": "531L",
+  "mask_key": "531L"
+ },
+ {
+  "eye_id": "532L",
+  "mask_key": "532L"
+ },
+ {
+  "eye_id": "534R",
+  "mask_key": "534R"
+ },
+ {
+  "eye_id": "540R",
+  "mask_key": "540R"
+ },
+ {
+  "eye_id": "541L",
+  "mask_key": "541L"
+ },
+ {
+  "eye_id": "545L",
+  "mask_key": "545L"
+ },
+ {
+  "eye_id": "549L",
+  "mask_key": "549L"
+ },
+ {
+  "eye_id": "551L",
+  "mask_key": "551L"
+ },
+ {
+  "eye_id": "554R",
+  "mask_key": "554R"
+ },
+ {
+  "eye_id": "556L",
+  "mask_key": "556L"
+ },
+ {
+  "eye_id": "558L",
+  "mask_key": "558L"
+ },
+ {
+  "eye_id": "562R",
+  "mask_key": "562R"
+ },
+ {
+  "eye_id": "564L",
+  "mask_key": "564L"
+ },
+ {
+  "eye_id": "565L",
+  "mask_key": "565L"
+ },
+ {
+  "eye_id": "568L",
+  "mask_key": "568L"
+ },
+ {
+  "eye_id": "569L",
+  "mask_key": "569L"
+ },
+ {
+  "eye_id": "570L",
+  "mask_key": "570L"
+ },
+ {
+  "eye_id": "571L",
+  "mask_key": "571L"
+ },
+ {
+  "eye_id": "576L",
+  "mask_key": "576L"
+ },
+ {
+  "eye_id": "577L",
+  "mask_key": "577L"
+ },
+ {
+  "eye_id": "580R",
+  "mask_key": "580R"
+ },
+ {
+  "eye_id": "581L",
+  "mask_key": "581L"
+ },
+ {
+  "eye_id": "585R",
+  "mask_key": "585R"
+ },
+ {
+  "eye_id": "587R",
+  "mask_key": "587R"
+ },
+ {
+  "eye_id": "589R",
+  "mask_key": "589R"
+ },
+ {
+  "eye_id": "590R",
+  "mask_key": "590R"
+ },
+ {
+  "eye_id": "593L",
+  "mask_key": "593L"
+ },
+ {
+  "eye_id": "595L",
+  "mask_key": "595L"
+ },
+ {
+  "eye_id": "596L",
+  "mask_key": "596L"
+ }
+]

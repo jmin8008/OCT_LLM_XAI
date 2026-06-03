@@ -1,0 +1,10 @@
+{
+  "581L": {"fluid_cells": [[2,0],[2,1],[2,2],[2,3],[2,4],[2,5],[3,0],[3,1],[3,2],[3,3],[3,4]], "types_seen": ["IRF"], "confidence": "med", "note": "broad intraretinal hyporeflective edema, thin sloping band"},
+  "585R": {"fluid_cells": [[3,2],[3,3],[3,4],[3,5],[3,6],[4,2],[4,3],[4,4],[4,5],[4,6],[5,3],[5,4],[5,5]], "types_seen": ["IRF"], "confidence": "high", "note": "large cystoid intraretinal cysts in central dome"},
+  "587R": {"fluid_cells": [[2,2],[2,3],[2,4],[2,5],[2,6],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[4,3],[4,4],[4,5],[4,6]], "types_seen": ["IRF"], "confidence": "high", "note": "thick dome with multiple large intraretinal cysts"},
+  "589R": {"fluid_cells": [[2,1],[2,2],[2,3],[2,4],[2,5],[3,1],[3,2],[3,3],[3,4],[3,5],[4,1],[4,2],[4,3],[4,4]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "intraretinal cysts above, subretinal dark space below"},
+  "590R": {"fluid_cells": [[2,2],[2,3],[2,4],[2,5],[3,2],[3,3],[3,4],[3,5]], "types_seen": ["IRF"], "confidence": "med", "note": "focal intraretinal cyst in elevated retina"},
+  "593L": {"fluid_cells": [[1,2],[1,3],[1,4],[1,5],[2,1],[2,2],[2,3],[2,4],[2,5],[2,6],[3,1],[3,2],[3,3],[3,4],[3,5]], "types_seen": ["IRF","SRF"], "confidence": "high", "note": "large intraretinal cysts plus subretinal fluid beneath"},
+  "595L": {"fluid_cells": [[4,0],[4,1],[4,2],[5,0],[5,1],[5,2]], "types_seen": ["SRF","IRF"], "confidence": "low", "note": "left subretinal dome, retina otherwise flat subtle"},
+  "596L": {"fluid_cells": [[2,0],[2,1],[2,2],[3,0],[3,1],[3,2],[3,3],[4,0],[4,1],[4,2],[4,3]], "types_seen": ["IRF"], "confidence": "med", "note": "sloped retina with intraretinal hyporeflective cystic spaces"}
+}

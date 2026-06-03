@@ -1,0 +1,923 @@
+[
+  {
+    "eye_id": "5L",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 274.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, which is indicative of macular edema, a common complication of PCV (polypoidal choroidal vasculopathy). The presence of retinal fluid suggests that the patient may benefit from continued anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nAnti-VEGF injections are a common treatment for macular edema associated with PCV, as they help to reduce the amount of fluid in the retina by inhibiting the production of vascular endothelial growth factor (VEGF), a protein that promotes the growth of new blood vessels and can lead to fluid accumulation in the retina.\n\nTherefore, based on the image, it is likely that the patient will need to continue with anti-VEGF injections to manage their macular edema and prevent further vision",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "9L",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 287.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, particularly in the macular region, which is indicative of a condition such as neovascular age-related macular degeneration (AMD) or a complication of a retinal vein occlusion (RVO). The presence of retinal fluid suggests that there is ongoing inflammation or leakage from the retina, which is typically treated with anti-vascular endothelial growth factor (VEGF) injections.\n\nGiven the amount of fluid and the potential for vision loss, it is likely that the patient will require continued anti-VEGF injections to manage the condition. The goal of treatment would be to reduce the amount of fluid and prevent further damage to the retina. The decision to continue or stop treatment would be made by the treating physician based on the patient's individual response to treatment, the severity of the condition, and the",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "20R",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 297.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, which is indicative of macular edema, a common complication of PCV (polypoidal choroidal vasculopathy). The presence of retinal fluid suggests that the patient may benefit from continued anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nAnti-VEGF injections are a common treatment for macular edema associated with PCV, as they help to reduce the amount of fluid in the retina by inhibiting the production of vascular endothelial growth factor (VEGF), a protein that promotes the growth of new blood vessels and can lead to fluid accumulation in the retina.\n\nTherefore, based on the image, it is likely that the patient will need continued anti-VEGF injections to manage their macular edema and prevent further vision loss.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "45L",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 515.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, which is indicative of a condition such as CNVM (central neovascularization). This condition is often treated with anti-VEGF injections to reduce the amount of fluid and prevent further damage to the retina.\n\nGiven the amount of fluid visible in the OCT scan, it is likely that the patient will require continued anti-VEGF injections to manage the condition. The goal of treatment would be to reduce the amount of fluid and maintain the integrity of the retina. The decision to continue or stop treatment would typically be made by an ophthalmologist based on the patient's individual clinical situation, including the severity of the condition, the response to previous treatments, and the potential risks and benefits of continued treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "69R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 309.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, which is indicative of a condition such as CNVM (central neovascularization). This condition is often treated with anti-VEGF injections to reduce the amount of fluid and prevent further damage to the retina.\n\nGiven the presence of retinal fluid, it is likely that the patient will require continued anti-VEGF injections to manage the condition. The decision to continue or stop treatment would typically be made by an ophthalmologist based on the patient's individual clinical situation, including the severity of the fluid, the presence of other signs of activity, and the patient's response to previous treatments.\n\nIt's important to note that while anti-VEGF injections can be effective in managing CNVM, they are not a cure and the condition may require ongoing treatment to prevent further vision loss. The patient's o",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "110R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 333.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a CNVM (central neovascular membrane), which is a common cause of macular edema. The presence of retinal fluid and the structure of the retina suggest that the patient may benefit from continued anti-VEGF injections. Anti-VEGF injections are a common treatment for CNVM, as they help to reduce the amount of fluid in the retina and prevent further damage to the macula. The decision to continue or stop anti-VEGF injections would typically be made by a retina specialist based on the patient's individual clinical situation, including the severity of the CNVM, the response to previous treatments, and the presence of any complications.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "115R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 466.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, which is indicative of a condition such as CNVM (central neovascularization). This condition is often treated with anti-VEGF injections to reduce the amount of fluid and prevent further damage to the retina.\n\nGiven the amount of fluid visible in the OCT scan, it is likely that the patient will require continued anti-VEGF injections to manage the condition. The goal of treatment would be to reduce the amount of fluid and prevent the formation of new blood vessels, which can lead to further vision loss. The decision to continue or stop treatment would typically be made by an ophthalmologist based on the patient's individual clinical situation, including the severity of the condition, the response to previous treatments, and the patient's overall health and vision status.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "128R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 270.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a CNVM (central neovascular membrane), which is a common cause of macular edema. The presence of retinal fluid and the structure of the retina suggest that the patient may benefit from continued anti-VEGF injections. Anti-VEGF injections are commonly used to treat CNVM and can help reduce the amount of fluid in the retina, which can improve vision. However, the decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who can evaluate the patient's individual case and monitor the effectiveness of the treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "167R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 352.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a CNVM (central neovascular membrane), which is a common cause of macular edema. The presence of retinal fluid and the structure of the retina suggest that the patient may benefit from continued anti-VEGF injections. Anti-VEGF injections are commonly used to treat CNVM and can help reduce retinal fluid and improve visual function. However, the decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who can evaluate the patient's response to treatment and monitor for any potential side effects.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "183R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 305.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a CNVM (central neovascular membrane), which is a common cause of macular edema. The presence of retinal fluid and the structure of the retina suggest that the patient may benefit from continued anti-VEGF injections. Anti-VEGF injections are a common treatment for CNVM, as they help to reduce the amount of fluid in the retina and prevent further damage to the macula. The decision to continue or stop treatment would typically be made by a retina specialist based on the patient's individual clinical situation, including the severity of the CNVM, the response to previous treatments, and the presence of any other underlying conditions.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "193L",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 291.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a CNVM (central neovascular membrane), which is a common cause of macular edema. The presence of retinal fluid and the structure of the retina suggest that the patient may benefit from continued anti-VEGF injections. Anti-VEGF injections are a common treatment for CNVM, as they help to reduce the amount of fluid in the retina and prevent further damage to the macula. The decision to continue or stop treatment would typically be made by a retina specialist based on the patient's individual clinical situation, including the severity of the CNVM, the response to previous treatments, and the presence of any other underlying conditions.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "206L",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 256.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a CNVM (central neovascular membrane), which is a common cause of macular edema. The presence of retinal fluid and the structure of the retina suggest that the patient may benefit from continued anti-VEGF injections. Anti-VEGF injections are commonly used to treat CNVM and can help reduce the amount of fluid in the retina, which can improve vision. However, the decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who can evaluate the patient's individual case and monitor the effectiveness of the treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "209R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 257.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a CNVM (central neovascular membrane), which is a common cause of macular edema. The presence of retinal fluid and the structure of the retina suggest that the patient may benefit from continued anti-VEGF injections. Anti-VEGF injections are commonly used to treat CNVM and can help reduce retinal fluid and improve visual function. However, the decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who has evaluated the patient's condition and response to treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "211R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.079999998,
+    "y_cst": 204.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a CNVM (central neovascular membrane), which is a common cause of macular edema. The presence of retinal fluid and the structure of the retina suggest that the patient may benefit from continued anti-VEGF injections. Anti-VEGF therapy is often used to treat CNVMs, as it can help reduce the amount of fluid in the retina and improve vision. However, the decision to continue or stop treatment should be made by a qualified healthcare professional who has evaluated the patient's condition and response to treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "222R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 341.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid suggests that the patient may still require anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the results of their clinical examinations. The healthcare professional would typically consider factors such as the amount of fluid present, the severity of the edema, the patient's response to previous treatments, and the risk of side effects.\n\nIn general, anti-VEGF injections are used to treat DME when there is significant retinal fluid, which can lead to vision loss if left untreated. The goal of treatment is to reduce the amount of fluid and prevent further damage to the retina.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "224R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 200.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, which is indicative of diabetic macular edema (DME). The presence of fluid in the macular area can lead to vision loss if left untreated.\n\nGiven the amount of fluid visible in the image, it is likely that the patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a common treatment for DME, as they help to reduce the amount of fluid in the retina by inhibiting the action of vascular endothelial growth factor (VEGF), which is a protein that promotes the growth of new blood vessels and can cause fluid to leak into the retina.\n\nIt's important to note that the decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the results of",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "226R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 438.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid and structure indicative of diabetic macular edema (DME). The presence of fluid in the macular area can lead to vision loss if left untreated.\n\nGiven the appearance of the retina in the OCT scan, it is likely that the patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a common treatment for DME, as they help to reduce the amount of fluid in the retina and prevent further vision loss.\n\nThe decision to continue or stop anti-VEGF injections would typically be made by an ophthalmologist based on a comprehensive examination of the patient's eyes, including OCT scans and other diagnostic tests. The ophthalmologist would also consider the patient's overall health, response to previous treatments, and other factors when making treatment decisions.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "230L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 406.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid suggests that the patient may still require anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional would typically consider factors such as the amount of fluid present, the location of the fluid, the patient's response to previous treatments, and the risk of side effects.\n\nIn general, if the patient has significant retinal fluid and there is evidence of ongoing inflammation or neovascularization, it is likely that continued anti-VEGF injections would be recommended to help manage the condition. However, the specific treatment plan should be tail",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "273L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 436.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid is a common reason for anti-VEGF injections in patients with DME.\n\nGiven the amount of fluid visible in the image, it is likely that the patient will require continued anti-VEGF injections to manage the DME. The goal of anti-VEGF therapy in DME is to reduce the amount of fluid and prevent further leakage. The frequency of injections can vary depending on the severity of the DME and the patient's response to treatment.\n\nIt's important to note that the decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional will also consider other factors such as",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "312L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 279.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). Anti-VEGF injections are commonly used to treat DME, as they help to reduce the amount of fluid in the retina.\n\nGiven the presence of retinal fluid, it is likely that the patient will require continued anti-VEGF injections to manage their DME. The frequency of these injections may vary depending on the severity of the DME and the patient's response to treatment. Regular monitoring with optical coherence tomography (OCT) scans, like the one shown, is crucial to assess the effectiveness of the treatment and to make adjustments as needed.\n\nIt's important to note that the decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of their",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "319R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 627.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid suggests that the patient may still require anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional would typically consider factors such as the amount of fluid, the location of the fluid, the patient's response to previous treatments, and the risk of side effects.\n\nIn general, if the patient has significant retinal fluid and there is evidence of ongoing inflammation or neovascularization, it is likely that continued anti-VEGF injections would be recommended to help manage the condition. However, the specific treatment plan should be tailored",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "325L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 181.0,
+    "y_biomarkers": {},
+    "error": "no_pre_bscan"
+  },
+  {
+    "eye_id": "343R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 465.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid and structure indicative of diabetic macular edema (DME). The presence of fluid in the macular area can lead to vision loss if left untreated.\n\nGiven the appearance of the retina in the OCT scan, it is likely that the patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a common treatment for DME, as they help to reduce the amount of fluid in the retina and prevent further vision loss.\n\nThe decision to continue or stop anti-VEGF injections would typically be made by an ophthalmologist based on a comprehensive examination of the patient's eyes, including OCT scans and other diagnostic tests. The ophthalmologist would also consider the patient's overall health, response to previous treatments, and other factors when making treatment decisions.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "345R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 566.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid is a common reason for anti-VEGF injections in patients with DME.\n\nGiven the amount of fluid visible in the image, it is likely that the patient will require continued anti-VEGF injections to manage the DME. The goal of anti-VEGF therapy in DME is to reduce the amount of fluid and prevent further leakage. The frequency of injections can vary depending on the severity of the DME and the patient's response to treatment.\n\nIt's important to note that the decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional will also consider other factors such as",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "351R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.170000002,
+    "y_cst": 663.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid suggests that the patient may still require anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional would typically consider factors such as the amount of fluid present, the location of the fluid, the patient's response to previous treatments, and the risk of side effects.\n\nIn general, if the patient has significant retinal fluid and there is evidence of ongoing inflammation or neovascularization, it is likely that continued anti-VEGF injections would be recommended to help manage the condition. However, the specific treatment plan should be tail",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "382L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 400.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid and structure indicative of diabetic macular edema (DME). The presence of fluid in the macular area can lead to vision loss if left untreated.\n\nGiven the appearance of the retina in the OCT scan, it is likely that the patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a common treatment for DME, as they help to reduce the amount of fluid in the retina and prevent further vision loss.\n\nThe decision to continue or stop anti-VEGF injections would typically be made by an ophthalmologist based on a comprehensive examination of the patient's eyes, including OCT scans and other diagnostic tests. The ophthalmologist would also consider the patient's overall health, response to previous treatments, and other factors when making treatment decisions.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "388L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 397.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid and structure indicative of diabetic macular edema (DME). The presence of fluid in the macular area can lead to vision loss if left untreated.\n\nGiven the appearance of the retina in the OCT scan, it is likely that the patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a common treatment for DME, as they help to reduce the amount of fluid in the retina and prevent further vision loss.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who has evaluated the patient's condition and response to treatment. The healthcare professional will consider factors such as the severity of the DME, the patient's overall health, and the potential risks and benefits of continued treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "398R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 490.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid is a common reason for anti-VEGF injections in patients with DME.\n\nGiven the amount of fluid visible in the image, it is likely that the patient will require continued anti-VEGF injections to manage the DME. The goal of anti-VEGF therapy in DME is to reduce the amount of fluid and prevent further leakage. The frequency of injections can vary depending on the severity of the DME and the patient's response to treatment.\n\nIt's important to note that the decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional will also consider other factors such as",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "402L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 818.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has a significant amount of retinal fluid, particularly in the macular region, which is indicative of diabetic macular edema (DME). The presence of retinal fluid is a common reason for anti-VEGF injections in patients with DME, as these injections can help reduce the amount of fluid and prevent further damage to the retina.\n\nGiven the amount of fluid visible in the image, it is likely that the patient will require continued anti-VEGF injections to manage their DME. The decision to continue or stop treatment would typically be made by an ophthalmologist based on a comprehensive evaluation of the patient's condition, including the results of multiple OCT scans, visual acuity, and other clinical findings. The goal of treatment is to maintain or improve vision and prevent long-term damage to the retina.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "429L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 620.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid suggests that the patient may still require anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional would typically consider factors such as the amount of fluid present, the location of the fluid, the patient's response to previous treatments, and the risk of side effects.\n\nIn general, if the patient has significant retinal fluid and there is evidence of ongoing inflammation or neovascularization, it is likely that continued anti-VEGF injections would be recommended to help manage the condition. However, the specific treatment plan should be tail",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "461L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 492.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid suggests that the patient may still require anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional would typically consider factors such as the amount of fluid present, the location of the fluid, the patient's response to previous treatments, and the risk of side effects.\n\nIn general, if the patient has significant retinal fluid and there is evidence of ongoing inflammation or neovascularization, it is likely that continued anti-VEGF injections would be recommended to help manage the condition. However, the specific treatment plan should be tail",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "463L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 252.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid suggests that the patient may still require anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional would typically consider factors such as the amount of fluid present, the location of the fluid, the patient's response to previous treatments, and the risk of side effects.\n\nIn general, if the patient has significant retinal fluid and there is evidence of ongoing inflammation or neovascularization, it is likely that continued anti-VEGF injections would be recommended to help manage the condition. However, the specific treatment plan should be tail",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "497R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 260.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid and structure indicative of diabetic macular edema (DME). The presence of fluid in the macular area can lead to vision loss if left untreated.\n\nGiven the appearance of the retina in the OCT scan, it is likely that the patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a common treatment for DME, as they help to reduce the amount of fluid in the retina and prevent further vision loss.\n\nThe decision to continue or stop anti-VEGF injections would typically be made by an ophthalmologist based on a comprehensive examination of the patient's eyes, including OCT scans and other diagnostic tests. The ophthalmologist would also consider the patient's overall health, response to previous treatments, and other factors when making treatment decisions.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "534R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 371.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid suggests that the patient may still require anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional would typically consider factors such as the amount of fluid present, the location of the fluid, the patient's response to previous treatments, and the risk of side effects.\n\nIn general, if the patient has significant retinal fluid and there is evidence of ongoing inflammation or neovascularization, it is likely that continued anti-VEGF injections would be recommended to help manage the condition. However, the specific treatment plan should be tail",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "540R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.100000001,
+    "y_cst": 600.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid suggests that the patient may still require anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional would typically consider factors such as the amount of fluid present, the location of the fluid, the patient's response to previous treatments, and the risk of side effects.\n\nIn general, if the patient has significant retinal fluid and there is evidence of ongoing inflammation or neovascularization, it is likely that continued anti-VEGF injections would be recommended to help manage the condition. However, the specific treatment plan should be tail",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "595L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 431.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that the patient has retinal fluid, which is indicative of diabetic macular edema (DME). The presence of retinal fluid suggests that the patient may still require anti-VEGF injections to help reduce the fluid and prevent further damage to the retina.\n\nThe decision to continue or stop anti-VEGF injections should be made by a qualified healthcare professional who is familiar with the patient's medical history and the specific details of the OCT scan. The healthcare professional would typically consider factors such as the amount of fluid present, the location of the fluid, the patient's response to previous treatments, and the risk of side effects.\n\nIn general, if the patient has significant retinal fluid and there is evidence of ongoing inflammation or neovascularization, it is likely that continued anti-VEGF injections would be recommended to help manage the condition. However, the specific treatment plan should be tail",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  }
+]

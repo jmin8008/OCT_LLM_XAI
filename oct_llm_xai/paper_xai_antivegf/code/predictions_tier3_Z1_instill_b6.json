@@ -1,0 +1,706 @@
+[
+ {
+  "eye_id": "5L",
+  "diagnosis": "PCV",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "inidinidinidinamninidinidinidninidinidinidinidinidnukinidnasinidnidnidnidnelfninidinidinidinidinidinidinidinidinidinidinidinidinidinidinidinidinidinidinidinidinidinidininidinidinidinidinidinidinidnidnidinidinidinidinidinidinidinidinidinidinidinidnidnidinidinidinidinidnidinidinidinidninid",
+  "ci_pred": "uncertain",
+  "bm_text": "inidninidnasinidnnasnidnidnelfnelfninidninidinidinidinidnasinukinidnukinidninidninidinidinidinidinidinidnidnidinidinidin advinidinidinidinidinidinidninidnidinidinidinidinidinidinidnid",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "9L",
+  "diagnosis": "PCV",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": " Bod Bod Bod Bod Bod Bod Bod Bod Bod-re Bod-run Bod Parker Bod-run Bodolo Bod Parkeraye\ufffdaye\ufffdaye\ufffdaye\ufffdaye\ufffdaye\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdaye\ufffdaye\ufffdayeaye\ufffdaye\ufffd\ufffd\ufffdayeayeaye\ufffdaye\ufffdaye\ufffdaye\ufffd\ufffd\ufffdaye\ufffdayeayeaye\ufffdaye\ufffdaye\ufffd\ufffd\ufffdayeayeayeayeayeaye\ufffdaye\ufffdaye\ufffdaye\ufffdayeayeaye\ufffdaye\ufffdaye\ufffdayeayeayeaye\ufffdaye\ufffdaye\ufffd\ufffd\ufffd\ufffdaye\ufffdayeayeayeayeayeaye\ufffd\ufffd\ufffdaye\ufffdayeayeaye\ufffdayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeayeaye",
+  "ci_pred": "uncertain",
+  "bm_text": "aye\ufffdaye\ufffdaye\ufffdaye\ufffdaye\ufffd\ufffd\ufffd\ufffd\ufffdaye\ufffdaye\ufffdaye\ufffdaye\ufffd\ufffd\ufffd\ufffdayeayeaye\ufffdaye\ufffd\ufffdaye\ufffd\ufffd\ufffd\ufffdaye\ufffdayeayeaye\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdayeayeayeaye\ufffdaye\ufffdaye\ufffdaye\ufffdfar\ufffdayeaye\ufffdaye\ufffd\ufffdaye\ufffdayeaye\ufffdaye\ufffdaye\ufffdaye\ufffd\ufffd\ufffdaye\ufffdayeaye\ufffdayeaye\ufffdaye\ufffd\ufffd\ufffdayeaye",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "20R",
+  "diagnosis": "PCV",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "inas'SHttprukrukrukrukrukrukrukrukrukrukrukrukrukrukrukrukrukrukrukrukrukrukinasiblySHinas'SHinas ISHinas-ASHinas'SHopopopopopopopopopopopopopopopinas-HttpinasBotooprukrukrukruk-ASHttp-ASHttpttpBDrienSHttpzySHttpzyolingttp-Httpinas'SHttp Watkins\u0440\u0430\u0441\u0442 Watkins' Shah Shahrien-ASHBrien-A ShayBashiBrukrukrukrukruk-ASHBiezBashiBashi ShahBaki BakerSHttp BakerSHttprakBakiBakiSHttp-Hashi BCH-Hashi BCHttpttpSHttpBaki BCHSHttp",
+  "ci_pred": "uncertain",
+  "bm_text": "HubrukrukinasiblySHinas'SHinas ISHinas-ASHinas'SHopopopopopopopopopopopopopopopinas-HttpinasBotooprukrukrukruk-ASHttp-ASHttpttpBDrienSHttpzySHttpzyolingttp-Httpinas'SHttp Watkins\u0440\u0430\u0441\u0442 Watkins' Shah Shahttp BakerSHB Baker Shahdirect Watkins'Brukrukrukrukruk-ASHBiezBashiBashi",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "45L",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": " baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized10 baptized10 baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptizedcki baptizedcki baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized10 baptized baptized baptized baptized baptized baptized10 baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptizedckickickickicki baptizedcki baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptizedcki baptizedcki baptizedcki baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptizedcki t baptizedcki t baptized baptized baptized baptized baptized baptizedcki baptizedcki t baptizedcki baptized",
+  "ci_pred": "uncertain",
+  "bm_text": "10 baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptizedcki baptizedcki baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized10 baptized baptized baptized baptized baptized baptized10 baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptizedckickickickicki baptizedcki baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptized baptizedcki baptizedcki",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "69R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": " always She always. She always. She always She always She always. She always. She. She always. She and. She and She is. She and. She. She. She. She. She. She. She always. She. She. She. She. She M. She. She. She. She. She. She. She always. She. She. She. She. She. She. She. She... She. She always. She always. She. She. She. She. She. She. She. She always. She. She. She. She. She. She. She. She. She. Horizon. BD. She. She. She. She. She. She",
+  "ci_pred": "uncertain",
+  "bm_text": " BD. She and She is. She and. She. She. She. She. She. She. She always. She. She. She. She. She M. She. She. She. She. She. She. She always. She. She. She. She. She. She. She. She... She. She always. She always. She. She. She. She. She. She. She. She always. She.",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "110R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": ".dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd",
+  "ci_pred": "uncertain",
+  "bm_text": ".dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd.dd",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "115R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "icicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicimesicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicic",
+  "ci_pred": "uncertain",
+  "bm_text": "icicicicicicicicicicicicicicicicimesicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicicic",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "128R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push",
+  "ci_pred": "uncertain",
+  "bm_text": "-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push-push",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "167R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+  "ci_pred": "uncertain",
+  "bm_text": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "183R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": " Trekainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingigosrokrokigosigosigosigosrokigosigosainingigosigosigos",
+  "ci_pred": "uncertain",
+  "bm_text": "ainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingainingaining",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "193L",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "ZRZR18181818ZR18ZR18ZRions18ions1ions Demandions Demandions181818iba18ions Rou181ZR1ZR181818 Rou18uren18uren18ions-only\u043e\u0431\u0449\u0435\u043e\u0431\u0449\u043511QN18ennes181818iba18 Rou Rou Rou181ions Demandionsairefile-onlyionsDemandfile-onlyions Demandions Demandions Demandions Demandfile-onlyurenfileurenurenurenibaZRionsZRionsZR1ZRZRiliburenions1Demandions Demandions Demandions DemandionsurenionsionsionsionsZRionsZRionsionsionsionsionsionsionsionsurenionsurenions-onlyurenions Demandions-turnedurenions18uren18ZRZRZRZRions Demandions Demandionsionsionsions\u043d\u0430\u043a",
+  "ci_pred": "uncertain",
+  "bm_text": "18ions Rou1811ZR1ZR181818 Rou18uren18uren18-only\u043e\u0431\u0449\u0435\u043e\u0431\u0449\u0435\u043e\u0431\u0449\u043511QN18ennes18ennes18iba18 Rou Rou Rou181ions Demandionsairefile-onlyionsDemandfile-onlyions Demandions Demandions Demandions Demandfile-onlyurenfileurenurenurenibaZRionsZRionsZR1ZRZRiliburenions1Demandions Demandions Demandions DemandionsurenionsionsionsionsZRionsZRionsionsionsionsions",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "206L",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300",
+  "ci_pred": "uncertain",
+  "bm_text": "\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300\u0300",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "209R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are all present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "211R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "opopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopop                                    ",
+  "ci_pred": "uncertain",
+  "bm_text": "opopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopop     ",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "222R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "nounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounou",
+  "ci_pred": "uncertain",
+  "bm_text": "nounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounounou",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "224R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "ress hellreddreddreddredd hell hell hell hellreddreddredd hell hell hellreddreddreddreddreddreddreddreddreddreddreddreddreddreddress Helress hellredd hell hell hell hell540uml540 hell hell hell540adera hellreddreddredd hellredd hellreddreddibaDDDDDDDDDDDDDDDD pol hell hell540uml540DDreddredd hell hell hell540 hell540 hell540aderaaderaadera hellreddreddredd hell540 hell540umlreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddredd",
+  "ci_pred": "uncertain",
+  "bm_text": "reddreddreddreddreddreddreddress Helress hellredd hell hell hell hell540uml540 hell hell hell540adera hellreddreddredd hellreddreddreddreddibaDDDDDDDDDDDDDDDD pol hell hell540uml540DDreddredd hell hell hell540 hell540 hell540aderaaderaadera hellreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddreddredd",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "226R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "eerseeerseeereerseeerseeereereerseeerseeerseeerseeerseeerinemeereerseeerseysysseysseeerseeereereerseeereereereereereereereerinemeereereereereereereereerseeerseeerseeerseeerseeerseeerseeerseeereereerseysseyseereereerseeerseeerseysseseeerseeereereerseeerseeerseysseseeerseeerseeerseeereereereerseysseysseyseerseysseyseerseeerseeereerseysseysseeerseeerseeerseeerseeerseyseerseeereereer",
+  "ci_pred": "uncertain",
+  "bm_text": "eereerseeerseysysseysseeerseeereereerseeereereereereereereereerinemeereereereereereereereerseeerseeerseeerseeerseeerseeerseeerseeereereerseysseyseereereerseeerseeerseysseseeerseeereereerseeerseeerseysseeerseeerseeerinemeereereereereerseysseysseyseer",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "230L",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "nnnnnshnnnnnnnnnnnnnnnshnnnnnnshnshnshnshnnnnshnshnshnnnnnnnshnshnnnnshnshnshnshnshnnnnnshnnshnshnshnnnnnshnshnshnshnnnnnshnshnnnnnnnnnnnnnnnnnnnnshnshnnnnnnnnnnnshnnnnnnnnnnnshnnn",
+  "ci_pred": "uncertain",
+  "bm_text": "nnnnnshnshnshnshnnnnshnshnshnnnnnnnshnshnnnnshnshnshnshnshnnnnnshnnshnshnshnnnnnshnshnshnshnnnnnshnshnnnnnnnnnnnnnnnnnnn",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "273L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "1 in a in a in a in a part a, in a in a in a\u2019s a, in a, in, in, in a, in, in, in, in, in, in a, in their, in a,1's1, in, in, in, in, in,1,2,2,1 and, in a,\u00e2\u0300\u00e2na's\u00e2\u00e2\u00e22, in, in a, in a, in, in a, in a in a in a, in, in, in a, in, in a, in a, in a last,1, in a in a,1 s1,1,1, last, in a, in a, in a",
+  "ci_pred": "uncertain",
+  "bm_text": "1, in, in, in a, in, in, in, in, in a, in their, in their,1's@1'sna, in, in, in, in,1,2,2,1 and, in a,\u00e2\u0300\u00e2na\u00e2s\u00e2\u00e22, in, in a, in a, in, in a, in a in a in a, in, in, in a, in, in a, in",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "312L",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+  "ci_pred": "uncertain",
+  "bm_text": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "319R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": " night night night night night night night night night night night night night night night night night night night night night night night night night night night night night night night night night night night night night night night nightyindi nightyopindi nightyindi night night night night night night-Dirindi night night night night night night night night night night night night night night night night night night night night night night night night night night nightindi night night' night night night nightindi nighty' nightyindi night night night night night night night night night night night night nightindi night papindi night night night night night night night night night night night night night papindi night night night night night night papyindi nighty'180yusty night night",
+  "ci_pred": "uncertain",
+  "bm_text": "180 night night night night night night night night night night night night night night nightyindi nightyindiindi nightyindi night night night nightyindi night night-Dust night night night night night night night night night night night night night night night night night night night night night night night nightindi night nightindi night nightindi night night night nightindi nighty' nightyindi night night night night night night night night night night night night nightindi nightindi night night night",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "325L",
+  "error": "no_bscan_or_mask"
+ },
+ {
+  "eye_id": "343R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "hudnatnatnatnatnatressing Pierhudhudhudhudhudhudhudhudhudhudsteadhudressing Pierhudstead Pierhudrunnatnatrunrun Pierhudhudhudnatnatnatnat Pierhudhudhudhudhudressing Pierhudstead Pier Pier Pierstead Piersteadsteadsteadhudhudressing Pierhudressing Piering Pierhudressing Pierhudhudhudhudhudhudressing Pierhudressing Pierhudhudhudhudhudhudhudressing Pierhudressing Pierhudressing Pierhudigohudressing Pierhudressingundenundenundenrunrunnatnatnatnatressingundenundenundenundenunden'srunundennatundenunden'sundrun.undnatunden'srun'sruningunden'sruningundenundenrunrunruningundeningingingunden",
+  "ci_pred": "uncertain",
+  "bm_text": "steadrun Pierhudhudhudrunrun Pierhudhudhudnatnatnatnat Pierhudhudhudhudhudressing Pierhudstead Pier Pier Pierstead Pierstead Piersteadhudhudressing Pierhudressing Piering Pierhudressing Pierhudhudhudhudhudhudressing Pierhudressing Pierhudhudhudhudhudhudhudressing Pierhudressing Pierhudressing Pierhudigohudressing Pierhudressingundenundenundenrunrunnatnatnatnatressingundenundenundenundenunden'srun",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "345R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "ognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognogn",
+  "ci_pred": "uncertain",
+  "bm_text": "ognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognognogn",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "351R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "16kenekenek3\u203216cenekenecenekenekeneCenek3k3kenaenek3k3\u2032cenekenekenekenekenecenec3\u2032CeneCenek3kenekenaenaenaenekenacinenekenaes3kenekenekenekenekenek3kena28k3kenekenek3kadekenaenekenekenekadekadekadekadekenekenaenekenekenekenekenek3rdakaenakenak16k16k16k3k3\u2032cenekenekenekenekena",
+  "ci_pred": "uncertain",
+  "bm_text": "3\u2032cenekenek3kenekenekenekenekenekenecenec3\u2032CeneCenek3kenekenaenaenaenekenacinenekenaes3kenekenekenekenekenek3kena28k3kenekenek3kadekenaenekenekenekadekadekadekadekenekenaenekenekenek",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "382L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "entoentoentoentoentoentoentoentoentoentoentoentoentoentoento'sento'sentoentoentoento'sento'sento'sento'sR'sentoentoento'sento'sento'sento'sento'sento'sento'sento'sentoentoento'sento's'sento'sento'sento'sentoentoento'sento'sento'sento'sento'sR'sento'sento'sento'sento'sento'sento'sento'sento's's'sR'sR'sR'sR'sento'saca'saca'saca'saca'saca'saca'saca'saca'saca'saca'saca'saca'saca'saca'saca'sento'sento's's's'saca'saca'saca'saca's's",
+  "ci_pred": "uncertain",
+  "bm_text": "'sento'sento'sR'sento'sentoento'sento'sento'sento'sento'sento'sento'sento'sentoentoento'sento's'sento'sento'sento'sentoentoentoento'sento'sento'sento'sR'sento'sento'sento'sento'sento'sento'sento'sento'sento's'sR'sR'sR'sR'sento'saca'saca'saca'saca'saca'saca'saca'saca",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "388L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+  "ci_pred": "uncertain",
+  "bm_text": "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "398R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303 Dexteries Dexteriesiesiesiesiesiesiesiesiesies\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303imiimiimiimiimiimiimiimiimiimiiesimiiesimiimiimiimi\u0303\u0303\u0303\u0303\u0303\u0303\u0303imiimiimiimiimiimiimiimiimiimiiesiesimiimiimiimiimi\u0303\u0303\u0303\u0303iesiesimiiesimiimiimiimiimiimiimiimiimiimiiesiesimiimiimiiesiesiesasaki Dexteriesasakiasakiasakiasakiasakiimiimiimiimiiesasakiiesiesiesiesimiimiimiimiimiiesiesimi",
+  "ci_pred": "uncertain",
+  "bm_text": "iesies\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303\u0303iesiesimiimiimiimiimiimiimiimiimiimiimiiesimiiesimiimiimiimiimiimiimiimiimiimiimiimiimiimiimiimiimiimiimiimiimiiesiesimiimiimiimiimi\u0303\u0303\u0303iesiesiesimiiesimiimiimiimiimiimiimiimiimiimiiesiesimi",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "402L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "otronotronotronotronotronotronotronotronotronotronotronotronotronotronazerusherotronotronusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherazerusherazerusherusherusherusherotronotronotronazerusherusherusherusherusherusherusherazerazerotronazerotronotronotronazerazerazerazerazerusherusherusherazerotronazerotronazerotronazerazerazerobreazerotronobreazerotronazerazerazerazerazerazerazerazerazerazerazerazerusherusherusherusherusherazerazerazerusherazer",
+  "ci_pred": "uncertain",
+  "bm_text": "usherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherusherazerusherazerusherusherusherusherotronotronotronazerusherusherusherusherusherusherusherazerazerotronazerotronotronotronazerazerazerazerazerusherusherusherusherazerotronazerotronazer",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "429L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "ibaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribar",
+  "ci_pred": "uncertain",
+  "bm_text": "ibaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribaribar",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "461L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": " Astrop Astrop Astr Astr Astr Astrop Astrop Astrop Astrop\u2019B\u2019B\u2019B\u2019B Astrop\u2019B\u2019B\u2019B Astrop Astrop Astr Astrop\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019Bopopopopopopopopopopopopopple Astropple Astroppleop Astropopoppleoppleopopopopop Astr Astr Astropopoppleopoloolo Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B Astr Astr Astr Astr Astr Astr Astr\u2019B Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr",
+  "ci_pred": "uncertain",
+  "bm_text": "\u2019B Astrop Astrop Astrop\u2019B Astrop\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019B\u2019Bopopopopopopopopopopopopopple Astropple Astroppleoppleopopoppleoppleopopopopop Astrop Astropopoppleopoloolo Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr Astr",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "463L",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": " lasturosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosuros recently recently recently recentlyurosurosuros recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently last lasturosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosuros\n\n recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently",
+  "ci_pred": "uncertain",
+  "bm_text": " recently recently recentlyurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosurosuros recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently recently last last last last last last last last last last last lasturosurosurosurosurosurosurosurosurosurosurosurosurosuros\n\n recently recently recently recently recently recently recently recently recently recently recently",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "497R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n\nirs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...\n...\n...\n...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nirs\n...\n...\n...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n",
+  "ci_pred": "uncertain",
+  "bm_text": "\n\n\n\n\n\n\n\n\n\n\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n\n\nirs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...\n...\n...\n...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nirs\n...\n...\n...\n\n\n\n",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "534R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "esoesoesoesoesoesoesoesoachtsachtsachtsachtsachtsachts\ufffdesoesoicesesoesoesoesoesoesoesoesoesoachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachts\ufffdachts\ufffdachtsachtsachts\ufffdimosachts\ufffd\ufffd\ufffdachtsachtsachtsachts\ufffdachts\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdachts\ufffdachts\ufffdachts\ufffdachts\ufffdachtsachts\ufffdachts\ufffdimos\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdachts\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+  "ci_pred": "uncertain",
+  "bm_text": "achtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachtsachts\ufffdachts\ufffdachtsachtsachts\ufffdimosachts\ufffd\ufffd\ufffdachtsachtsachtsachts\ufffdachts\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdachts\ufffdachts\ufffdachts\ufffd\ufffd\ufffdachts\ufffdachts",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "540R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "reddreddreddreddreddreddreddreddredd seems seems seems seems seems seems seems seems firm firm firm firm firm firm firm firm firm firm\n seems seems seems firm firm firm firm seems seems seemsreddreddreddreddreddreddreddreddredd seems seems seems seems seems seems seems seemschter firm firmreddreddreddreddreddredd seems seems seems seems seems seems firm seems seems seems firm firm firmreddreddreddredd\n firm\n seems seems firm\n firm firm firm seems firm firm firm\nreddreddredd firm firm firm firm firm\n firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firm firmreddreddreddreddredd firm firm",
+  "ci_pred": "uncertain",
+  "bm_text": " firm firm firm firm\n seems seems seems firm firm firm firm seems seemsreddreddreddreddreddreddreddreddreddredd seems seems seems seems seems seems seems seemschter firm firmreddreddredd additionally firm additionally firm seems seems seems seems seems firm seems seems seems firm firm firmreddreddreddredd\n firm\n seems seems seems firm firm firm firm seems firm firm firm\nreddreddredd firm firm firm firm firm\n firm firm firm firm firm firm firm firm firm firm firm firm firm firm",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ },
+ {
+  "eye_id": "595L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "akiakiaki APRish Watkinsolingolingolingolingolingoling APRking04 Watkinsoke Watkinsouch04 Watkins APRish04 Watkinsoling0411aki13 Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkinsolo0404040404 Watkins04 Watkins04 Watkinsdek Watkinsolingolingoling04 Watkins APRish Watkins Watkins Watkins Watkins Watkins Watkins Watkins APR04 Watkins APR Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkinsdek04 Watkins\u00e8s Watkins\u00e8s04 Watkins APR Watkins Watkins Watkinsolingoling Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkinsdating11olo11 Watkins Watkins Watkins Watkins11 Watkins11 Watkinsaits11 APR11 APR11 APR13aits13 Watkinsaits Watkins Monoling13oling Watkinsaitsaits11olo133744 Watkins",
+  "ci_pred": "uncertain",
+  "bm_text": "37 APRoling0411aki13 Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkinsolo0404040404 Watkins04 Watkins04 Watkinsdek Watkinsolingolingoling04 Watkins APRish Watkins Watkins Watkins Watkins Watkins Watkins Watkins APR04 Watkins APR Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkinsdek04 Watkins\u00e8s Watkins\u00e8s04 Watkins APR Watkins Watkins Watkinsolingoling Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkins Watkinsdating11olo11 Watkins Watkins Watkins",
+  "bm_pred": {
+   "IRF": NaN,
+   "SRF": NaN,
+   "PED": NaN,
+   "HRF": NaN
+  }
+ }
+]

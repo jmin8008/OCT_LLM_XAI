@@ -1,0 +1,514 @@
+{
+ "report": {
+  "arm": "A_baseline",
+  "n": 35,
+  "decision_balanced_acc": 0.512,
+  "decision_sensitivity": 0.81,
+  "decision_specificity": 0.214,
+  "continue_rate": 0.8,
+  "biomarker_node_acc": 0.45,
+  "biomarker_node_n": 40,
+  "prognosis_node_acc": 0.057,
+  "prognosis_node_n": 35,
+  "prognosis_majority_baseline": 0.314,
+  "text_kg_align": 0.5,
+  "text_kg_n": 6,
+  "cf_flip_rate": 0.111,
+  "cf_flip_n": 27,
+  "negctrl_flip_rate": 0.037,
+  "negctrl_flip_n": 27,
+  "faithfulness_gap": 0.074
+ },
+ "preds": {
+  "5L": {
+   "out": "**Step 1 (Visual findings):**\nThe image shows no evidence of intraretinal fluid (IRF) or subretinal fluid (SRF). There is a pigment epithelial detachment (PED) present.\n\n**Step 2 (Pathophysiology):**\nThe presence of a PED suggests that the underlying disease activity is related to chronic disease, likely late-stage macular neovascularization (LMN).\n\n**Step 3 (Predicted treatment response):**\nGiven the presence of a PED, the central subfield thickness (CST) is likely to remain elevated due to the chronic neovascularization.\n\n**Step 4 (Decision):**\nGiven the presence of a PED and the likely chronic neovascularization, the patient should be continued on anti-VEGF therapy.\n\nDecision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": -3.0
+  },
+  "9L": {
+   "out": "Step 1 (Visual findings): There is no evidence of IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The presence of PCV suggests active disease activity, likely due to neovascularization.\n\nStep 3 (Predicted treatment response): The anatomic response to anti-VEGF therapy is likely to be positive, with a decrease in CST.\n\nStep 4 (Decision): Decision: continue.\n\nDecision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -149.0
+  },
+  "20R": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) observed in the image. There is no pigment epithelial detachment (PED) either.\nStep 2 (Pathophysiology): The absence of fluid biomarkers suggests that the underlying disease activity is inactive.\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is unlikely to improve significantly with anti-VEGF therapy.\nStep 4 (Decision): Decision: stop.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "delta_cst": -32.0
+  },
+  "45L": {
+   "out": "Step 1 (Visual findings): The image shows subretinal fluid (SRF) and intraretinal fluid (IRF) in the macula. There is no evidence of pigment epithelial detachment (PED). \n\nStep 2 (Pathophysiology): The presence of SRF and IRF indicates active exudative macular neovascularisation (CNV), which is a hallmark of wet AMD. \n\nStep 3 (Predicted treatment response): Given the active neovascularisation, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": 20.0
+  },
+  "69R": {
+   "out": "Step 1: There is no retinal fluid biomarker present in the image.\n\nStep 2: The underlying disease activity is inactive, as indicated by the absence of retinal fluid and the presence of a normal retinal architecture.\n\nStep 3: The central subfield thickness (CST) is likely to remain stable or decrease slightly in response to anti-VEGF therapy.\n\nStep 4: Decision: continue.\n\nDecision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": -21.0
+  },
+  "110R": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is a central subretinal hyperreflective material (SRHM) consistent with a pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The PED is likely due to the underlying disease activity, which is consistent with active wet AMD.\n\nStep 3 (Predicted treatment response): Given the presence of a PED, the central subfield thickness (CST) is likely to remain elevated or increase in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": 1,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": 8.0
+  },
+  "115R": {
+   "out": "Step 1: The image does not show any intraretinal fluid (IRF), subretinal fluid (SRF), or pigment epithelial detachment (PED). \n\nStep 2: The absence of these biomarkers suggests that the disease activity is inactive.\n\nStep 3: The CST is expected to decrease in response to anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -177.0
+  },
+  "128R": {
+   "out": "Step 1 (Visual findings): The image shows subretinal fluid (SRF) and intraretinal fluid (IRF) in the macula. There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of SRF and IRF indicates active neovascularization, consistent with active wet AMD.\n\nStep 3 (Predicted treatment response): Given the active neovascularization, the central subfield thickness (CST) is likely to remain elevated or worsen without anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "worsening",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "delta_cst": 4.0
+  },
+  "167R": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) visible in the image. There is no pigment epithelial detachment (PED) observed.\n\nStep 2 (Pathophysiology): The absence of IRF, SRF, and PED suggests that the underlying disease activity is inactive.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is unlikely to improve with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "delta_cst": 6.0
+  },
+  "183R": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is a pigment epithelial detachment (PED) visible.\nStep 2 (Pathophysiology): The presence of a PED suggests active disease, likely due to the presence of fluid under the RPE.\nStep 3 (Predicted treatment response): Given the active disease, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": 1,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "delta_cst": -158.0
+  },
+  "193L": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The underlying disease activity is likely neovascular AMD, as indicated by the presence of a CNVM.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to remain elevated due to the presence of the CNVM, and anti-VEGF therapy will not improve the anatomic changes.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": -4.0
+  },
+  "206L": {
+   "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED in the image.\nStep 2 (Pathophysiology): The underlying disease activity is likely inactive, as there are no signs of active fluid or inflammation.\nStep 3 (Predicted treatment response): Given the inactive disease activity, the predicted response to anti-VEGF therapy is likely to be minimal or no change in the CST.\nStep 4 (Decision): Decision: stop.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "delta_cst": -89.0
+  },
+  "209R": {
+   "out": "Step 1 (Visual findings): The OCT image shows subretinal fluid (SRF) and intraretinal fluid (IRF) in the macula. There is also a large central serous pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of SRF and IRF suggests active choroidal neovascularization (CNVM) with leakage, indicating ongoing disease activity.\n\nStep 3 (Predicted treatment response): Given the active disease, I predict that anti-VEGF therapy will lead to a significant reduction in subretinal and intraretinal fluid, resulting in a decrease in central subfield thickness (CST).\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "delta_cst": -15.0
+  },
+  "211R": {
+   "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present, such as IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely inactive, as there is no evidence of fluid or significant pathology.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -347.0
+  },
+  "222R": {
+   "out": "There is no retinal fluid biomarker present in this OCT image. The underlying disease activity is likely inactive due to the absence of fluid. The central subfield thickness (CST) is expected to remain stable or slightly decrease with anti-VEGF therapy. Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "delta_cst": -8.0
+  },
+  "224R": {
+   "out": "<Img>\n\nStep 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) visible in the image.\n\nStep 2 (Pathophysiology): The absence of these biomarkers suggests that there is no active retinal fluid leakage or structural damage, implying a relatively stable disease state.\n\nStep 3 (Predicted treatment response): Given the absence of retinal fluid and structural damage, it is unlikely that the central subfield thickness (CST) will change significantly in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "delta_cst": -517.0
+  },
+  "226R": {
+   "out": "Step 1 (Visual findings): There is no evidence of IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely active DME.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to decrease in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "delta_cst": -57.0
+  },
+  "230L": {
+   "out": "Step 1: The retinal fluid biomarkers present are IRF (intraretinal fluid) and SRF (subretinal fluid). There is no PED (pigment epithelial detachment).\n\nStep 2: The underlying disease activity is likely active DME.\n\nStep 3: Given the presence of IRF and SRF, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "stop",
+   "gt_prog": "worsening",
+   "delta_cst": 56.0
+  },
+  "273L": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF). The image shows a central macular scar with no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The absence of retinal fluid biomarkers suggests inactive disease.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is expected to remain unchanged or slightly decrease due to the inactive disease.\n\nStep 4 (Decision): Decision: stop.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -133.0
+  },
+  "312L": {
+   "out": "<Img>\n\n**Step 1 (Visual findings):** There is no retinal fluid biomarker present in this OCT image.\n\n**Step 2 (Pathophysiology):** The underlying disease activity appears to be inactive, as there are no signs of active neovascularization or inflammation.\n\n**Step 3 (Predicted treatment response):** The central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\n\n**Step 4 (Decision):** Decision: continue.\n\nThis OCT image shows a normal retinal architecture with no signs of active disease or fluid accumulation. The patient should be continued on anti-VEGF therapy to monitor for any potential changes.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "delta_cst": -46.0
+  },
+  "319R": {
+   "out": "Step 1: The image does not show any intraretinal fluid (IRF), subretinal fluid (SRF), or pigment epithelial detachment (PED).\n\nStep 2: The underlying disease activity is likely related to central serous retinal detachment (CSR).\n\nStep 3: The central subfield thickness (CST) is likely to decrease significantly with anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -113.0
+  },
+  "343R": {
+   "out": "Step 1: The retinal fluid biomarkers present are intraretinal fluid (IRF) and subretinal fluid (SRF). There is no pigment epithelial detachment (PED).\n\nStep 2: The underlying disease activity is active macular neovascularization (MNV), which is a hallmark of wet AMD.\n\nStep 3: The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is that it will decrease as the fluid is absorbed.\n\nStep 4: The final decision is to continue anti-VEGF therapy.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "delta_cst": -32.0
+  },
+  "345R": {
+   "out": "<Img>:\n\nStep 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers and the presence of a normal-appearing retina suggest that the disease activity is inactive.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is unlikely to change significantly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.\n\nThe patient does not require anti-VEGF therapy.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "delta_cst": -88.0
+  },
+  "351R": {
+   "out": "Step 1 (Visual findings): The image shows a moderate amount of intraretinal fluid (IRF) in the inner nuclear layer (INL) and the outer plexiform layer (OPL). There is no subretinal fluid (SRF) or pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of intraretinal fluid indicates active disease, likely due to neovascularization or macular edema.\n\nStep 3 (Predicted treatment response): Given the active disease, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "delta_cst": 7.0
+  },
+  "382L": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. However, there is a large drusenoid PED.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely inactive, as there is no evidence of active leakage or fluid accumulation.\n\nStep 3 (Predicted treatment response): Given the absence of active leakage or fluid, the central subfield thickness (CST) is unlikely to improve significantly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 1,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "delta_cst": -41.0
+  },
+  "388L": {
+   "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present in the image. The OCT image shows a normal fovea with no signs of DME.\n\nStep 2 (Pathophysiology): The absence of retinal fluid biomarkers suggests that the underlying disease activity is low to moderate.\n\nStep 3 (Predicted treatment response): Given the absence of retinal fluid, the central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "delta_cst": -65.0
+  },
+  "398R": {
+   "out": "This is a pre-treatment macular OCT B-scan of a patient with DME. \n\nStep 1 (Visual findings): There are no intraretinal fluid biomarkers, no subretinal fluid, and no pigment epithelial detachment.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely related to macular edema, which is not related to neovascularization or inflammation.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to decrease in response to anti-VEGF therapy.\n\nStep 4 (Decision): Continue anti-VEGF therapy.\n\nDecision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -191.0
+  },
+  "402L": {
+   "out": "Step 1 (Visual findings): The retinal fluid biomarkers present are IRF (intraretinal fluid) and SRF (subretinal fluid).\nStep 2 (Pathophysiology): The presence of fluid indicates active disease, likely due to the presence of neovascularization.\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is expected to decrease in response to anti-VEGF therapy.\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": 14.0
+  },
+  "429L": {
+   "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present, including IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The absence of retinal fluid suggests that the underlying disease activity is inactive, indicating that the patient has reached a stable state.\n\nStep 3 (Predicted treatment response): Given the absence of retinal fluid, the central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "delta_cst": 155.0
+  },
+  "461L": {
+   "out": "Step 1 (Visual findings): The image shows subretinal fluid and an intraretinal fluid biomarker, indicating active wet AMD. There is no PED.\n\nStep 2 (Pathophysiology): The presence of subretinal fluid and intraretinal fluid suggests active disease activity.\n\nStep 3 (Predicted treatment response): Given the active disease, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "delta_cst": 81.0
+  },
+  "463L": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) observed in the image.\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers and the normal retinal architecture suggest low disease activity.\n\nStep 3 (Predicted treatment response): Given the low disease activity, the central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "delta_cst": -85.0
+  },
+  "497R": {
+   "out": "Step 1: The image shows no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED). There is no retinal edema or thickening.\n\nStep 2: The absence of these biomarkers suggests that the underlying disease activity is inactive.\n\nStep 3: Given the inactive disease activity, the central subfield thickness (CST) is likely to remain stable or decrease after anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "delta_cst": -285.0
+  },
+  "534R": {
+   "out": "Step 1 (Visual findings): The retinal fluid biomarkers present are SRF (subretinal fluid) and IRF (intraretinal fluid). There is no PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): The presence of SRF and IRF indicates active exudation, which is a sign of active AMD (age-related macular degeneration) with DME (diabetic macular edema). The underlying disease activity is active AMD with DME.\nStep 3 (Predicted treatment response): The active AMD with DME is likely to respond to anti-VEGF therapy, which will reduce the central subfield thickness (CST).\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -138.0
+  },
+  "540R": {
+   "out": "Step 1 (Visual findings): There are no retinal fluid biomarkers present, such as IRF, SRF, or PED, in this OCT image.\n\nStep 2 (Pathophysiology): The absence of these biomarkers suggests that the underlying disease activity is likely related to macular oedema, which is not associated with significant retinal fluid.\n\nStep 3 (Predicted treatment response): Given the absence of retinal fluid, the central subfield thickness (CST) is likely to remain stable or even improve with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "delta_cst": 139.0
+  },
+  "595L": {
+   "out": "Step 1: There is intraretinal fluid (IRF) present. No subretinal fluid (SRF) or pigment epithelial detachment (PED) is observed.\n\nStep 2: The underlying disease activity is active macular edema.\n\nStep 3: The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is expected to be improved.\n\nStep 4: Decision: continue.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "delta_cst": 63.0
+  }
+ }
+}

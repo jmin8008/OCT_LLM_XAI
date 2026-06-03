@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "name": "AntiVEGF-Guideline-KG",
+    "version": "0.1",
+    "description": "Lightweight neuro-symbolic clinical-guideline knowledge graph for anti-VEGF continuation decisions from OCT biomarkers. Directed labelled graph with confidence-weighted causal edges + production rules.",
+    "method_source": "Wang MH, Sensors 2025, 25:6879 (neuro-symbolic + LLM AMD prognosis): ontology KG + symbolic rules + RAG-LLM narrative. Adapted from diagnosis to anti-VEGF treatment-continuation.",
+    "label_source": "anti-VEGF clinical guidelines + APTOS-2021_analysis.md biomarker definitions",
+    "ontology": "UMLS CUIs reused from the repo's KAD OCT-KG (experiments_product/5_kad_oct_diagnosis_executed.ipynb); SNOMED-CT/ICD-10 fields left null where not verified (avoid fabrication)",
+    "notes": "Rules are intentionally few (~10) and fully public for reproducibility. weight in [0,1] encodes clinical confidence."
+  },
+  "nodes": [
+    {"id": "IRF", "type": "biomarker", "label": "Intraretinal fluid", "umls": "C0877237", "snomed": null, "icd10": null, "definition": "Hyporeflective cystoid spaces within retinal layers; marker of active exudation (esp. DME)."},
+    {"id": "SRF", "type": "biomarker", "label": "Subretinal fluid", "umls": "C0729763", "snomed": null, "icd10": null, "definition": "Dome-shaped hyporeflective area between neurosensory retina and RPE; marker of active CNV/exudation."},
+    {"id": "PED", "type": "biomarker", "label": "Pigment epithelial detachment", "umls": "C0035322_ped", "snomed": null, "icd10": null, "definition": "RPE separation from Bruch's membrane; associated with CNV and PCV; activity context-dependent."},
+    {"id": "HRF", "type": "biomarker", "label": "Hyperreflective foci", "umls": "C0155036", "snomed": null, "icd10": null, "definition": "Small discrete hyperreflective dots; highly prevalent (95.7%), weak standalone treatment signal."},
+    {"id": "DME", "type": "diagnosis", "label": "Diabetic macular edema", "umls": "C0730285", "icd10": "E11.311"},
+    {"id": "CNVM", "type": "diagnosis", "label": "Choroidal neovascular membrane", "umls": "C0085525", "icd10": "H35.32"},
+    {"id": "PCV", "type": "diagnosis", "label": "Polypoidal choroidal vasculopathy", "umls": null, "icd10": "H35.32"},
+    {"id": "anti_VEGF", "type": "treatment", "label": "Anti-VEGF therapy", "umls": "C1696862", "icd10": null},
+    {"id": "continue", "type": "outcome", "label": "Continue injection"},
+    {"id": "stop", "type": "outcome", "label": "Stop / observe"},
+    {"id": "case_dependent", "type": "outcome", "label": "Case-dependent"}
+  ],
+  "edges": [
+    {"head": "SRF", "relation": "clinical_implication", "tail": "continue", "weight": 0.85, "evidence": "Persistent subretinal fluid indicates active exudation -> continue anti-VEGF."},
+    {"head": "IRF", "relation": "clinical_implication", "tail": "continue", "weight": 0.80, "evidence": "Intraretinal fluid indicates active edema -> continue anti-VEGF."},
+    {"head": "PED", "relation": "weak_implication", "tail": "case_dependent", "weight": 0.45, "evidence": "PED alone (no IRF/SRF) is context-dependent; serous/fibrovascular subtype matters."},
+    {"head": "HRF", "relation": "weak_implication", "tail": "continue", "weight": 0.35, "evidence": "HRF is highly prevalent and weakly specific; minor contribution."},
+    {"head": "DME", "relation": "associated_with", "tail": "IRF", "weight": 0.80},
+    {"head": "CNVM", "relation": "associated_with", "tail": "SRF", "weight": 0.75},
+    {"head": "CNVM", "relation": "associated_with", "tail": "PED", "weight": 0.60},
+    {"head": "PCV", "relation": "associated_with", "tail": "PED", "weight": 0.70}
+  ],
+  "rules": [
+    {"id": "R1", "if": {"SRF": 1}, "then": "continue", "weight": 0.85, "rationale": "Subretinal fluid present -> active exudation -> continue."},
+    {"id": "R2", "if": {"IRF": 1}, "then": "continue", "weight": 0.80, "rationale": "Intraretinal fluid present -> active edema -> continue."},
+    {"id": "R3", "if": {"IRF": 0, "SRF": 0, "PED": 0}, "then": "stop", "weight": 0.85, "rationale": "No intraretinal/subretinal fluid and no PED (dry macula) -> stop / observe."},
+    {"id": "R4", "if": {"IRF": 0, "SRF": 0, "PED": 1}, "then": "case_dependent", "weight": 0.45, "rationale": "PED only, no active fluid -> case-dependent."}
+  ],
+  "decision_biomarkers": {
+    "continue": ["SRF", "IRF"],
+    "stop": ["IRF", "SRF"]
+  }
+}

@@ -1,0 +1,514 @@
+{
+ "report": {
+  "arm": "D_counterfactual",
+  "n": 35,
+  "decision_balanced_acc": 0.5,
+  "decision_sensitivity": 0.0,
+  "decision_specificity": 1.0,
+  "continue_rate": 0.0,
+  "biomarker_node_acc": 0.482,
+  "biomarker_node_n": 83,
+  "prognosis_node_acc": 0.143,
+  "prognosis_node_n": 35,
+  "prognosis_majority_baseline": 0.314,
+  "text_kg_align": 0.0,
+  "text_kg_n": 13,
+  "cf_flip_rate": null,
+  "cf_flip_n": 0,
+  "negctrl_flip_rate": null,
+  "negctrl_flip_n": 0,
+  "faithfulness_gap": null
+ },
+ "preds": {
+  "5L": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a marked anatomic response to anti-VEGF (large reduction in central subfield thickness).\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "marked_response",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": -3.0
+  },
+  "9L": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -149.0
+  },
+  "20R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "delta_cst": -32.0
+  },
+  "45L": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": 20.0
+  },
+  "69R": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": -21.0
+  },
+  "110R": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": 8.0
+  },
+  "115R": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -177.0
+  },
+  "128R": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "delta_cst": 4.0
+  },
+  "167R": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "delta_cst": 6.0
+  },
+  "183R": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "delta_cst": -158.0
+  },
+  "193L": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": -4.0
+  },
+  "206L": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "delta_cst": -89.0
+  },
+  "209R": {
+   "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Although baseline imaging showed active fluid, the treated macula stabilized and therapy was stopped. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "delta_cst": -15.0
+  },
+  "211R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -347.0
+  },
+  "222R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is not present on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "delta_cst": -8.0
+  },
+  "224R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "delta_cst": -517.0
+  },
+  "226R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "delta_cst": -57.0
+  },
+  "230L": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "worsening",
+   "delta_cst": 56.0
+  },
+  "273L": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -133.0
+  },
+  "312L": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "delta_cst": -46.0
+  },
+  "319R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -113.0
+  },
+  "343R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "delta_cst": -32.0
+  },
+  "345R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "delta_cst": -88.0
+  },
+  "351R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "delta_cst": 7.0
+  },
+  "382L": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is not present on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "delta_cst": -41.0
+  },
+  "388L": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "delta_cst": -65.0
+  },
+  "398R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -191.0
+  },
+  "402L": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is normal).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "delta_cst": 14.0
+  },
+  "429L": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid compartment is empty).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "delta_cst": 155.0
+  },
+  "461L": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "delta_cst": 81.0
+  },
+  "463L": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "delta_cst": -85.0
+  },
+  "497R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty of fluid).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "delta_cst": -285.0
+  },
+  "534R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "delta_cst": -138.0
+  },
+  "540R": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty on this scan).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "delta_cst": 139.0
+  },
+  "595L": {
+   "out": "Step 1 (Visual findings): IRF absent, SRF absent (the intra-/subretinal fluid region is empty).\nStep 2 (Pathophysiology): These findings indicate a dry macula with no active exudation.\nStep 3 (Predicted treatment response): With no active fluid, there is no active disease for anti-VEGF to act on; the macula is anatomically stable.\nStep 4 (Decision): With no active exudation to treat, anti-VEGF is not indicated. Decision: stop",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "delta_cst": 63.0
+  }
+ }
+}

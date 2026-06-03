@@ -1,0 +1,80 @@
+[
+  {
+    "eye_id": "5L",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 274.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "The patient has PCV, which is a late stage of AMD. The presence of retinal fluid indicates active neovascularization. Therefore, the patient will need continued anti-VEGF injections. Answer: continue.",
+    "ci_pred": 1,
+    "bm_text": "The image shows absent IRF, absent SRF, a PED, and present HRF.",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 1,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "9L",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 287.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "The patient has PCV, which indicates active wet AMD. The presence of retinal fluid suggests ongoing disease activity. Therefore, the answer is 'continue' and the patient should continue anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent:\n\n* IRF (intraretinal fluid)\n* SRF (subretinal fluid)\n* PED (pigment epithelial detachment)\n* HRF (hyperreflective foci)",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.8,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "20R",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 297.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Continue. The presence of subretinal fluid indicates active PCV, requiring continued anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "IRF: absent, SRF: absent, PED: absent, HRF: present.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.7,
+    "cst_pred": 176.0
+  }
+]

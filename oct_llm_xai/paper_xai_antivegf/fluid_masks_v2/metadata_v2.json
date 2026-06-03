@@ -1,0 +1,8177 @@
+[
+ {
+  "eye_id": "2L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 64,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 221.0,
+  "post_va": 0.67,
+  "post_cst": 218.0,
+  "delta_cst": -3.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subretinal dark space under lifted band, PED dome"
+ },
+ {
+  "eye_id": "5L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 74,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 277.0,
+  "post_va": 0.25,
+  "post_cst": 274.0,
+  "delta_cst": -3.0,
+  "delta_va": 0.08,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "large subretinal hyporeflective dome beneath band"
+ },
+ {
+  "eye_id": "7R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 55,
+  "gender": "Female",
+  "pre_va": 0.17,
+  "pre_cst": 362.0,
+  "post_va": 0.5,
+  "post_cst": 221.0,
+  "delta_cst": -141.0,
+  "delta_va": 0.33,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "noisy crop, dark cystic spaces within elevated band"
+ },
+ {
+  "eye_id": "9L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Eylea",
+  "age": 43,
+  "gender": "Male",
+  "pre_va": 1.0,
+  "pre_cst": 436.0,
+  "post_va": 1.0,
+  "post_cst": 287.0,
+  "delta_cst": -149.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "large subretinal dome under elevated retina"
+ },
+ {
+  "eye_id": "11L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 71,
+  "gender": "Male",
+  "pre_va": 0.017,
+  "pre_cst": 228.0,
+  "post_va": 0.32,
+  "post_cst": 329.0,
+  "delta_cst": 101.0,
+  "delta_va": 0.303,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 6,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "SRF"
+  ],
+  "mask_note": "small subretinal dark space below band fragment"
+ },
+ {
+  "eye_id": "12R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Razumab",
+  "age": 63,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 376.0,
+  "post_va": 0.1,
+  "post_cst": 346.0,
+  "delta_cst": -30.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "subretinal pocket and intraretinal cysts under dome"
+ },
+ {
+  "eye_id": "13L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 49,
+  "gender": "Female",
+  "pre_va": 0.67,
+  "pre_cst": 220.0,
+  "post_va": 0.67,
+  "post_cst": 232.0,
+  "delta_cst": 12.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "PED"
+  ],
+  "mask_note": "smooth dome elevation of RPE band, PED"
+ },
+ {
+  "eye_id": "15L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Razumab",
+  "age": 66,
+  "gender": "Male",
+  "pre_va": 1.0,
+  "pre_cst": 350.0,
+  "post_va": 0.5,
+  "post_cst": 431.0,
+  "delta_cst": 81.0,
+  "delta_va": -0.5,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "round dark intraretinal cysts below band"
+ },
+ {
+  "eye_id": "17R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 54,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 422.0,
+  "post_va": 0.67,
+  "post_cst": 436.0,
+  "delta_cst": 14.0,
+  "delta_va": 0.35,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subretinal dark dome under elevated band"
+ },
+ {
+  "eye_id": "19L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 68,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 428.0,
+  "post_va": 0.1,
+  "post_cst": 325.0,
+  "delta_cst": -103.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "large subretinal dome plus intraretinal cysts"
+ },
+ {
+  "eye_id": "20R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 329.0,
+  "post_va": 0.5,
+  "post_cst": 297.0,
+  "delta_cst": -32.0,
+  "delta_va": 0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subretinal hyporeflective space beneath lifted band"
+ },
+ {
+  "eye_id": "22R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 65,
+  "gender": "Female",
+  "pre_va": 0.08,
+  "pre_cst": 269.0,
+  "post_va": 0.17,
+  "post_cst": 269.0,
+  "delta_cst": 0.0,
+  "delta_va": 0.09,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "cystic dark spaces within and under elevated band"
+ },
+ {
+  "eye_id": "25L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 57,
+  "gender": "Female",
+  "pre_va": 0.05,
+  "pre_cst": 501.0,
+  "post_va": 0.067,
+  "post_cst": 270.0,
+  "delta_cst": -231.0,
+  "delta_va": 0.017,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "dark cystic subretinal spaces beneath diagonal band"
+ },
+ {
+  "eye_id": "27R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "PCV",
+  "drug": "Avastin",
+  "age": 60,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 356.0,
+  "post_va": 0.1,
+  "post_cst": 328.0,
+  "delta_cst": -28.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subretinal dark dome under elevated retinal band"
+ },
+ {
+  "eye_id": "29R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 72,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 208.0,
+  "post_va": 0.17,
+  "post_cst": 216.0,
+  "delta_cst": 8.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED",
+   "IRF"
+  ],
+  "mask_note": "elevated band with subretinal dark space and PED dome"
+ },
+ {
+  "eye_id": "32R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 65,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 390.0,
+  "post_va": 0.32,
+  "post_cst": 337.0,
+  "delta_cst": -53.0,
+  "delta_va": 0.15,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "PED"
+  ],
+  "mask_note": "large intraretinal cysts over elevated RPE"
+ },
+ {
+  "eye_id": "33R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 63,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 336.0,
+  "post_va": 0.17,
+  "post_cst": 345.0,
+  "delta_cst": 9.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cyst plus subretinal dark band"
+ },
+ {
+  "eye_id": "36R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 58,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 595.0,
+  "post_va": 0.08,
+  "post_cst": 394.0,
+  "delta_cst": -201.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "nasal cysts with subretinal fluid and PED"
+ },
+ {
+  "eye_id": "43R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 60,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 345.0,
+  "post_va": 0.17,
+  "post_cst": 298.0,
+  "delta_cst": -47.0,
+  "delta_va": -0.15,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subretinal dome with PED and small cyst"
+ },
+ {
+  "eye_id": "44R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 24,
+  "gender": "Female",
+  "pre_va": 1.0,
+  "pre_cst": 434.0,
+  "post_va": 0.67,
+  "post_cst": 474.0,
+  "delta_cst": 40.0,
+  "delta_va": -0.33,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subretinal fluid temporal, PED nasal"
+ },
+ {
+  "eye_id": "45L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 78,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 495.0,
+  "post_va": 0.25,
+  "post_cst": 515.0,
+  "delta_cst": 20.0,
+  "delta_va": 0.15,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subretinal dome with overlying cysts and PED"
+ },
+ {
+  "eye_id": "46L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 66,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 417.0,
+  "post_va": 0.5,
+  "post_cst": 372.0,
+  "delta_cst": -45.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "nasal intraretinal cyst, subretinal fluid, PED"
+ },
+ {
+  "eye_id": "47R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 78,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 220.0,
+  "post_va": 0.5,
+  "post_cst": 219.0,
+  "delta_cst": -1.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "PED"
+  ],
+  "mask_note": "intraretinal disturbance over broad PED elevation"
+ },
+ {
+  "eye_id": "50R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 38,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 241.0,
+  "post_va": 0.17,
+  "post_cst": 343.0,
+  "delta_cst": 102.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 15,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "PED",
+   "IRF"
+  ],
+  "mask_note": "large dome PED with intraretinal cysts at base"
+ },
+ {
+  "eye_id": "51L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 70,
+  "gender": "Male",
+  "pre_va": 0.017,
+  "pre_cst": 392.0,
+  "post_va": 0.017,
+  "post_cst": 483.0,
+  "delta_cst": 91.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "PED"
+  ],
+  "mask_note": "tilted scan, hyporeflective wedge under band"
+ },
+ {
+  "eye_id": "53R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Eylea",
+  "age": 75,
+  "gender": "Male",
+  "pre_va": 0.008,
+  "pre_cst": 305.0,
+  "post_va": 0.03,
+  "post_cst": 695.0,
+  "delta_cst": 390.0,
+  "delta_va": 0.022,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subfoveal subretinal fluid with cyst and PED"
+ },
+ {
+  "eye_id": "54R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 74,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 190.0,
+  "post_va": 0.5,
+  "post_cst": 186.0,
+  "delta_cst": -4.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "multiple intraretinal cysts with subretinal fluid"
+ },
+ {
+  "eye_id": "57R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 70,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 274.0,
+  "post_va": 0.32,
+  "post_cst": 265.0,
+  "delta_cst": -9.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subretinal fluid nasal with PED and cysts"
+ },
+ {
+  "eye_id": "63R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 72,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 607.0,
+  "post_va": 0.08,
+  "post_cst": 656.0,
+  "delta_cst": 49.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "SRF",
+   "IRF"
+  ],
+  "mask_note": "tilted noisy scan, dark subretinal space under lifted band"
+ },
+ {
+  "eye_id": "69R",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 75,
+  "gender": "Female",
+  "pre_va": 0.17,
+  "pre_cst": 330.0,
+  "post_va": 0.17,
+  "post_cst": 309.0,
+  "delta_cst": -21.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "PED",
+   "SRF",
+   "IRF"
+  ],
+  "mask_note": "elevated RPE dome with sub-band hyporeflective space"
+ },
+ {
+  "eye_id": "71R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 78,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 219.0,
+  "post_va": 1.0,
+  "post_cst": 217.0,
+  "delta_cst": -2.0,
+  "delta_va": 0.33,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "PED",
+   "SRF",
+   "IRF"
+  ],
+  "mask_note": "elevated mound right, subretinal dark space left of band"
+ },
+ {
+  "eye_id": "77L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 31,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 288.0,
+  "post_va": 0.17,
+  "post_cst": 303.0,
+  "delta_cst": 15.0,
+  "delta_va": -0.15,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "PED"
+  ],
+  "mask_note": "irregular elevated RPE band, left-central PED"
+ },
+ {
+  "eye_id": "79L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 76,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 699.0,
+  "post_va": 0.32,
+  "post_cst": 294.0,
+  "delta_cst": -405.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 4,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "thin tilted band, faint intraretinal cysts"
+ },
+ {
+  "eye_id": "80R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 45,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 476.0,
+  "post_va": 0.25,
+  "post_cst": 307.0,
+  "delta_cst": -169.0,
+  "delta_va": -0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED",
+   "IRF"
+  ],
+  "mask_note": "subretinal dark cleft and RPE elevation under band"
+ },
+ {
+  "eye_id": "83L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 59,
+  "gender": "Female",
+  "pre_va": 0.25,
+  "pre_cst": 383.0,
+  "post_va": 0.5,
+  "post_cst": 295.0,
+  "delta_cst": -88.0,
+  "delta_va": 0.25,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "diffuse thickened edematous band with intraretinal cysts"
+ },
+ {
+  "eye_id": "84L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Accentrix",
+  "age": 24,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 289.0,
+  "post_va": 0.5,
+  "post_cst": 258.0,
+  "delta_cst": -31.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "clear round intraretinal cysts within left thickened band"
+ },
+ {
+  "eye_id": "86R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Razumab",
+  "age": 69,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 258.0,
+  "post_va": 0.17,
+  "post_cst": 229.0,
+  "delta_cst": -29.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED",
+   "IRF"
+  ],
+  "mask_note": "elevated band with subretinal hyporeflective space left"
+ },
+ {
+  "eye_id": "102R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Tricort",
+  "age": 74,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 346.0,
+  "post_va": 0.5,
+  "post_cst": 359.0,
+  "delta_cst": 13.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 3,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "mild left band thickening, faint intraretinal hyporeflectivity"
+ },
+ {
+  "eye_id": "105L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 40,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 219.0,
+  "post_va": 0.67,
+  "post_cst": 277.0,
+  "delta_cst": 58.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "thickened elevated retinal dome right side, intraretinal spaces"
+ },
+ {
+  "eye_id": "108L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Accentrix",
+  "age": 64,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 326.0,
+  "post_va": 0.25,
+  "post_cst": 282.0,
+  "delta_cst": -44.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "round intraretinal cyst left, small RPE bump right"
+ },
+ {
+  "eye_id": "110R",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Razumab",
+  "age": 73,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 325.0,
+  "post_va": 0.67,
+  "post_cst": 333.0,
+  "delta_cst": 8.0,
+  "delta_va": 0.35,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "diffuse thickened band with intraretinal cystic dips"
+ },
+ {
+  "eye_id": "111L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 40,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 261.0,
+  "post_va": 0.03,
+  "post_cst": 245.0,
+  "delta_cst": -16.0,
+  "delta_va": -0.05,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "intraretinal cysts within band, elevated retinal dome right"
+ },
+ {
+  "eye_id": "112R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 57,
+  "gender": "Female",
+  "pre_va": 0.017,
+  "pre_cst": 429.0,
+  "post_va": 0.017,
+  "post_cst": 383.0,
+  "delta_cst": -46.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "PED",
+   "IRF"
+  ],
+  "mask_note": "temporal RPE elevation dome, small intraretinal dark space"
+ },
+ {
+  "eye_id": "114R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 60,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 330.0,
+  "post_va": 0.1,
+  "post_cst": 336.0,
+  "delta_cst": 6.0,
+  "delta_va": 0.02,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [],
+  "has_fluid": 0,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 0,
+  "mask_confidence": "high",
+  "mask_types_seen": [],
+  "mask_note": "negative control, no fluid types present"
+ },
+ {
+  "eye_id": "115R",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 52,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 643.0,
+  "post_va": 0.5,
+  "post_cst": 466.0,
+  "delta_cst": -177.0,
+  "delta_va": 0.4,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "elevated complex, intraretinal cysts and subretinal dark space"
+ },
+ {
+  "eye_id": "116R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 80,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 351.0,
+  "post_va": 0.5,
+  "post_cst": 360.0,
+  "delta_cst": 9.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "central dome, subretinal dark space over PED"
+ },
+ {
+  "eye_id": "117R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 65,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 259.0,
+  "post_va": 0.17,
+  "post_cst": 265.0,
+  "delta_cst": 6.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "mild flat band, faint subretinal/PED elevation"
+ },
+ {
+  "eye_id": "120R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 63,
+  "gender": "Male",
+  "pre_va": 1.0,
+  "pre_cst": 265.0,
+  "post_va": 1.0,
+  "post_cst": 265.0,
+  "delta_cst": 0.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "clear lens-shaped subfoveal SRF, mild PED below"
+ },
+ {
+  "eye_id": "122R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Female",
+  "pre_va": 0.17,
+  "pre_cst": 470.0,
+  "post_va": 0.17,
+  "post_cst": 430.0,
+  "delta_cst": -40.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "lifted retinal dome with subretinal and intraretinal dark spaces"
+ },
+ {
+  "eye_id": "128R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 78,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 266.0,
+  "post_va": 0.67,
+  "post_cst": 270.0,
+  "delta_cst": 4.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subtle subretinal darkening, faint RPE elevation"
+ },
+ {
+  "eye_id": "129L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 273.0,
+  "post_va": 0.5,
+  "post_cst": 264.0,
+  "delta_cst": -9.0,
+  "delta_va": 0.18,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "PED"
+  ],
+  "mask_note": "nasal RPE elevation dome"
+ },
+ {
+  "eye_id": "133R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 75,
+  "gender": "Female",
+  "pre_va": 0.08,
+  "pre_cst": 521.0,
+  "post_va": 0.5,
+  "post_cst": 409.0,
+  "delta_cst": -112.0,
+  "delta_va": 0.42,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "PED"
+  ],
+  "mask_note": "large intraretinal cystic space within bright dome, PED below"
+ },
+ {
+  "eye_id": "134L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Accentrix",
+  "age": 25,
+  "gender": "Female",
+  "pre_va": 0.05,
+  "pre_cst": 297.0,
+  "post_va": 0.67,
+  "post_cst": 242.0,
+  "delta_cst": -55.0,
+  "delta_va": 0.62,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "nasal dome with subretinal dark space and elevation"
+ },
+ {
+  "eye_id": "136L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Accentrix",
+  "age": 63,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 291.0,
+  "post_va": 0.32,
+  "post_cst": 329.0,
+  "delta_cst": 38.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "broad subretinal dark band over RPE elevation"
+ },
+ {
+  "eye_id": "139R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 70,
+  "gender": "Female",
+  "pre_va": 0.25,
+  "pre_cst": 618.0,
+  "post_va": 0.32,
+  "post_cst": 560.0,
+  "delta_cst": -58.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "PED"
+  ],
+  "mask_note": "large intraretinal cysts, RPE elevation underneath"
+ },
+ {
+  "eye_id": "143L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 70,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 256.0,
+  "post_va": 0.25,
+  "post_cst": 255.0,
+  "delta_cst": -1.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "PED"
+  ],
+  "mask_note": "intraretinal dark spaces, subtle RPE elevation"
+ },
+ {
+  "eye_id": "147L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 56,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 419.0,
+  "post_va": 0.32,
+  "post_cst": 493.0,
+  "delta_cst": 74.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "PED"
+  ],
+  "mask_note": "elevated RPE dome with intraretinal cysts"
+ },
+ {
+  "eye_id": "149R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 68,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 445.0,
+  "post_va": 0.5,
+  "post_cst": 411.0,
+  "delta_cst": -34.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "nasal SRF dome under lifted band, PED"
+ },
+ {
+  "eye_id": "152R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 52,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 590.0,
+  "post_va": 0.25,
+  "post_cst": 393.0,
+  "delta_cst": -197.0,
+  "delta_va": 0.15,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "left steep RPE elevation with sub/intraretinal fluid"
+ },
+ {
+  "eye_id": "155L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 69,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 270.0,
+  "post_va": 0.17,
+  "post_cst": 236.0,
+  "delta_cst": -34.0,
+  "delta_va": -0.33,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "PED"
+  ],
+  "mask_note": "subtle shallow RPE elevation, flat band"
+ },
+ {
+  "eye_id": "157L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 59,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 193.0,
+  "post_va": 0.32,
+  "post_cst": 204.0,
+  "delta_cst": 11.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "small intraretinal cystic spaces within thick band"
+ },
+ {
+  "eye_id": "163L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 62,
+  "gender": "Female",
+  "pre_va": 0.17,
+  "pre_cst": 485.0,
+  "post_va": 0.1,
+  "post_cst": 390.0,
+  "delta_cst": -95.0,
+  "delta_va": -0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large round IRF cysts plus subretinal fluid"
+ },
+ {
+  "eye_id": "167R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 48,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 346.0,
+  "post_va": 0.32,
+  "post_cst": 352.0,
+  "delta_cst": 6.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "PED"
+  ],
+  "mask_note": "undulating elevated band, intraretinal cysts and PED"
+ },
+ {
+  "eye_id": "169R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 95,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 433.0,
+  "post_va": 0.25,
+  "post_cst": 338.0,
+  "delta_cst": -95.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "left lifted band with subretinal hyporeflective wedge"
+ },
+ {
+  "eye_id": "183R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 58,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 463.0,
+  "post_va": 0.67,
+  "post_cst": 305.0,
+  "delta_cst": -158.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "distinct IRF cysts and thin subretinal fluid"
+ },
+ {
+  "eye_id": "184R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 52,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 410.0,
+  "post_va": 0.17,
+  "post_cst": 346.0,
+  "delta_cst": -64.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "domed PED with large cystic IRF/SRF spaces"
+ },
+ {
+  "eye_id": "188L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 71,
+  "gender": "Male",
+  "pre_va": 1.0,
+  "pre_cst": 348.0,
+  "post_va": 0.5,
+  "post_cst": 228.0,
+  "delta_cst": -120.0,
+  "delta_va": -0.5,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "broad cystic intra/subretinal fluid over elevated RPE"
+ },
+ {
+  "eye_id": "190L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Razumab",
+  "age": 64,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 336.0,
+  "post_va": 0.5,
+  "post_cst": 313.0,
+  "delta_cst": -23.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "shallow band elevation with mild subretinal fluid"
+ },
+ {
+  "eye_id": "191L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Accentrix",
+  "age": 73,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 213.0,
+  "post_va": 0.5,
+  "post_cst": 205.0,
+  "delta_cst": -8.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "central SRF dome beneath lifted band, PED"
+ },
+ {
+  "eye_id": "193L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Eylea",
+  "age": 75,
+  "gender": "Male",
+  "pre_va": 1.0,
+  "pre_cst": 295.0,
+  "post_va": 1.0,
+  "post_cst": 291.0,
+  "delta_cst": -4.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "elevated band with sub- and intraretinal fluid"
+ },
+ {
+  "eye_id": "195L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 75,
+  "gender": "Female",
+  "pre_va": 0.017,
+  "pre_cst": 429.0,
+  "post_va": 0.008,
+  "post_cst": 537.0,
+  "delta_cst": 108.0,
+  "delta_va": -0.009,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 2,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "small subfoveal intraretinal cyst"
+ },
+ {
+  "eye_id": "198R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Razumab",
+  "age": 65,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 380.0,
+  "post_va": 0.5,
+  "post_cst": 379.0,
+  "delta_cst": -1.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "elevated PED dome with subretinal fluid temporally"
+ },
+ {
+  "eye_id": "199R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 445.0,
+  "post_va": 0.1,
+  "post_cst": 435.0,
+  "delta_cst": -10.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "IRF"
+  ],
+  "mask_note": "subfoveal SRF dome plus small intraretinal cysts"
+ },
+ {
+  "eye_id": "202R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 64,
+  "gender": "Female",
+  "pre_va": 0.08,
+  "pre_cst": 458.0,
+  "post_va": 0.1,
+  "post_cst": 377.0,
+  "delta_cst": -81.0,
+  "delta_va": 0.02,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "large intraretinal cysts over subretinal fluid and PED"
+ },
+ {
+  "eye_id": "204R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 78,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 273.0,
+  "post_va": 0.32,
+  "post_cst": 231.0,
+  "delta_cst": -42.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "shallow PED dome with thin subretinal fluid"
+ },
+ {
+  "eye_id": "206L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 55,
+  "gender": "Female",
+  "pre_va": 0.25,
+  "pre_cst": 345.0,
+  "post_va": 0.5,
+  "post_cst": 256.0,
+  "delta_cst": -89.0,
+  "delta_va": 0.25,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "subretinal fluid beneath elevated nasal band, PED"
+ },
+ {
+  "eye_id": "207R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 76,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 263.0,
+  "post_va": 0.1,
+  "post_cst": 295.0,
+  "delta_cst": 32.0,
+  "delta_va": -0.4,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "PED"
+  ],
+  "mask_note": "dome-shaped RPE elevation, pigment-epithelial detachment"
+ },
+ {
+  "eye_id": "208R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 79,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 282.0,
+  "post_va": 0.25,
+  "post_cst": 381.0,
+  "delta_cst": 99.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "PED"
+  ],
+  "mask_note": "nasal PED with small temporal intraretinal cyst"
+ },
+ {
+  "eye_id": "209R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 82,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 272.0,
+  "post_va": 1.0,
+  "post_cst": 257.0,
+  "delta_cst": -15.0,
+  "delta_va": 0.33,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [],
+  "has_fluid": 0,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 0,
+  "mask_confidence": "high",
+  "mask_types_seen": [],
+  "mask_note": "negative control, no fluid present"
+ },
+ {
+  "eye_id": "210L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 66,
+  "gender": "Female",
+  "pre_va": 1.0,
+  "pre_cst": 221.0,
+  "post_va": 1.0,
+  "post_cst": 204.0,
+  "delta_cst": -17.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "PED",
+   "SRF"
+  ],
+  "mask_note": "temporal PED dome with adjacent subretinal fluid"
+ },
+ {
+  "eye_id": "211R",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "CNVM",
+  "drug": "Avastin",
+  "age": 54,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 551.0,
+  "post_va": 0.08,
+  "post_cst": 204.0,
+  "delta_cst": -347.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 5,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "SRF",
+   "PED",
+   "IRF"
+  ],
+  "mask_note": "tilted scan, subretinal fluid under nasal band"
+ },
+ {
+  "eye_id": "214R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 57,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 472.0,
+  "post_va": 0.17,
+  "post_cst": 630.0,
+  "delta_cst": 158.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "PED"
+  ],
+  "mask_note": "intraretinal cysts in thickened retina, basal PED"
+ },
+ {
+  "eye_id": "217R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 423.0,
+  "post_va": 0.25,
+  "post_cst": 416.0,
+  "delta_cst": -7.0,
+  "delta_va": 0.08,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "diffuse cystoid macular edema, multiple intraretinal cysts"
+ },
+ {
+  "eye_id": "220L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 61,
+  "gender": "Female",
+  "pre_va": 0.08,
+  "pre_cst": 788.0,
+  "post_va": 0.1,
+  "post_cst": 300.0,
+  "delta_cst": -488.0,
+  "delta_va": 0.02,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large central intraretinal cysts in thickened retina"
+ },
+ {
+  "eye_id": "221L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 60,
+  "gender": "Female",
+  "pre_va": 0.17,
+  "pre_cst": 273.0,
+  "post_va": 0.17,
+  "post_cst": 419.0,
+  "delta_cst": 146.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 6,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "left-central intraretinal cysts within thickened band"
+ },
+ {
+  "eye_id": "222R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Accentrix",
+  "age": 55,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 349.0,
+  "post_va": 0.5,
+  "post_cst": 341.0,
+  "delta_cst": -8.0,
+  "delta_va": 0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "nasal intraretinal cystic thickening"
+ },
+ {
+  "eye_id": "224R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 81,
+  "gender": "Female",
+  "pre_va": 0.1,
+  "pre_cst": 717.0,
+  "post_va": 0.1,
+  "post_cst": 200.0,
+  "delta_cst": -517.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large dome-shaped intraretinal cyst"
+ },
+ {
+  "eye_id": "226R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 52,
+  "gender": "Male",
+  "pre_va": 1.0,
+  "pre_cst": 495.0,
+  "post_va": 1.0,
+  "post_cst": 438.0,
+  "delta_cst": -57.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "intraretinal cysts in thickened retina"
+ },
+ {
+  "eye_id": "229R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 58,
+  "gender": "Female",
+  "pre_va": 0.08,
+  "pre_cst": 427.0,
+  "post_va": 0.08,
+  "post_cst": 495.0,
+  "delta_cst": 68.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 16,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cysts plus subretinal dark dome"
+ },
+ {
+  "eye_id": "230L",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 51,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 350.0,
+  "post_va": 0.32,
+  "post_cst": 406.0,
+  "delta_cst": 56.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "central intraretinal cystic thickening"
+ },
+ {
+  "eye_id": "262R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 58,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 595.0,
+  "post_va": 0.32,
+  "post_cst": 410.0,
+  "delta_cst": -185.0,
+  "delta_va": 0.24,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cysts with underlying subretinal fluid"
+ },
+ {
+  "eye_id": "264L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 59,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 230.0,
+  "post_va": 0.25,
+  "post_cst": 227.0,
+  "delta_cst": -3.0,
+  "delta_va": 0.08,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "subtle small intraretinal cysts, thin retina"
+ },
+ {
+  "eye_id": "265L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 65,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 385.0,
+  "post_va": 0.32,
+  "post_cst": 294.0,
+  "delta_cst": -91.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large central intraretinal cystic cavities"
+ },
+ {
+  "eye_id": "269R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 437.0,
+  "post_va": 0.67,
+  "post_cst": 475.0,
+  "delta_cst": 38.0,
+  "delta_va": 0.35,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cyst with subretinal fluid layer"
+ },
+ {
+  "eye_id": "271L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 663.0,
+  "post_va": 0.1,
+  "post_cst": 663.0,
+  "delta_cst": 0.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "diffuse intraretinal cystic thickening"
+ },
+ {
+  "eye_id": "273L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 50,
+  "gender": "Female",
+  "pre_va": 0.25,
+  "pre_cst": 569.0,
+  "post_va": 0.25,
+  "post_cst": 436.0,
+  "delta_cst": -133.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 18,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large intraretinal cysts plus subretinal fluid"
+ },
+ {
+  "eye_id": "278R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 56,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 502.0,
+  "post_va": 0.67,
+  "post_cst": 349.0,
+  "delta_cst": -153.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "nasal intraretinal cysts and subretinal dome"
+ },
+ {
+  "eye_id": "280R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 70,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 436.0,
+  "post_va": 0.25,
+  "post_cst": 406.0,
+  "delta_cst": -30.0,
+  "delta_va": -0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "nasal intraretinal cystic thickening"
+ },
+ {
+  "eye_id": "281L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 40,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 765.0,
+  "post_va": 0.32,
+  "post_cst": 722.0,
+  "delta_cst": -43.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "dark cysts under bright band, noisy crop"
+ },
+ {
+  "eye_id": "292R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 75,
+  "gender": "Female",
+  "pre_va": 0.67,
+  "pre_cst": 528.0,
+  "post_va": 0.67,
+  "post_cst": 268.0,
+  "delta_cst": -260.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "dark intraretinal cyst space left of band"
+ },
+ {
+  "eye_id": "294L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 889.0,
+  "post_va": 0.32,
+  "post_cst": 588.0,
+  "delta_cst": -301.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "dark cyst beneath curving bright arch"
+ },
+ {
+  "eye_id": "295R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 51,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 538.0,
+  "post_va": 0.08,
+  "post_cst": 642.0,
+  "delta_cst": 104.0,
+  "delta_va": -0.24,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "hyporeflective space lower-left under band"
+ },
+ {
+  "eye_id": "299R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 56,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 511.0,
+  "post_va": 0.25,
+  "post_cst": 527.0,
+  "delta_cst": 16.0,
+  "delta_va": -0.25,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "dark dome space under bright arch, subretinal"
+ },
+ {
+  "eye_id": "300R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 62,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 415.0,
+  "post_va": 0.67,
+  "post_cst": 390.0,
+  "delta_cst": -25.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "dark cyst space under domed band"
+ },
+ {
+  "eye_id": "302L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 64,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 759.0,
+  "post_va": 0.5,
+  "post_cst": 409.0,
+  "delta_cst": -350.0,
+  "delta_va": 0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "hyporeflective space under large bright dome"
+ },
+ {
+  "eye_id": "303R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 550.0,
+  "post_va": 0.32,
+  "post_cst": 523.0,
+  "delta_cst": -27.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "broad dark fluid pocket beneath band"
+ },
+ {
+  "eye_id": "304L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 63,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 953.0,
+  "post_va": 0.17,
+  "post_cst": 912.0,
+  "delta_cst": -41.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "scattered dark cysts below RPE line"
+ },
+ {
+  "eye_id": "307L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 65,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 489.0,
+  "post_va": 0.25,
+  "post_cst": 376.0,
+  "delta_cst": -113.0,
+  "delta_va": 0.08,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "dark cysts under domed bright band"
+ },
+ {
+  "eye_id": "311R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Razumab",
+  "age": 56,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 538.0,
+  "post_va": 0.67,
+  "post_cst": 483.0,
+  "delta_cst": -55.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "hyporeflective space under bright dome"
+ },
+ {
+  "eye_id": "312L",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 64,
+  "gender": "Female",
+  "pre_va": 0.08,
+  "pre_cst": 325.0,
+  "post_va": 0.1,
+  "post_cst": 279.0,
+  "delta_cst": -46.0,
+  "delta_va": 0.02,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large cystoid cavity between bright bands"
+ },
+ {
+  "eye_id": "313L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 60,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 717.0,
+  "post_va": 1.0,
+  "post_cst": 458.0,
+  "delta_cst": -259.0,
+  "delta_va": 0.5,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "rounded dark cysts within retinal band"
+ },
+ {
+  "eye_id": "316R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 54,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 565.0,
+  "post_va": 0.5,
+  "post_cst": 634.0,
+  "delta_cst": 69.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "dark cyst space beneath curving band"
+ },
+ {
+  "eye_id": "319R",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 51,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 740.0,
+  "post_va": 0.5,
+  "post_cst": 627.0,
+  "delta_cst": -113.0,
+  "delta_va": 0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cysts with subretinal dark space"
+ },
+ {
+  "eye_id": "322R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 460.0,
+  "post_va": 0.5,
+  "post_cst": 486.0,
+  "delta_cst": 26.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 6,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "small intraretinal cysts, noisy crop"
+ },
+ {
+  "eye_id": "326R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 67,
+  "gender": "Female",
+  "pre_va": 0.25,
+  "pre_cst": 506.0,
+  "post_va": 0.32,
+  "post_cst": 287.0,
+  "delta_cst": -219.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large cystoid intraretinal spaces, thickened retina"
+ },
+ {
+  "eye_id": "327R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 47,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 393.0,
+  "post_va": 0.5,
+  "post_cst": 232.0,
+  "delta_cst": -161.0,
+  "delta_va": 0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "single large intraretinal cyst nasally"
+ },
+ {
+  "eye_id": "328L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 49,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 520.0,
+  "post_va": 0.5,
+  "post_cst": 328.0,
+  "delta_cst": -192.0,
+  "delta_va": 0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cysts and subretinal fluid dome"
+ },
+ {
+  "eye_id": "330R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 60,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 674.0,
+  "post_va": 0.17,
+  "post_cst": 652.0,
+  "delta_cst": -22.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 5,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "subtle dark space, very noisy scan"
+ },
+ {
+  "eye_id": "332L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 69,
+  "gender": "Male",
+  "pre_va": 0.03,
+  "pre_cst": 346.0,
+  "post_va": 0.17,
+  "post_cst": 421.0,
+  "delta_cst": 75.0,
+  "delta_va": 0.14,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large intraretinal cysts in thickened retina"
+ },
+ {
+  "eye_id": "341L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 75,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 316.0,
+  "post_va": 0.25,
+  "post_cst": 284.0,
+  "delta_cst": -32.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cysts with subretinal fluid"
+ },
+ {
+  "eye_id": "342R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 53,
+  "gender": "Female",
+  "pre_va": 0.25,
+  "pre_cst": 392.0,
+  "post_va": 0.67,
+  "post_cst": 302.0,
+  "delta_cst": -90.0,
+  "delta_va": 0.42,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "small intraretinal cysts, low quality scan"
+ },
+ {
+  "eye_id": "343R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 50,
+  "gender": "Female",
+  "pre_va": 0.25,
+  "pre_cst": 497.0,
+  "post_va": 0.32,
+  "post_cst": 465.0,
+  "delta_cst": -32.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cysts plus subretinal dark space"
+ },
+ {
+  "eye_id": "345R",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 64,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 654.0,
+  "post_va": 0.67,
+  "post_cst": 566.0,
+  "delta_cst": -88.0,
+  "delta_va": 0.35,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cyst with subretinal fluid dome"
+ },
+ {
+  "eye_id": "347R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 70,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 453.0,
+  "post_va": 0.1,
+  "post_cst": 534.0,
+  "delta_cst": 81.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large intraretinal cyst and subretinal fluid"
+ },
+ {
+  "eye_id": "348L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 66,
+  "gender": "Female",
+  "pre_va": 0.08,
+  "pre_cst": 369.0,
+  "post_va": 0.1,
+  "post_cst": 374.0,
+  "delta_cst": 5.0,
+  "delta_va": 0.02,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "intraretinal cysts at dome apex"
+ },
+ {
+  "eye_id": "349L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 59,
+  "gender": "Female",
+  "pre_va": 0.1,
+  "pre_cst": 812.0,
+  "post_va": 0.1,
+  "post_cst": 639.0,
+  "delta_cst": -173.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cysts with subretinal fluid"
+ },
+ {
+  "eye_id": "351R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 85,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 656.0,
+  "post_va": 0.17,
+  "post_cst": 663.0,
+  "delta_cst": 7.0,
+  "delta_va": 0.09,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large intraretinal cysts central; thickened retina"
+ },
+ {
+  "eye_id": "352L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 60,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 393.0,
+  "post_va": 0.5,
+  "post_cst": 422.0,
+  "delta_cst": 29.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large central cystoid space under dome"
+ },
+ {
+  "eye_id": "357R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Pagenax",
+  "age": 57,
+  "gender": "Female",
+  "pre_va": 0.03,
+  "pre_cst": 823.0,
+  "post_va": 0.17,
+  "post_cst": 513.0,
+  "delta_cst": -310.0,
+  "delta_va": 0.14,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "multiple intraretinal cysts thickened retina"
+ },
+ {
+  "eye_id": "360L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 59,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 535.0,
+  "post_va": 0.32,
+  "post_cst": 520.0,
+  "delta_cst": -15.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "subtle hyporeflective spaces beneath sloped band"
+ },
+ {
+  "eye_id": "361L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 57,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 750.0,
+  "post_va": 0.32,
+  "post_cst": 549.0,
+  "delta_cst": -201.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 23,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "extensive cystoid macular edema large cysts"
+ },
+ {
+  "eye_id": "368L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 67,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 686.0,
+  "post_va": 0.67,
+  "post_cst": 278.0,
+  "delta_cst": -408.0,
+  "delta_va": 0.35,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "dark cystic region beneath sloped band"
+ },
+ {
+  "eye_id": "371R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Razumab",
+  "age": 58,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 477.0,
+  "post_va": 0.5,
+  "post_cst": 273.0,
+  "delta_cst": -204.0,
+  "delta_va": 0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "subretinal dark dome plus cysts nasal"
+ },
+ {
+  "eye_id": "375L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 368.0,
+  "post_va": 0.67,
+  "post_cst": 362.0,
+  "delta_cst": -6.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "intraretinal cysts under elevated nasal retina"
+ },
+ {
+  "eye_id": "376R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 59,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 387.0,
+  "post_va": 0.32,
+  "post_cst": 485.0,
+  "delta_cst": 98.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "cysts under elevated retina left macula"
+ },
+ {
+  "eye_id": "377L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 410.0,
+  "post_va": 1.0,
+  "post_cst": 245.0,
+  "delta_cst": -165.0,
+  "delta_va": 0.33,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "subretinal dark band plus nasal cysts"
+ },
+ {
+  "eye_id": "378L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Ozurdex",
+  "age": 61,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 556.0,
+  "post_va": 1.0,
+  "post_cst": 377.0,
+  "delta_cst": -179.0,
+  "delta_va": 0.68,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large round intraretinal cyst lower nasal"
+ },
+ {
+  "eye_id": "382L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Razumab",
+  "age": 66,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 441.0,
+  "post_va": 0.32,
+  "post_cst": 400.0,
+  "delta_cst": -41.0,
+  "delta_va": 0.15,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "intraretinal cysts in thickened central retina"
+ },
+ {
+  "eye_id": "388L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 64,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 462.0,
+  "post_va": 0.5,
+  "post_cst": 397.0,
+  "delta_cst": -65.0,
+  "delta_va": 0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1716
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "central temporal intraretinal cysts under band"
+ },
+ {
+  "eye_id": "396L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 52,
+  "gender": "Male",
+  "pre_va": 0.067,
+  "pre_cst": 633.0,
+  "post_va": 0.1,
+  "post_cst": 515.0,
+  "delta_cst": -118.0,
+  "delta_va": 0.033,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "hyporeflective cystic spaces under retinal dome"
+ },
+ {
+  "eye_id": "397L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 474.0,
+  "post_va": 0.67,
+  "post_cst": 508.0,
+  "delta_cst": 34.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 4,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "left intraretinal cyst within thickened retina"
+ },
+ {
+  "eye_id": "398R",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 70,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 681.0,
+  "post_va": 0.5,
+  "post_cst": 490.0,
+  "delta_cst": -191.0,
+  "delta_va": 0.33,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "multicystic DME, large intraretinal cysts"
+ },
+ {
+  "eye_id": "402L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 47,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 804.0,
+  "post_va": 0.17,
+  "post_cst": 818.0,
+  "delta_cst": 14.0,
+  "delta_va": -0.15,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "two large intraretinal cysts central macula"
+ },
+ {
+  "eye_id": "404L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 68,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 499.0,
+  "post_va": 0.67,
+  "post_cst": 355.0,
+  "delta_cst": -144.0,
+  "delta_va": 0.35,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "thickened dome with multiple intraretinal cysts"
+ },
+ {
+  "eye_id": "406L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 54,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 780.0,
+  "post_va": 0.25,
+  "post_cst": 298.0,
+  "delta_cst": -482.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large intraretinal cyst plus subretinal space"
+ },
+ {
+  "eye_id": "411R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 59,
+  "gender": "Male",
+  "pre_va": 0.017,
+  "pre_cst": 696.0,
+  "post_va": 0.017,
+  "post_cst": 670.0,
+  "delta_cst": -26.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 6,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "noisy scan, faint intraretinal cysts"
+ },
+ {
+  "eye_id": "412R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 73,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 495.0,
+  "post_va": 0.5,
+  "post_cst": 363.0,
+  "delta_cst": -132.0,
+  "delta_va": 0.4,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 4,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "tilted low-quality scan, small left cyst"
+ },
+ {
+  "eye_id": "413L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 68,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 545.0,
+  "post_va": 0.32,
+  "post_cst": 300.0,
+  "delta_cst": -245.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1716
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "noisy scan, central intraretinal cyst"
+ },
+ {
+  "eye_id": "416R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 56,
+  "gender": "Female",
+  "pre_va": 0.08,
+  "pre_cst": 361.0,
+  "post_va": 0.25,
+  "post_cst": 425.0,
+  "delta_cst": 64.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 6,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "left intraretinal cyst, adjacent hyperreflective foci"
+ },
+ {
+  "eye_id": "417L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 309.0,
+  "post_va": 0.32,
+  "post_cst": 258.0,
+  "delta_cst": -51.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cysts with subretinal fluid beneath band"
+ },
+ {
+  "eye_id": "419L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 61,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 485.0,
+  "post_va": 0.67,
+  "post_cst": 276.0,
+  "delta_cst": -209.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large multicystic DME, intraretinal cysts dominant"
+ },
+ {
+  "eye_id": "420R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 62,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 597.0,
+  "post_va": 0.32,
+  "post_cst": 555.0,
+  "delta_cst": -42.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "broad intraretinal cystic space central retina"
+ },
+ {
+  "eye_id": "422L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 51,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 458.0,
+  "post_va": 0.32,
+  "post_cst": 432.0,
+  "delta_cst": -26.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "thickened retina, faint intraretinal cyst nasally"
+ },
+ {
+  "eye_id": "423L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 59,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 454.0,
+  "post_va": 0.67,
+  "post_cst": 230.0,
+  "delta_cst": -224.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "multicystic DME, multiple large intraretinal cysts"
+ },
+ {
+  "eye_id": "426L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 52,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 587.0,
+  "post_va": 1.0,
+  "post_cst": 336.0,
+  "delta_cst": -251.0,
+  "delta_va": 0.5,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "thickened retina, central cystoid spaces + sub-band cavity"
+ },
+ {
+  "eye_id": "427L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 59,
+  "gender": "Male",
+  "pre_va": 1.0,
+  "pre_cst": 620.0,
+  "post_va": 1.0,
+  "post_cst": 365.0,
+  "delta_cst": -255.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 16,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "horizontal band of cystoid spaces across macula"
+ },
+ {
+  "eye_id": "428L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 491.0,
+  "post_va": 0.25,
+  "post_cst": 482.0,
+  "delta_cst": -9.0,
+  "delta_va": -0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 20,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large hyporeflective cavity beneath elevated retinal band"
+ },
+ {
+  "eye_id": "429L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 56,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 465.0,
+  "post_va": 0.32,
+  "post_cst": 620.0,
+  "delta_cst": 155.0,
+  "delta_va": -0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "modest nasal cystoid spaces, noisy crop"
+ },
+ {
+  "eye_id": "431R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Accentrix",
+  "age": 76,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 595.0,
+  "post_va": 0.5,
+  "post_cst": 320.0,
+  "delta_cst": -275.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "dark dome beneath sloping retinal band"
+ },
+ {
+  "eye_id": "438R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 62,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 685.0,
+  "post_va": 0.32,
+  "post_cst": 460.0,
+  "delta_cst": -225.0,
+  "delta_va": -0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "small intraretinal cysts along sloping band"
+ },
+ {
+  "eye_id": "453L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 71,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 323.0,
+  "post_va": 0.32,
+  "post_cst": 271.0,
+  "delta_cst": -52.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "cystoid spaces with sub-band hyporeflective cavity"
+ },
+ {
+  "eye_id": "454L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 57,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 397.0,
+  "post_va": 0.32,
+  "post_cst": 327.0,
+  "delta_cst": -70.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "thickened retina, diffuse cystoid spaces"
+ },
+ {
+  "eye_id": "456R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 437.0,
+  "post_va": 0.67,
+  "post_cst": 401.0,
+  "delta_cst": -36.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "subtle inner-retinal cysts, noisy low-quality crop"
+ },
+ {
+  "eye_id": "457L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 63,
+  "gender": "Female",
+  "pre_va": 0.1,
+  "pre_cst": 964.0,
+  "post_va": 0.08,
+  "post_cst": 615.0,
+  "delta_cst": -349.0,
+  "delta_va": -0.02,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 26,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large cystoid macular edema, big retinal mound"
+ },
+ {
+  "eye_id": "458R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 59,
+  "gender": "Female",
+  "pre_va": 0.08,
+  "pre_cst": 497.0,
+  "post_va": 0.08,
+  "post_cst": 362.0,
+  "delta_cst": -135.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "hyporeflective spaces beneath band, noisy crop"
+ },
+ {
+  "eye_id": "461L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 51,
+  "gender": "Female",
+  "pre_va": 0.17,
+  "pre_cst": 411.0,
+  "post_va": 0.67,
+  "post_cst": 492.0,
+  "delta_cst": 81.0,
+  "delta_va": 0.5,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 19,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "thickened retina with cysts and sub-band fluid"
+ },
+ {
+  "eye_id": "463L",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 34,
+  "gender": "Female",
+  "pre_va": 1.0,
+  "pre_cst": 337.0,
+  "post_va": 1.0,
+  "post_cst": 252.0,
+  "delta_cst": -85.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cyst plus sub-band hyporeflective layer"
+ },
+ {
+  "eye_id": "467L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 370.0,
+  "post_va": 0.5,
+  "post_cst": 296.0,
+  "delta_cst": -74.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 12,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "cystoid spaces and sub-retinal hyporeflective band"
+ },
+ {
+  "eye_id": "468L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 50,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 850.0,
+  "post_va": 0.25,
+  "post_cst": 778.0,
+  "delta_cst": -72.0,
+  "delta_va": 0.08,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF",
+   "IRF"
+  ],
+  "mask_note": "dark space beneath lifted sloping retina band, left-central"
+ },
+ {
+  "eye_id": "474L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 69,
+  "gender": "Female",
+  "pre_va": 0.32,
+  "pre_cst": 542.0,
+  "post_va": 0.67,
+  "post_cst": 399.0,
+  "delta_cst": -143.0,
+  "delta_va": 0.35,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal dark spaces within arched thickened band, subretinal below"
+ },
+ {
+  "eye_id": "475L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Female",
+  "pre_va": 0.08,
+  "pre_cst": 666.0,
+  "post_va": 0.08,
+  "post_cst": 584.0,
+  "delta_cst": -82.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "intraretinal cysts in thickened central retinal mass"
+ },
+ {
+  "eye_id": "478R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 62,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 576.0,
+  "post_va": 0.32,
+  "post_cst": 528.0,
+  "delta_cst": -48.0,
+  "delta_va": -0.18,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "round intraretinal cysts plus subretinal dark above RPE"
+ },
+ {
+  "eye_id": "484L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 60,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 550.0,
+  "post_va": 0.1,
+  "post_cst": 355.0,
+  "delta_cst": -195.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 5,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "subtle intraretinal dark spaces near thickened band, low quality"
+ },
+ {
+  "eye_id": "487R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 78,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 501.0,
+  "post_va": 0.17,
+  "post_cst": 389.0,
+  "delta_cst": -112.0,
+  "delta_va": -0.08,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 6,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "dark dome under lifted band on nasal/left side"
+ },
+ {
+  "eye_id": "494L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 49,
+  "gender": "Female",
+  "pre_va": 0.67,
+  "pre_cst": 309.0,
+  "post_va": 0.67,
+  "post_cst": 244.0,
+  "delta_cst": -65.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 5,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "SRF"
+  ],
+  "mask_note": "subretinal dark notch beneath dipping neurosensory band"
+ },
+ {
+  "eye_id": "495R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 58,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 444.0,
+  "post_va": 0.32,
+  "post_cst": 295.0,
+  "delta_cst": -149.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "dark spaces under and within lifted sloping band, left"
+ },
+ {
+  "eye_id": "497R",
+  "split": "test",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 46,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 545.0,
+  "post_va": 0.67,
+  "post_cst": 260.0,
+  "delta_cst": -285.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "two distinct round intraretinal cyst clusters"
+ },
+ {
+  "eye_id": "500L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 266.0,
+  "post_va": 0.5,
+  "post_cst": 417.0,
+  "delta_cst": 151.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 15,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "broad cystic thickening within retina, subretinal above RPE"
+ },
+ {
+  "eye_id": "501L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 57,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 379.0,
+  "post_va": 0.25,
+  "post_cst": 291.0,
+  "delta_cst": -88.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "intraretinal cysts in large thickened retinal mass"
+ },
+ {
+  "eye_id": "502L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 51,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 520.0,
+  "post_va": 0.17,
+  "post_cst": 334.0,
+  "delta_cst": -186.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "round intraretinal cysts across thickened band"
+ },
+ {
+  "eye_id": "503R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 64,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 438.0,
+  "post_va": 1.0,
+  "post_cst": 435.0,
+  "delta_cst": -3.0,
+  "delta_va": 0.33,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 5,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "subtle intraretinal dark spaces, ambiguous low quality"
+ },
+ {
+  "eye_id": "507R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 54,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 301.0,
+  "post_va": 0.17,
+  "post_cst": 423.0,
+  "delta_cst": 122.0,
+  "delta_va": -0.5,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "dark intraretinal wedge descending into central retina"
+ },
+ {
+  "eye_id": "511L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 1.0,
+  "pre_cst": 317.0,
+  "post_va": 1.0,
+  "post_cst": 394.0,
+  "delta_cst": 77.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 6,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "central intraretinal cysts beneath thickened band"
+ },
+ {
+  "eye_id": "513L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Ozrudex",
+  "age": 56,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 421.0,
+  "post_va": 0.25,
+  "post_cst": 347.0,
+  "delta_cst": -74.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 18,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "thickened cystic retina, subretinal dark space at fovea"
+ },
+ {
+  "eye_id": "516L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 679.0,
+  "post_va": 0.1,
+  "post_cst": 669.0,
+  "delta_cst": -10.0,
+  "delta_va": -0.22,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 2,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "diagonal scan, subtle nasal intraretinal cyst"
+ },
+ {
+  "eye_id": "520L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 652.0,
+  "post_va": 0.67,
+  "post_cst": 467.0,
+  "delta_cst": -185.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "sloped thickened retina, nasal cystic spaces"
+ },
+ {
+  "eye_id": "521L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 57,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 787.0,
+  "post_va": 0.08,
+  "post_cst": 567.0,
+  "delta_cst": -220.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "temporal intraretinal cysts under thickened band"
+ },
+ {
+  "eye_id": "523L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 45,
+  "gender": "Female",
+  "pre_va": 1.0,
+  "pre_cst": 387.0,
+  "post_va": 0.67,
+  "post_cst": 359.0,
+  "delta_cst": -28.0,
+  "delta_va": -0.33,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "cystic retina with subfoveal dark space"
+ },
+ {
+  "eye_id": "530L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Accentrix",
+  "age": 63,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 687.0,
+  "post_va": 0.5,
+  "post_cst": 267.0,
+  "delta_cst": -420.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large cystoid spaces in thickened retina"
+ },
+ {
+  "eye_id": "531L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 60,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 818.0,
+  "post_va": 0.1,
+  "post_cst": 640.0,
+  "delta_cst": -178.0,
+  "delta_va": -0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 9,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "multiple intraretinal cysts within bright band"
+ },
+ {
+  "eye_id": "532L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 48,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 368.0,
+  "post_va": 0.17,
+  "post_cst": 604.0,
+  "delta_cst": 236.0,
+  "delta_va": -0.33,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "dark cystic spaces within thickened retina"
+ },
+ {
+  "eye_id": "534R",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Accentrix",
+  "age": 58,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 509.0,
+  "post_va": 0.25,
+  "post_cst": 371.0,
+  "delta_cst": -138.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "intraretinal cysts across thickened retina"
+ },
+ {
+  "eye_id": "540R",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 52,
+  "gender": "Male",
+  "pre_va": 0.17,
+  "pre_cst": 461.0,
+  "post_va": 0.1,
+  "post_cst": 600.0,
+  "delta_cst": 139.0,
+  "delta_va": -0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "broad cystic edema with nasal dark spaces"
+ },
+ {
+  "eye_id": "541L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 53,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 474.0,
+  "post_va": 0.32,
+  "post_cst": 420.0,
+  "delta_cst": -54.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "subtle nasal intraretinal cysts, diagonal scan"
+ },
+ {
+  "eye_id": "545L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 53,
+  "gender": "Female",
+  "pre_va": 0.67,
+  "pre_cst": 510.0,
+  "post_va": 1.0,
+  "post_cst": 233.0,
+  "delta_cst": -277.0,
+  "delta_va": 0.33,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 15,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large cystoid macular edema in domed retina"
+ },
+ {
+  "eye_id": "549L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 61,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 431.0,
+  "post_va": 0.17,
+  "post_cst": 404.0,
+  "delta_cst": -27.0,
+  "delta_va": -0.08,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 6,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "nasal intraretinal cysts in sloped retina"
+ },
+ {
+  "eye_id": "551L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 64,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 635.0,
+  "post_va": 0.25,
+  "post_cst": 242.0,
+  "delta_cst": -393.0,
+  "delta_va": -0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 17,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "thickened retina with broad dark sub-band fluid"
+ },
+ {
+  "eye_id": "554R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 49,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 407.0,
+  "post_va": 1.0,
+  "post_cst": 358.0,
+  "delta_cst": -49.0,
+  "delta_va": 0.33,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 6,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "subtle parafoveal intraretinal cysts, noisy crop"
+ },
+ {
+  "eye_id": "556L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 58,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 374.0,
+  "post_va": 0.32,
+  "post_cst": 293.0,
+  "delta_cst": -81.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 5,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "two round intraretinal cysts within retinal band"
+ },
+ {
+  "eye_id": "558L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 57,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 696.0,
+  "post_va": 0.1,
+  "post_cst": 664.0,
+  "delta_cst": -32.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "tilted noisy crop, dark intraretinal spaces"
+ },
+ {
+  "eye_id": "562R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 68,
+  "gender": "Male",
+  "pre_va": 0.32,
+  "pre_cst": 555.0,
+  "post_va": 0.32,
+  "post_cst": 545.0,
+  "delta_cst": -10.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large nasal cyst plus temporal cystic spaces"
+ },
+ {
+  "eye_id": "564L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 55,
+  "gender": "Female",
+  "pre_va": 0.67,
+  "pre_cst": 384.0,
+  "post_va": 0.67,
+  "post_cst": 401.0,
+  "delta_cst": 17.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "petaloid string of intraretinal cysts"
+ },
+ {
+  "eye_id": "565L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Ozrudex",
+  "age": 62,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 1081.0,
+  "post_va": 0.1,
+  "post_cst": 531.0,
+  "delta_cst": -550.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 10,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "tilted retina, temporal cystic and sub-band spaces"
+ },
+ {
+  "eye_id": "568L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 60,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 435.0,
+  "post_va": 0.5,
+  "post_cst": 397.0,
+  "delta_cst": -38.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "intraretinal cysts under elevated retinal dome"
+ },
+ {
+  "eye_id": "569L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Razumab",
+  "age": 59,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 439.0,
+  "post_va": 0.08,
+  "post_cst": 296.0,
+  "delta_cst": -143.0,
+  "delta_va": -0.02,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF",
+   "PED"
+  ],
+  "mask_note": "large central cyst over elevated RPE dome"
+ },
+ {
+  "eye_id": "570L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 52,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 338.0,
+  "post_va": 0.25,
+  "post_cst": 282.0,
+  "delta_cst": -56.0,
+  "delta_va": 0.15,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 7,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "tilted crop, faint intraretinal dark spaces"
+ },
+ {
+  "eye_id": "571L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 69,
+  "gender": "Female",
+  "pre_va": 0.1,
+  "pre_cst": 763.0,
+  "post_va": 0.67,
+  "post_cst": 882.0,
+  "delta_cst": 119.0,
+  "delta_va": 0.57,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large cyst with subretinal dark space beneath"
+ },
+ {
+  "eye_id": "576L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 57,
+  "gender": "Male",
+  "pre_va": 0.08,
+  "pre_cst": 553.0,
+  "post_va": 0.17,
+  "post_cst": 425.0,
+  "delta_cst": -128.0,
+  "delta_va": 0.09,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "multiple cystic spaces nasal and temporal"
+ },
+ {
+  "eye_id": "577L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 57,
+  "gender": "Female",
+  "pre_va": 0.1,
+  "pre_cst": 527.0,
+  "post_va": 0.1,
+  "post_cst": 392.0,
+  "delta_cst": -135.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cysts with broad subretinal fluid"
+ },
+ {
+  "eye_id": "580R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 46,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 687.0,
+  "post_va": 0.67,
+  "post_cst": 249.0,
+  "delta_cst": -438.0,
+  "delta_va": 0.17,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 17,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large nasal cysts with subretinal fluid pocket"
+ },
+ {
+  "eye_id": "581L",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Tricort",
+  "age": 71,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 522.0,
+  "post_va": 0.32,
+  "post_cst": 274.0,
+  "delta_cst": -248.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "broad intraretinal hyporeflective edema, thin sloping band"
+ },
+ {
+  "eye_id": "585R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 57,
+  "gender": "Male",
+  "pre_va": 0.1,
+  "pre_cst": 715.0,
+  "post_va": 0.1,
+  "post_cst": 618.0,
+  "delta_cst": -97.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 13,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "large cystoid intraretinal cysts in central dome"
+ },
+ {
+  "eye_id": "587R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Ozrudex",
+  "age": 52,
+  "gender": "Female",
+  "pre_va": 0.25,
+  "pre_cst": 560.0,
+  "post_va": 0.25,
+  "post_cst": 211.0,
+  "delta_cst": -349.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 15,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "thick dome with multiple large intraretinal cysts"
+ },
+ {
+  "eye_id": "589R",
+  "split": "train",
+  "continue_injection": 0,
+  "diagnosis": "DME",
+  "drug": "Razumab",
+  "age": 39,
+  "gender": "Male",
+  "pre_va": 0.67,
+  "pre_cst": 711.0,
+  "post_va": 0.32,
+  "post_cst": 245.0,
+  "delta_cst": -466.0,
+  "delta_va": -0.35,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 14,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "intraretinal cysts above, subretinal dark space below"
+ },
+ {
+  "eye_id": "590R",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 65,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 668.0,
+  "post_va": 0.32,
+  "post_cst": 638.0,
+  "delta_cst": -30.0,
+  "delta_va": 0.07,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 8,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "focal intraretinal cyst in elevated retina"
+ },
+ {
+  "eye_id": "593L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 73,
+  "gender": "Female",
+  "pre_va": 0.5,
+  "pre_cst": 451.0,
+  "post_va": 0.5,
+  "post_cst": 426.0,
+  "delta_cst": -25.0,
+  "delta_va": 0.0,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 15,
+  "mask_confidence": "high",
+  "mask_types_seen": [
+   "IRF",
+   "SRF"
+  ],
+  "mask_note": "large intraretinal cysts plus subretinal fluid beneath"
+ },
+ {
+  "eye_id": "595L",
+  "split": "test",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 62,
+  "gender": "Male",
+  "pre_va": 0.5,
+  "pre_cst": 368.0,
+  "post_va": 1.0,
+  "post_cst": 431.0,
+  "delta_cst": 63.0,
+  "delta_va": 0.5,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "fluid_types": [
+   "IRF",
+   "SRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 6,
+  "mask_confidence": "low",
+  "mask_types_seen": [
+   "SRF",
+   "IRF"
+  ],
+  "mask_note": "left subretinal dome, retina otherwise flat subtle"
+ },
+ {
+  "eye_id": "596L",
+  "split": "train",
+  "continue_injection": 1,
+  "diagnosis": "DME",
+  "drug": "Avastin",
+  "age": 67,
+  "gender": "Male",
+  "pre_va": 0.25,
+  "pre_cst": 478.0,
+  "post_va": 0.67,
+  "post_cst": 372.0,
+  "delta_cst": -106.0,
+  "delta_va": 0.42,
+  "biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  },
+  "fluid_types": [
+   "IRF"
+  ],
+  "has_fluid": 1,
+  "img_size": [
+   360,
+   1022
+  ],
+  "grid_n": 12,
+  "fluid_cell_count": 11,
+  "mask_confidence": "med",
+  "mask_types_seen": [
+   "IRF"
+  ],
+  "mask_note": "sloped retina with intraretinal hyporeflective cystic spaces"
+ }
+]

@@ -1,0 +1,16 @@
+{
+ "426L": {"fluid_cells": [[2,3],[2,4],[2,5],[2,6],[2,7],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[3,8],[3,9]], "types_seen": ["IRF","SRF"], "confidence": "high", "note": "thickened retina, central cystoid spaces + sub-band cavity"},
+ "427L": {"fluid_cells": [[2,1],[2,2],[2,3],[2,4],[2,5],[2,6],[2,7],[2,8],[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[3,8]], "types_seen": ["IRF","SRF"], "confidence": "high", "note": "horizontal band of cystoid spaces across macula"},
+ "428L": {"fluid_cells": [[2,3],[2,4],[2,5],[2,6],[2,7],[2,8],[3,0],[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[3,8],[3,9],[4,1],[4,2],[4,3],[4,4]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "large hyporeflective cavity beneath elevated retinal band"},
+ "429L": {"fluid_cells": [[3,0],[3,1],[3,2],[3,3],[4,0],[4,1],[4,2],[4,3],[4,4]], "types_seen": ["IRF"], "confidence": "low", "note": "modest nasal cystoid spaces, noisy crop"},
+ "431R": {"fluid_cells": [[1,1],[1,2],[2,0],[2,1],[2,2],[2,3],[2,4],[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "dark dome beneath sloping retinal band"},
+ "438R": {"fluid_cells": [[1,1],[2,1],[2,2],[2,3],[2,4],[2,5],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7]], "types_seen": ["IRF"], "confidence": "med", "note": "small intraretinal cysts along sloping band"},
+ "453L": {"fluid_cells": [[2,2],[2,3],[2,4],[2,5],[2,6],[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[3,8]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "cystoid spaces with sub-band hyporeflective cavity"},
+ "454L": {"fluid_cells": [[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[3,8],[3,9],[4,1],[4,2],[4,3],[4,4],[4,5]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "thickened retina, diffuse cystoid spaces"},
+ "456R": {"fluid_cells": [[2,2],[2,3],[2,4],[2,5],[2,6],[2,7],[3,3],[3,4],[3,5],[3,6]], "types_seen": ["IRF"], "confidence": "low", "note": "subtle inner-retinal cysts, noisy low-quality crop"},
+ "457L": {"fluid_cells": [[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],[2,1],[2,2],[2,3],[2,4],[2,5],[2,6],[2,7],[2,8],[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[3,8],[4,1],[4,2],[4,3],[4,4]], "types_seen": ["IRF"], "confidence": "high", "note": "large cystoid macular edema, big retinal mound"},
+ "458R": {"fluid_cells": [[2,1],[2,2],[2,3],[2,4],[3,2],[3,3],[3,4],[3,5],[3,6],[4,2],[4,3],[4,4]], "types_seen": ["IRF","SRF"], "confidence": "low", "note": "hyporeflective spaces beneath band, noisy crop"},
+ "461L": {"fluid_cells": [[2,1],[2,2],[2,3],[2,4],[2,5],[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7],[4,8]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "thickened retina with cysts and sub-band fluid"},
+ "463L": {"fluid_cells": [[3,1],[3,2],[3,3],[4,0],[4,1],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7],[4,8]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "intraretinal cyst plus sub-band hyporeflective layer"},
+ "467L": {"fluid_cells": [[3,2],[3,3],[3,4],[3,5],[4,1],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7],[4,8]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "cystoid spaces and sub-retinal hyporeflective band"}
+}

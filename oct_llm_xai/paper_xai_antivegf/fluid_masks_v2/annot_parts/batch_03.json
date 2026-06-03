@@ -1,0 +1,16 @@
+{
+ "112R": {"fluid_cells": [[4,7],[4,8],[5,7],[5,8],[5,9],[6,7],[6,8],[6,9]], "types_seen": ["PED","IRF"], "confidence": "med", "note": "temporal RPE elevation dome, small intraretinal dark space"},
+ "114R": {"fluid_cells": [], "types_seen": [], "confidence": "high", "note": "negative control, no fluid types present"},
+ "115R": {"fluid_cells": [[2,3],[2,4],[2,5],[3,3],[3,4],[3,5],[3,6],[4,3],[4,4],[4,5],[4,6],[5,4],[5,5]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "elevated complex, intraretinal cysts and subretinal dark space"},
+ "116R": {"fluid_cells": [[3,4],[3,5],[4,4],[4,5],[4,6],[4,7],[5,4],[5,5],[5,6],[5,7],[6,5],[6,6]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "central dome, subretinal dark space over PED"},
+ "117R": {"fluid_cells": [[4,3],[4,4],[4,5],[4,6],[5,3],[5,4],[5,5],[5,6]], "types_seen": ["SRF","PED"], "confidence": "low", "note": "mild flat band, faint subretinal/PED elevation"},
+ "120R": {"fluid_cells": [[4,3],[4,4],[4,5],[4,6],[5,3],[5,4],[5,5],[5,6]], "types_seen": ["SRF","PED"], "confidence": "high", "note": "clear lens-shaped subfoveal SRF, mild PED below"},
+ "122R": {"fluid_cells": [[3,4],[3,5],[4,3],[4,4],[4,5],[4,6],[4,7],[5,4],[5,5],[5,6]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "lifted retinal dome with subretinal and intraretinal dark spaces"},
+ "128R": {"fluid_cells": [[4,3],[4,4],[4,5],[4,6],[4,7],[5,4],[5,5],[5,6]], "types_seen": ["SRF","PED"], "confidence": "low", "note": "subtle subretinal darkening, faint RPE elevation"},
+ "129L": {"fluid_cells": [[3,2],[3,3],[4,2],[4,3],[4,4],[4,5],[5,3],[5,4]], "types_seen": ["PED"], "confidence": "med", "note": "nasal RPE elevation dome"},
+ "133R": {"fluid_cells": [[3,3],[3,4],[3,5],[3,6],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7],[5,3],[5,4],[5,5],[5,6]], "types_seen": ["IRF","PED"], "confidence": "med", "note": "large intraretinal cystic space within bright dome, PED below"},
+ "134L": {"fluid_cells": [[2,1],[2,2],[3,1],[3,2],[3,3],[3,4],[3,5],[4,2],[4,3],[4,4],[4,5]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "nasal dome with subretinal dark space and elevation"},
+ "136L": {"fluid_cells": [[4,1],[4,2],[4,3],[4,4],[4,5],[5,1],[5,2],[5,3],[5,4],[5,5],[6,3],[6,4]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "broad subretinal dark band over RPE elevation"},
+ "139R": {"fluid_cells": [[2,4],[2,5],[2,6],[2,7],[3,4],[3,5],[3,6],[3,7],[3,8],[4,5],[4,6],[4,7],[4,8]], "types_seen": ["IRF","PED"], "confidence": "high", "note": "large intraretinal cysts, RPE elevation underneath"},
+ "143L": {"fluid_cells": [[4,3],[4,4],[4,5],[4,6],[5,3],[5,4],[5,5],[5,6]], "types_seen": ["IRF","PED"], "confidence": "low", "note": "intraretinal dark spaces, subtle RPE elevation"}
+}

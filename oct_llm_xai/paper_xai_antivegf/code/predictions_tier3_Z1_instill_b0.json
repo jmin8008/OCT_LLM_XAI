@@ -1,0 +1,706 @@
+[
+ {
+  "eye_id": "5L",
+  "diagnosis": "PCV",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient has PCV, which is a late stage of AMD. Since the patient is already receiving anti-VEGF injections, they should continue these treatments.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"present\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  }
+ },
+ {
+  "eye_id": "9L",
+  "diagnosis": "PCV",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "The image shows evidence of IRF, SRF, and PED. This patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"present\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  }
+ },
+ {
+  "eye_id": "20R",
+  "diagnosis": "PCV",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "45L",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are all present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"present\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  }
+ },
+ {
+  "eye_id": "69R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are present. The patient needs continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "110R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are present. This patient needs continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "115R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "The image shows no IRF, SRF, or PED. The patient does not have active wet AMD and therefore does not need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "128R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  }
+ },
+ {
+  "eye_id": "167R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient does not need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "183R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are all absent. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"present\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  }
+ },
+ {
+  "eye_id": "193L",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient does not need continued anti-VEGF injections. The patient has a pre-treatment macular OCT B-scan with a CNVM, indicating they have already received treatment.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "206L",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 0,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "209R",
+  "diagnosis": "CNVM",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are all present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "211R",
+  "diagnosis": "CNVM",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 1,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient has a large amount of subretinal fluid and a large amount of intraretinal fluid. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "222R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF (intraretinal fluid) is present. SRF (subretinal fluid) and PED (pigment epithelial detachment) are not present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "224R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF (intraretinal fluid) is present. SRF (subretinal fluid) and PED (pigment epithelial detachment) are not present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "226R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient does not need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "230L",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF (intraretinal fluid) is present. SRF (subretinal fluid) and PED (pigment epithelial detachment) are not present. The patient will need to continue anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "273L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are all present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "312L",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient does not need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "319R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient does not need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "325L",
+  "error": "no_bscan_or_mask"
+ },
+ {
+  "eye_id": "343R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF is present, but there is no SRF or PED. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "345R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF is present, SRF is present, and PED is not present. This patient needs continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "351R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "The image shows intraretinal fluid (IRF) and subretinal fluid (SRF). There is no pigment epithelial detachment (PED). The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "382L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF is present, SRF is absent, and PED is absent. The patient will need to continue anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"present\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  }
+ },
+ {
+  "eye_id": "388L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient does not need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "398R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF and SRF are not present, but there is no PED. The patient does not need continued anti-VEGF injections; instead, they should be referred for general ophthalmology care.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "402L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are all present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "429L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient does not need continued anti-VEGF injections; they can stop treatment.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "461L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are all present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "463L",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient does not need continued anti-VEGF injections; they can stop treatment.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "497R",
+  "diagnosis": "DME",
+  "y_continue": 0,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF is present, but there is no SRF or PED. The patient needs continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "534R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient does not need continued anti-VEGF injections; they can stop treatment.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "540R",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF, SRF, and PED are not present. The patient does not have any signs of active wet AMD. The image shows a large area of subretinal fluid and intraretinal fluid, which are indicative of active wet AMD. Therefore, the patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 1,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ },
+ {
+  "eye_id": "595L",
+  "diagnosis": "DME",
+  "y_continue": 1,
+  "y_biomarkers": {
+   "IRF": 1,
+   "SRF": 1,
+   "PED": 0,
+   "HRF": 1
+  },
+  "ci_text": "IRF (intraretinal fluid) is present. SRF (subretinal fluid) and PED (pigment epithelial detachment) are not present. The patient will need continued anti-VEGF injections.",
+  "ci_pred": 1,
+  "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+  "bm_pred": {
+   "IRF": 0,
+   "SRF": 0,
+   "PED": 0,
+   "HRF": 0
+  }
+ }
+]

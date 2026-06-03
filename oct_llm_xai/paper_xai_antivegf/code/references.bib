@@ -1,0 +1,68 @@
+% References for the Anti-VEGF VLM Spectrum + Neuro-Symbolic Guideline KG XAI paper.
+% Primary methodological source for the KG axis (E7): Wang 2025 (Sensors).
+
+@article{wang2025explainable,
+  title   = {Explainable Artificial Intelligence Framework for Predicting Treatment Outcomes in Age-Related Macular Degeneration},
+  author  = {Wang, Mini Han},
+  journal = {Sensors},
+  volume  = {25},
+  number  = {22},
+  pages   = {6879},
+  year    = {2025},
+  doi     = {10.3390/s25226879},
+  note    = {Neuro-symbolic + LLM framework: ontology KG (SNOMED-CT/ICD-10) + symbolic rules + RAG-LLM narratives; >85\% rule-supported reasoning, >90\% biomarker-citation accuracy, test AUROC 0.94, Brier 0.07}
+}
+
+% Secondary scaffolding reference (KG data structure / knowledge encoder only; DQN imitation NOT adopted).
+@article{zhang2023kad,
+  title   = {Knowledge-enhanced visual-language pre-training on chest radiology images},
+  author  = {Zhang, Xiaoman and others},
+  journal = {Nature Communications},
+  volume  = {14},
+  pages   = {4542},
+  year    = {2023},
+  note    = {KAD: UMLS knowledge graph + knowledge encoder; used here only as code scaffolding reference}
+}
+
+% Tier-3 specialist VLM.
+@article{holland2024retinavlm,
+  title   = {Specialist vision-language models for clinical ophthalmology},
+  author  = {Holland, Robbie and others},
+  journal = {arXiv preprint arXiv:2407.08410},
+  year    = {2024},
+  note    = {RetinaVLM}
+}
+
+% Tier-2 medical-generalist VLM.
+@inproceedings{li2023llavamed,
+  title     = {{LLaVA-Med}: Training a Large Language-and-Vision Assistant for Biomedicine in One Day},
+  author    = {Li, Chunyuan and others},
+  booktitle = {NeurIPS},
+  year      = {2023}
+}
+
+% Tier-1 generalist VLM (latest as of 2026-05).
+@article{qwen2025qwen3vl,
+  title   = {Qwen3-VL Technical Report},
+  author  = {{Qwen Team, Alibaba Cloud}},
+  journal = {arXiv preprint arXiv:2511.21631},
+  year    = {2025},
+  note    = {Qwen3-VL-8B-Instruct used as Tier-1 generalist VLM}
+}
+
+% APTOS-2021 anti-VEGF benchmark.
+@article{aptos2025bluesky,
+  title   = {APTOS 2021 Big Data Competition: anti-VEGF treatment response prediction},
+  author  = {{APTOS}},
+  journal = {arXiv preprint arXiv:2505.05768},
+  year    = {2025},
+  note    = {Official scoring formula; BlueSky 1st-place reference scores}
+}
+
+% Attention rollout XAI.
+@inproceedings{abnar2020rollout,
+  title     = {Quantifying Attention Flow in Transformers},
+  author    = {Abnar, Samira and Zuidema, Willem},
+  booktitle = {ACL},
+  year      = {2020}
+}

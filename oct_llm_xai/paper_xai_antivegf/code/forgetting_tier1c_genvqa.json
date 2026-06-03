@@ -1,0 +1,52 @@
+[
+  {
+    "eye_id": "5L",
+    "diagnosis": "PCV",
+    "answer": "The user wants me to identify the type of medical image and describe what I see.\n\n1.  **Image Identification:**\n    *   The image is a cross-sectional scan of tissue.\n    *   It shows distinct layers.\n    *   The top layer is curved and has hyperreflective (bright) bands. This looks like the retina.\n    *   The bottom layer"
+  },
+  {
+    "eye_id": "9L",
+    "diagnosis": "PCV",
+    "answer": "The user wants me to identify the type of medical image and describe what I see.\n\n1.  **Image Analysis:**\n    *   **Modality:** This is a cross-sectional image of tissue. It has a grainy, speckled appearance typical of ultrasound-based imaging. Specifically, the high resolution and the specific layering of the retina suggest Optical Coherence Tomography (OCT"
+  },
+  {
+    "eye_id": "20R",
+    "diagnosis": "PCV",
+    "answer": "The user wants me to identify the type of medical image and describe what I see.\n\n1.  **Image Identification:**\n    *   The image is a cross-sectional scan.\n    *   It shows layers of tissue.\n    *   The top part is dark (vitreous humor).\n    *   There's a distinct, curved, layered structure in the middle. This"
+  },
+  {
+    "eye_id": "45L",
+    "diagnosis": "CNVM",
+    "answer": "The user wants me to identify the type of medical image and describe what I see.\n\n1.  **Image Identification:**\n    *   The image is a cross-sectional scan.\n    *   It shows layers of tissue.\n    *   The top part is dark (vitreous humor).\n    *   The middle part shows distinct hyperreflective (bright) and hyporef"
+  },
+  {
+    "eye_id": "69R",
+    "diagnosis": "CNVM",
+    "answer": "The user wants me to identify the type of medical image and describe what I see.\n\n1.  **Image Analysis:**\n    *   **Visual characteristics:** It's a grayscale, cross-sectional image. It has a grainy, speckled texture typical of ultrasound-based imaging.\n    *   **Structures:** I see distinct layers.\n        *   Top: Dark, empty"
+  },
+  {
+    "eye_id": "110R",
+    "diagnosis": "CNVM",
+    "answer": "The user wants me to identify the type of medical image and describe what I see.\n\n1.  **Image Identification:**\n    *   The image is a cross-sectional scan.\n    *   It shows layers of tissue.\n    *   The top part is dark (vitreous humor).\n    *   The middle part shows distinct hyperreflective (bright) and hyporef"
+  },
+  {
+    "eye_id": "115R",
+    "diagnosis": "CNVM",
+    "answer": "The user wants me to identify the type of medical image and describe what I see.\n\n1.  **Image Identification:**\n    *   The image is grayscale.\n    *   It shows cross-sectional layers of tissue.\n    *   The top layer is curved.\n    *   There are distinct hyper-reflective (bright) and hypo-reflective (dark) bands."
+  },
+  {
+    "eye_id": "128R",
+    "diagnosis": "CNVM",
+    "answer": "The user wants me to identify the type of medical image and describe what I see.\n\n1.  **Image Identification:**\n    *   The image is a cross-sectional scan.\n    *   It shows layers of tissue.\n    *   The top part is dark (vitreous humor).\n    *   The middle part shows distinct hyperreflective (bright) and hyporef"
+  },
+  {
+    "eye_id": "167R",
+    "diagnosis": "CNVM",
+    "answer": "The user wants me to identify the type of medical image and describe what I see.\n\n1.  **Image Analysis:**\n    *   **Modality:** This is clearly an Optical Coherence Tomography (OCT) scan. It's a cross-sectional image of tissue, specifically the retina. The characteristic layered structure is visible.\n    *   **Anatomy:** I see the ret"
+  },
+  {
+    "eye_id": "183R",
+    "diagnosis": "CNVM",
+    "answer": "The user wants me to identify the type of medical image and describe what I see.\n\n1.  **Image Identification:**\n    *   The image is a cross-sectional scan.\n    *   It shows layers of tissue.\n    *   The top layer is relatively smooth but has some irregularities.\n    *   There are distinct hyperreflective (bright) and hyporeflect"
+  }
+]

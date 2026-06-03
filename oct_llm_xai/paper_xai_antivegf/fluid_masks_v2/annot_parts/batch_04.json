@@ -1,0 +1,16 @@
+{
+  "147L": {"fluid_cells": [[3,3],[3,4],[3,5],[3,6],[3,7],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7]], "types_seen": ["IRF","PED"], "confidence": "med", "note": "elevated RPE dome with intraretinal cysts"},
+  "149R": {"fluid_cells": [[3,0],[3,1],[3,2],[3,3],[4,0],[4,1],[4,2],[4,3]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "nasal SRF dome under lifted band, PED"},
+  "152R": {"fluid_cells": [[3,0],[3,1],[3,2],[4,0],[4,1],[4,2],[4,3],[5,0],[5,1],[5,2]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "left steep RPE elevation with sub/intraretinal fluid"},
+  "155L": {"fluid_cells": [[2,3],[2,4],[2,5],[2,6],[2,7],[3,3],[3,4],[3,5],[3,6],[3,7]], "types_seen": ["PED"], "confidence": "low", "note": "subtle shallow RPE elevation, flat band"},
+  "157L": {"fluid_cells": [[4,1],[4,2],[4,3],[4,4],[4,5],[4,6],[5,2],[5,3],[5,4],[5,5]], "types_seen": ["IRF"], "confidence": "low", "note": "small intraretinal cystic spaces within thick band"},
+  "163L": {"fluid_cells": [[1,4],[1,5],[1,6],[1,7],[2,4],[2,5],[2,6],[2,7],[3,4],[3,5],[3,6]], "types_seen": ["IRF","SRF"], "confidence": "high", "note": "large round IRF cysts plus subretinal fluid"},
+  "167R": {"fluid_cells": [[2,1],[2,2],[2,3],[2,4],[2,5],[2,6],[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7]], "types_seen": ["IRF","PED"], "confidence": "med", "note": "undulating elevated band, intraretinal cysts and PED"},
+  "169R": {"fluid_cells": [[3,0],[3,1],[3,2],[4,0],[4,1],[4,2],[4,3],[5,0],[5,1]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "left lifted band with subretinal hyporeflective wedge"},
+  "183R": {"fluid_cells": [[2,2],[2,3],[3,1],[3,2],[3,3],[3,4],[3,5],[4,2],[4,3],[4,4],[4,5]], "types_seen": ["IRF","SRF"], "confidence": "high", "note": "distinct IRF cysts and thin subretinal fluid"},
+  "184R": {"fluid_cells": [[3,3],[3,4],[3,5],[3,6],[3,7],[4,0],[4,1],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7]], "types_seen": ["IRF","SRF","PED"], "confidence": "high", "note": "domed PED with large cystic IRF/SRF spaces"},
+  "188L": {"fluid_cells": [[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[4,1],[4,2],[4,3],[4,4],[4,5],[4,6],[4,7]], "types_seen": ["IRF","SRF","PED"], "confidence": "high", "note": "broad cystic intra/subretinal fluid over elevated RPE"},
+  "190L": {"fluid_cells": [[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7],[4,2],[4,3],[4,4],[4,5],[4,6]], "types_seen": ["SRF","PED"], "confidence": "low", "note": "shallow band elevation with mild subretinal fluid"},
+  "191L": {"fluid_cells": [[3,3],[3,4],[3,5],[3,6],[3,7],[4,3],[4,4],[4,5],[4,6],[4,7],[4,8]], "types_seen": ["SRF","PED"], "confidence": "med", "note": "central SRF dome beneath lifted band, PED"},
+  "193L": {"fluid_cells": [[3,3],[3,4],[3,5],[3,6],[3,7],[4,3],[4,4],[4,5],[4,6],[4,7],[5,5],[5,6],[5,7]], "types_seen": ["IRF","SRF","PED"], "confidence": "med", "note": "elevated band with sub- and intraretinal fluid"}
+}

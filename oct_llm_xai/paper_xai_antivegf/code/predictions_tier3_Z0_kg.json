@@ -1,0 +1,923 @@
+[
+  {
+    "eye_id": "5L",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 274.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "The image shows a patient with PCV, which is characterized by a large pigment epithelial detachment (PED) with underlying retinal hyperreflectivity. There is no subretinal or intraretinal fluid. Since there is no active exudation (fluid), and only a PED is present, the patient does not need continued anti-VEGF injections. The answer is'stop'.",
+    "ci_pred": 1,
+    "bm_text": "The image shows absent IRF, absent SRF, a PED, and present HRF.",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 1,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "9L",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 287.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "The OCT image shows subretinal fluid, which indicates active exudation. According to the clinical guideline, this suggests the patient needs to continue anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent:\n\n* IRF (intraretinal fluid)\n* SRF (subretinal fluid)\n* PED (pigment epithelial detachment)\n* HRF (hyperreflective foci)",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.8,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "20R",
+    "diagnosis": "PCV",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 297.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "continue.",
+    "ci_pred": 1,
+    "bm_text": "IRF: absent, SRF: absent, PED: absent, HRF: present.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.7,
+    "cst_pred": 176.0
+  },
+  {
+    "eye_id": "45L",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 515.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Continue.",
+    "ci_pred": 1,
+    "bm_text": "IRF: present. SRF: present. PED: absent. HRF: present.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": 243.0
+  },
+  {
+    "eye_id": "69R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 309.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "continue.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "110R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 333.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "continue.",
+    "ci_pred": 1,
+    "bm_text": "IRF: absent, SRF: absent, PED: absent, HRF: present.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "115R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 466.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "continue",
+    "ci_pred": 1,
+    "bm_text": "Absent.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.8,
+    "cst_pred": 344.0
+  },
+  {
+    "eye_id": "128R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 270.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "The image shows subretinal fluid, indicating active exudation. Therefore, the patient needs continued anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": 146.0
+  },
+  {
+    "eye_id": "167R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 352.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Continue.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": 247.0
+  },
+  {
+    "eye_id": "183R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 305.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The OCT image shows subretinal fluid, which indicates active exudation. Therefore, the patient needs to continue anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "193L",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 291.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "The patient has subretinal fluid, indicating active exudation. Therefore, the answer is 'continue' and the patient needs continued anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "206L",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 256.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "continue",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": 270.0
+  },
+  {
+    "eye_id": "209R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 257.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue\n\nThe OCT image shows subretinal fluid, indicating active exudation. According to the clinical guideline, this warrants continued anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Present:\n\n* IRF: absent\n* SRF: absent\n* PED: absent\n* HRF: absent",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": 240.0
+  },
+  {
+    "eye_id": "211R",
+    "diagnosis": "CNVM",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.079999998,
+    "y_cst": 204.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "The image shows subretinal fluid, indicating active exudation. Therefore, the patient will need continued anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "222R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 341.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue\n\nThe presence of subretinal fluid indicates active exudation, which necessitates continued anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 1.0,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "224R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 200.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "226R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 438.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The image shows subretinal fluid, indicating active exudation. Therefore, the patient will need continued anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment), HRF (hyperreflective foci).",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "230L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 406.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The retinal OCT image shows subretinal fluid, which indicates active exudation. Therefore, the patient needs to continue anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": 200.0
+  },
+  {
+    "eye_id": "273L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 436.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The patient will need to continue anti-VEGF treatment.",
+    "ci_pred": 1,
+    "bm_text": "Present: subretinal fluid. Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "312L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 279.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The image shows subretinal fluid, which indicates active exudation. Therefore, the patient will need continued anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "319R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 627.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "325L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 181.0,
+    "y_biomarkers": {},
+    "error": "no_pre_bscan"
+  },
+  {
+    "eye_id": "343R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 465.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The patient needs to continue anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "IRF: present, SRF: present, PED: present, HRF: present.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "345R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 566.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.8,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "351R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.170000002,
+    "y_cst": 663.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": 150.0
+  },
+  {
+    "eye_id": "382L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 400.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The image shows subretinal fluid, which indicates active exudation. Therefore, the patient needs to continue anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Present: intraretinal fluid (IRF), absent: subretinal fluid (SRF), present: pigment epithelial detachment (PED), absent: hyperreflective foci (HRF).",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "388L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 397.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Continue.",
+    "ci_pred": 1,
+    "bm_text": "IRF: absent, SRF: absent, PED: absent, HRF: present.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": 270.0
+  },
+  {
+    "eye_id": "398R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 490.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "402L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 818.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The patient has subretinal fluid, indicating active exudation. According to the clinical guideline knowledge, the patient needs to continue anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": 180.0
+  },
+  {
+    "eye_id": "429L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 620.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue\n\nThe presence of retinal fluid indicates active exudation, which necessitates continued anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "461L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 492.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue",
+    "ci_pred": 1,
+    "bm_text": "The image is a macular OCT B-scan. IRF: absent, SRF: absent, PED: absent, HRF: present.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "463L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 252.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": 240.0
+  },
+  {
+    "eye_id": "497R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 260.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue\n\nThe image shows subretinal fluid, which indicates active exudation. Therefore, the patient needs continued anti-VEGF injections.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "534R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 371.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue\n\nThe patient needs continued anti-VEGF injections as there is subretinal fluid present, indicating active exudation.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": 100.0
+  },
+  {
+    "eye_id": "540R",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.100000001,
+    "y_cst": 600.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "continue",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF, SRF, PED, HRF.",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "595L",
+    "diagnosis": "DME",
+    "variant": "Z0",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 431.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The patient has subretinal fluid, indicating active exudation. Therefore, the answer is 'continue'.",
+    "ci_pred": 1,
+    "bm_text": "Absent: IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment), HRF (hyperreflective foci).",
+    "bm_pred": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN,
+      "HRF": NaN
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "class": "CNV",
+    "stage": "late dry",
+    "text": "The OCT image shows a large central area of the retina with no signs of fluid accumulation or hyperreflectivity. There is evidence of drusen and possible RPE irregularities. The most advanced AMD stage is 'late dry' due to the presence of drusen and RPE irregularities."
+  },
+  {
+    "class": "CNV",
+    "stage": "early",
+    "text": "The OCT image shows a retinal OCT with a normal-appearing retinal architecture, with no significant retinal thickening or edema. There is a small amount of subretinal fluid present, which is likely due to a mild diabetic retinopathy (DR) or a mild age-related macular degeneration (AMD). The most adv"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet",
+    "text": "The OCT image shows a large amount of intraretinal fluid, indicating likely neovascularization. There is also some signal hypertransmission to the choroid. No drusen or fibrosis are observed. These findings suggest the patient has late wet AMD, likely due to neovascularization."
+  },
+  {
+    "class": "CNV",
+    "stage": "healthy",
+    "text": "The OCT image shows normal retinal layers with no significant abnormalities. The most advanced AMD stage is 'healthy'."
+  },
+  {
+    "class": "CNV",
+    "stage": "early",
+    "text": "The OCT image shows mild drusen and small cystoid spaces in the outer nuclear layer (ONL) and inner nuclear layer (INL) of the right eye. There is no significant thickening of the retinal pigment epithelium (RPE) or significant intraretinal fluid. The most advanced AMD stage of the patient is likely"
+  },
+  {
+    "class": "CNV",
+    "stage": "late dry",
+    "text": "The OCT image shows a large central drusen-like structure with a rounded shape and a height of approximately 100 \u03bcm. There is no evidence of subretinal or intraretinal fluid, and no signs of neovascularization. The retina appears intact with no significant thinning or thickening. The most likely AMD"
+  },
+  {
+    "class": "CNV",
+    "stage": "healthy",
+    "text": "The OCT image shows no significant abnormalities. The retina appears normal, with no signs of AMD. Therefore, the patient's most advanced AMD stage is 'healthy'."
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The OCT image shows significant abnormalities, including an irregular, hyperreflective area in the outer retina and choroid, which is likely indicative of neovascularization. There is also significant thickening of the retinal layers, particularly in the inner retina. The fovea is not visible due to"
+  },
+  {
+    "class": "CNV",
+    "stage": "healthy",
+    "text": "The OCT image shows a normal retinal architecture with no significant abnormalities. The most advanced AMD stage of the patient is 'healthy'."
+  },
+  {
+    "class": "CNV",
+    "stage": "healthy",
+    "text": "The OCT image shows no signs of AMD. There are no biomarkers or abnormalities indicative of AMD. The patient is healthy."
+  },
+  {
+    "class": "CNV",
+    "stage": "early",
+    "text": "The OCT image shows mild drusen and small hyperreflective foci in the macula, indicating early AMD. The most advanced AMD stage is 'early'."
+  },
+  {
+    "class": "CNV",
+    "stage": "healthy",
+    "text": "The OCT image shows a retinal OCT with no signs of subretinal or intraretinal fluid, no drusen, and no evidence of neovascularization or fibrosis. The retina appears healthy with no signs of AMD. The patient's most advanced AMD stage is 'healthy'."
+  },
+  {
+    "class": "CNV",
+    "stage": "healthy",
+    "text": "The OCT image shows a healthy retina with no signs of AMD. The patient's most advanced AMD stage is 'healthy'."
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The OCT image shows a large central cystic structure with a hyporeflective center, likely a drusen or a cyst, surrounded by a ring of hyperreflective material. There is also a small amount of subretinal fluid in the inner retina. The most advanced AMD stage of the patient is 'late wet (active)'."
+  },
+  {
+    "class": "CNV",
+    "stage": "healthy",
+    "text": "The OCT image shows a large central cystic structure with a clear fluid-filled space. There is no evidence of drusen, retinal pigment epithelial detachment, or neovascularization. The retinal layers appear normal. The most advanced AMD stage of the patient is 'healthy', as there are no biomarkers in"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "early",
+    "text": "The OCT image shows a relatively healthy retina with some minor abnormalities. The most notable feature is a small amount of subretinal fluid, which is likely a result of a minor retinal detachment. There are no signs of significant retinal or choroidal neovascularization. The retinal pigment epithe"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows no biomarkers or abnormalities that would indicate any stage of AMD. The patient's most advanced AMD stage is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows no signs of AMD. The retina appears healthy with no biomarkers or abnormalities. Therefore, the patient's most advanced AMD stage is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows a relatively normal retinal structure with no significant abnormalities. There are no signs of drusen, pigment epithelial detachment, or significant retinal thinning. The retinal layers appear intact, and the macula is normal. The most likely AMD stage of the patient is 'healthy'"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows a normal appearing retina with no signs of AMD. The most advanced AMD stage of the patient is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows no signs of AMD. The retina appears normal with no biomarkers or abnormalities. The patient is likely healthy."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows no abnormalities, indicating a healthy retina. The patient's most advanced AMD stage is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows a normal retinal architecture with no signs of fluid or irregularities. The retinal layers are intact, and there is no evidence of subretinal or intraretinal fluid. The most advanced AMD stage of the patient is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows no biomarkers or abnormalities indicative of AMD. The retina appears healthy. Therefore, the patient's most advanced AMD stage is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows a normal retina with no evidence of AMD. The most advanced AMD stage of the patient is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows a retinal layer with a normal appearance, with no evidence of significant pathology or abnormalities. The most advanced AMD stage of the patient is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows a normal retinal architecture with no significant abnormalities or biomarkers indicative of AMD. The most advanced AMD stage of the patient is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows a normal retinal architecture with no signs of AMD. The most likely AMD stage of the patient is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows a retinal OCT with a normal appearing retinal architecture. There is no evidence of significant retinal thickening, fluid accumulation, or other abnormalities. The most advanced AMD stage of the patient is 'healthy'."
+  },
+  {
+    "class": "NORMAL",
+    "stage": "healthy",
+    "text": "The OCT image shows a relatively normal retinal architecture with no significant abnormalities. There is no evidence of significant retinal thickening, edema, or neovascularization. The retinal pigment epithelium and Bruch's membrane appear intact. The most likely AMD stage of the patient is 'health"
+  }
+]

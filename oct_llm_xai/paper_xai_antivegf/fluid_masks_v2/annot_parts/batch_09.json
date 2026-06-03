@@ -1,0 +1,16 @@
+{
+  "351R": {"fluid_cells": [[2,3],[2,4],[2,5],[3,3],[3,4],[3,5],[3,6],[4,3],[4,4],[4,5],[4,6]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "large intraretinal cysts central; thickened retina"},
+  "352L": {"fluid_cells": [[2,3],[2,4],[2,5],[2,6],[2,7],[3,3],[3,4],[3,5],[3,6],[3,7]], "types_seen": ["IRF"], "confidence": "med", "note": "large central cystoid space under dome"},
+  "357R": {"fluid_cells": [[2,2],[2,3],[2,4],[2,5],[3,2],[3,3],[3,4],[3,5],[3,6],[4,3],[4,4],[4,5]], "types_seen": ["IRF"], "confidence": "med", "note": "multiple intraretinal cysts thickened retina"},
+  "360L": {"fluid_cells": [[2,1],[2,2],[2,3],[3,1],[3,2],[3,3],[3,4]], "types_seen": ["IRF","SRF"], "confidence": "low", "note": "subtle hyporeflective spaces beneath sloped band"},
+  "361L": {"fluid_cells": [[1,1],[1,2],[1,3],[2,0],[2,1],[2,2],[2,3],[2,5],[2,6],[2,7],[3,0],[3,1],[3,2],[3,3],[3,5],[3,6],[3,7],[3,8],[4,1],[4,2],[4,3],[4,6],[4,7]], "types_seen": ["IRF","SRF"], "confidence": "high", "note": "extensive cystoid macular edema large cysts"},
+  "368L": {"fluid_cells": [[2,1],[2,2],[2,3],[2,4],[2,5],[2,6],[3,1],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "dark cystic region beneath sloped band"},
+  "371R": {"fluid_cells": [[2,1],[2,2],[3,0],[3,1],[3,2],[3,3],[4,0],[4,1],[4,2]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "subretinal dark dome plus cysts nasal"},
+  "375L": {"fluid_cells": [[2,1],[2,2],[2,3],[2,4],[3,1],[3,2],[3,3]], "types_seen": ["IRF"], "confidence": "med", "note": "intraretinal cysts under elevated nasal retina"},
+  "376R": {"fluid_cells": [[2,0],[2,1],[2,2],[2,3],[3,0],[3,1],[3,2],[3,3]], "types_seen": ["IRF"], "confidence": "med", "note": "cysts under elevated retina left macula"},
+  "377L": {"fluid_cells": [[2,0],[2,1],[2,2],[3,0],[3,1],[3,2],[3,3],[3,4],[3,5],[3,6]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "subretinal dark band plus nasal cysts"},
+  "378L": {"fluid_cells": [[3,0],[3,1],[4,0],[4,1],[4,2],[5,0],[5,1]], "types_seen": ["IRF"], "confidence": "med", "note": "large round intraretinal cyst lower nasal"},
+  "382L": {"fluid_cells": [[2,3],[2,4],[2,5],[2,6],[2,7],[3,3],[3,4],[3,5],[3,6]], "types_seen": ["IRF"], "confidence": "med", "note": "intraretinal cysts in thickened central retina"},
+  "388L": {"fluid_cells": [[2,4],[2,5],[2,6],[2,7],[2,8],[3,4],[3,5],[3,6],[3,7]], "types_seen": ["IRF"], "confidence": "med", "note": "central temporal intraretinal cysts under band"},
+  "396L": {"fluid_cells": [[3,1],[3,2],[3,3],[3,4],[3,5],[4,1],[4,2],[4,3],[4,4],[4,5]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "hyporeflective cystic spaces under retinal dome"}
+}

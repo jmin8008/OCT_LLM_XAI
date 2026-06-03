@@ -1,0 +1,923 @@
+[
+  {
+    "eye_id": "5L",
+    "diagnosis": "PCV",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 274.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Identifying biomarkers:\n\n{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"present\", \"HRF\": \"absent\"}\n\nApplying clinical guidelines:\n\nThe image shows a PED only, with no active fluid. This is a case-dependent situation, and the final decision is to apply the case-dependent rule.\n\nFinal decision: 'case-dependent'. The patient should be referred to a specialist for further evaluation and management.",
+    "ci_pred": "uncertain",
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "9L",
+    "diagnosis": "PCV",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 287.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the provided OCT image, the report only includes the encoding of the image.\n\nThe identified biomarkers are:\n{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"present\", \"HRF\": \"absent\"}\n\nSince IRF and SRF are absent, and PED is present, the guideline rule applied is \"case-dependent\". The final decision is to \"continue\" because the presence of PED alone does not necessarily indicate active exudation or edema.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "va_pred": 0.8,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "20R",
+    "diagnosis": "PCV",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 297.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "IRF: <present|absent>, SRF: <present|absent>, PED: <present|absent>, HRF: <present|absent>\n\nStep 1 — Identify biomarkers:\nIRF: <present|absent>, SRF: <present|absent>, PED: <present|absent>, HRF: <present|absent>\n\nStep 2 — Apply clinical guidelines:\nIRF present → clinical evidence for continuing anti-VEGF\nSRF present → clinical evidence for continuing anti-VEGF\nIf both IRF and SRF absent (dry macula) → clinical evidence for stopping\nIf PED only, no active fluid → case-dependent\n\nStep 3 — State your final decision: 'continue' or'stop'.\nThe final decision is 'continue'.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.7,
+    "cst_pred": 176.0
+  },
+  {
+    "eye_id": "45L",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 515.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "IRF: <absent>\nSRF: <present>\nPED: <present>\nHRF: <present>\n\nStep 2:\nSince SRF is present, the clinical evidence is for continuing anti-VEGF.\n\nStep 3:\nThe final decision is 'continue'. The guideline rule applied is the presence of subretinal fluid, which indicates active exudation.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": 243.0
+  },
+  {
+    "eye_id": "69R",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 309.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "The image shows no IRF, SRF, PED, or HRF. Therefore, the dry macula guideline is applied, and the decision is to stop anti-VEGF treatment.",
+    "ci_pred": 0,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "110R",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 333.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "IRF: <present>\nSRF: <present>\nPED: <present>\nHRF: <present>\n\nStep 2:\n- If IRF present → clinical evidence for continuing anti-VEGF\n- If SRF present → clinical evidence for continuing anti-VEGF\n- If both IRF and SRF absent (dry macula) → clinical evidence for stopping\n- If PED only, no active fluid → case-dependent\n\nStep 3:\nFinal decision: 'continue'\nExplanation: The presence of intraretinal fluid (IRF) and subretinal fluid (SRF) indicates active exudation, so I will apply the guideline rule to continue anti-VEGF treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "115R",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 466.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "The image shows no intraretinal or subretinal fluid. There is no PED. Therefore, the dry macula guideline rule is applied, and the final decision is to'stop' treatment.",
+    "ci_pred": 0,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.8,
+    "cst_pred": 344.0
+  },
+  {
+    "eye_id": "128R",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 270.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "IRF: <present|absent>, SRF: <present|absent>, PED: <present|absent>, HRF: <present|absent>\n\nStep 1 — Identify biomarkers:\nIRF: <present|absent>, SRF: <present|absent>, PED: <present|absent>, HRF: <present|absent>\n\nStep 2 — Apply clinical guidelines:\n- If IRF present → clinical evidence for continuing anti-VEGF\n- If SRF present → clinical evidence for continuing anti-VEGF\n- If both IRF and SRF absent (dry macula) → clinical evidence for stopping\n- If PED only, no active fluid → case-dependent\n\nStep 3 — State your final decision: 'continue' or'stop'. Answer 'continue' or'stop' and explain which guideline rule you applied.\n\nThe image shows IRF and SRF absent, and PED absent. Therefore, the final decision is",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": 146.0
+  },
+  {
+    "eye_id": "167R",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 352.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "The OCT image shows no biomarkers of interest. The IRF, SRF, PED, and HRF are all absent. Therefore, the final decision is to stop anti-VEGF treatment and observe the patient.",
+    "ci_pred": 0,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": 247.0
+  },
+  {
+    "eye_id": "183R",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 305.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: <present>\nSRF: <present>\nPED: <present>\nHRF: <present>\n\nStep 2:\nSince IRF and SRF are present, the clinical evidence is for continuing anti-VEGF.\n\nStep 3:\nThe final decision is 'continue'.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "193L",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 291.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Identification of biomarkers:\n{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}\n\nApplying clinical guidelines:\nSince IRF and SRF are present, the patient has active edema, and the guideline rule applied is \"continue\" (confidence 0.8).\n\nFinal decision: 'continue'.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "206L",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 256.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "IRF: <present|absent>\nSRF: <present|absent>\nPED: <present|absent>\nHRF: <present|absent>\n\nThe IRF is present, and there is no SRF or PED. The guidelines for the dry macula, where both IRF and SRF are absent, are applied. Therefore, the final decision is to stop anti-VEGF treatment.",
+    "ci_pred": 0,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": 270.0
+  },
+  {
+    "eye_id": "209R",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 257.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Here is the encoding of the retinal OCT image:\n\n{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"absent\"}\n\nStep 2 — Apply clinical guidelines:\n  - If IRF present → clinical evidence for continuing anti-VEGF\n  - If SRF present → clinical evidence for continuing anti-VEGF\n  - If both IRF and SRF absent (dry macula) → clinical evidence for stopping\n  - If PED only, no active fluid → case-dependent\n\nStep 3 — State your final decision: 'continue' or'stop'.\n\nI applied the guideline rule for \"Subretinal fluid present -> active exudation -> continue.\" Therefore, my final decision is 'continue'.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": 240.0
+  },
+  {
+    "eye_id": "211R",
+    "diagnosis": "CNVM",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.079999998,
+    "y_cst": 204.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Step 1 — Identify biomarkers. Report ONLY as JSON:\n  {\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}\n\nStep 2 — Apply clinical guidelines:\n  - Since IRF and SRF are absent, the guidelines suggest stopping treatment.\n\nStep 3 — State your final decision:'stop'. The final decision is to stop treatment because there is no evidence of active fluid or PED.",
+    "ci_pred": 0,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "222R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 341.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Here is the encoding of the retinal OCT image:\n\n{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}\n\nStep 2 — Apply clinical guidelines:\n- If IRF present → clinical evidence for continuing anti-VEGF (applied)\n\nStep 3 — State your final decision: 'continue' or'stop'.\nFinal decision: 'continue'.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 1.0,
+    "cst_pred": 250.0
+  },
+  {
+    "eye_id": "224R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 200.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The image shows no intraretinal or subretinal fluid and no PED. Therefore, the guideline rule applied is'stop / observe' (confidence 0.85). The final decision is'stop'.",
+    "ci_pred": 0,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "226R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 438.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The image shows no intraretinal fluid (IRF) or subretinal fluid (SRF). There is no PED. Therefore, the final decision is to'stop' treatment, as there is no active edema or exudation.",
+    "ci_pred": 0,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "230L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 406.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The IRF is present. Therefore, I apply the clinical guideline: 'continue' and explain that I applied the guideline rule for 'intra-retinal fluid present'.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": 200.0
+  },
+  {
+    "eye_id": "273L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 436.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The image shows subretinal fluid, which indicates active exudation. Therefore, the final decision is to 'continue' anti-VEGF treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "312L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 279.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Step 1 — Identify biomarkers:\n{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}\n\nStep 2 — Apply clinical guidelines:\n- If IRF present → clinical evidence for continuing anti-VEGF (confidence 0.8)\n- If SRF present → clinical evidence for continuing anti-VEGF (confidence 0.85)\n\nStep 3 — State your final decision:\n'continue'\n\nI applied the guidelines for active exudation, which includes the presence of both intraretinal and subretinal fluid.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "319R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 627.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The image does not show any intraretinal or subretinal fluid, nor does it show any pigment epithelial detachment. Therefore, the case-dependent rule is applied, and the final decision is to stop treatment.",
+    "ci_pred": 0,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "325L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 181.0,
+    "y_biomarkers": {},
+    "error": "no_pre_bscan"
+  },
+  {
+    "eye_id": "343R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 465.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: <present|absent> SRF: <present|absent> PED: <present|absent>\n\nStep 1: IRF is present, so the clinical evidence is for continuing anti-VEGF.\n\nStep 3: The final decision is 'continue'.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "345R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 566.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Step 1 — Identify biomarkers:\n{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}\n\nStep 2 — Apply clinical guidelines:\nThe presence of both intraretinal fluid (IRF) and subretinal fluid (SRF) indicates active exudation, so I will apply the rule for subretinal fluid present. This suggests continuing anti-VEGF treatment.\n\nStep 3 — State your final decision:\ncontinue.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.8,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "351R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.170000002,
+    "y_cst": 663.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: present\nSRF: present\nPED: absent\nHRF: absent\n\nApplying the clinical guidelines:\n- If IRF present → clinical evidence for continuing anti-VEGF\n- If SRF present → clinical evidence for continuing anti-VEGF\n- If both IRF and SRF absent (dry macula) → clinical evidence for stopping\n- If PED only, no active fluid → case-dependent\n\nThe image shows intraretinal fluid (IRF) and subretinal fluid (SRF) present. Therefore, the final decision is to continue anti-VEGF treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": 150.0
+  },
+  {
+    "eye_id": "382L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 400.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Here is the JSON encoding of the identified biomarkers:\n\n{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"<absent>\", \"HRF\": \"<absent>\"}\n\nApplying the clinical guidelines:\n\n- Since IRF and SRF are present, the clinical evidence points to continuing anti-VEGF treatment.\n\nFinal decision: 'continue'.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "388L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 397.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF is present. The clinical evidence is for continuing anti-VEGF.",
+    "ci_pred": "uncertain",
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": 270.0
+  },
+  {
+    "eye_id": "398R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 490.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "From the image, the following biomarkers are identified:\n{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}\n\nApplying the clinical guidelines:\n- Since SRF is present, the clinical evidence is for continuing anti-VEGF.\n\nFinal decision: 'continue'.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "402L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 818.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "The identified biomarkers are:\n{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}\n\nApplying the clinical guidelines:\nSince SRF is present, the clinical evidence is for continuing anti-VEGF.\n\nFinal decision: 'continue'.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": 180.0
+  },
+  {
+    "eye_id": "429L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 620.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Here is the interpretation of the retinal OCT image:\n\n{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}\n\nStep 2:\n- If IRF present → clinical evidence for continuing anti-VEGF\n- If SRF present → clinical evidence for continuing anti-VEGF\n\nStep 3:\nI apply the guideline rule: 'continue'. The presence of both intraretinal and subretinal fluid indicates active exudation, which requires continued anti-VEGF treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "461L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 492.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Step 1:\n{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}\n\nStep 2:\nThe presence of both intraretinal and subretinal fluid indicates active exudation. Therefore, the patient should be referred for anti-VEGF treatment.\n\nStep 3:\nThe final decision is to 'continue' anti-VEGF treatment. The applied guideline rule is the presence of subretinal fluid, which indicates active exudation.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "463L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 252.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF: <present>\nSRF: <present>\nPED: <present>\nHRF: <present>\n\nStep 2 — Apply clinical guidelines:\n  - If IRF present → clinical evidence for continuing anti-VEGF\n  - If SRF present → clinical evidence for continuing anti-VEGF\n  - If both IRF and SRF absent (dry macula) → clinical evidence for stopping\n  - If PED only, no active fluid → case-dependent\n\nStep 3 — State your final decision: 'continue' or'stop'.\n\nThe image shows both intraretinal and subretinal fluid, which indicates active exudation. Therefore, I apply the guideline rule \"If SRF present → clinical evidence for continuing anti-VEGF\" and decide to continue treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": 240.0
+  },
+  {
+    "eye_id": "497R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 260.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Step 1 — Biomarkers:\n{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"<present|absent>\", \"HRF\": \"<present|absent>\"}\n\nStep 2 — Clinical guidelines:\nThe presence of intraretinal fluid (IRF) and subretinal fluid (SRF) indicates active edema, which triggers the rule to continue anti-VEGF treatment.\n\nStep 3 — Final decision:\n'continue' - The guidelines recommend continuing anti-VEGF treatment due to the presence of intraretinal and subretinal fluid.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": 0.5,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "534R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 371.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "**Step 1 — Identify biomarkers. Report ONLY as JSON:**\n{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"absent\", \"HRF\": \"absent\"}\n\n**Step 2 — Apply clinical guidelines:**\n\n* If IRF present → clinical evidence for continuing anti-VEGF (confidence 0.8)\n* If SRF present → clinical evidence for continuing anti-VEGF (confidence 0.85)\n\n**Step 3 — State your final decision:**\ncontinue\n\nI applied the guideline rule for subretinal fluid (SRF) and intraretinal fluid (IRF) being present, which indicates active exudation and edema, requiring continuation of anti-VEGF treatment.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": 100.0
+  },
+  {
+    "eye_id": "540R",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 0.100000001,
+    "y_cst": 600.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Step 1 — Identify biomarkers:\n{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"present\", \"HRF\": \"absent\"}\n\nStep 2 — Apply clinical guidelines:\nThe image shows a PED only, no active fluid. This is a case-dependent situation, and the final decision depends on the patient's history and other findings.\n\nStep 3 — State your final decision:\n'stop'. The guideline rule applied is 'PED only, no active fluid -> case-dependent'.",
+    "ci_pred": 0,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "595L",
+    "diagnosis": "DME",
+    "variant": "Z2_KG_COT",
+    "kg_context": true,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 431.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "IRF is present. Therefore, the clinical evidence is for continuing anti-VEGF treatment.",
+    "ci_pred": "uncertain",
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"absent\", \"PED\": \"absent\", \"HRF\": \"absent\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 0
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  }
+]

@@ -1,0 +1,29 @@
+# Heavy / reproducible artifacts — kept out of git history.
+# Regenerate from code: gen_dataset_v2.py, occlude.py, train_lora_b.py.
+__pycache__/
+*.pyc
+
+# Trained LoRA adapters (re-trainable in ~30s; ~105M)
+lora_adapters/
+
+# Rendered image sets (regenerable from masks_12x12.npz + scripts; ~330M)
+fluid_masks_v2/clean/
+fluid_masks_v2/grid/
+fluid_masks_v2/overlay/
+fluid_masks_v2/occluded/
+fluid_masks_v2/occluded_negctrl/
+fluid_masks_v2/*.png
+fluid_masks/clean/
+fluid_masks/grid/
+fluid_masks/overlay/
+fluid_masks/annot/
+fluid_masks/*.png
+
+# Prior XAI heatmap renders (~5M images)
+code/xai_heatmaps/
+
+# logs
+code/*.log
+
+# KEPT (source-of-truth): all *.py, *.json, *.npz, *.md, annot_parts/, batches/,
+# masks_12x12.{json,npz}, metadata_v2.json, sft_data/, READMEs, changelog.

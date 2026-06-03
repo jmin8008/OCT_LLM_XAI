@@ -1,0 +1,16 @@
+{
+  "281L": {"fluid_cells": [[2,1],[2,2],[2,3],[3,1],[3,2],[3,3],[3,4],[4,2],[4,3]], "types_seen": ["IRF","SRF"], "confidence": "low", "note": "dark cysts under bright band, noisy crop"},
+  "292R": {"fluid_cells": [[2,0],[2,1],[2,2],[2,3],[3,0],[3,1],[3,2],[3,3],[4,0],[4,1]], "types_seen": ["IRF"], "confidence": "med", "note": "dark intraretinal cyst space left of band"},
+  "294L": {"fluid_cells": [[2,0],[2,1],[2,2],[3,0],[3,1],[3,2],[3,3],[4,0],[4,1],[4,2]], "types_seen": ["IRF"], "confidence": "med", "note": "dark cyst beneath curving bright arch"},
+  "295R": {"fluid_cells": [[2,0],[2,1],[3,0],[3,1],[3,2],[4,0],[4,1]], "types_seen": ["IRF","SRF"], "confidence": "low", "note": "hyporeflective space lower-left under band"},
+  "299R": {"fluid_cells": [[3,1],[3,2],[3,3],[3,4],[4,1],[4,2],[4,3],[4,4],[4,5],[5,2],[5,3]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "dark dome space under bright arch, subretinal"},
+  "300R": {"fluid_cells": [[3,1],[3,2],[3,3],[4,0],[4,1],[4,2],[4,3],[4,4],[5,1],[5,2],[5,3]], "types_seen": ["IRF"], "confidence": "med", "note": "dark cyst space under domed band"},
+  "302L": {"fluid_cells": [[2,2],[2,3],[2,4],[3,1],[3,2],[3,3],[3,4],[3,5],[4,2],[4,3],[4,4]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "hyporeflective space under large bright dome"},
+  "303R": {"fluid_cells": [[3,2],[3,3],[3,4],[3,5],[4,2],[4,3],[4,4],[4,5],[4,6],[5,3],[5,4]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "broad dark fluid pocket beneath band"},
+  "304L": {"fluid_cells": [[2,0],[2,1],[2,2],[3,0],[3,1],[3,2],[3,3],[4,0],[4,1],[4,2]], "types_seen": ["IRF","SRF"], "confidence": "low", "note": "scattered dark cysts below RPE line"},
+  "307L": {"fluid_cells": [[2,1],[2,2],[2,3],[3,1],[3,2],[3,3],[3,4],[4,2],[4,3],[4,4]], "types_seen": ["IRF"], "confidence": "med", "note": "dark cysts under domed bright band"},
+  "311R": {"fluid_cells": [[2,0],[2,1],[2,2],[3,0],[3,1],[3,2],[3,3],[4,1],[4,2],[4,3]], "types_seen": ["IRF"], "confidence": "med", "note": "hyporeflective space under bright dome"},
+  "312L": {"fluid_cells": [[2,3],[2,4],[2,5],[2,6],[2,7],[3,0],[3,3],[3,4],[3,5],[3,6],[3,7],[3,8]], "types_seen": ["IRF","SRF"], "confidence": "high", "note": "large cystoid cavity between bright bands"},
+  "313L": {"fluid_cells": [[2,1],[2,2],[2,3],[2,4],[3,0],[3,1],[3,2],[3,3],[3,4],[4,1],[4,2]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "rounded dark cysts within retinal band"},
+  "316R": {"fluid_cells": [[3,0],[3,1],[3,2],[3,3],[4,0],[4,1],[4,2],[4,3],[4,4]], "types_seen": ["IRF"], "confidence": "med", "note": "dark cyst space beneath curving band"}
+}

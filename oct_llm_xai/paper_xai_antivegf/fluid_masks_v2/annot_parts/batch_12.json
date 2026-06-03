@@ -1,0 +1,16 @@
+{
+  "468L": {"fluid_cells": [[2,1],[2,2],[2,3],[3,1],[3,2],[3,3],[3,4],[3,5],[2,4]], "types_seen": ["SRF","IRF"], "confidence": "med", "note": "dark space beneath lifted sloping retina band, left-central"},
+  "474L": {"fluid_cells": [[2,4],[2,5],[2,6],[2,7],[3,4],[3,5],[3,6],[3,7],[3,8]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "intraretinal dark spaces within arched thickened band, subretinal below"},
+  "475L": {"fluid_cells": [[2,3],[2,4],[2,5],[2,6],[2,7],[3,4],[3,5],[3,6],[3,7]], "types_seen": ["IRF"], "confidence": "med", "note": "intraretinal cysts in thickened central retinal mass"},
+  "478R": {"fluid_cells": [[1,1],[1,2],[2,1],[2,2],[2,6],[2,7],[2,8],[3,3],[3,4],[3,5],[3,6]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "round intraretinal cysts plus subretinal dark above RPE"},
+  "484L": {"fluid_cells": [[2,1],[2,2],[3,1],[3,2],[3,3]], "types_seen": ["IRF"], "confidence": "low", "note": "subtle intraretinal dark spaces near thickened band, low quality"},
+  "487R": {"fluid_cells": [[2,0],[2,1],[2,2],[3,0],[3,1],[3,2]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "dark dome under lifted band on nasal/left side"},
+  "494L": {"fluid_cells": [[3,2],[3,3],[3,4],[3,5],[3,6]], "types_seen": ["SRF"], "confidence": "med", "note": "subretinal dark notch beneath dipping neurosensory band"},
+  "495R": {"fluid_cells": [[2,0],[2,1],[2,2],[2,3],[3,1],[3,2],[3,3],[3,4]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "dark spaces under and within lifted sloping band, left"},
+  "497R": {"fluid_cells": [[3,1],[3,2],[3,3],[3,6],[3,7],[3,8],[2,7]], "types_seen": ["IRF"], "confidence": "high", "note": "two distinct round intraretinal cyst clusters"},
+  "500L": {"fluid_cells": [[2,1],[2,2],[2,3],[2,4],[2,5],[2,6],[2,7],[2,8],[2,9],[3,2],[3,3],[3,4],[3,5],[3,6],[3,7]], "types_seen": ["IRF","SRF"], "confidence": "med", "note": "broad cystic thickening within retina, subretinal above RPE"},
+  "501L": {"fluid_cells": [[2,1],[2,2],[2,3],[2,4],[2,5],[2,6],[2,7],[2,8],[3,2],[3,3],[3,4],[3,5],[3,6]], "types_seen": ["IRF"], "confidence": "med", "note": "intraretinal cysts in large thickened retinal mass"},
+  "502L": {"fluid_cells": [[2,1],[2,2],[2,5],[2,6],[2,7],[3,0],[3,1],[3,2],[3,3],[3,4]], "types_seen": ["IRF"], "confidence": "med", "note": "round intraretinal cysts across thickened band"},
+  "503R": {"fluid_cells": [[2,2],[2,3],[2,4],[2,5],[2,6]], "types_seen": ["IRF"], "confidence": "low", "note": "subtle intraretinal dark spaces, ambiguous low quality"},
+  "507R": {"fluid_cells": [[2,1],[2,2],[2,3],[3,1],[3,2],[3,3],[3,4]], "types_seen": ["IRF"], "confidence": "med", "note": "dark intraretinal wedge descending into central retina"}
+}

@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "name": "AntiVEGF-Guideline-KG",
+    "version": "0.2-multihop",
+    "description": "Multi-hop (Node-Edge-Node) clinical-guideline KG for anti-VEGF continuation. Extends v0.1 with an explicit 4-layer causal chain (Visual -> Pathophysiology -> Prognosis -> Decision) used to RENDER chain-of-thought SFT targets. Each node is supervised by its own ground truth: Visual=image biomarker labels, Prognosis=measured ΔCST category, Decision=recorded continue/stop label. The connective narrative is guideline-based (non-deterministic) so eyes whose response and decision diverge are rendered honestly rather than contradictorily.",
+    "method_source": "Wang MH, Sensors 2025 25:6879 (neuro-symbolic causal/temporal reasoning + counterfactual). v0.2 adopts Wang's temporal-response framing: prognosis is a PREDICTED treatment-response node, not a static rule.",
+    "design_note": "Input to the model is the PRE-treatment image ONLY. Prognosis (ΔCST response) is a PREDICTION TARGET the model must infer from the image, NOT an input hint. Its per-node accuracy is scored against measured ΔCST (informational-limit finding if unlearnable)."
+  },
+  "layers": ["visual", "pathophysiology", "prognosis", "decision"],
+  "nodes": [
+    {"id": "IRF", "layer": "visual", "label": "Intraretinal fluid", "umls": "C0877237"},
+    {"id": "SRF", "layer": "visual", "label": "Subretinal fluid", "umls": "C0729763"},
+    {"id": "PED", "layer": "visual", "label": "Pigment epithelial detachment", "umls": "C0035322_ped"},
+    {"id": "HRF", "layer": "visual", "label": "Hyperreflective foci", "umls": "C0155036"},
+    {"id": "active_exudation", "layer": "pathophysiology", "label": "Active exudative disease", "narrative": "active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process)"},
+    {"id": "ped_indeterminate", "layer": "pathophysiology", "label": "PED without active fluid", "narrative": "a pigment epithelial detachment without active intra- or sub-retinal fluid, an activity-indeterminate finding"},
+    {"id": "dry_macula", "layer": "pathophysiology", "label": "Dry macula", "narrative": "a dry macula with no active exudation"},
+    {"id": "marked_response", "layer": "prognosis", "label": "Marked anatomic responder", "narrative": "a marked anatomic response to anti-VEGF (large reduction in central subfield thickness)"},
+    {"id": "partial_response", "layer": "prognosis", "label": "Partial responder", "narrative": "a partial anatomic response to anti-VEGF"},
+    {"id": "minimal_response", "layer": "prognosis", "label": "Minimal responder", "narrative": "little anatomic change under anti-VEGF"},
+    {"id": "worsening", "layer": "prognosis", "label": "Anatomic worsening", "narrative": "anatomic worsening despite anti-VEGF"},
+    {"id": "no_active_disease", "layer": "prognosis", "label": "No active disease to treat", "narrative": "no active disease for anti-VEGF to act on"},
+    {"id": "continue", "layer": "decision", "label": "Continue injection"},
+    {"id": "stop", "layer": "decision", "label": "Stop / observe"}
+  ],
+  "edges": [
+    {"head": "IRF", "tail": "active_exudation", "relation": "indicates", "weight": 0.80},
+    {"head": "SRF", "tail": "active_exudation", "relation": "indicates", "weight": 0.85},
+    {"head": "PED", "tail": "ped_indeterminate", "relation": "indicates", "weight": 0.45},
+    {"head": "active_exudation", "tail": "continue", "relation": "guideline_favors", "weight": 0.82},
+    {"head": "dry_macula", "tail": "stop", "relation": "guideline_favors", "weight": 0.85},
+    {"head": "marked_response", "tail": "stop", "relation": "response_favors", "weight": 0.70},
+    {"head": "minimal_response", "tail": "continue", "relation": "response_favors", "weight": 0.65}
+  ],
+  "prognosis_thresholds_delta_cst_um": {
+    "marked_response": {"max": -100.0},
+    "partial_response": {"min": -100.0, "max": -25.0},
+    "minimal_response": {"min": -25.0, "max": 25.0},
+    "worsening": {"min": 25.0}
+  },
+  "guideline_rules": [
+    {"id": "R1", "if": {"SRF": 1}, "then": "continue", "weight": 0.85, "rationale": "Subretinal fluid -> active exudation -> guideline favors continuation."},
+    {"id": "R2", "if": {"IRF": 1}, "then": "continue", "weight": 0.80, "rationale": "Intraretinal fluid -> active edema -> guideline favors continuation."},
+    {"id": "R3", "if": {"IRF": 0, "SRF": 0, "PED": 0}, "then": "stop", "weight": 0.85, "rationale": "No active fluid (dry macula) -> guideline favors stopping."},
+    {"id": "R4", "if": {"IRF": 0, "SRF": 0, "PED": 1}, "then": "case_dependent", "weight": 0.45, "rationale": "PED only, no active fluid -> case-dependent."}
+  ],
+  "decision_biomarkers": {"continue": ["SRF", "IRF"], "stop": ["IRF", "SRF"]}
+}

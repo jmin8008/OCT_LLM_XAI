@@ -1,0 +1,152 @@
+[
+  {
+    "class": "CNV",
+    "stage": "unknown",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- RPE/Bruch's membrane complex: Is it smooth? Are there elevations?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible?\n- Specific pathologies: Drusen, pigment epithelial detachments (PED), subretinal fluid (SRF), intraretinal fluid (IRF).\n\n**Image Analysis:**\n1.  **Overall Structure:** This is a cross-sectional OCT scan of the r"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there thickening?\n- Fluid: Is there intraretinal fluid (cystoid spaces)? Is there subretinal fluid?\n- RPE/Choroid: Is the RPE elevated? Is there a pigment epithelial detachment (PED)? Is there choroidal neovascularization (CNV)?\n- Overall structure: Is there a dome-shaped elevation?\n\n**Image Analysis:**\n1.  **Central Feature:** There is a large, dome-shaped"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there thickening?\n- Fluid: Is there intraretinal fluid (cystoid spaces)? Is there subretinal fluid?\n- Deposits: Are there drusen? Are they soft or hard?\n- Pigment epithelium: Is the RPE layer disrupted? Are there elevations (PEDs)?\n- Hyperreflective material: Is there subretinal hyperreflective material (SHRM)?\n\n**Image Analysis:**\n1.  **Overall Structure:*"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- Fluid: Is there intraretinal fluid (IRF) or subretinal fluid (SRF)?\n- Deposits: Are there drusen?\n- Pigment epithelium: Is the RPE elevated? Is there hyperreflectivity?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n1.  **Overall Structure:** The retinal contour is irregular. There's a significant elevation on the left side and a more su"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there thickening?\n- Fluid: Is there intraretinal fluid (IRF) or subretinal fluid (SRF)?\n- Pigment Epithelium: Is the RPE/Bruch's membrane complex intact? Are there drusen?\n- Choroid: Is there shadowing?\n- Neovascularization: Is there a membrane?\n\n**Visual Analysis:**\n1.  **Overall Structure:** The retinal contour is significantly disrupted. There is a large"
+  },
+  {
+    "class": "CNV",
+    "stage": "early",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- Subretinal space: Is there fluid?\n- RPE/Bruch's membrane complex: Is it elevated? Is it irregular?\n- Choroid: Is it visible?\n\nLooking at the image:\n- There is a distinct, dome-shaped elevation of the Retinal Pigment Epithelium (RPE).\n- Underneath this elevation, there is a large, hyporeflective (dark) space. This indicates fluid accumula"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there thickening?\n- Subretinal space: Is there fluid?\n- RPE/Bruch's membrane complex: Is it elevated? Is it irregular?\n- Choroid: Is there shadowing?\n- Specific pathologies: Drusen, pigment epithelial detachments (PED), subretinal fluid (SRF), intraretinal fluid (IRF), neovascularization.\n\n**Image Analysis:**\n1.  **Overall Structure:** The image shows a cro"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- RPE/Bruch's membrane complex: Is it smooth? Are there elevations?\n- Subretinal space: Is there fluid?\n- Intraretinal space: Are there cysts?\n- Choroid: Is it visible? Is there shadowing?\n\n**Visual Analysis:**\n1.  **RPE/Bruch's Membrane:** There is significant irregularity. I see multiple, distinct, dome-shaped elevations of the RPE. Thes"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there thickening?\n- Fluid: Is there intraretinal fluid (cystoid spaces)? Is there subretinal fluid?\n- RPE/Choroid: Is the RPE band regular? Are there drusen? Is there a pigment epithelial detachment (PED)?\n- Hyperreflective material: Is there subretinal hyperreflective material (SHRM)?\n\n**Image Analysis:**\n1.  **Overall Structure:** The image shows a cross-"
+  },
+  {
+    "class": "CNV",
+    "stage": "unknown",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- RPE/Bruch's membrane complex: Is it smooth? Are there elevations?\n- Subretinal space: Is there fluid?\n- Intraretinal space: Is there fluid or cysts?\n- Choroid: Is it visible?\n\n**Visual Analysis:**\n1.  **Overall Structure:** This is a cross-sectional OCT scan of the macula. The foveal depression is visible but slightly distorted.\n2.  **RP"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there thickening?\n- Subretinal space: Is there fluid?\n- RPE/Choriocapillaris complex: Is it elevated? Is there hyperreflectivity?\n- Choroid: Is there shadowing?\n\n**Visual Analysis:**\n1.  **Retinal Structure:** The retinal layers are disrupted. There is a significant elevation of the neurosensory retina.\n2.  **Intraretinal Fluid:** There are hyporeflective ("
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- Subretinal space: Is there fluid?\n- RPE/Bruch's membrane complex: Is it elevated? Are there drusen?\n- Choroid: Is it visible?\n- Specific pathologies: CNV (Choroidal Neovascularization), PED (Pigment Epithelial Detachment), drusen, subretinal fluid, intraretinal fluid.\n\n**Image Analysis:**\n1.  **Overall Structure:** The image shows a cros"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- RPE/Bruch's membrane complex: Is it smooth? Are there elevations?\n- Subretinal space: Is there fluid?\n- Intraretinal space: Is there fluid or cysts?\n- Choroid: Is it visible?\n\n**Visual Analysis:**\n1.  **Overall Structure:** The image shows a cross-section of the retina. The foveal depression is visible but distorted.\n2.  **RPE/Bruch's Me"
+  },
+  {
+    "class": "CNV",
+    "stage": "late dry",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- RPE/Bruch's membrane complex: Is it smooth? Are there elevations?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible? Are there shadows?\n- Specific pathologies: Drusen, pigment epithelial detachments (PED), subretinal fluid (SRF), intraretinal fluid (IRF), neovascularization.\n\n**Image Analysis:**\n1.  **Overall Structure:** This"
+  },
+  {
+    "class": "CNV",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- RPE/Bruch's membrane complex: Is it smooth? Are there elevations?\n- Subretinal space: Is there fluid?\n- Intraretinal space: Is there fluid (cystoid spaces)?\n- Choroid: Is it visible?\n\n**Visual Analysis:**\n1.  **Overall Structure:** This is a cross-sectional OCT scan of the retina. The foveal depression is visible but distorted.\n2.  **RPE"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late wet",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact?\n- Foveal contour: Is it normal?\n- Subretinal space: Is there fluid?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Choroid: Is it visible?\n- Vitreous: Is there detachment?\n\n**Image Analysis:**\n1.  **Vitreous:** There is a thin, hyperreflective line detached from the retinal surface. This looks like the posterior hyaloid face. It is separated"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "early",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they distinct?\n- Foveal contour: Is it normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Intraretinal space: Is there cystic change?\n- Choroid: Is it visible?\n\n**Analysis of the image:**\n- **Overall appearance:** This looks like a very clean, normal macular OCT scan.\n- **Foveal contour:** There is a clear, normal "
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late wet",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they distinct? Is the foveal contour normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Overall Structure:** This is a cross-sectional OCT scan of the macula. The foveal depression is clearly visible in the center.\n- **Retinal Layers:** The inner retinal layers (nerv"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they distinct? Is the foveal contour normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Foveal Contour:** The foveal depression is present and looks relatively normal, perhaps slightly shallow but generally preserved.\n- **Retinal Layers:** The inner retinal layers (n"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late dry",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they distinct? Is the foveal contour normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Foveal Contour:** The foveal depression is present and looks relatively normal, perhaps slightly shallow but distinct.\n- **Retinal Layers:** The inner retinal layers (nerve fiber "
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late wet (inactive)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- Foveal contour: Is it normal?\n- Subretinal space: Is there fluid?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Overall appearance:** This is a cross-sectional OCT scan of the macula.\n- **Foveal contour:** The foveal depression is clearly visible and has a normal, smoot"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "early",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is the foveal contour normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Foveal Contour:** The foveal depression is clearly visible and has a normal, smooth contour. It's not distorted.\n- **Retinal Layers:** The inner retinal layers (nerve fiber layer, g"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "early",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they distinct? Is the foveal contour normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Choroid: Is it visible?\n- Vitreous: Is there any traction?\n\n**Image Analysis:**\n- **Foveal Contour:** The foveal depression is present and looks relatively normal, perhaps slightly shallow but distinct.\n- **Retinal Layers:** The inner retinal layers (nerve fiber l"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- Foveal contour: Is it normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Overall Structure:** This is a cross-sectional OCT scan of the macula. The foveal depression is clearly visible in the center.\n- **Retinal Layers:** The neuro"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late wet",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact?\n- Foveal contour: Is it normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Intraretinal space: Is there cystic edema?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Overall Structure:** This is a cross-sectional OCT scan of the macula.\n- **Fovea:** The foveal depression is clearly visible and has a"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they distinct? Is the foveal contour normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible?\n- Vitreous: Is there traction?\n\n**Image Analysis:**\n- **Foveal Contour:** The foveal depression is clearly visible and has a normal, smooth contour. It's not distorted.\n- **Retinal Layers:** The inner ret"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late wet",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there disruption?\n- Foveal contour: Is it normal?\n- Subretinal space: Is there fluid?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Overall appearance:** This is a cross-sectional OCT scan of the retina. It looks like a macular scan.\n- **Foveal contour:** There is a distinct foveal depress"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "early",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is the foveal contour normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Foveal Contour:** The foveal depression is clearly visible and has a normal, smooth contour. It's not distorted.\n- **Retinal Layers:** The inner retinal layers (nerve fiber layer, g"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late wet",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they distinct? Is the foveal contour normal?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Overall Structure:** This is a cross-sectional OCT scan of the retina, centered on the fovea. The foveal depression is clearly visible and has a normal contour.\n- **Retinal Layers"
+  },
+  {
+    "class": "NORMAL",
+    "stage": "late wet (active)",
+    "text": "The user wants a detailed description of the provided OCT image.\nI need to identify specific features:\n- Retinal layers: Are they intact? Is there a foveal depression?\n- RPE/Bruch's membrane complex: Is it smooth? Are there drusen?\n- Subretinal space: Is there fluid?\n- Choroid: Is it visible?\n\n**Image Analysis:**\n- **Overall Structure:** This is a cross-sectional OCT scan of the macula.\n- **Fovea:** There is a clear foveal depression (the dip in the center). The contour looks relatively normal, "
+  }
+]

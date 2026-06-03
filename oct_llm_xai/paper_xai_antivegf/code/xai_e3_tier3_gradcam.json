@@ -1,0 +1,58 @@
+[
+  {
+    "eye_id": "5L",
+    "diagnosis": "PCV",
+    "continue_injection": 1,
+    "has_fluid": 1,
+    "png": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/code/xai_heatmaps/tier3_5L_gradcam.png"
+  },
+  {
+    "eye_id": "9L",
+    "diagnosis": "PCV",
+    "continue_injection": 1,
+    "has_fluid": 1,
+    "png": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/code/xai_heatmaps/tier3_9L_gradcam.png"
+  },
+  {
+    "eye_id": "20R",
+    "diagnosis": "PCV",
+    "continue_injection": 0,
+    "has_fluid": 1,
+    "png": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/code/xai_heatmaps/tier3_20R_gradcam.png"
+  },
+  {
+    "eye_id": "45L",
+    "diagnosis": "CNVM",
+    "continue_injection": 1,
+    "has_fluid": 1,
+    "png": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/code/xai_heatmaps/tier3_45L_gradcam.png"
+  },
+  {
+    "eye_id": "69R",
+    "diagnosis": "CNVM",
+    "continue_injection": 1,
+    "has_fluid": 1,
+    "png": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/code/xai_heatmaps/tier3_69R_gradcam.png"
+  },
+  {
+    "eye_id": "110R",
+    "diagnosis": "CNVM",
+    "continue_injection": 1,
+    "has_fluid": 1,
+    "png": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/code/xai_heatmaps/tier3_110R_gradcam.png"
+  },
+  {
+    "eye_id": "115R",
+    "diagnosis": "CNVM",
+    "continue_injection": 1,
+    "has_fluid": 1,
+    "png": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/code/xai_heatmaps/tier3_115R_gradcam.png"
+  },
+  {
+    "eye_id": "128R",
+    "diagnosis": "CNVM",
+    "continue_injection": 0,
+    "has_fluid": 1,
+    "png": "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf/code/xai_heatmaps/tier3_128R_gradcam.png"
+  }
+]

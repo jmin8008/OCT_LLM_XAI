@@ -1,0 +1,923 @@
+[
+  {
+    "eye_id": "5L",
+    "diagnosis": "PCV",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 274.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that there is intraretinal fluid (IRF) present, which is a common finding in patients with PCV (polypoidal choroidal vasculopathy). There is also subretinal fluid (SRF) and pigment epithelial detachment (PED), which are also common in PCV.\n\nAs for the need for continued anti-VEGF injections, the decision would typically be made by the treating ophthalmologist based on the overall clinical assessment of the patient, including the presence and extent of these findings, as well as the patient's visual acuity, symptoms, and response to previous treatments.\n\nIn general, anti-VEGF injections are a common treatment for PCV, and the decision to continue or stop these injections would depend on the response to treatment, the presence of complications, and the patient's individual needs and preferences. If the patient",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "9L",
+    "diagnosis": "PCV",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 287.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the macular area.\n- SRF (subretinal fluid): Yes, there is subretinal fluid present.\n- PED (pigment epithelial detachment): Yes, there is a pigment epithelial detachment.\n\nGiven the presence of intraretinal fluid, subretinal fluid, and a pigment epithelial detachment, it is likely that the patient will require continued anti-VEGF injections to manage the underlying neovascular age-related macular degeneration (nAMD). These injections are typically used to reduce the amount of VEGF, a protein that promotes the growth of new blood vessels, which can lead to fluid accumulation and damage to the retina.\n\nThe decision to continue or stop anti-",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "20R",
+    "diagnosis": "PCV",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 297.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with PCV (polypoidal choroidal vasculopathy).\n- SRF (subretinal fluid): No, there is no subretinal fluid visible in this image.\n- PED (pigment epithelial detachment): Yes, there is a pigment epithelial detachment visible in the image, which is a characteristic feature of PCV.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's case history and the current treatment regimen. However, based on the presence of intraretinal fluid and a pigment epithelial detachment, it is likely that the patient will require continued anti-",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "45L",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 515.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is a small area of hyperreflective material within the retina, which could be indicative of intraretinal fluid.\n- SRF (subretinal fluid): Yes, there is a significant amount of subretinal fluid, which is a common finding in patients with CNVM (central neovascularization).\n- PED (pigment epithelial detachment): Yes, there is a small area of pigment epithelial detachment, which is also common in CNVM.\n\nGiven these findings, it is likely that the patient will require continued anti-VEGF injections. The presence of subretinal fluid and pigment epithelial detachment are indicative of active neovascularization, which is typically treated with anti-VEGF agents to reduce the risk of vision loss",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "69R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 309.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that there is intraretinal fluid (IRF) present, as well as subretinal fluid (SRF) and a pigment epithelial detachment (PED). The presence of these features suggests that the patient may have a condition such as neovascular age-related macular degeneration (nAMD) or a similar retinal disorder.\n\nRegarding the need for continued anti-VEGF injections, the decision would typically be made by a retinal specialist based on the patient's individual clinical situation. Factors that could influence this decision include the size and extent of the IRF and SRF, the presence and size of the PED, the patient's visual acuity, and the response to previous treatments.\n\nIf the IRF and SRF are significant and there is a large PED, the specialist might recommend continuing anti-VEGF injections to help reduce the fluid and",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "110R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 333.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is a small amount of fluid within the retina, which is consistent with CNVM (central neovascularization) and can be indicative of macular edema.\n- SRF (subretinal fluid): No, there is no fluid visible beneath the retina.\n- PED (pigment epithelial detachment): No, there is no detachment of the pigment epithelium visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's medical history and the specific details of the OCT scan. However, based on the presence of IRF, which is often associated with macular edema, it is likely that the patient would benefit from continued anti-VEGF in",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "115R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 466.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the OCT B-scan image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is a small amount of fluid within the retina, which is consistent with CNVM (cystoid macular edema).\n- SRF (subretinal fluid): No, there is no fluid visible beneath the retina.\n- PED (pigment epithelial detachment): No, there is no detachment of the pigment epithelium visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's case history and current treatment plan. The presence of IRF in the macula is indicative of CNVM, which is often treated with anti-VEGF injections. However, the decision to continue or stop treatment would depend on several factors, including",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "128R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 270.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is a small area of intraretinal fluid visible in the center of the image.\n- SRF (subretinal fluid): Yes, there is a significant amount of subretinal fluid present, which is the main feature of the CNVM (cystoid macular edema).\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nGiven the presence of subretinal fluid, it is likely that the patient will require continued anti-VEGF injections to manage the CNVM. The goal of anti-VEGF therapy is to reduce the amount of subretinal fluid, which can help to improve vision and prevent further damage to the retina. The decision to continue or stop anti-VEGF injections would",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "167R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 352.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is a small area of hyperreflective material within the retina, which could be indicative of intraretinal fluid.\n- SRF (subretinal fluid): Yes, there is a significant amount of subretinal fluid, which is a common finding in patients with CNVM (central neovascularization).\n- PED (pigment epithelial detachment): Yes, there is a small area of pigment epithelial detachment, which is also common in CNVM.\n\nGiven these findings, it is likely that the patient will require continued anti-VEGF injections. The presence of subretinal fluid and pigment epithelial detachment are indicative of active neovascularization, which is typically treated with anti-VEGF therapy to reduce the risk of vision loss",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "183R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 305.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that there is intraretinal fluid (IRF) present, which is a common finding in patients with CNVM (central neovascularization). There is also subretinal fluid (SRF) and a pigment epithelial detachment (PED), which is a characteristic feature of CNVM.\n\nGiven the presence of IRF, SRF, and PED, it is likely that the patient will require continued anti-VEGF injections to manage the neovascularization and prevent further leakage and fluid accumulation. Anti-VEGF injections are a standard treatment for CNVM, as they help to reduce the amount of fluid and prevent the growth of new blood vessels that can lead to vision loss.\n\nThe decision to continue or stop anti-VEGF injections should be made by the treating physician based on the patient's individual clinical response, the presence of other treatment-",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "193L",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 291.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears to be an OCT B-scan of the macular region of a patient's eye. The image is of low resolution and quality, which makes it difficult to accurately assess the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED). However, I can attempt to make some general observations:\n\n- There is a dark, irregular area that could potentially be IRF or SRF.\n- There is a dark, curved line that could be a PED.\n- The retina appears to be somewhat disrupted, which could be indicative of a CNVM (cystoid macular neuroretinopathy).\n\nGiven the limitations of the image, it's challenging to make a definitive diagnosis or treatment recommendation. However, if the patient has been diagnosed with CNVM and is currently receiving anti",
+    "ci_pred": "uncertain",
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "206L",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 256.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is a small amount of fluid within the retina, which is consistent with CNVM (central neovascularization) and can be indicative of macular edema.\n- SRF (subretinal fluid): No, there is no fluid visible beneath the retina.\n- PED (pigment epithelial detachment): No, there is no detachment of the pigment epithelium visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's medical history and the specific details of the OCT scan. However, based on the presence of IRF, which is often associated with macular edema, it is likely that the patient would benefit from continued anti-VEGF in",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "209R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 257.0,
+    "y_biomarkers": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is a small area of hyperreflective material within the retina, which could be indicative of intraretinal fluid.\n- SRF (subretinal fluid): Yes, there is a significant amount of subretinal fluid, which is a common finding in patients with CNVM (central neovascularization).\n- PED (pigment epithelial detachment): Yes, there is a small area of pigment epithelial detachment, which is also common in CNVM.\n\nGiven these findings, it is likely that the patient will require continued anti-VEGF injections. The presence of subretinal fluid and pigment epithelial detachment are indicative of active neovascularization, which is typically treated with anti-VEGF therapy to reduce the risk of vision loss",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "211R",
+    "diagnosis": "CNVM",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.079999998,
+    "y_cst": 204.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is a small area of intraretinal fluid visible in the center of the image.\n- SRF (subretinal fluid): Yes, there is a significant amount of subretinal fluid present, particularly in the lower part of the image.\n- PED (pigment epithelial detachment): Yes, there is a pigment epithelial detachment visible at the top of the image.\n\nGiven the presence of subretinal fluid and a pigment epithelial detachment, it is likely that this patient will require continued anti-VEGF injections to manage the underlying condition causing these changes, which is likely neovascular age-related macular degeneration (nAMD). The intraretinal fluid may also be a sign of ongoing inflammation or leakage, which could benefit from anti",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "222R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.5,
+    "y_cst": 341.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): No, there is no subretinal fluid visible in this image.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who has evaluated the patient's overall condition and response to treatment. The presence of intraretinal fluid can be an indication for continued anti-VEGF therapy, as it is often associated with active DME. However, the decision to continue or stop treatment should also consider other factors such as the patient's visual ac",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "224R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 200.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that there is intraretinal fluid (IRF) present, which is a common finding in patients with diabetic macular edema (DME). There is also subretinal fluid (SRF) and a pigment epithelial detachment (PED), which are also common in DME.\n\nGiven the presence of these findings, it is likely that the patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a standard treatment for DME and are designed to reduce the amount of fluid in the retina, which can help to prevent further vision loss. The decision to continue or stop anti-VEGF injections would typically be made by an ophthalmologist based on the patient's individual clinical situation, including the severity of the DME, the presence of other complications, and the patient's response to previous treatments.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "226R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 438.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): Yes, there is subretinal fluid present, which is also common in DME patients.\n- PED (pigment epithelial detachment): Yes, there is a pigment epithelial detachment visible, which is another characteristic feature of DME.\n\nGiven these findings, it is likely that the patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a standard treatment for DME and are designed to reduce the amount of fluid in the retina. The presence of intraretinal and subretinal fluid, as well as the pigment epithelial det",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "230L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 406.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): Yes, there is subretinal fluid present, which is also common in DME patients.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's history and current condition. However, based on the presence of intraretinal and subretinal fluid, it is likely that the patient would benefit from continued anti-VEGF therapy to help reduce the fluid and prevent further damage to the retina. The frequency",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "273L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 436.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): Yes, there is subretinal fluid present, which is also common in DME patients.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's history and current condition. However, based on the presence of intraretinal and subretinal fluid, it is likely that the patient would benefit from continued anti-VEGF therapy to help reduce the fluid and prevent further damage to the retina. The frequency",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "312L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.100000001,
+    "y_cst": 279.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that there is intraretinal fluid (IRF) present, which is a common finding in patients with diabetic macular edema (DME). There is also subretinal fluid (SRF) and a pigment epithelial detachment (PED), which are also common in DME.\n\nGiven the presence of these findings, it is likely that the patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a standard treatment for DME and are designed to reduce the amount of fluid in the retina, which can help to prevent further vision loss. The decision to continue or stop anti-VEGF injections would typically be made by an ophthalmologist based on the patient's individual clinical situation, including the severity of the DME, the presence of other complications, and the patient's response to previous treatments.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "319R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 627.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the OCT B-scan image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): Yes, there is subretinal fluid present, which is also common in DME patients.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nGiven the presence of intraretinal and subretinal fluid, it is likely that this patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a common treatment for DME to reduce the amount of fluid in the retina and prevent further vision loss. The decision to continue or stop treatment would typically be made by an",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "325L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 181.0,
+    "y_biomarkers": {},
+    "error": "no_pre_bscan"
+  },
+  {
+    "eye_id": "343R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.319999993,
+    "y_cst": 465.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the OCT B-scan image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): Yes, there is subretinal fluid present, which is also common in DME patients.\n- PED (pigment epithelial detachment): Yes, there is a pigment epithelial detachment visible in the image, which is a characteristic finding in DME.\n\nGiven the presence of intraretinal and subretinal fluid, as well as the pigment epithelial detachment, it is likely that this patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a common treatment for DME to reduce the amount of fluid in",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "345R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 566.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that there is intraretinal fluid (IRF) present, which is a common finding in patients with diabetic macular edema (DME). There is no subretinal fluid (SRF) or pigment epithelial detachment (PED) visible in this image.\n\nAs for the need for continued anti-VEGF injections, the decision would typically be made by the treating ophthalmologist based on the patient's overall clinical presentation, including the presence and extent of IRF, the patient's visual acuity, and the presence of any other retinal pathologies.\n\nIf the IRF is significant and associated with a decrease in visual acuity or the presence of other retinal pathologies, the ophthalmologist may recommend continuing anti-VEGF injections to help reduce the IRF and prevent further vision loss. On the other hand, if the IRF is minimal",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "351R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.170000002,
+    "y_cst": 663.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): Yes, there is subretinal fluid present, which is also common in DME patients.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's history and current condition. However, based on the presence of intraretinal and subretinal fluid, it is likely that the patient would benefit from continued anti-VEGF therapy to help reduce the fluid and prevent further damage to the retina. The frequency",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "382L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 400.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): Yes, there is subretinal fluid present, which is also common in DME patients.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's history and current condition. However, based on the presence of intraretinal and subretinal fluid, it is likely that the patient would benefit from continued anti-VEGF therapy to help reduce the fluid and prevent further damage to the retina. The frequency",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "388L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 397.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image.\n- SRF (subretinal fluid): Yes, there is subretinal fluid visible in the image.\n- PED (pigment epithelial detachment): Yes, there is a pigment epithelial detachment visible in the image.\n\nGiven the presence of intraretinal and subretinal fluid, as well as a pigment epithelial detachment, it is likely that the patient will require continued anti-VEGF injections to manage the underlying neovascularization associated with diabetic macular edema (DME). The goal of treatment in DME is to reduce the amount of fluid and prevent further damage to the retina. Anti-VEGF injections are a common treatment for DME and are typically administered at regular intervals",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "398R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.5,
+    "y_cst": 490.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that there is intraretinal fluid (IRF) present, which is a common finding in patients with diabetic macular edema (DME). There is also subretinal fluid (SRF) and a pigment epithelial detachment (PED), which are also common in DME.\n\nGiven the presence of these findings, it is likely that the patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a standard treatment for DME and are designed to reduce the amount of fluid in the retina, which can help to prevent further vision loss. The decision to continue or stop anti-VEGF injections would typically be made by an ophthalmologist based on the patient's individual clinical situation, including the severity of the DME, the presence of other complications, and the patient's response to previous treatments.",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "402L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.170000002,
+    "y_cst": 818.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the OCT B-scan image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): Yes, there is subretinal fluid present, which is also common in DME patients.\n- PED (pigment epithelial detachment): Yes, there is a pigment epithelial detachment visible in the image, which is a characteristic finding in DME.\n\nGiven the presence of intraretinal and subretinal fluid, as well as the pigment epithelial detachment, it is likely that this patient will require continued anti-VEGF injections to manage the DME. Anti-VEGF injections are a common treatment for DME to reduce the amount of fluid in",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "429L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.319999993,
+    "y_cst": 620.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): No, there is no subretinal fluid visible in this image.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's history and current condition. However, based on the presence of intraretinal fluid, it is likely that the patient will benefit from continued anti-VEGF therapy to help reduce the fluid and prevent further damage to the retina. The frequency and type of treatment would depend on the sever",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "461L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.670000017,
+    "y_cst": 492.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): No, there is no subretinal fluid visible in this image.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's history and current condition. However, based on the presence of intraretinal fluid, it is likely that the patient will benefit from continued anti-VEGF therapy to help reduce the fluid and prevent further damage to the retina. The frequency and type of treatment would depend on the sever",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "463L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 1.0,
+    "y_cst": 252.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): No, there is no subretinal fluid visible in this image.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who has evaluated the patient's overall condition and response to treatment. The presence of intraretinal fluid can be an indication for continued anti-VEGF therapy, as it is often associated with active DME. However, the decision to continue or stop treatment should also consider other factors such as the patient's visual ac",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "497R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 0,
+    "y_va": 0.670000017,
+    "y_cst": 260.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in diabetic macular edema (DME).\n- SRF (subretinal fluid): Yes, there is subretinal fluid present, which is also common in DME.\n- PED (pigment epithelial detachment): Yes, there is a pigment epithelial detachment visible in the image.\n\nGiven these findings, it is likely that the patient will require continued anti-VEGF injections to manage the DME. The presence of intraretinal and subretinal fluid, as well as the pigment epithelial detachment, suggest that there is ongoing inflammation and leakage in the retina, which is typically treated with anti-VEGF injections. These injections help to reduce",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "534R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.25,
+    "y_cst": 371.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): Yes, there is subretinal fluid present, which is also common in DME patients.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who is familiar with the patient's history and current condition. However, based on the presence of intraretinal and subretinal fluid, it is likely that the patient would benefit from continued anti-VEGF therapy to help reduce the fluid and prevent further damage to the retina. The frequency",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"present\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "540R",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 0.100000001,
+    "y_cst": 600.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, it appears that there is intraretinal fluid (IRF) present, which is a common finding in patients with diabetic macular edema (DME). There is no subretinal fluid (SRF) or pigment epithelial detachment (PED) visible in this image.\n\nAs for the need for continued anti-VEGF injections, the decision would typically be made by the treating ophthalmologist based on the patient's individual clinical situation. The presence of IRF alone may not be sufficient to warrant continued treatment, as it is a common finding in DME and not necessarily indicative of active disease. The ophthalmologist would consider factors such as the patient's visual acuity, the presence of other signs of DME, the response to previous treatments, and the risk of complications.\n\nIf the patient's vision is stable or improving, and there are no signs of",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  },
+  {
+    "eye_id": "595L",
+    "diagnosis": "DME",
+    "variant": "Z1",
+    "kg_context": false,
+    "y_continue": 1,
+    "y_va": 1.0,
+    "y_cst": 431.0,
+    "y_biomarkers": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0,
+      "HRF": 1
+    },
+    "ci_text": "Based on the image provided, I can observe the following:\n\n- IRF (intraretinal fluid): Yes, there is intraretinal fluid visible in the image, which is a common finding in patients with diabetic macular edema (DME).\n- SRF (subretinal fluid): No, there is no subretinal fluid visible in this image.\n- PED (pigment epithelial detachment): No, there is no pigment epithelial detachment visible in this image.\n\nRegarding the need for continued anti-VEGF injections, the decision should be made by a medical professional who has evaluated the patient's overall condition and response to treatment. The presence of intraretinal fluid can be an indication for continued anti-VEGF therapy, as it is often associated with active DME. However, the decision to continue or stop treatment should also consider other factors such as the patient's visual ac",
+    "ci_pred": 1,
+    "bm_text": "{\"IRF\": \"absent\", \"SRF\": \"present\", \"PED\": \"present\", \"HRF\": \"present\"}",
+    "bm_pred": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1,
+      "HRF": 1
+    },
+    "va_pred": NaN,
+    "cst_pred": NaN
+  }
+]

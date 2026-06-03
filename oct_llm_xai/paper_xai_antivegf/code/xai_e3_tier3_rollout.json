@@ -1,0 +1,426 @@
+[
+  {
+    "eye_id": "5L",
+    "diagnosis": "PCV",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.029634596892336513,
+    "attention_entropy": 2.773560798016458
+  },
+  {
+    "eye_id": "9L",
+    "diagnosis": "PCV",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.024928436377809962,
+    "attention_entropy": 2.790371899265966
+  },
+  {
+    "eye_id": "20R",
+    "diagnosis": "PCV",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.020372189085014654,
+    "attention_entropy": 2.6665928560678083
+  },
+  {
+    "eye_id": "45L",
+    "diagnosis": "CNVM",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.03227719981398874,
+    "attention_entropy": 2.7991334266911894
+  },
+  {
+    "eye_id": "69R",
+    "diagnosis": "CNVM",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.04026933929501193,
+    "attention_entropy": 2.8968870066037673
+  },
+  {
+    "eye_id": "110R",
+    "diagnosis": "CNVM",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.031354300360083284,
+    "attention_entropy": 2.8818035274546485
+  },
+  {
+    "eye_id": "115R",
+    "diagnosis": "CNVM",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.03242174136687416,
+    "attention_entropy": 2.8267151400917157
+  },
+  {
+    "eye_id": "128R",
+    "diagnosis": "CNVM",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.022717326355630847,
+    "attention_entropy": 2.6980450192403573
+  },
+  {
+    "eye_id": "167R",
+    "diagnosis": "CNVM",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.021200827846145052,
+    "attention_entropy": 2.658828963942369
+  },
+  {
+    "eye_id": "183R",
+    "diagnosis": "CNVM",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.03448472373063105,
+    "attention_entropy": 2.8641262473601143
+  },
+  {
+    "eye_id": "193L",
+    "diagnosis": "CNVM",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.018192168668256813,
+    "attention_entropy": 2.6180863636479237
+  },
+  {
+    "eye_id": "206L",
+    "diagnosis": "CNVM",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.028305362319823852,
+    "attention_entropy": 2.79444069445309
+  },
+  {
+    "eye_id": "209R",
+    "diagnosis": "CNVM",
+    "has_fluid": 0,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.0,
+    "attention_entropy": 2.856703552332853
+  },
+  {
+    "eye_id": "211R",
+    "diagnosis": "CNVM",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.028543945235753047,
+    "attention_entropy": 2.7691908296645518
+  },
+  {
+    "eye_id": "222R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.03845488304012481,
+    "attention_entropy": 2.9146243020236247
+  },
+  {
+    "eye_id": "224R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.027461847739132236,
+    "attention_entropy": 2.8033811109474542
+  },
+  {
+    "eye_id": "226R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.022578800160668412,
+    "attention_entropy": 2.7173396579525972
+  },
+  {
+    "eye_id": "230L",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.042633535034821174,
+    "attention_entropy": 2.9710492508862187
+  },
+  {
+    "eye_id": "273L",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.02659350119104437,
+    "attention_entropy": 2.7452597083691
+  },
+  {
+    "eye_id": "312L",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.031813515906912414,
+    "attention_entropy": 2.843704731153413
+  },
+  {
+    "eye_id": "319R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.023153346507766882,
+    "attention_entropy": 2.686714337930979
+  },
+  {
+    "eye_id": "325L",
+    "error": "no_bscan"
+  },
+  {
+    "eye_id": "343R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.02750201579395664,
+    "attention_entropy": 2.7682820960999757
+  },
+  {
+    "eye_id": "345R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.03223400008944387,
+    "attention_entropy": 2.8029192031691594
+  },
+  {
+    "eye_id": "351R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.023401901087427998,
+    "attention_entropy": 2.7141978885562175
+  },
+  {
+    "eye_id": "382L",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.030314961867964986,
+    "attention_entropy": 2.7970159112094906
+  },
+  {
+    "eye_id": "388L",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.024457932066456144,
+    "attention_entropy": 2.7523053887776245
+  },
+  {
+    "eye_id": "398R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.02177238984215766,
+    "attention_entropy": 2.7107538915362186
+  },
+  {
+    "eye_id": "402L",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.03292257732384748,
+    "attention_entropy": 2.8042134152840106
+  },
+  {
+    "eye_id": "429L",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.03379833355479897,
+    "attention_entropy": 2.8907793548199106
+  },
+  {
+    "eye_id": "461L",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.02116019427796564,
+    "attention_entropy": 2.665825037890248
+  },
+  {
+    "eye_id": "463L",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.03169922979000618,
+    "attention_entropy": 2.8559415055470154
+  },
+  {
+    "eye_id": "497R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.02752195805145121,
+    "attention_entropy": 2.7802723750385416
+  },
+  {
+    "eye_id": "534R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.028934062421010594,
+    "attention_entropy": 2.8341517922634543
+  },
+  {
+    "eye_id": "540R",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.02783582377648106,
+    "attention_entropy": 2.790111558992941
+  },
+  {
+    "eye_id": "595L",
+    "diagnosis": "DME",
+    "has_fluid": 1,
+    "tier": "tier3",
+    "map_shape": [
+      6,
+      6
+    ],
+    "fluid_energy_ratio": 0.02266546264681032,
+    "attention_entropy": 2.7192358737449567
+  }
+]
