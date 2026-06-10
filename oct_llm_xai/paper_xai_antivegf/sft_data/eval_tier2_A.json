@@ -1,0 +1,591 @@
+{
+ "report": {
+  "tier": "tier2",
+  "arm": "A",
+  "meta": false,
+  "n": 35,
+  "decision_balanced_acc": 0.5,
+  "decision_sensitivity": 0.0,
+  "decision_specificity": 1.0,
+  "continue_rate": 0.0,
+  "biomarker_node_acc": null,
+  "biomarker_node_n": 0,
+  "prognosis_node_acc": 0.0,
+  "prognosis_node_n": 35,
+  "prognosis_majority_baseline": 0.314,
+  "response_node_acc": null,
+  "response_node_n": 0,
+  "response_majority_baseline": 0.686,
+  "response_goodpoor_balacc": null,
+  "response_goodpoor_n": 0,
+  "text_kg_align": null,
+  "text_kg_n": 0,
+  "cf_flip_rate": null,
+  "cf_flip_n": 0,
+  "negctrl_flip_rate": null,
+  "negctrl_flip_n": 0,
+  "faithfulness_gap": null
+ },
+ "preds": {
+  "5L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -3.0
+  },
+  "9L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -149.0
+  },
+  "20R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -32.0
+  },
+  "45L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": 20.0
+  },
+  "69R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -21.0
+  },
+  "110R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": 8.0
+  },
+  "115R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -177.0
+  },
+  "128R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 4.0
+  },
+  "167R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 6.0
+  },
+  "183R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -158.0
+  },
+  "193L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -4.0
+  },
+  "206L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -89.0
+  },
+  "209R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "no_active_disease",
+   "delta_cst": -15.0
+  },
+  "211R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -347.0
+  },
+  "222R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -8.0
+  },
+  "224R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -517.0
+  },
+  "226R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -57.0
+  },
+  "230L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 56.0
+  },
+  "273L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -133.0
+  },
+  "312L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -46.0
+  },
+  "319R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -113.0
+  },
+  "343R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -32.0
+  },
+  "345R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -88.0
+  },
+  "351R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 7.0
+  },
+  "382L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -41.0
+  },
+  "388L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -65.0
+  },
+  "398R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -191.0
+  },
+  "402L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 14.0
+  },
+  "429L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 155.0
+  },
+  "461L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "good_responder",
+   "delta_cst": 81.0
+  },
+  "463L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -85.0
+  },
+  "497R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -285.0
+  },
+  "534R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -138.0
+  },
+  "540R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 139.0
+  },
+  "595L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "good_responder",
+   "delta_cst": 63.0
+  }
+ }
+}

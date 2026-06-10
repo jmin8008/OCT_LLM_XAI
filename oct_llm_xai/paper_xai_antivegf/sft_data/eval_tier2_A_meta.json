@@ -1,0 +1,591 @@
+{
+ "report": {
+  "tier": "tier2",
+  "arm": "A",
+  "meta": true,
+  "n": 35,
+  "decision_balanced_acc": 0.619,
+  "decision_sensitivity": 0.667,
+  "decision_specificity": 0.571,
+  "continue_rate": 0.571,
+  "biomarker_node_acc": null,
+  "biomarker_node_n": 0,
+  "prognosis_node_acc": 0.0,
+  "prognosis_node_n": 35,
+  "prognosis_majority_baseline": 0.314,
+  "response_node_acc": 0.824,
+  "response_node_n": 17,
+  "response_majority_baseline": 0.686,
+  "response_goodpoor_balacc": 0.758,
+  "response_goodpoor_n": 17,
+  "text_kg_align": null,
+  "text_kg_n": 0,
+  "cf_flip_rate": 0.0,
+  "cf_flip_n": 14,
+  "negctrl_flip_rate": 0.0,
+  "negctrl_flip_n": 16,
+  "faithfulness_gap": 0.0
+ },
+ "preds": {
+  "5L": {
+   "out": "The image is a pre-treatment macular OCT B-scan. To provide a more accurate interpretation, I would need more information about the patient's condition, such as the specific retinal fluid biomarkers present (IRF, SRF, PED), the underlying disease activity, and the patient's clinical context. Based on this information, I would then make a clinical decision per guideline whether to continue or stop anti-VEGF therapy. Additionally, I would predict the composite response to anti-VEGF treatment, which includes anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution, and conclude whether this is a good responder or a poor responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "poor_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -3.0
+  },
+  "9L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -149.0
+  },
+  "20R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -32.0
+  },
+  "45L": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": 20.0
+  },
+  "69R": {
+   "out": "The image is a pre-treatment macular OCT B-scan. The retinal fluid biomarkers present in the image are IRF (intraretinal fluid), SRF (subretinal fluid), and PED (pigment epithelial detachment). The underlying disease activity is inferred from the image alone. Based on the findings and any provided clinical context, a decision is made per guideline whether to continue or stop anti-VEGF therapy. The predicted treatment response is also assessed, including anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -21.0
+  },
+  "110R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or fluid accumulation in the retina. This could be related to various retinal conditions, such as macular edema, retinal detachment, or other retinal diseases.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is important to consult with a healthcare professional to determine the appropriate course of action. They will consider the patient's overall health, the severity of the condition, and the potential benefits and risks of continuing or stopping anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): It is difficult to predict the exact treatment response without more information about the patient'",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": 8.0
+  },
+  "115R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -177.0
+  },
+  "128R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or fluid accumulation in the retina. This could be related to various retinal conditions, such as macular edema, retinal detachment, or other retinal diseases.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is important to consult with a healthcare professional to determine the appropriate course of action. They will consider the patient's overall health, the severity of the condition, and the potential benefits and risks of continuing or stopping anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): It is difficult to predict the exact treatment response without more information about the patient'",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 4.0
+  },
+  "167R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 6.0
+  },
+  "183R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -158.0
+  },
+  "193L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -4.0
+  },
+  "206L": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -89.0
+  },
+  "209R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "no_active_disease",
+   "delta_cst": -15.0
+  },
+  "211R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder. The fluid accumulation in the retina can cause swelling and potentially lead to vision loss if left untreated.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. This decision is made to address the underlying disease activity and prevent further vision loss.\n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -347.0
+  },
+  "222R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -8.0
+  },
+  "224R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or fluid accumulation in the retina. This could be related to various retinal conditions, such as macular edema, retinal detachment, or other retinal diseases.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is important to consult with a healthcare professional to determine the appropriate course of action. They will consider the patient's overall health, the severity of the condition, and the potential benefits and risks of continuing or stopping anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): It is difficult to predict the exact treatment response without more information about the patient'",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -517.0
+  },
+  "226R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -57.0
+  },
+  "230L": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 56.0
+  },
+  "273L": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -133.0
+  },
+  "312L": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -46.0
+  },
+  "319R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -113.0
+  },
+  "343R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -32.0
+  },
+  "345R": {
+   "out": "The image is a pre-treatment macular OCT B-scan. The retinal fluid biomarkers present in the image are IRF (intraretinal fluid), SRF (subretinal fluid), and PED (pigment epithelial detachment). The underlying disease activity is inferred from the image alone. Based on the findings and any provided clinical context, a decision is made per guideline whether to continue or stop anti-VEGF therapy. The predicted treatment response is also assessed, including anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -88.0
+  },
+  "351R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or fluid accumulation in the retina. This could be related to various retinal conditions, such as macular edema, retinal detachment, or other retinal diseases.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is important to consult with a healthcare professional to determine the appropriate course of action. They will consider the patient's overall health, the severity of the condition, and the potential benefits and risks of continuing or stopping anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): It is difficult to predict the exact treatment response without more information about the patient'",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 7.0
+  },
+  "382L": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or fluid accumulation in the retina. This could be related to various retinal conditions, such as macular edema, retinal detachment, or other retinal diseases.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is important to consult with a healthcare professional to determine the appropriate course of action. They will consider the patient's overall health, the severity of the condition, and the potential benefits and risks of continuing or stopping anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): It is difficult to predict the exact treatment response without more information about the patient'",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -41.0
+  },
+  "388L": {
+   "out": "The image is a pre-treatment macular OCT B-scan. To provide a detailed analysis, I would need more information about the specific retinal fluid biomarkers present in the image, such as intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED). Additionally, I would need to know the underlying disease activity and the patient's clinical context, such as age, gender, baseline visual acuity (VA), and baseline central subfield thickness (CST).\n\nBased on the provided information, I would be able to infer the underlying disease activity and make a clinical decision per guideline whether to continue or stop anti-VEGF therapy. I would also predict the composite response to anti-VEGF treatment, which includes anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution. This information would help determine whether the patient is a good responder or a poor responder to the treatment.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "poor_responder",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -65.0
+  },
+  "398R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -191.0
+  },
+  "402L": {
+   "out": "The image is a pre-treatment macular OCT B-scan. The retinal fluid biomarkers present in the image are IRF (intraretinal fluid), SRF (subretinal fluid), and PED (pigment epithelial detachment). The underlying disease activity is inferred from the image alone. Based on the findings and any provided clinical context, a decision is made per guideline whether to continue or stop anti-VEGF therapy. The predicted treatment response is also assessed, including anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 14.0
+  },
+  "429L": {
+   "out": "The image is a pre-treatment macular OCT B-scan. To provide a detailed analysis, I would need more information about the specific retinal fluid biomarkers present in the image, such as intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED). Additionally, I would need to know the underlying disease activity and the patient's clinical context, such as age, gender, baseline visual acuity (VA), and baseline central subfield thickness (CST).\n\nBased on the provided information, I would be able to infer the underlying disease activity and make a clinical decision per guideline whether to continue or stop anti-VEGF therapy. I would also predict the composite response to anti-VEGF treatment, which includes anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution. This information would help determine whether the patient is a good responder or a poor responder to the treatment.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "poor_responder",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 155.0
+  },
+  "461L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "good_responder",
+   "delta_cst": 81.0
+  },
+  "463L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -85.0
+  },
+  "497R": {
+   "out": "Step 1 (Visual findings): The image shows the presence of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of these fluid biomarkers in the OCT B-scan suggests that there may be an underlying disease activity, such as inflammation or a vascular disorder affecting the retina.\n\nStep 3 (Clinical decision): Based on the findings and the provided clinical context, it is recommended to continue anti-VEGF therapy. \n\nStep 4 (Predicted treatment response): The predicted treatment response for this patient is a good responder. This means that the patient is likely to experience a positive response to the anti-VEGF therapy, with improvements in the anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -285.0
+  },
+  "534R": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -138.0
+  },
+  "540R": {
+   "out": "The image is a pre-treatment macular OCT B-scan. To provide a detailed analysis, I would need more information about the specific retinal fluid biomarkers present in the image, such as intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelial detachment (PED). Additionally, I would need to know the underlying disease activity and the patient's clinical context, such as age, gender, baseline visual acuity (VA), and baseline central subfield thickness (CST).\n\nBased on the provided information, I would be able to infer the underlying disease activity and make a clinical decision per guideline whether to continue or stop anti-VEGF therapy. I would also predict the composite response to anti-VEGF treatment, which includes anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution. This information would help determine whether the patient is a good responder or a poor responder to the treatment.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "poor_responder",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 139.0
+  },
+  "595L": {
+   "out": "",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "good_responder",
+   "delta_cst": 63.0
+  }
+ }
+}

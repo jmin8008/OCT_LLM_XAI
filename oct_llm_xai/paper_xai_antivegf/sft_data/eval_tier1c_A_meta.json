@@ -1,0 +1,591 @@
+{
+ "report": {
+  "tier": "tier1c",
+  "arm": "A",
+  "meta": true,
+  "n": 35,
+  "decision_balanced_acc": 0.5,
+  "decision_sensitivity": 0.0,
+  "decision_specificity": 1.0,
+  "continue_rate": 0.0,
+  "biomarker_node_acc": 1.0,
+  "biomarker_node_n": 7,
+  "prognosis_node_acc": 0.0,
+  "prognosis_node_n": 35,
+  "prognosis_majority_baseline": 0.314,
+  "response_node_acc": null,
+  "response_node_n": 0,
+  "response_majority_baseline": 0.686,
+  "response_goodpoor_balacc": null,
+  "response_goodpoor_n": 0,
+  "text_kg_align": null,
+  "text_kg_n": 0,
+  "cf_flip_rate": null,
+  "cf_flip_n": 0,
+  "negctrl_flip_rate": null,
+  "negctrl_flip_n": 0,
+  "faithfulness_gap": null
+ },
+ "preds": {
+  "5L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **Image Analysis:** I see a cross-section of the retina.\n    *   There is a large, dome-shaped elevation of the neurosensory retina. This is a classic sign of subretinal fluid (SRF). The space between the neurosensory retina and the RPE is hyporeflective (dark), indicating fluid.\n    *   Looking closely at the retina itself, there are some hyperreflective spots within the retinal layers, but the dominant feature is the large separation. Wait, let me look closer.\n    *   There is a distinct separation of the neurosensory retina from the RPE. This is Subretinal Fluid (SRF).\n    *   Is there Intraretinal Fluid (IRF)? There are some cystic spaces within the retina, particularly in the outer plexiform/outer nuclear layers, suggesting some IRF,",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -3.0
+  },
+  "9L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response.\n\n**Step 1: Visual findings**\n*   **Image Analysis:** I see a cross-section of the retina.\n*   **Key Feature:** There is a large, dome-shaped elevation of the Retinal Pigment Epithelium (RPE). The space underneath the RPE is hyporeflective (dark), which is characteristic of fluid. This is a Pigment Epithelial Detachment (PED).\n*   **Retinal Layers:** Above the PED, the neurosensory retina is elevated.\n*   **Fluid:**\n    *   There is a large hyporeflective space under the RPE. This is a PED.\n    *   Is there Subretinal Fluid (SRF)? The neurosensory retina is detached from the RPE. Wait, looking closely at the dome shape. The bright line is the RPE. The space *under* the bright line is the PED. The space *above* the bright line but below the",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -149.0
+  },
+  "20R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **Image Analysis:** I see a cross-section of the retina.\n*   **SRF (Subretinal Fluid):** There is a clear hyporeflective (dark) space between the neurosensory retina and the retinal pigment epithelium (RPE). This is subretinal fluid. It's quite prominent, lifting the retina.\n*   **PED (Pigment Epithelial Detachment):** The RPE layer itself is elevated. It looks like a dome-shaped elevation of the hyperreflective RPE band. This is a Pigment Epithelial Detachment. It appears to be a fibrovascular PED or at least a serous PED associated with the fluid. Wait, looking closer at the left side, there's a distinct elevation of the RPE. The space underneath the RPE is hyporeflective but has some internal reflectivity, suggesting",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -32.0
+  },
+  "45L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I need to look for hyporeflective (dark) cystic spaces within the retinal layers. Looking at the image, there are distinct hyporeflective spaces within the neurosensory retina, particularly in the outer plexiform and inner nuclear layers. This indicates intraretinal fluid.\n*   **SRF (Subretinal Fluid):** I need to look for a separation between the neurosensory retina and the RPE. There is a clear hyporeflective space underneath the retina, lifting it up. This is subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** I need to look for a dome-shaped elevation of the RPE. There is a large, hyperreflective (bright) mound underneath the retina. This looks like a fibrovascular PED or a large",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": 20.0
+  },
+  "69R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **Image Analysis:** I see a cross-section of the retina.\n*   **IRF (Intraretinal Fluid):** Looking at the retinal layers, there are hyporeflective (dark) spaces within the retinal tissue. Specifically, there are cystic spaces in the outer nuclear/outer plexiform layers. This indicates intraretinal fluid.\n*   **SRF (Subretinal Fluid):** There is a distinct separation between the neurosensory retina and the retinal pigment epithelium (RPE). The RPE is the bright, hyperreflective band at the bottom of the retinal structure. Above it, there is a dark, hyporeflective space lifting the retina. This is subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** The RPE band itself looks somewhat elevated and irregular, but",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -21.0
+  },
+  "110R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I need to look for hyporeflective (dark) cystic spaces within the retinal layers. Looking at the left side of the scan, there is a distinct hyporeflective space within the neurosensory retina, just above the RPE. This looks like intraretinal fluid or possibly a small subretinal pocket, but given its location within the layers, it's likely IRF or a shallow SRF. Wait, looking closer at the left side, there is a hyporeflective space *under* the neurosensory retina but *above* the RPE. This is Subretinal Fluid (SRF). Let me re-evaluate.\n*   **SRF (Subretinal Fluid):** Yes, on the left side, there is a clear separation between the neurosensory retina and the RPE",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": 8.0
+  },
+  "115R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see hyporeflective (dark) cystic spaces within the retinal layers. This is classic cystoid macular edema. There are large cystic spaces, particularly in the outer plexiform and inner nuclear layers.\n*   **SRF (Subretinal Fluid):** There is a separation between the neurosensory retina and the RPE. The retina is elevated. Underneath the elevated retina, there is a dark, hyporeflective space. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** Looking at the RPE layer (the bright white line at the bottom of the retina), there is a distinct elevation. It looks like a dome-shaped elevation of the RPE. This is a Pigment Epithelial Detachment. It appears to be a fibrovascular PED",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -177.0
+  },
+  "128R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **Image Analysis:** I see a cross-section of the retina.\n*   **RPE/Choroid Interface:** There is a distinct elevation of the Retinal Pigment Epithelium (RPE). This looks like a Pigment Epithelial Detachment (PED). It's a dome-shaped elevation.\n*   **Subretinal Space:** Above the RPE/PED, there is a hyporeflective (dark) space separating the neurosensory retina from the RPE. This indicates Subretinal Fluid (SRF).\n*   **Intraretinal Space:** Looking closely at the retinal layers, there are some small hyporeflective cystic spaces within the retina, particularly near the area of the PED. This suggests Intraretinal Fluid (IRF).\n*   **Conclusion for Step 1:** I see PED, SRF",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 4.0
+  },
+  "167R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** Looking at the retinal layers, I see hyporeflective (dark) cystic spaces within the neurosensory retina. These are clearly visible, particularly in the outer plexiform and inner nuclear layers. So, IRF is present.\n*   **SRF (Subretinal Fluid):** I need to look for a separation between the neurosensory retina and the RPE. There is a distinct hyporeflective space underneath the retina, lifting it up. This is subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** I need to look for a dome-shaped elevation of the RPE. The RPE band (the bright white line at the bottom of the retina) is elevated in a somewhat irregular, undulating fashion. There are hyperreflective materials underneath the RPE",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": 1,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 6.0
+  },
+  "183R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** Looking at the retinal layers, I see distinct hyporeflective (dark) cystic spaces within the neurosensory retina. These are clearly visible in the inner to outer nuclear layers. This indicates intraretinal fluid.\n*   **SRF (Subretinal Fluid):** There is a separation between the neurosensory retina and the RPE layer. The retina is elevated. Underneath the retina, there is a hyporeflective space. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** There is a distinct, dome-shaped elevation of the hyperreflective RPE band. Underneath this elevation, there is material that is somewhat hyperreflective/heterogeneous, suggesting a fibrovascular PED or a serous PED with some sub-RPE material. The R",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -158.0
+  },
+  "193L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **Image Analysis:** I see a cross-section of the retina.\n*   **RPE/Choroid Interface:** There is a distinct elevation of the Retinal Pigment Epithelium (RPE). The hyperreflective band corresponding to the RPE is lifted up. Underneath this elevation, there is material that is somewhat heterogeneous but mostly hyporeflective to iso-reflective. This looks like a Pigment Epithelial Detachment (PED).\n*   **Subretinal Space:** Above the elevated RPE/PED, there is a space. It's not completely clear. There seems to be some fluid accumulation. Wait, looking closely at the area above the PED, the neurosensory retina is elevated. There is a hyporeflective space between the neurosensory retina and the RPE/PED complex. This indicates Subretinal Fluid (",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -4.0
+  },
+  "206L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response.\n\n**Step 1: Visual findings**\n*   **Image Analysis:** I see an OCT scan of the retina.\n*   **Key Feature:** There is a distinct, dome-shaped elevation of the Retinal Pigment Epithelium (RPE). The space underneath the RPE is hyporeflective (dark), which indicates fluid. This is a classic Pigment Epithelial Detachment (PED).\n*   **Other Features:** Above the PED, the neurosensory retina is elevated. There appears to be some subretinal fluid (SRF) as well, separating the neurosensory retina from the RPE/PED complex. Wait, let me look closer. The dark space is primarily under the RPE. The neurosensory retina is draped over it. There might be a small amount of subretinal fluid anterior to the PED, but the dominant feature is the PED. Let's re-evaluate.\n*   Actually, looking at the left side",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -89.0
+  },
+  "209R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **Image Analysis:** I see a cross-section of the retina.\n    *   The top layer is the vitreous (dark).\n    *   Below that are the retinal layers.\n    *   There is a distinct hyperreflective band at the bottom, which is the RPE/Bruch's membrane complex.\n    *   Looking closely at the retinal layers, there are hyporeflective (dark) spaces.\n    *   There appear to be small cystic spaces within the retinal layers, particularly in the outer nuclear/outer plexiform layers. This suggests Intraretinal Fluid (IRF).\n    *   Looking at the space between the neurosensory retina and the RPE, there is a subtle separation. It's not a massive pocket, but there is a hyporeflective space just above the RPE band. This",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "no_active_disease",
+   "delta_cst": -15.0
+  },
+  "211R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see large, dark (hyporeflective) cystic spaces within the retinal layers. This is classic cystoid macular edema (CME), which is a form of IRF. The cysts are quite large and occupy a significant portion of the retinal thickness.\n*   **SRF (Subretinal Fluid):** There is a separation between the neurosensory retina and the RPE layer. The retina is elevated. While the large cysts are the most prominent feature, there appears to be a hyporeflective space beneath the neurosensory retina, particularly towards the left side where the retina is thickest. Wait, looking closely at the left side, the large dark area is actually *within* the retina (intraretinal), but it's so large it looks like a giant cyst. Let's",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -347.0
+  },
+  "222R": {
+   "out": "The user wants me to analyze a specific OCT B-scan image.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** Looking at the retinal layers, I see multiple hyporeflective (dark) cystic spaces within the neurosensory retina. These are clearly visible in the inner nuclear and outer plexiform layers. This indicates intraretinal fluid.\n*   **SRF (Subretinal Fluid):** I need to look for a separation between the neurosensory retina and the RPE. There is a distinct hyporeflective space between the photoreceptor layer (ellipsoid zone) and the RPE band. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** I need to look for a dome-shaped elevation of the RPE. The RPE band (the bright white line at the bottom of the retina) appears relatively flat but slightly undulating. There isn't a classic, large, distinct dome-shaped PED.",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -8.0
+  },
+  "224R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see large, hyporeflective (dark) cystic spaces within the retinal layers. These are classic cystoid macular edema (CME) or intraretinal cysts. They are very prominent, occupying a large portion of the retinal thickness.\n*   **SRF (Subretinal Fluid):** There is a separation between the neurosensory retina and the RPE layer. The retina is elevated. While the large cysts are the dominant feature, there appears to be fluid underneath the retina, lifting it up. Wait, looking closely at the bottom, the RPE band is visible. The large dark spaces are *within* the retina (intraretinal). Is there subretinal fluid? The retina is elevated, but the large dark spaces look like massive intraretinal cysts. Let's look",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -517.0
+  },
+  "226R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see hyporeflective (dark) cystic spaces within the retinal layers. There are distinct cysts, particularly in the outer plexiform and inner nuclear layers. This is classic cystoid macular edema (CME).\n*   **SRF (Subretinal Fluid):** Looking at the space between the neurosensory retina and the RPE (Retinal Pigment Epithelium), there is a clear separation. The neurosensory retina is elevated. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** The RPE band (the bright white line at the bottom of the retina) appears relatively flat but slightly undulating. Wait, looking closely at the central area, there is a distinct elevation of the RPE. It looks like a small, shallow PED or perhaps",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -57.0
+  },
+  "230L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** Looking at the retinal layers, I see hyporeflective (dark) cystic spaces within the neurosensory retina. These are clearly visible, particularly in the outer plexiform and inner nuclear layers. This indicates intraretinal fluid.\n*   **SRF (Subretinal Fluid):** I need to look for a separation between the neurosensory retina and the RPE. There is a distinct hyporeflective space underneath the retina, lifting it off the RPE band. This is subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** I need to look for a dome-shaped elevation of the RPE. The RPE band (the bright white line at the bottom of the retina) looks relatively flat but slightly undulating. There isn't a classic, large, distinct",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 56.0
+  },
+  "273L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see multiple hyporeflective (dark) cystic spaces within the retinal layers. These are clearly visible, particularly in the outer nuclear layer and outer plexiform layer. There are also hyperreflective dots within the retina, which could be hard exudates or inflammatory cells, but the cystic spaces are the key for IRF.\n*   **SRF (Subretinal Fluid):** There is a large, dome-shaped hyporeflective space separating the neurosensory retina from the retinal pigment epithelium (RPE). This is a classic appearance of subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** The RPE layer is elevated. The space underneath the RPE is hyporeflective but has some internal reflectivity or texture, suggesting it might be a serous PED",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -133.0
+  },
+  "312L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see hyporeflective (dark) cystic spaces within the retinal layers. These are clearly visible, particularly in the central and parafoveal regions. They look like cystoid macular edema.\n*   **SRF (Subretinal Fluid):** There is a separation between the neurosensory retina and the RPE (Retinal Pigment Epithelium). The retina is elevated. Underneath the elevated retina, there is a dark, hyporeflective space. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** Looking closely at the RPE layer, there is a distinct elevation. The RPE band is lifted up. This looks like a serous PED. Wait, let me look closer. The large dome-shaped elevation in the center seems to be a combination of",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -46.0
+  },
+  "319R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see multiple hyporeflective (dark) cystic spaces within the retinal layers. These are clearly visible in the inner and outer nuclear layers. This indicates cystoid macular edema.\n*   **SRF (Subretinal Fluid):** There is a large, dark, hyporeflective space separating the neurosensory retina from the retinal pigment epithelium (RPE). This is a classic appearance of subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** Looking closely at the RPE layer, there is a distinct elevation. The RPE band is lifted up, creating a dome-shaped structure. Underneath this elevation, there is some material, but it looks largely hyporeflective (fluid-filled) or perhaps mixed. Wait, let me look closer. The",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -113.0
+  },
+  "343R": {
+   "out": "The user wants me to analyze a specific OCT B-scan image.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see large, dark, hyporeflective cystic spaces within the retinal layers. These are classic cystoid macular edema (CME) or intraretinal fluid. They are quite prominent, especially in the outer nuclear/outer plexiform layers.\n*   **SRF (Subretinal Fluid):** Looking at the space between the neurosensory retina and the RPE (Retinal Pigment Epithelium), there is a distinct separation. The neurosensory retina is elevated. There is a hyporeflective space underneath the retina, particularly visible on the right side and extending towards the center. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** The RPE band (the bright white line at the bottom of the retina) appears relatively flat but slightly undulating. There isn't",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -32.0
+  },
+  "345R": {
+   "out": "The user wants me to analyze a specific OCT B-scan image.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see hyporeflective (dark) cystic spaces within the retinal layers. There is a large, dome-shaped elevation of the retina. Inside this elevation, there are distinct hyporeflective pockets. This is classic cystoid macular edema (CME) or intraretinal fluid.\n*   **SRF (Subretinal Fluid):** There is a separation between the neurosensory retina and the RPE (Retinal Pigment Epithelium). The large dome shape suggests fluid accumulation underneath the retina. Wait, looking closely at the large dome, it looks like a large cystic space *within* the retina (IRF) but it's pushing the retina up significantly. Let's re-evaluate. The large hyporeflective area is bounded by retinal layers. It looks like a large cyst. However, looking at the base,",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -88.0
+  },
+  "351R": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** Looking at the retinal layers, there are multiple hyporeflective (dark) cystic spaces within the neurosensory retina. This is classic cystoid macular edema. So, IRF is present.\n*   **SRF (Subretinal Fluid):** There is a separation between the neurosensory retina and the RPE (Retinal Pigment Epithelium). The space underneath the retina is hyporeflective. This indicates subretinal fluid. So, SRF is present.\n*   **PED (Pigment Epithelial Detachment):** The RPE band (the bright white line at the bottom of the retina) appears relatively flat but slightly undulating. There isn't a distinct, dome-shaped elevation of the RPE that would characterize a classic serous PED. However, looking closely",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 7.0
+  },
+  "382L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see large, hyporeflective (dark) cystic spaces within the retinal layers. This is classic cystoid macular edema. There are also hyperreflective spots within the retina, likely hard exudates or inflammatory cells, but the fluid is the key. The cysts are quite large and occupy a significant portion of the retinal thickness.\n*   **SRF (Subretinal Fluid):** Looking at the interface between the neurosensory retina and the RPE (Retinal Pigment Epithelium), there is a distinct separation. The neurosensory retina is elevated. There is a hyporeflective space underneath the retina but above the RPE band. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** The RPE band itself looks",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -41.0
+  },
+  "388L": {
+   "out": "The user wants me to analyze a specific OCT B-scan image.\n\n**Step 1: Visual findings (Biomarkers)**\n*   **IRF (Intraretinal Fluid):** Looking at the retinal layers, there are multiple dark, hyporeflective cystic spaces within the neurosensory retina. These are clearly visible, particularly in the outer plexiform and inner nuclear layers. This indicates significant intraretinal edema.\n*   **SRF (Subretinal Fluid):** There is a separation between the neurosensory retina and the RPE (Retinal Pigment Epithelium). The bright white line at the bottom is the RPE/Bruch's membrane complex. Above it, there is a dark space separating the retina from this line. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** The RPE layer (the bright white line) appears relatively flat but slightly undulating. There isn't a distinct, dome-shaped elevation of the RPE that would characterize a classic ser",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -65.0
+  },
+  "398R": {
+   "out": "The user wants me to analyze a specific OCT B-scan image.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see large, hyporeflective (dark) cystic spaces within the retinal layers. These are clearly intraretinal cysts. The retina is thickened and elevated. This is classic cystoid macular edema (CME).\n*   **SRF (Subretinal Fluid):** Looking at the interface between the neurosensory retina and the RPE (Retinal Pigment Epithelium), there is a distinct separation. The neurosensory retina is lifted off the RPE. There is a large hyporeflective space underneath the retina. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** The RPE layer itself looks relatively flat and continuous, though it might be slightly undulating. I don't see a distinct, dome-shaped elevation of the RPE itself filled with material (like",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -191.0
+  },
+  "402L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see large, hyporeflective (dark) cystic spaces within the retinal layers. These are very prominent, especially in the inner and outer nuclear layers. This is classic cystoid macular edema (CME). So, IRF is definitely present.\n*   **SRF (Subretinal Fluid):** Looking at the space between the neurosensory retina and the RPE (Retinal Pigment Epithelium), there is a hyporeflective space. The retina is elevated. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** I need to look closely at the RPE layer. The RPE is the bright white line at the bottom. In the center, there's a dome-shaped elevation of the RPE. Wait, let me look",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": 1,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 14.0
+  },
+  "429L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see hyporeflective (dark) cystic spaces within the retinal layers. There are multiple cysts, particularly in the outer plexiform and inner nuclear layers. This is classic cystoid macular edema.\n*   **SRF (Subretinal Fluid):** There is a distinct separation between the neurosensory retina and the RPE (Retinal Pigment Epithelium). The space underneath the retina is dark (hyporeflective), indicating fluid accumulation. This is subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** Looking closely at the RPE band, there is a localized elevation. It's not a classic serous PED (which is usually a smooth dome), but there is some irregularity and elevation of the RPE layer, possibly a fibro",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 155.0
+  },
+  "461L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** Looking at the retinal layers, there are hyporeflective (dark) cystic spaces within the neurosensory retina. This is characteristic of intraretinal fluid. The retina looks thickened and disorganized.\n*   **SRF (Subretinal Fluid):** There is a distinct hyporeflective space between the neurosensory retina and the retinal pigment epithelium (RPE). The neurosensory retina is elevated, creating a dome-shaped detachment. This is subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** The RPE layer (the bright white line at the bottom of the retina) appears relatively flat but is separated from the Bruch's membrane/choroid interface by the SRF. Wait, let me look closer. The bright line at the bottom is",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "good_responder",
+   "delta_cst": 81.0
+  },
+  "463L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see hyporeflective (dark) cystic spaces within the retinal layers. Specifically, there are several cystic spaces in the inner nuclear/outer plexiform layers. This is classic cystoid macular edema (CME). So, IRF is present.\n*   **SRF (Subretinal Fluid):** I need to look between the neurosensory retina and the RPE. The RPE band is the bright white line at the bottom of the retina. Above it, there is a distinct separation. The neurosensory retina is elevated. There is a hyporeflective space between the photoreceptor layer and the RPE. This indicates Subretinal Fluid (SRF).\n*   **PED (Pigment Epithelial Detachment):** I need to look for a dome-shaped elevation of the RPE",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": 1,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -85.0
+  },
+  "497R": {
+   "out": "The user wants me to analyze a specific OCT B-scan image.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see multiple hyporeflective (dark) cystic spaces within the retinal layers. These are clearly visible, particularly in the outer nuclear layer and inner nuclear layer. This is classic cystoid macular edema (CME). So, IRF is present.\n*   **SRF (Subretinal Fluid):** Looking at the space between the neurosensory retina and the RPE (Retinal Pigment Epithelium), there is a distinct separation. The neurosensory retina is elevated. There is a hyporeflective space underneath the retina but above the RPE band. This indicates Subretinal Fluid (SRF).\n*   **PED (Pigment Epithelial Detachment):** The RPE band itself looks relatively flat and continuous, although there might be some slight undulation. I don't see a distinct, dome-shaped elevation",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": 1,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -285.0
+  },
+  "534R": {
+   "out": "The user wants me to analyze a specific OCT B-scan image.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** Looking at the retinal layers, there are multiple hyporeflective (dark) cystic spaces within the neurosensory retina. This is classic intraretinal fluid. The retina is thickened and disorganized.\n*   **SRF (Subretinal Fluid):** There is a separation between the neurosensory retina and the RPE (Retinal Pigment Epithelium). The space between the photoreceptor layer and the RPE is hyporeflective. This indicates subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** Looking at the RPE band (the bright white line at the bottom of the retina), it appears relatively flat and continuous in this specific B-scan, although there might be some slight undulation. However, looking closely at the left side, there is a distinct elevation of the RPE",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -138.0
+  },
+  "540R": {
+   "out": "The user wants me to analyze a specific OCT B-scan image.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I see hyporeflective (dark) cystic spaces within the retinal layers. Specifically, there are cystic spaces in the outer nuclear layer and outer plexiform layer. This is classic cystoid macular edema (CME).\n*   **SRF (Subretinal Fluid):** There is a distinct separation between the neurosensory retina and the RPE layer. The neurosensory retina is elevated, creating a dark, hyporeflective space underneath it. This is subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** Looking closely at the RPE band, there is a localized elevation. It looks like a small, dome-shaped elevation of the RPE. Wait, let me look closer. The bright line is the RPE/Bruch's membrane complex. Above it, there is fluid. Is",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 139.0
+  },
+  "595L": {
+   "out": "The user wants me to analyze an OCT B-scan image and provide a structured response based on specific steps.\n\n**Step 1: Visual findings (Retinal fluid biomarkers)**\n*   **IRF (Intraretinal Fluid):** I need to look for hyporeflective (dark) cystic spaces within the retinal layers. Looking at the left side of the image, there are distinct hyporeflective spaces within the neurosensory retina. This indicates intraretinal fluid.\n*   **SRF (Subretinal Fluid):** I need to look for a separation between the neurosensory retina and the RPE (Retinal Pigment Epithelium). There is a clear hyporeflective space under the retina, particularly on the left side, lifting the retina off the RPE. This is subretinal fluid.\n*   **PED (Pigment Epithelial Detachment):** I need to look for a dome-shaped elevation of the RPE. On the left side, there is a distinct elevation of the hyperreflective R",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "good_responder",
+   "delta_cst": 63.0
+  }
+ }
+}

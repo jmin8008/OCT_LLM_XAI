@@ -1,0 +1,591 @@
+{
+ "report": {
+  "tier": "tier3",
+  "arm": "A",
+  "meta": false,
+  "n": 35,
+  "decision_balanced_acc": 0.417,
+  "decision_sensitivity": 0.333,
+  "decision_specificity": 0.5,
+  "continue_rate": 0.4,
+  "biomarker_node_acc": 0.317,
+  "biomarker_node_n": 41,
+  "prognosis_node_acc": 0.143,
+  "prognosis_node_n": 35,
+  "prognosis_majority_baseline": 0.314,
+  "response_node_acc": 0.545,
+  "response_node_n": 33,
+  "response_majority_baseline": 0.686,
+  "response_goodpoor_balacc": 0.409,
+  "response_goodpoor_n": 32,
+  "text_kg_align": 0.375,
+  "text_kg_n": 8,
+  "cf_flip_rate": 0.308,
+  "cf_flip_n": 13,
+  "negctrl_flip_rate": 0.429,
+  "negctrl_flip_n": 14,
+  "faithfulness_gap": -0.121
+ },
+ "preds": {
+  "5L": {
+   "out": "**Step 1 (Visual findings):**\nThere are no biomarkers of retinal fluid, such as intraretinal fluid (IRF) or subretinal fluid (SRF). There is no pigment epithelial detachment (PED).\n\n**Step 2 (Pathophysiology):**\nFrom the image alone, it is inferred that the underlying disease activity is inactive, as there are no signs of fluid or other active biomarkers of neovascularisation.\n\n**Step 3 (Clinical decision):**\nBased on the findings and the absence of active biomarkers, the patient is not considered to have active neovascularisation. Therefore, the decision is to stop anti-VEGF therapy.\n\n**Step 4 (Predicted treatment response):**\nPredicted composite response: anatomic central-subfield-thickness change: likely to remain stable or decrease slightly; visual-acuity change: likely to remain stable; fluid resolution: already present. This patient is considered a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -3.0
+  },
+  "9L": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF), subretinal fluid (SRF), or pigment epithelial detachment (PED) observed in the image.\n\nStep 2 (Pathophysiology): From the image alone, it is inferred that there is no active disease activity.\n\nStep 3 (Clinical decision): Based on the findings and provided clinical context, the decision is to continue anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): Predicted composite response to anti-VEGF: anatomic central-subfield-thickness change: stable; visual-acuity change: stable; fluid resolution: already resolved. Conclude that this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -149.0
+  },
+  "20R": {
+   "out": "Step 1: There is no evidence of IRF, SRF, or PED. Step 2: The image suggests active wet AMD, with subretinal fluid and intraretinal fluid. Step 3: Decision: continue anti-VEGF therapy. Step 4: The predicted composite response is good, with anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution, concluding this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -32.0
+  },
+  "45L": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is no pigment epithelial detachment (PED). The OCT image shows a large area of subretinal hyper-reflective material (SHRM) with a small amount of outer nuclear layer (ONL) disruption. The SHRM is likely fibrosis.\n\nStep 2 (Pathophysiology): The underlying disease activity appears to be inactive, as there is no evidence of fluid or active neovascularization.\n\nStep 3 (Clinical decision): Decision: stop. The inactive disease activity and absence of fluid or neovascularization suggest that the patient has reached a stable state and does not require ongoing anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): Predicted treatment response: good responder. The patient is likely to have a good anatomic response, with a reduction in central subfield thickness, and a stable visual acuity. Fluid resolution is already achieved.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": 20.0
+  },
+  "69R": {
+   "out": "<Img>:\n\nStep 1: There is no retinal fluid biomarker present in the image.\n\nStep 2: From the image alone, it is inferred that the underlying disease activity is inactive, as there is no evidence of fluid or other signs of active disease.\n\nStep 3: Based on the findings and the absence of active disease, the decision is to stop anti-VEGF therapy.\n\nStep 4: Predicted treatment response: The composite response to anti-VEGF is an anatomic central-subfield-thickness change, no visual-acuity change, and fluid resolution. This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -21.0
+  },
+  "110R": {
+   "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present in the image.",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": 8.0
+  },
+  "115R": {
+   "out": "Step 1: No retinal fluid biomarkers are present. There is no IRF, SRF, or PED.\n\nStep 2: The underlying disease activity appears inactive, as there is no evidence of active inflammation or neovascularization.\n\nStep 3: Decision: stop.\n\nStep 4: Predicted treatment response: anatomic central-subfield-thickness change: stable; visual-acuity change: stable; fluid resolution: present. This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -177.0
+  },
+  "128R": {
+   "out": "Step 1: There is no IRF, SRF, or PED. The image shows a normal macula with no signs of fluid or pathology.\n\nStep 2: The underlying disease activity is inactive, as there are no signs of fluid or pathology.\n\nStep 3: Decision: continue.\n\nStep 4: Predicted treatment response: anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution. This is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 4.0
+  },
+  "167R": {
+   "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present in the image. No IRF, SRF, or PED is observed.\n\nStep 2 (Pathophysiology): From the image alone, it is inferred that there is no active disease activity, as no fluid biomarkers are present.\n\nStep 3 (Clinical decision): Based on the findings and no provided clinical context, the decision is to continue anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): The predicted composite response to anti-VEGF is an anatomic central-subfield-thickness change, no visual-acuity change, and fluid resolution. This is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 6.0
+  },
+  "183R": {
+   "out": "Step 1: There is no intraretinal or subretinal fluid present.\nStep 2: The underlying disease activity appears inactive, as there is no evidence of active neovascularization or inflammation.\nStep 3: Decision: stop.\nStep 4: Predicted treatment response: anatomic central-subfield-thickness change: minimal, visual-acuity change: stable, fluid resolution: complete. This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": NaN,
+    "SRF": 1,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -158.0
+  },
+  "193L": {
+   "out": "<Img>\n\nStep 1 (Visual findings):\nThere is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology):\nFrom the image alone, it is inferred that there is no active neovascularization or fluid accumulation, suggesting a relatively stable or inactive AMD stage.\n\nStep 3 (Clinical decision):\nBased on the findings and the absence of active disease, the decision is to stop anti-VEGF therapy.\n\nStep 4 (Predicted treatment response):\nPredicted composite response: anatomic central-subfield-thickness change: stable; visual-acuity change: stable; fluid resolution: already resolved. This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -4.0
+  },
+  "206L": {
+   "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED observed in the image.",
+   "dec": "uncertain",
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": null,
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -89.0
+  },
+  "209R": {
+   "out": "Step 1 (Visual findings): There are no retinal fluid biomarkers present in the image. The OCT image appears to show a normal retinal structure with no signs of macular edema or fluid accumulation.\n\nStep 2 (Pathophysiology): From the image alone, it is inferred that there is no active disease process or underlying pathology.\n\nStep 3 (Clinical decision): Decision: stop.\n\nStep 4 (Predicted treatment response): Predicted composite response: anatomic central-subfield-thickness change: stable, visual-acuity change: stable, fluid resolution: already resolved. Conclude: good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "no_active_disease",
+   "delta_cst": -15.0
+  },
+  "211R": {
+   "out": "Step 1: There are no biomarkers of retinal fluid present in the image. The retina appears normal with no signs of intraretinal or subretinal fluid.\n\nStep 2: From the image alone, it appears that there is no active disease activity, suggesting a stable or possibly regressed condition.\n\nStep 3: Decision: stop. Since there is no evidence of active disease, anti-VEGF therapy is not necessary.\n\nStep 4: Predicted treatment response: The patient is likely a good responder, as there is no evidence of ongoing disease activity, and the retina appears normal.",
+   "dec": 0,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -347.0
+  },
+  "222R": {
+   "out": "Step 1: There is no retinal fluid biomarker present in the image. No IRF, SRF, or PED are visible.\n\nStep 2: From the image alone, it is difficult to infer the underlying disease activity, as there are no signs of disease.\n\nStep 3: Decision: continue. Since there are no signs of disease, it is not possible to determine whether to stop or continue anti-VEGF therapy based on the image alone.\n\nStep 4: Predicted treatment response: The composite response to anti-VEGF is uncertain, as there is no fluid present. Therefore, it is not possible to conclude whether this is a good responder or a poor responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "poor_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -8.0
+  },
+  "224R": {
+   "out": "**Step 1 (Visual findings)**: There is no retinal fluid biomarker present, neither IRF nor SRF, nor PED.\n\n**Step 2 (Pathophysiology)**: From the image alone, it is inferred that there is no active disease activity, as no retinal fluid or other biomarkers indicative of neovascularization are present.\n\n**Step 3 (Clinical decision)**: Based on the findings and the absence of active disease, the decision is to stop anti-VEGF therapy.\n\n**Step 4 (Predicted treatment response)**: Predicted composite response to anti-VEGF: anatomic central-subfield-thickness change: no change; visual-acuity change: no change; fluid resolution: already resolved. This patient is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -517.0
+  },
+  "226R": {
+   "out": "Step 1 (Visual findings): There is no evidence of IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): From the image alone, there is no evidence of active disease activity.\n\nStep 3 (Clinical decision): Decision: stop.\n\nStep 4 (Predicted treatment response): Predicted composite response: anatomic central-subfield-thickness change: stable, visual-acuity change: stable, fluid resolution: already resolved. Conclusion: This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -57.0
+  },
+  "230L": {
+   "out": "Step 1: There is no IRF, SRF, or PED present in the image.\n\nStep 2: From the image alone, it is difficult to infer the underlying disease activity without additional clinical context.\n\nStep 3: Decision: continue. Without any signs of fluid or disease activity, it is likely that the patient is stable and should continue with anti-VEGF therapy.\n\nStep 4: Predicted treatment response: anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution are all possible. This patient is likely a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": 1,
+    "PED": 1,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 56.0
+  },
+  "273L": {
+   "out": "Step 1: There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is no pigment epithelial detachment (PED).\n\nStep 2: The underlying disease activity appears to be inactive, as there are no signs of active neovascularization or inflammation.\n\nStep 3: Decision: stop. The inactive disease state suggests no need for anti-VEGF therapy.\n\nStep 4: Predicted treatment response: The patient is a poor responder, as there is no expected anatomic central-subfield-thickness change, no visual-acuity change, and no fluid resolution.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "poor_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -133.0
+  },
+  "312L": {
+   "out": "**Step 1: Visual findings**\nThere are no retinal fluid biomarkers present in this OCT image. No IRF, SRF, or PED are observed.\n\n**Step 2: Pathophysiology**\nFrom the image alone, it is difficult to infer the underlying disease activity. However, the absence of fluid biomarkers suggests that there is no active disease activity.\n\n**Step 3: Clinical decision**\nBased on the findings and the absence of active disease, the decision is to stop anti-VEGF therapy.\n\n**Step 4: Predicted treatment response**\nPredicted composite response to anti-VEGF: anatomic central-subfield-thickness change: stable, visual-acuity change: stable, fluid resolution: complete. This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -46.0
+  },
+  "319R": {
+   "out": "Step 1: No retinal fluid biomarkers are present. \n\nStep 2: The underlying disease activity appears to be related to a macular drusen, likely a sign of normal aging.\n\nStep 3: Decision: continue.\n\nStep 4: Predicted treatment response: poor responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "poor_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -113.0
+  },
+  "343R": {
+   "out": "Step 1: The OCT image shows intraretinal fluid (IRF) and subretinal fluid (SRF). There is no pigment epithelial detachment (PED).\n\nStep 2: The underlying disease activity is likely active neovascularization, as indicated by the presence of fluid.\n\nStep 3: Decision: continue. The patient needs ongoing treatment with anti-VEGF to manage the active neovascularization.\n\nStep 4: Predicted treatment response: The patient is likely to respond well to anti-VEGF therapy, with anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution. This is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -32.0
+  },
+  "345R": {
+   "out": "<Img>:\n\n1. Visual findings: There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED). The image shows a large amount of subretinal fluid and a large area of fluid beneath the fovea.\n2. Pathophysiology: The presence of subretinal fluid suggests active fluid leakage, which is indicative of active wet AMD.\n3. Clinical decision: Based on the findings, the decision is to continue anti-VEGF therapy.\n4. Predicted treatment response: The predicted response is an anatomic central-subfield-thickness change, a possible visual-acuity change, and fluid resolution. This is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -88.0
+  },
+  "351R": {
+   "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED. The image shows a normal retina with no signs of fluid or pathology.\n\nStep 2 (Pathophysiology): From the image alone, there is no evidence of disease activity.\n\nStep 3 (Clinical decision): Decision: stop.\n\nStep 4 (Predicted treatment response): Predicted composite response: anatomic central-subfield-thickness change: stable, visual-acuity change: stable, fluid resolution: already resolved. Conclusion: good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 7.0
+  },
+  "382L": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. However, there is a large drusen-like abnormality in the outer retina, which could be indicative of a pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): From the image alone, it can be inferred that the underlying disease activity is likely inactive, as there is no evidence of active fluid accumulation.\n\nStep 3 (Clinical decision): Based on the findings and the absence of active fluid, the decision is to stop anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): Predicted composite response to anti-VEGF: anatomic central-subfield-thickness change: likely no change, visual-acuity change: likely no change, and fluid resolution: already resolved. This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 1,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -41.0
+  },
+  "388L": {
+   "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present in the image. No IRF, SRF, or PED is visible.\n\nStep 2 (Pathophysiology): From the image alone, it is inferred that there is no active disease activity, as no fluid is present.\n\nStep 3 (Clinical decision): Decision: continue.\n\nStep 4 (Predicted treatment response): Predicted composite response: anatomic central-subfield-thickness change: stable, visual-acuity change: stable, fluid resolution: already resolved. This is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -65.0
+  },
+  "398R": {
+   "out": "Step 1: There are no signs of retinal fluid biomarkers such as IRF, SRF, or PED.\n\nStep 2: From the image alone, it is inferred that there is no active disease activity.\n\nStep 3: Based on the findings and the absence of active disease, the decision is to stop anti-VEGF therapy.\n\nStep 4: Predicted treatment response: The composite response to anti-VEGF would likely be an anatomic central-subfield-thickness change, no visual-acuity change, and fluid resolution. This would indicate a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -191.0
+  },
+  "402L": {
+   "out": "Step 1: The retinal fluid biomarkers present are IRF (intraretinal fluid) and SRF (subretinal fluid).\n\nStep 2: The presence of intraretinal fluid and subretinal fluid indicates active disease, likely related to wet AMD.\n\nStep 3: Decision: continue anti-VEGF therapy.\n\nStep 4: Predicted treatment response: The patient is likely a good responder, with a composite response including anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 14.0
+  },
+  "429L": {
+   "out": "Step 1: There is no retinal fluid biomarker present, including IRF, SRF, or PED.\n\nStep 2: From the image alone, it is inferred that there is no active disease activity.\n\nStep 3: Decision: continue.\n\nStep 4: Predicted treatment response: anatomic central-subfield-thickness change, no visual-acuity change, and fluid resolution. This is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 155.0
+  },
+  "461L": {
+   "out": "Step 1: The image shows subretinal fluid (SRF) and no intraretinal fluid (IRF) or pigment epithelial detachment (PED).\n\nStep 2: The presence of subretinal fluid indicates active disease, suggesting active wet AMD.\n\nStep 3: Based on the findings and the assumption of active disease, the decision is to continue anti-VEGF therapy.\n\nStep 4: Predicting the composite response, the patient is likely a poor responder due to the presence of active disease and subretinal fluid.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "poor_responder",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "good_responder",
+   "delta_cst": 81.0
+  },
+  "463L": {
+   "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) observed in the image.\n\nStep 2 (Pathophysiology): From the image alone, it is difficult to infer the underlying disease activity, as there are no signs of active disease.\n\nStep 3 (Clinical decision): Based on the findings and the absence of any active disease signs, the decision is to continue anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): Predicted composite response: anatomic central-subfield-thickness change: stable; visual-acuity change: stable; fluid resolution: expected. This is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -85.0
+  },
+  "497R": {
+   "out": "Step 1: There is no retinal fluid biomarker present in the image. No IRF, SRF, or PED are observed.\n\nStep 2: The absence of any fluid biomarkers and the normal retinal architecture suggest that there is no active disease activity.\n\nStep 3: Decision: stop. Since there is no active disease, anti-VEGF therapy is not necessary.\n\nStep 4: Predicted treatment response: The composite response to anti-VEGF would be an anatomic central-subfield-thickness change (no change), visual-acuity change (no change), and fluid resolution (already resolved). This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -285.0
+  },
+  "534R": {
+   "out": "**Step 1 (Visual findings):**\nThere is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED).\n\n**Step 2 (Pathophysiology):**\nFrom the image alone, there is no evidence of active disease activity, as there are no biomarkers of AMD (age-related macular degeneration) or other retinal pathologies.\n\n**Step 3 (Clinical decision):**\nDecision: stop.\n\n**Step 4 (Predicted treatment response):**\nPredicted composite response: anatomic central-subfield-thickness change: stable; visual-acuity change: stable; fluid resolution: already resolved. This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -138.0
+  },
+  "540R": {
+   "out": "Step 1 (Visual findings): There are no retinal fluid biomarkers present, such as IRF, SRF, or PED, in this image.\n\nStep 2 (Pathophysiology): From the image alone, it is difficult to infer the underlying disease activity, as there are no signs of disease activity such as fluid or abnormal structures.\n\nStep 3 (Clinical decision): Based on the findings and the absence of any active disease, the decision is to stop anti-VEGF therapy.\n\nStep 4 (Predicted treatment response): Predicted treatment response: anatomic central-subfield-thickness change, no visual-acuity change, and fluid resolution. This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": NaN,
+    "SRF": NaN,
+    "PED": NaN,
+    "HRF": NaN
+   },
+   "prog": null,
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 139.0
+  },
+  "595L": {
+   "out": "Step 1: There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED).\n\nStep 2: From the image alone, there is no evidence of active disease activity. The patient likely has atrophic AMD.\n\nStep 3: Decision: stop.\n\nStep 4: Predicted treatment response: anatomic central-subfield-thickness change: stable, visual-acuity change: stable, fluid resolution: already resolved. This is a good responder.",
+   "dec": 0,
+   "bm": {
+    "IRF": 0,
+    "SRF": 0,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "minimal_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "good_responder",
+   "delta_cst": 63.0
+  }
+ }
+}

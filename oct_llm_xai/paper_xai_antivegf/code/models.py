@@ -256,7 +256,10 @@ class LLaVAMedBackend(VLMBackend):
                 do_sample=False,
                 max_new_tokens=max_new_tokens,
             )
-        gen = out_ids[:, input_ids.shape[1]:]
+        # LLaVA-Med's fork generates from inputs_embeds, so recent transformers return
+        # ONLY the newly generated tokens (out_ids shorter than the text input_ids).
+        # Slicing by input length would then drop everything -> decode the full output.
+        gen = out_ids if out_ids.shape[1] <= input_ids.shape[1] else out_ids[:, input_ids.shape[1]:]
         return self.tokenizer.decode(gen[0], skip_special_tokens=True).strip()
 
 

@@ -136,9 +136,12 @@ def parse_ci(text: str):
     """
     if not text:
         return "uncertain"
-    m = re.search(r"answer\s*[:\-]?\s*(continue|stop)", text, re.I)
-    if m:
-        return 1 if m.group(1).lower() == "continue" else 0
+    # Authoritative explicit tag wins; take the LAST 'Decision:'/'Answer:' so the
+    # conclusive call is read even when the reasoning mentions the other option first
+    # (e.g. divergent "...would favor continuation ... was to stop. Decision: stop").
+    tags = re.findall(r"(?:decision|answer)\s*[:\-]?\s*(continue|stop)", text, re.I)
+    if tags:
+        return 1 if tags[-1].lower() == "continue" else 0
     has_cont = bool(_CONT_RE.search(text))
     has_stop = bool(_STOP_RE.search(text))
     if has_cont and not has_stop:
@@ -149,6 +152,29 @@ def parse_ci(text: str):
         # take whichever appears first
         return 1 if _CONT_RE.search(text).start() < _STOP_RE.search(text).start() else 0
     return "uncertain"
+
+
+def parse_response(text: str):
+    """Step-4 composite treatment-response node (v0.3): returns
+    'good_responder' | 'poor_responder' | 'no_active_disease' | None.
+
+    Reads the Step-4 segment only; 'no active disease' wins (dry/quiescent), else the
+    LAST explicit good/poor cue is the conclusion (narratives may mention 'poor' while
+    concluding 'good' or vice-versa)."""
+    if not text:
+        return None
+    t = text.lower()
+    if "step 4" in t:
+        t = t.split("step 4", 1)[1]
+    if "no active disease" in t or "no active exudation" in t:
+        return "no_active_disease"
+    good_i = max(t.rfind("good respon"), t.rfind("good treatment respon"))
+    poor_i = max(t.rfind("poor respon"), t.rfind("non-responder"),
+                 t.rfind("response to anti-vegf was poor"), t.rfind("limited benefit"),
+                 t.rfind("guarded prognosis"))
+    if good_i < 0 and poor_i < 0:
+        return None
+    return "good_responder" if good_i > poor_i else "poor_responder"
 
 
 # Absent cues are checked FIRST (negations like "not seen" must win over the bare

@@ -13,9 +13,11 @@ Faithfulness is judged by EVAL (eval_ablation.py), not by training loss: the hea
 metric is the counterfactual FLIP-RATE (occlude fluid -> decision flips) vs the
 negative-control flip-rate (occlude non-fluid -> should NOT flip).
 
-STATUS: data pipeline + arm/LoRA wiring are runnable in --dry-run (no GPU). The
-model forward / loss-on-target-tokens / attention-capture hook are marked TODO(GPU)
-— they require the 16 GB RetinaVLM weights + GPU and must be validated there.
+STATUS: data pipeline + arm/LoRA wiring runnable in --dry-run (no GPU).  The model
+forward, target-token CE, and the arm-C attention-rollout KL are now WIRED (see
+attn_kl.py for the differentiable rollout + 12x12->6x6 mask pooling + KL); the
+canonical runnable trainer is train_lora_b.py (--arm B/C/D).  compute_losses()/
+attach_lora() here delegate to it so the scaffold and the trainer share one path.
 
 Run:
   PYTHONNOUSERSITE=1 conda run -n aptos2021 python3 -u lora_ablation.py --arm B --dry-run
@@ -71,26 +73,31 @@ def load_rows(arm: ArmConfig, split: str = "train") -> list[dict]:
     return rows
 
 
-def attach_lora(base_model):
-    """TODO(GPU): wrap RetinaVLM's llama_model with PEFT LoRA on LORA_TARGETS.
-    from peft import LoraConfig, get_peft_model
-    cfg = LoraConfig(target_modules=LORA_TARGETS, task_type='CAUSAL_LM', **LORA_CFG)
-    base_model.model.llama_model = get_peft_model(base_model.model.llama_model, cfg)
-    return base_model
-    """
-    raise NotImplementedError("attach_lora: wire PEFT onto mini_gpt4.llama_model (GPU step)")
+def attach_lora(backend):
+    """Wrap RetinaVLM's llama_model with PEFT LoRA on LORA_TARGETS (delegates to the
+    proven implementation in train_lora_b.attach_lora). Returns the trainable params."""
+    import train_lora_b as T
+    return T.attach_lora(backend._inner)
 
 
-def compute_losses(arm, batch, model, kg=None):
-    """TODO(GPU): assemble the per-arm loss.
-      L_LM : causal-LM CE on the TARGET tokens only (mask the prompt tokens).
-      L_attn (arm C): KL( rollout image-attn for the decision token  ||  fluid_mask_norm ),
-                      reusing rollout.image_attention_map + masks_12x12.
+def compute_losses(arm, row, backend, masks=None, grid_hw=(6, 6)):
+    """Assemble the per-arm loss for ONE row (batch=1; the trainer streams samples).
+
+      L_LM : causal-LM CE on the TARGET tokens only — mini_gpt4.forward masks
+             image+prompt+pad to -100, so its returned loss IS L_LM.
+      L_attn (arm C): KL( rollout image-attn over the answer tokens || fluid_mask ),
+             via attn_kl.attn_kl_loss (differentiable torch rollout + 12x12->grid pool).
       D: same L_LM but the dataloader already includes occluded->stop rows, so the
          causal signal is learned from data (no extra loss term).
-    Returns dict(total=..., lm=..., attn=...).
+    Returns dict(total=..., lm=..., attn=...).  The canonical runnable trainer is
+    train_lora_b.py (--arm B/C/D); this mirrors its loss for the scaffold path.
     """
-    raise NotImplementedError("compute_losses: forward + target-token CE (+attn KL) — GPU step")
+    import train_lora_b as T
+    if arm.use_attn_loss:                       # arm C
+        total, lm_v, kl_v = T.forward_with_attn(backend, row, masks or {}, arm.attn_lambda, grid_hw)
+        return {"total": total, "lm": lm_v, "attn": kl_v}
+    loss = backend._inner.forward(T.make_sample(backend, row))   # arm B/D: L_LM only
+    return {"total": loss, "lm": float(loss.detach()), "attn": None}
 
 
 def train(arm_key: str, dry_run: bool):

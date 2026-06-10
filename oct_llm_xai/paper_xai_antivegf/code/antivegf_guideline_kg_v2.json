@@ -1,48 +1,59 @@
 {
   "metadata": {
     "name": "AntiVEGF-Guideline-KG",
-    "version": "0.2-multihop",
-    "description": "Multi-hop (Node-Edge-Node) clinical-guideline KG for anti-VEGF continuation. Extends v0.1 with an explicit 4-layer causal chain (Visual -> Pathophysiology -> Prognosis -> Decision) used to RENDER chain-of-thought SFT targets. Each node is supervised by its own ground truth: Visual=image biomarker labels, Prognosis=measured ΔCST category, Decision=recorded continue/stop label. The connective narrative is guideline-based (non-deterministic) so eyes whose response and decision diverge are rendered honestly rather than contradictorily.",
-    "method_source": "Wang MH, Sensors 2025 25:6879 (neuro-symbolic causal/temporal reasoning + counterfactual). v0.2 adopts Wang's temporal-response framing: prognosis is a PREDICTED treatment-response node, not a static rule.",
-    "design_note": "Input to the model is the PRE-treatment image ONLY. Prognosis (ΔCST response) is a PREDICTION TARGET the model must infer from the image, NOT an input hint. Its per-node accuracy is scored against measured ΔCST (informational-limit finding if unlearnable)."
+    "version": "0.3-causal-reordered",
+    "description": "Clinically-ordered 4-layer KG: Visual -> Pathophysiology -> DECISION -> RESPONSE. v0.3 FLIPS the v0.2 chain so the causal order matches practice: the clinician first DECIDES whether to (continue) anti-VEGF from the current image + pre-treatment metadata (guideline-based), and the treatment RESPONSE (anatomic + functional + fluid) is the downstream OUTCOME predicted given that decision -- not a prior that drives the decision. Diagnosis is NO LONGER given in the input: pathophysiology is inferred from the image so Step 2 is a genuine inference, not a relabel of a supplied diagnosis.",
+    "method_source": "Wang MH, Sensors 2025 25:6879 (neuro-symbolic causal/temporal reasoning + counterfactual). v0.3 corrects the temporal direction: DECISION is the guideline node (image+metadata -> continue/stop); RESPONSE is the conditional outcome node (decision -> expected delta-CST + delta-VA + fluid resolution -> responder/non-responder).",
+    "design_note": "Input = PRE-treatment image ONLY (diagnosis removed; metadata optionally injected for the metadata ablation). Step 3 DECISION is supervised by the recorded continue/stop label. Step 4 RESPONSE is supervised by the MEASURED composite outcome (delta-CST bucket + delta-VA direction + pre->post fluid resolution). Single-image limit finding now lives cleanly on the terminal RESPONSE node; the DECISION node is a separate guideline classification."
   },
-  "layers": ["visual", "pathophysiology", "prognosis", "decision"],
+  "layers": ["visual", "pathophysiology", "decision", "response"],
   "nodes": [
     {"id": "IRF", "layer": "visual", "label": "Intraretinal fluid", "umls": "C0877237"},
     {"id": "SRF", "layer": "visual", "label": "Subretinal fluid", "umls": "C0729763"},
     {"id": "PED", "layer": "visual", "label": "Pigment epithelial detachment", "umls": "C0035322_ped"},
     {"id": "HRF", "layer": "visual", "label": "Hyperreflective foci", "umls": "C0155036"},
-    {"id": "active_exudation", "layer": "pathophysiology", "label": "Active exudative disease", "narrative": "active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process)"},
+
+    {"id": "active_exudation", "layer": "pathophysiology", "label": "Active exudative lesion", "narrative": "an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process)"},
     {"id": "ped_indeterminate", "layer": "pathophysiology", "label": "PED without active fluid", "narrative": "a pigment epithelial detachment without active intra- or sub-retinal fluid, an activity-indeterminate finding"},
-    {"id": "dry_macula", "layer": "pathophysiology", "label": "Dry macula", "narrative": "a dry macula with no active exudation"},
-    {"id": "marked_response", "layer": "prognosis", "label": "Marked anatomic responder", "narrative": "a marked anatomic response to anti-VEGF (large reduction in central subfield thickness)"},
-    {"id": "partial_response", "layer": "prognosis", "label": "Partial responder", "narrative": "a partial anatomic response to anti-VEGF"},
-    {"id": "minimal_response", "layer": "prognosis", "label": "Minimal responder", "narrative": "little anatomic change under anti-VEGF"},
-    {"id": "worsening", "layer": "prognosis", "label": "Anatomic worsening", "narrative": "anatomic worsening despite anti-VEGF"},
-    {"id": "no_active_disease", "layer": "prognosis", "label": "No active disease to treat", "narrative": "no active disease for anti-VEGF to act on"},
+    {"id": "dry_macula", "layer": "pathophysiology", "label": "Quiescent / dry macula", "narrative": "a quiescent dry macula with no active exudation"},
+
     {"id": "continue", "layer": "decision", "label": "Continue injection"},
-    {"id": "stop", "layer": "decision", "label": "Stop / observe"}
+    {"id": "stop", "layer": "decision", "label": "Stop / observe"},
+
+    {"id": "good_responder", "layer": "response", "label": "Good treatment responder", "narrative": "a good treatment response (meaningful CST reduction and/or visual-acuity gain)"},
+    {"id": "poor_responder", "layer": "response", "label": "Poor / non-responder", "narrative": "a poor anatomic-functional response (little CST reduction and no visual gain) despite anti-VEGF"},
+    {"id": "no_active_disease", "layer": "response", "label": "No active disease to treat", "narrative": "no active disease for anti-VEGF to act on; the macula is expected to remain anatomically stable"}
   ],
   "edges": [
     {"head": "IRF", "tail": "active_exudation", "relation": "indicates", "weight": 0.80},
     {"head": "SRF", "tail": "active_exudation", "relation": "indicates", "weight": 0.85},
     {"head": "PED", "tail": "ped_indeterminate", "relation": "indicates", "weight": 0.45},
+
     {"head": "active_exudation", "tail": "continue", "relation": "guideline_favors", "weight": 0.82},
     {"head": "dry_macula", "tail": "stop", "relation": "guideline_favors", "weight": 0.85},
-    {"head": "marked_response", "tail": "stop", "relation": "response_favors", "weight": 0.70},
-    {"head": "minimal_response", "tail": "continue", "relation": "response_favors", "weight": 0.65}
+    {"head": "ped_indeterminate", "tail": "continue", "relation": "guideline_case_dependent", "weight": 0.45},
+
+    {"head": "continue", "tail": "good_responder", "relation": "expected_response_if_treated", "weight": 0.50},
+    {"head": "continue", "tail": "poor_responder", "relation": "expected_response_if_treated", "weight": 0.50},
+    {"head": "stop", "tail": "no_active_disease", "relation": "expected_course_if_observed", "weight": 0.70}
   ],
-  "prognosis_thresholds_delta_cst_um": {
-    "marked_response": {"max": -100.0},
-    "partial_response": {"min": -100.0, "max": -25.0},
-    "minimal_response": {"min": -25.0, "max": 25.0},
-    "worsening": {"min": 25.0}
-  },
-  "guideline_rules": [
+  "decision_guideline_rules": [
     {"id": "R1", "if": {"SRF": 1}, "then": "continue", "weight": 0.85, "rationale": "Subretinal fluid -> active exudation -> guideline favors continuation."},
     {"id": "R2", "if": {"IRF": 1}, "then": "continue", "weight": 0.80, "rationale": "Intraretinal fluid -> active edema -> guideline favors continuation."},
     {"id": "R3", "if": {"IRF": 0, "SRF": 0, "PED": 0}, "then": "stop", "weight": 0.85, "rationale": "No active fluid (dry macula) -> guideline favors stopping."},
-    {"id": "R4", "if": {"IRF": 0, "SRF": 0, "PED": 1}, "then": "case_dependent", "weight": 0.45, "rationale": "PED only, no active fluid -> case-dependent."}
+    {"id": "R4", "if": {"IRF": 0, "SRF": 0, "PED": 1}, "then": "case_dependent", "weight": 0.45, "rationale": "PED only, no active fluid -> case-dependent (metadata-modulated)."},
+    {"id": "metadata_modifiers", "factors": ["age", "drug", "pre_cst", "pre_va"], "note": "When metadata is provided (metadata ablation), these modulate the guideline decision; in the base setting only the image findings drive Step 3."}
   ],
-  "decision_biomarkers": {"continue": ["SRF", "IRF"], "stop": ["IRF", "SRF"]}
+  "response_definition": {
+    "note": "Step-4 RESPONSE is a COMPOSITE of three measured outcomes; the neovascular/edematous response is NOT judged by CST alone.",
+    "anatomic_delta_cst_um": {
+      "marked": {"max": -100.0},
+      "partial": {"min": -100.0, "max": -25.0},
+      "minimal": {"min": -25.0, "max": 25.0},
+      "worsening": {"min": 25.0}
+    },
+    "functional_delta_va_decimal": {"improved": {"min": 0.1}, "stable": {"min": -0.1, "max": 0.1}, "declined": {"max": -0.1}},
+    "fluid_resolution": {"resolved": "pre-fluid present and post-treatment dry", "persistent": "fluid present pre and post", "na": "no pre-fluid"},
+    "composite_responder_rule": "good_responder if (delta_cst <= -25  OR  delta_va >= +0.1); else poor_responder. Fluid resolution reported as supporting evidence (rare: ~5% of fluid eyes resolve in this cohort)."
+  }
 }

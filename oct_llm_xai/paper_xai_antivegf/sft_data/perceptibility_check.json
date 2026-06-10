@@ -1,0 +1,2845 @@
+{
+ "A": {
+  "report": {
+   "arm": "A",
+   "n_eyes": 34,
+   "text_identical_occ": 0.0,
+   "text_identical_neg": 0.029,
+   "mean_sim_occ": 0.5601,
+   "mean_sim_neg": 0.6081,
+   "n_with_fluid_clean": 6,
+   "fluid_drop_rate_occ": 0.118,
+   "fluid_drop_rate_neg": 0.118,
+   "perceptibility_gap_bm": 0.0,
+   "dec_flip_rate_occ": 0.111,
+   "dec_flip_occ_n": 27,
+   "dec_flip_rate_neg": 0.037,
+   "dec_flip_neg_n": 27,
+   "perceptibility_gap_dec": 0.074
+  },
+  "per_eye": {
+   "5L": {
+    "clean": {
+     "out": "**Step 1 (Visual findings):**\nThe image shows no evidence of intraretinal fluid (IRF) or subretinal fluid (SRF). There is a pigment epithelial detachment (PED) present.\n\n**Step 2 (Pathophysiology):**\nThe presence of a PED suggests that the underlying disease activity is related to chronic disease, likely late-stage macular neovascularization (LMN).\n\n**Step 3 (Predicted treatment response):**\nGiven the presence of a PED, the central subfield thickness (CST) is likely to remain elevated due to the chronic neovascularization.\n\n**Step 4 (Decision):**\nGiven the presence of a PED and the likely chronic neovascularization, the patient should be continued on anti-VEGF therapy.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "<Img>\n\nStep 1 (Visual findings): There are no intraretinal fluid (IRF) or subretinal fluid (SRF) present. The image shows a pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of a PED suggests that the underlying disease activity is related to chronic central serous retinal pigment epithelial detachment (CSR), which is indicative of active neovascularization.\n\nStep 3 (Predicted treatment response): Given the active neovascularization, the central subfield thickness (CST) is likely to remain elevated or show only a slight decrease in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "<Img>:\n\nStep 1 (Visual findings): There are no biomarkers of intraretinal or subretinal fluid. The image shows a pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of a PED suggests late-stage disease, specifically intermediate AMD.\n\nStep 3 (Predicted treatment response): Since there is no fluid, the CST is unlikely to change significantly in response to anti-VEGF therapy.\n\nStep 4 (Decision): The patient should be referred for general attention by a retinal specialist, but not for anti-VEGF treatment. Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.6362,
+    "sim_neg": 0.384,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [
+     "PED"
+    ],
+    "fluid_dropped_occ": [
+     "PED"
+    ],
+    "fluid_dropped_neg": [
+     "PED"
+    ],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "9L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no evidence of IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The presence of PCV suggests active disease activity, likely due to neovascularization.\n\nStep 3 (Predicted treatment response): The anatomic response to anti-VEGF therapy is likely to be positive, with a decrease in CST.\n\nStep 4 (Decision): Decision: continue.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED observed in the image.\n\nStep 2 (Pathophysiology): The presence of a large amount of intraretinal fluid suggests active neovascularization, indicating active disease.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to decrease in response to anti-VEGF therapy.\n\nStep 4 (Decision): Continue anti-VEGF therapy.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED observed in the image.\n\nStep 2 (Pathophysiology): The presence of a PCV suggests active disease activity, likely related to neovascularization.\n\nStep 3 (Predicted treatment response): Given the active disease, the CST is likely to decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.\n\nNote: The patient should receive anti-VEGF therapy to manage the active disease.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.594,
+    "sim_neg": 0.6691,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "20R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) observed in the image. There is no pigment epithelial detachment (PED) either.\nStep 2 (Pathophysiology): The absence of fluid biomarkers suggests that the underlying disease activity is inactive.\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is unlikely to improve significantly with anti-VEGF therapy.\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED. Step 2 (Pathophysiology): The underlying disease activity is likely related to PCV. Step 3 (Predicted treatment response): The central subfield thickness (CST) is likely to remain stable or improve with anti-VEPG therapy. Step 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) observed in the image. There is no pigment epithelial detachment (PED) either.\nStep 2 (Pathophysiology): The absence of fluid biomarkers suggests that the disease activity is inactive.\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is likely to remain stable or even decrease with anti-VEGF therapy.\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.4648,
+    "sim_neg": 0.9229,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 0,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "45L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): The image shows subretinal fluid (SRF) and intraretinal fluid (IRF) in the macula. There is no evidence of pigment epithelial detachment (PED). \n\nStep 2 (Pathophysiology): The presence of SRF and IRF indicates active exudative macular neovascularisation (CNV), which is a hallmark of wet AMD. \n\nStep 3 (Predicted treatment response): Given the active neovascularisation, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. However, a large cystoid neovascular membrane (CNVM) is visible, which is a type of PED (pigment epithelial detachment).\n\nStep 2 (Pathophysiology): The presence of a large CNVM indicates active disease activity.\n\nStep 3 (Predicted treatment response): Given the active disease, it is likely that the central subfield thickness (CST) will not improve significantly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is subretinal fluid (SRF) present in the image. No intraretinal fluid (IRF) or pigment epithelial detachment (PED) is observed.\n\nStep 2 (Pathophysiology): The presence of subretinal fluid indicates active neovascularization, which is characteristic of wet AMD.\n\nStep 3 (Predicted treatment response): Given the active neovascularization, it is likely that the central subfield thickness (CST) will decrease in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.4,
+    "sim_neg": 0.7333,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "69R": {
+    "clean": {
+     "out": "Step 1: There is no retinal fluid biomarker present in the image.\n\nStep 2: The underlying disease activity is inactive, as indicated by the absence of retinal fluid and the presence of a normal retinal architecture.\n\nStep 3: The central subfield thickness (CST) is likely to remain stable or decrease slightly in response to anti-VEGF therapy.\n\nStep 4: Decision: continue.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Based on the OCT image, the following findings are observed:\n\nStep 1 (Visual findings): The image shows extensive subretinal fluid (SRF) and intraretinal fluid (IRF) accumulation, indicative of active neovascularization.\n\nStep 2 (Pathophysiology): The presence of a large CNVM and extensive fluid accumulation suggests active exudative AMD.\n\nStep 3 (Predicted treatment response): Given the active neovascularization and fluid accumulation, it is likely that the central subfield thickness (CST) will not improve significantly with anti-VEGF therapy.\n\nStep 4 (Decision): Given the active disease activity and the predicted poor response to anti-VEGF therapy, the final decision is to continue anti-VEGF treatment.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present in the image.\n\nStep 2 (Pathophysiology): The underlying disease activity appears to be inactive, as there is no evidence of active leakage or inflammation.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity and absence of retinal fluid, the central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.1846,
+    "sim_neg": 0.5819,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "110R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is a central subretinal hyperreflective material (SRHM) consistent with a pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The PED is likely due to the underlying disease activity, which is consistent with active wet AMD.\n\nStep 3 (Predicted treatment response): Given the presence of a PED, the central subfield thickness (CST) is likely to remain elevated or increase in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The underlying disease activity is likely active neovascular AMD, given the presence of a CNVM.\n\nStep 3 (Predicted treatment response): Given the presence of a CNVM, the central subfield thickness (CST) is likely to remain elevated or decrease slowly over time.\n\nStep 4 (Decision): Continue anti-VEGF therapy.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) observed in the image.\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers and the presence of a central subfield thickness (CST) within normal limits suggest that the underlying disease activity is low.\n\nStep 3 (Predicted treatment response): Given the normal CST, the predicted anatomic response to anti-VEGF therapy is expected to be minimal.\n\nStep 4 (Decision): Decision: continue.\n\nThe patient should continue anti-VEGF therapy.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.6911,
+    "sim_neg": 0.4053,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [
+     "SRF"
+    ],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "115R": {
+    "clean": {
+     "out": "Step 1: The image does not show any intraretinal fluid (IRF), subretinal fluid (SRF), or pigment epithelial detachment (PED). \n\nStep 2: The absence of these biomarkers suggests that the disease activity is inactive.\n\nStep 3: The CST is expected to decrease in response to anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers suggests that the disease activity is inactive.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is likely to remain stable or decrease slightly over time.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1: The retinal fluid biomarkers present are SRF (subretinal fluid) and IRF (intraretinal fluid). \n\nStep 2: The underlying disease activity is active neovascularization.\n\nStep 3: The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is expected to be significant.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.5455,
+    "sim_neg": 0.2826,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 0,
+    "dec_neg": 1
+   },
+   "128R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): The image shows subretinal fluid (SRF) and intraretinal fluid (IRF) in the macula. There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of SRF and IRF indicates active neovascularization, consistent with active wet AMD.\n\nStep 3 (Predicted treatment response): Given the active neovascularization, the central subfield thickness (CST) is likely to remain elevated or worsen without anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) and no subretinal fluid (SRF). There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of a CNVM suggests active neovascular AMD.\n\nStep 3 (Predicted treatment response): Given the active neovascular AMD, the central subfield thickness (CST) is likely to remain elevated or even increase after anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) and no subretinal fluid (SRF). There is a central neural retinal detachment (PED) due to the CNVM.\nStep 2 (Pathophysiology): The underlying disease activity is active neovascularization due to the CNVM.\nStep 3 (Predicted treatment response): The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is expected to be improved.\nStep 4 (Decision): The final anti-VEGF continuation decision is: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.7447,
+    "sim_neg": 0.5371,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "167R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) visible in the image. There is no pigment epithelial detachment (PED) observed.\n\nStep 2 (Pathophysiology): The absence of IRF, SRF, and PED suggests that the underlying disease activity is inactive.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is unlikely to improve with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) and no subretinal fluid (SRF). There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The underlying disease activity is likely active wet AMD due to the presence of a CNVM.\n\nStep 3 (Predicted treatment response): The predicted anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is likely to be improved.\n\nStep 4 (Decision): Continue anti-VEGF therapy.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) visible in the image. There is no pigment epithelial detachment (PED) observed.\n\nStep 2 (Pathophysiology): The absence of IRF, SRF, and PED suggests that the underlying disease activity is inactive.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is likely stable and would not be expected to improve significantly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.3755,
+    "sim_neg": 0.9516,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 0,
+    "dec_occ": 1,
+    "dec_neg": 0
+   },
+   "183R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is a pigment epithelial detachment (PED) visible.\nStep 2 (Pathophysiology): The presence of a PED suggests active disease, likely due to the presence of fluid under the RPE.\nStep 3 (Predicted treatment response): Given the active disease, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. A pigment epithelial detachment (PED) is visible.\n\nStep 2 (Pathophysiology): The presence of a PED suggests that the underlying disease activity is likely low to moderate.\n\nStep 3 (Predicted treatment response): Given the presence of a PED, the central subfield thickness (CST) is expected to remain relatively stable or show a slight decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is a pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of a PED suggests that the underlying disease activity is likely to be low to moderate.\n\nStep 3 (Predicted treatment response): Given the presence of a PED, the predicted anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is likely to be some improvement.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.7162,
+    "sim_neg": 0.6475,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "193L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The underlying disease activity is likely neovascular AMD, as indicated by the presence of a CNVM.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to remain elevated due to the presence of the CNVM, and anti-VEGF therapy will not improve the anatomic changes.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings):\nThe OCT image shows the presence of intraretinal fluid (IRF) but no subretinal fluid (SRF). There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology):\nThe presence of intraretinal fluid indicates active neovascularization and inflammation, suggesting active AMD.\n\nStep 3 (Predicted treatment response):\nGiven the active disease, the central subfield thickness (CST) is likely to remain elevated or even increase without anti-VEGF therapy.\n\nStep 4 (Decision):\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "<Img>\nStep 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. There is no pigment epithelial detachment (PED) either.\n\nStep 2 (Pathophysiology): The presence of a CNVM indicates active neovascularization, which is a hallmark of active AMD.\n\nStep 3 (Predicted treatment response): Given the active neovascularization, the central subfield thickness (CST) is likely to remain elevated or worsen without treatment.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.5557,
+    "sim_neg": 0.609,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [
+     "SRF"
+    ],
+    "fluid_dropped_occ": [
+     "SRF"
+    ],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "206L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED in the image.\nStep 2 (Pathophysiology): The underlying disease activity is likely inactive, as there are no signs of active fluid or inflammation.\nStep 3 (Predicted treatment response): Given the inactive disease activity, the predicted response to anti-VEGF therapy is likely to be minimal or no change in the CST.\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED present in the image.\nStep 2 (Pathophysiology): The underlying disease activity is likely a CNVM, which is causing the retinal damage.\nStep 3 (Predicted treatment response): Given the presence of a CNVM, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED in the image.\nStep 2 (Pathophysiology): The underlying disease activity is likely a CNVM, which is causing the macular edema.\nStep 3 (Predicted treatment response): The anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is likely to be good.\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.6318,
+    "sim_neg": 0.651,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 0,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "211R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present, such as IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely inactive, as there is no evidence of fluid or significant pathology.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present, such as IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely inactive, as there is no evidence of fluid or significant pathology.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy, as there is no active disease.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present, such as IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely inactive, as there is no evidence of fluid or significant pathology.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.9647,
+    "sim_neg": 1.0,
+    "identical_occ": false,
+    "identical_neg": true,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "222R": {
+    "clean": {
+     "out": "There is no retinal fluid biomarker present in this OCT image. The underlying disease activity is likely inactive due to the absence of fluid. The central subfield thickness (CST) is expected to remain stable or slightly decrease with anti-VEGF therapy. Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) present in the image. The retinal fluid biomarkers are absent.\n\nStep 2 (Pathophysiology): The underlying disease activity appears to be inactive, as there are no signs of active neovascularization or inflammation.\n\nStep 3 (Predicted treatment response): Given the absence of retinal fluid biomarkers and inactive disease activity, the central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1: There is no retinal fluid biomarker present in the image.\n\nStep 2: The underlying disease activity is likely inactive, as there is no evidence of active neovascularization or inflammation.\n\nStep 3: Given the inactive disease activity and the absence of retinal fluid, the central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4: Decision: continue.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.301,
+    "sim_neg": 0.5158,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "224R": {
+    "clean": {
+     "out": "<Img>\n\nStep 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) visible in the image.\n\nStep 2 (Pathophysiology): The absence of these biomarkers suggests that there is no active retinal fluid leakage or structural damage, implying a relatively stable disease state.\n\nStep 3 (Predicted treatment response): Given the absence of retinal fluid and structural damage, it is unlikely that the central subfield thickness (CST) will change significantly in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Here is the analysis:\n\nStep 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) visible in the image.\n\nStep 2 (Pathophysiology): The absence of any significant biomarkers suggests that the disease activity is likely inactive or in a quiescent state.\n\nStep 3 (Predicted treatment response): Given the absence of active disease, it is unlikely that the central subfield thickness (CST) will change significantly in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.\n\nThe patient does not require anti-VEGF therapy at this time.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "<Img>\n\nStep 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) visible in the image.\n\nStep 2 (Pathophysiology): The absence of these biomarkers suggests that the patient does not have active retinal fluid leakage or structural damage. This implies a relatively stable condition.\n\nStep 3 (Predicted treatment response): Given the absence of retinal fluid and structural damage, it is unlikely that the central subfield thickness (CST) will change significantly in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.6606,
+    "sim_neg": 0.91,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 0,
+    "dec_occ": 0,
+    "dec_neg": 0
+   },
+   "226R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no evidence of IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely active DME.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to decrease in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED.\nStep 2 (Pathophysiology): The underlying disease activity is inactive, as there are no signs of active fluid or other pathologies.\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED. There is no retinal fluid biomarker present.\n\nStep 2 (Pathophysiology): The underlying disease activity is inactive, as there are no signs of active fluid or damage.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.7839,
+    "sim_neg": 0.7618,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "230L": {
+    "clean": {
+     "out": "Step 1: The retinal fluid biomarkers present are IRF (intraretinal fluid) and SRF (subretinal fluid). There is no PED (pigment epithelial detachment).\n\nStep 2: The underlying disease activity is likely active DME.\n\nStep 3: Given the presence of IRF and SRF, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1: There is IRF present.\n\nStep 2: The underlying disease activity is likely active DME.\n\nStep 3: The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is a decrease.\n\nStep 4: Decision: continue.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1: There is IRF (intraretinal fluid) present.\n\nStep 2: The underlying disease activity is likely DME.\n\nStep 3: Given the presence of IRF, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.576,
+    "sim_neg": 0.7127,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "273L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF). The image shows a central macular scar with no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The absence of retinal fluid biomarkers suggests inactive disease.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is expected to remain unchanged or slightly decrease due to the inactive disease.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED present.\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers suggests that the underlying disease activity is inactive or resolved.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. However, there is a central pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers suggests that the underlying disease activity is likely inactive or in remission.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is unlikely to change significantly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.561,
+    "sim_neg": 0.6585,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 0,
+    "dec_occ": 0,
+    "dec_neg": 0
+   },
+   "312L": {
+    "clean": {
+     "out": "<Img>\n\n**Step 1 (Visual findings):** There is no retinal fluid biomarker present in this OCT image.\n\n**Step 2 (Pathophysiology):** The underlying disease activity appears to be inactive, as there are no signs of active neovascularization or inflammation.\n\n**Step 3 (Predicted treatment response):** The central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\n\n**Step 4 (Decision):** Decision: continue.\n\nThis OCT image shows a normal retinal architecture with no signs of active disease or fluid accumulation. The patient should be continued on anti-VEGF therapy to monitor for any potential changes.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "**Step 1 (Visual findings):** There is no retinal fluid biomarker present in the image. No IRF, SRF, or PED are visible.\n\n**Step 2 (Pathophysiology):** The absence of retinal fluid biomarkers suggests that the underlying disease activity is inactive, indicating that the patient has reached a stable state.\n\n**Step 3 (Predicted treatment response):** Given the stable disease state, the central subfield thickness (CST) is likely to remain unchanged or show minimal changes in response to anti-VEGF therapy.\n\n**Step 4 (Decision):** Decision: continue.\n\nThe patient should continue with anti-VEGF therapy to maintain the stable state.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "**Step 1 (Visual findings):** There is no retinal fluid biomarker present, such as IRF, SRF, or PED.\n\n**Step 2 (Pathophysiology):** The absence of fluid biomarkers suggests that there is no active disease activity, which implies that the patient is in the inactive stage of DME.\n\n**Step 3 (Predicted treatment response):** The central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\n\n**Step 4 (Decision):** Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.5476,
+    "sim_neg": 0.5836,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "319R": {
+    "clean": {
+     "out": "Step 1: The image does not show any intraretinal fluid (IRF), subretinal fluid (SRF), or pigment epithelial detachment (PED).\n\nStep 2: The underlying disease activity is likely related to central serous retinal detachment (CSR).\n\nStep 3: The central subfield thickness (CST) is likely to decrease significantly with anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1: The image shows no evidence of intraretinal fluid (IRF), subretinal fluid (SRF), or pigment epithelial detachment (PED).\n\nStep 2: The underlying disease activity appears to be active, as the patient has DME.\n\nStep 3: Given the active disease, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4: Decision: continue.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1: The image shows subretinal fluid (SRF) and intraretinal fluid (IRF). There is no pigment epithelial detachment (PED). \n\nStep 2: The presence of SRF and IRF indicates active disease, likely due to macular edema.\n\nStep 3: The central subfield thickness (CST) is expected to decrease with anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.6327,
+    "sim_neg": 0.4517,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "343R": {
+    "clean": {
+     "out": "Step 1: The retinal fluid biomarkers present are intraretinal fluid (IRF) and subretinal fluid (SRF). There is no pigment epithelial detachment (PED).\n\nStep 2: The underlying disease activity is active macular neovascularization (MNV), which is a hallmark of wet AMD.\n\nStep 3: The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is that it will decrease as the fluid is absorbed.\n\nStep 4: The final decision is to continue anti-VEGF therapy.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1: There is no IRF, SRF, or PED present in the image. The OCT shows a moderate amount of central subretinal fluid and some drusen.\n\nStep 2: The underlying disease activity is likely related to DME, which is associated with increased fluid accumulation in the retina.\n\nStep 3: The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is expected to be improved, as the fluid accumulation is a sign of active disease.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1: The retinal fluid biomarkers present are intraretinal fluid (IRF) and subretinal fluid (SRF). There is no pigment epithelial detachment (PED).\n\nStep 2: The underlying disease activity is active macular neovascularization, which is causing the retinal fluid.\n\nStep 3: The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is that it will decrease.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.4121,
+    "sim_neg": 0.8374,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "345R": {
+    "clean": {
+     "out": "<Img>:\n\nStep 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers and the presence of a normal-appearing retina suggest that the disease activity is inactive.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is unlikely to change significantly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.\n\nThe patient does not require anti-VEGF therapy.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "<Img>:\n\nStep 1 (Visual findings): There are no retinal fluid biomarkers present, such as IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers suggests that the disease activity is inactive or at least not actively progressing.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is likely to remain stable or decrease slightly over time.\n\nStep 4 (Decision): Decision: continue.\n\nThe patient should continue anti-VEGF therapy to monitor the disease activity and prevent any potential future progression.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "The image shows no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED). The presence of a large amount of fluid under the fovea indicates active wet AMD. The underlying disease activity is high.\n\nStep 3: The central subfield thickness (CST) is likely to decrease significantly with anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.4838,
+    "sim_neg": 0.4708,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 0,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "351R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): The image shows a moderate amount of intraretinal fluid (IRF) in the inner nuclear layer (INL) and the outer plexiform layer (OPL). There is no subretinal fluid (SRF) or pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of intraretinal fluid indicates active disease, likely due to neovascularization or macular edema.\n\nStep 3 (Predicted treatment response): Given the active disease, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": 0,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED. The macula appears relatively normal.\nStep 2 (Pathophysiology): The absence of fluid biomarkers suggests that the DME is inactive, indicating a stable disease state.\nStep 3 (Predicted treatment response): Given the stable disease state, the CST is likely to remain unchanged or show minimal changes with anti-VEGF therapy.\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): The image shows intraretinal fluid (IRF) in the inner nuclear layer (INL) and the outer plexiform layer (OPL), indicating DME.\nStep 2 (Pathophysiology): The presence of IRF suggests active fluid accumulation, likely due to increased vascular permeability and/or compromised retinal drainage.\nStep 3 (Predicted treatment response): Given the presence of active fluid, the CST is likely to decrease with anti-VEGF therapy.\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.4545,
+    "sim_neg": 0.4746,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "382L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) or subretinal fluid (SRF) present. However, there is a large drusenoid PED.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely inactive, as there is no evidence of active leakage or fluid accumulation.\n\nStep 3 (Predicted treatment response): Given the absence of active leakage or fluid, the central subfield thickness (CST) is unlikely to improve significantly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) visible in the image.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely inactive, as there are no signs of active leakage or fluid accumulation.\n\nStep 3 (Predicted treatment response): Given the inactive disease state, the central subfield thickness (CST) is unlikely to show significant improvement or change in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.\n\nDecision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) present in the image.\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers suggests that the underlying disease activity is likely inactive or resolved.\n\nStep 3 (Predicted treatment response): Given the inactive disease state, the central subfield thickness (CST) is unlikely to change significantly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.7269,
+    "sim_neg": 0.4955,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [
+     "SRF"
+    ],
+    "fluid_dropped_occ": [
+     "SRF"
+    ],
+    "fluid_dropped_neg": [
+     "SRF"
+    ],
+    "dec_clean": 0,
+    "dec_occ": 0,
+    "dec_neg": 0
+   },
+   "388L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present in the image. The OCT image shows a normal fovea with no signs of DME.\n\nStep 2 (Pathophysiology): The absence of retinal fluid biomarkers suggests that the underlying disease activity is low to moderate.\n\nStep 3 (Predicted treatment response): Given the absence of retinal fluid, the central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): The OCT image shows subretinal fluid (SRF) and an intraretinal fluid (IRF) in the central macula. There is no PED.\n\nStep 2 (Pathophysiology): The presence of SRF and IRF indicates active exudation, which is consistent with active wet AMD.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to decrease in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED present in the image.\n\nStep 2 (Pathophysiology): The image shows a normal retinal architecture, indicating no active DME.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 0.4644,
+    "sim_neg": 0.4686,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "398R": {
+    "clean": {
+     "out": "This is a pre-treatment macular OCT B-scan of a patient with DME. \n\nStep 1 (Visual findings): There are no intraretinal fluid biomarkers, no subretinal fluid, and no pigment epithelial detachment.\n\nStep 2 (Pathophysiology): The underlying disease activity is likely related to macular edema, which is not related to neovascularization or inflammation.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is likely to decrease in response to anti-VEGF therapy.\n\nStep 4 (Decision): Continue anti-VEGF therapy.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There are no retinal fluid biomarkers present, such as IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The absence of retinal fluid biomarkers suggests that the underlying disease activity is relatively inactive.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is likely to remain stable or show a slight improvement with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "<Img>\n\nStep 1 (Visual findings): There are no retinal fluid biomarkers present, such as IRF, SRF, or PED.\nStep 2 (Pathophysiology): The underlying disease activity appears to be related to DME, which is characterized by fluid accumulation in the retina.\nStep 3 (Predicted treatment response): Given the presence of DME, it is likely that the central subfield thickness (CST) will not respond significantly to anti-VEGF therapy.\nStep 4 (Decision): Decision: continue.\n\nNote: The patient should continue to receive treatment for DME.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.4579,
+    "sim_neg": 0.1882,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "402L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): The retinal fluid biomarkers present are IRF (intraretinal fluid) and SRF (subretinal fluid).\nStep 2 (Pathophysiology): The presence of fluid indicates active disease, likely due to the presence of neovascularization.\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is expected to decrease in response to anti-VEGF therapy.\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1: The retinal fluid biomarkers present are IRF (intraretinal fluid) and SRF (subretinal fluid).\nStep 2: The underlying disease activity is active, indicating DME.\nStep 3: The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is a reduction in CST.\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): The image shows the presence of IRF (intraretinal fluid) and SRF (subretinal fluid).\n\nStep 2 (Pathophysiology): The presence of these biomarkers indicates active disease, likely related to DME.\n\nStep 3 (Predicted treatment response): The central subfield thickness (CST) is expected to decrease in response to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.5812,
+    "sim_neg": 0.8296,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "429L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present, including IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The absence of retinal fluid suggests that the underlying disease activity is inactive, indicating that the patient has reached a stable state.\n\nStep 3 (Predicted treatment response): Given the absence of retinal fluid, the central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no retinal fluid biomarker present, such as IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The absence of retinal fluid suggests that the underlying disease activity is inactive or has resolved.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED present in the image.\n\nStep 2 (Pathophysiology): The absence of these fluid biomarkers suggests that the DME is inactive, indicating that the disease activity has subsided.\n\nStep 3 (Predicted treatment response): Given the inactive DME, the CST is likely to remain stable or improve with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 0.8443,
+    "sim_neg": 0.553,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "461L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): The image shows subretinal fluid and an intraretinal fluid biomarker, indicating active wet AMD. There is no PED.\n\nStep 2 (Pathophysiology): The presence of subretinal fluid and intraretinal fluid suggests active disease activity.\n\nStep 3 (Predicted treatment response): Given the active disease, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is significant intraretinal fluid (IRF) and subretinal fluid (SRF) present in the macula. No pigment epithelial detachment (PED) is observed.\n\nStep 2 (Pathophysiology): The presence of significant intraretinal and subretinal fluid biomarkers indicates active disease activity, likely due to macular edema.\n\nStep 3 (Predicted treatment response): Given the active disease, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1: The image shows significant IRF and SRF, indicating active DME.\n\nStep 2: The underlying disease activity is active DME.\n\nStep 3: The central subfield thickness (CST) is likely to decrease significantly with anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.311,
+    "sim_neg": 0.3734,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "463L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED) observed in the image.\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers and the normal retinal architecture suggest low disease activity.\n\nStep 3 (Predicted treatment response): Given the low disease activity, the central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): The OCT image shows significant subretinal fluid (SRF) and intraretinal fluid (IRF) in the macula, indicative of active exudative AMD. There is no PED.\nStep 2 (Pathophysiology): The presence of SRF and IRF suggests ongoing disease activity, indicating active exudative AMD.\nStep 3 (Predicted treatment response): Given the active disease, the central subfield thickness (CST) is likely to remain elevated or even increase without anti-VEGF therapy.\nStep 4 (Decision): Decision: continue anti-VEGF therapy.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): The OCT image shows no intraretinal fluid (IRF) and no subretinal fluid (SRF). There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The absence of fluid and PED suggests that the underlying disease activity is relatively low.\n\nStep 3 (Predicted treatment response): Given the low disease activity, the central subfield thickness (CST) is likely to respond well to anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.4258,
+    "sim_neg": 0.4025,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "497R": {
+    "clean": {
+     "out": "Step 1: The image shows no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED). There is no retinal edema or thickening.\n\nStep 2: The absence of these biomarkers suggests that the underlying disease activity is inactive.\n\nStep 3: Given the inactive disease activity, the central subfield thickness (CST) is likely to remain stable or decrease after anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1: The retinal OCT image shows intraretinal fluid (IRF) and no subretinal fluid (SRF) or pigment epithelial detachment (PED).\n\nStep 2: The presence of IRF indicates active disease activity, likely due to macular edema.\n\nStep 3: Given the presence of IRF, the central subfield thickness (CST) is likely to decrease in response to anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1: The OCT image shows no intraretinal fluid (IRF), no subretinal fluid (SRF), and no pigment epithelial detachment (PED). There is no retinal edema or any other biomarkers of active disease.\n\nStep 2: The absence of any retinal fluid biomarkers suggests that the disease activity is inactive.\n\nStep 3: Given the inactive disease state, the central subfield thickness (CST) is likely to remain stable or decrease slightly with anti-VEGF therapy.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.5798,
+    "sim_neg": 0.878,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "534R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): The retinal fluid biomarkers present are SRF (subretinal fluid) and IRF (intraretinal fluid). There is no PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): The presence of SRF and IRF indicates active exudation, which is a sign of active AMD (age-related macular degeneration) with DME (diabetic macular edema). The underlying disease activity is active AMD with DME.\nStep 3 (Predicted treatment response): The active AMD with DME is likely to respond to anti-VEGF therapy, which will reduce the central subfield thickness (CST).\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no IRF, SRF, or PED present in the image.\n\nStep 2 (Pathophysiology): The absence of retinal fluid biomarkers and normal retinal architecture suggest that the underlying disease activity is likely inactive.\n\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is unlikely to change significantly with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): The retinal OCT image shows moderate subretinal fluid (SRF) and intraretinal fluid (IRF) in the central subfield. There is no pigment epithelial detachment (PED).\n\nStep 2 (Pathophysiology): The presence of SRF and IRF indicates active wet AMD, with fluid accumulation due to choroidal neovascularization (CNV) or compromised blood-retinal barrier.\n\nStep 3 (Predicted treatment response): Given the active wet AMD, the central subfield thickness (CST) is likely to decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Continue anti-VEGF therapy to manage the active wet AMD.\n\nDecision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.3576,
+    "sim_neg": 0.3504,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 0,
+    "dec_neg": 1
+   },
+   "540R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): There are no retinal fluid biomarkers present, such as IRF, SRF, or PED, in this OCT image.\n\nStep 2 (Pathophysiology): The absence of these biomarkers suggests that the underlying disease activity is likely related to macular oedema, which is not associated with significant retinal fluid.\n\nStep 3 (Predicted treatment response): Given the absence of retinal fluid, the central subfield thickness (CST) is likely to remain stable or even improve with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "<Img>\n\nStep 1 (Visual findings): There are no retinal fluid biomarkers present, such as IRF, SRF, or PED.\n\nStep 2 (Pathophysiology): The absence of fluid biomarkers suggests that the underlying disease activity is likely inactive.\n\nStep 3 (Predicted treatment response): Given the absence of fluid, the central subfield thickness (CST) is likely to remain stable or decrease with anti-VEGF therapy.\n\nStep 4 (Decision): Decision: continue.\n\nThe patient should continue anti-VEGF therapy.",
+     "dec": 1,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): The image shows no evidence of IRF, SRF, or PED. There is no retinal fluid biomarker present.\nStep 2 (Pathophysiology): The absence of retinal fluid biomarkers suggests that the underlying disease activity is likely inactive.\nStep 3 (Predicted treatment response): Given the inactive disease activity, the central subfield thickness (CST) is unlikely to improve with anti-VEGF therapy.\nStep 4 (Decision): The final decision is to stop anti-VEGF therapy.",
+     "dec": 0,
+     "bm": {
+      "IRF": NaN,
+      "SRF": NaN,
+      "PED": NaN
+     }
+    },
+    "sim_occ": 0.8051,
+    "sim_neg": 0.6252,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 0
+   },
+   "595L": {
+    "clean": {
+     "out": "Step 1: There is intraretinal fluid (IRF) present. No subretinal fluid (SRF) or pigment epithelial detachment (PED) is observed.\n\nStep 2: The underlying disease activity is active macular edema.\n\nStep 3: The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is expected to be improved.\n\nStep 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 0,
+      "PED": NaN
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): There is no intraretinal fluid (IRF) and no subretinal fluid (SRF). There is a large area of central subfield atrophy with a small pigment epithelial detachment (PED) above it.\n\nStep 2 (Pathophysiology): The presence of a large area of central subfield atrophy and a small PED suggests that the underlying disease activity is likely related to atrophy.\n\nStep 3 (Predicted treatment response): Given the atrophy and absence of fluid biomarkers, the predicted anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is unlikely to improve.\n\nStep 4 (Decision): Decision: stop.",
+     "dec": 0,
+     "bm": {
+      "IRF": 0,
+      "SRF": 0,
+      "PED": NaN
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1: There is no intraretinal fluid (IRF) or subretinal fluid (SRF). There is no pigment epithelial detachment (PED). Step 2: The underlying disease activity is active macular edema. Step 3: The likely anatomic response of the central subfield thickness (CST) to anti-VEGF therapy is expected to be improved. Step 4: Decision: continue.",
+     "dec": 1,
+     "bm": {
+      "IRF": 0,
+      "SRF": NaN,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.572,
+    "sim_neg": 0.7576,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [
+     "IRF"
+    ],
+    "fluid_dropped_occ": [
+     "IRF"
+    ],
+    "fluid_dropped_neg": [
+     "IRF"
+    ],
+    "dec_clean": 1,
+    "dec_occ": 0,
+    "dec_neg": 1
+   }
+  }
+ },
+ "B": {
+  "report": {
+   "arm": "B",
+   "n_eyes": 34,
+   "text_identical_occ": 0.824,
+   "text_identical_neg": 0.824,
+   "mean_sim_occ": 0.9953,
+   "mean_sim_neg": 0.9955,
+   "n_with_fluid_clean": 34,
+   "fluid_drop_rate_occ": 0.0,
+   "fluid_drop_rate_neg": 0.029,
+   "perceptibility_gap_bm": -0.029,
+   "dec_flip_rate_occ": 0.0,
+   "dec_flip_occ_n": 34,
+   "dec_flip_rate_neg": 0.0,
+   "dec_flip_neg_n": 34,
+   "perceptibility_gap_dec": 0.0
+  },
+  "per_eye": {
+   "5L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "9L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "20R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "45L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "69R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "110R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "115R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active disease favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 0.9828,
+    "identical_occ": true,
+    "identical_neg": false,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "128R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 0.9859,
+    "identical_occ": true,
+    "identical_neg": false,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "167R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "183R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted course): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 0.9783,
+    "sim_neg": 1.0,
+    "identical_occ": false,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "193L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "206L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "211R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "222R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "224R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.984,
+    "sim_neg": 1.0,
+    "identical_occ": false,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "226R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from a damaged retina or choroid).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 0.9269,
+    "sim_neg": 0.9269,
+    "identical_occ": false,
+    "identical_neg": false,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "230L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.984,
+    "sim_neg": 1.0,
+    "identical_occ": false,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "273L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 0.984,
+    "identical_occ": true,
+    "identical_neg": false,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "312L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "319R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "343R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "345R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "351R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 0.984,
+    "identical_occ": true,
+    "identical_neg": false,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "382L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.984,
+    "sim_neg": 1.0,
+    "identical_occ": false,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "388L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "398R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "402L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "429L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "461L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "463L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 0.984,
+    "identical_occ": true,
+    "identical_neg": false,
+    "fluid_clean": [
+     "IRF",
+     "PED",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [
+     "PED"
+    ],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "497R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "534R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF, PED present.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 1
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 0.984,
+    "sim_neg": 1.0,
+    "identical_occ": false,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "540R": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   },
+   "595L": {
+    "clean": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "occluded_negctrl": {
+     "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): These findings indicate active exudative disease (intra/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Predicted treatment response): On this single pre-treatment image the expected course is a partial anatomic response to anti-VEGF.\nStep 4 (Decision): Active exudation favors continued therapy, consistent with the recorded management. Decision: continue",
+     "dec": 1,
+     "bm": {
+      "IRF": 1,
+      "SRF": 1,
+      "PED": 0
+     }
+    },
+    "sim_occ": 1.0,
+    "sim_neg": 1.0,
+    "identical_occ": true,
+    "identical_neg": true,
+    "fluid_clean": [
+     "IRF",
+     "SRF"
+    ],
+    "fluid_dropped_occ": [],
+    "fluid_dropped_neg": [],
+    "dec_clean": 1,
+    "dec_occ": 1,
+    "dec_neg": 1
+   }
+  }
+ }
+}

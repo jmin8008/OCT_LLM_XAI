@@ -1,0 +1,591 @@
+{
+ "report": {
+  "tier": "tier2",
+  "arm": "B",
+  "meta": true,
+  "n": 35,
+  "decision_balanced_acc": 0.5,
+  "decision_sensitivity": 1.0,
+  "decision_specificity": 0.0,
+  "continue_rate": 1.0,
+  "biomarker_node_acc": 0.752,
+  "biomarker_node_n": 105,
+  "prognosis_node_acc": 0.257,
+  "prognosis_node_n": 35,
+  "prognosis_majority_baseline": 0.314,
+  "response_node_acc": 0.686,
+  "response_node_n": 35,
+  "response_majority_baseline": 0.686,
+  "response_goodpoor_balacc": 0.5,
+  "response_goodpoor_n": 34,
+  "text_kg_align": 1.0,
+  "text_kg_n": 35,
+  "cf_flip_rate": 0.0,
+  "cf_flip_n": 34,
+  "negctrl_flip_rate": 0.0,
+  "negctrl_flip_n": 34,
+  "faithfulness_gap": 0.0
+ },
+ "preds": {
+  "5L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -3.0
+  },
+  "9L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -149.0
+  },
+  "20R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -32.0
+  },
+  "45L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": 20.0
+  },
+  "69R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -21.0
+  },
+  "110R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": 8.0
+  },
+  "115R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -177.0
+  },
+  "128R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 4.0
+  },
+  "167R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 6.0
+  },
+  "183R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -158.0
+  },
+  "193L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": -4.0
+  },
+  "206L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -89.0
+  },
+  "209R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "no_active_disease",
+   "delta_cst": -15.0
+  },
+  "211R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -347.0
+  },
+  "222R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -8.0
+  },
+  "224R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -517.0
+  },
+  "226R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -57.0
+  },
+  "230L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 56.0
+  },
+  "273L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -133.0
+  },
+  "312L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -46.0
+  },
+  "319R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -113.0
+  },
+  "343R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -32.0
+  },
+  "345R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -88.0
+  },
+  "351R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 7.0
+  },
+  "382L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -41.0
+  },
+  "388L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -65.0
+  },
+  "398R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -191.0
+  },
+  "402L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "minimal_response",
+   "gt_resp": "poor_responder",
+   "delta_cst": 14.0
+  },
+  "429L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 155.0
+  },
+  "461L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "good_responder",
+   "delta_cst": 81.0
+  },
+  "463L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "partial_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -85.0
+  },
+  "497R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "stop",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -285.0
+  },
+  "534R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "marked_response",
+   "gt_resp": "good_responder",
+   "delta_cst": -138.0
+  },
+  "540R": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "poor_responder",
+   "delta_cst": 139.0
+  },
+  "595L": {
+   "out": "Step 1 (Visual findings): IRF, SRF present; PED absent.\nStep 2 (Pathophysiology): From the imaging findings alone, these indicate an active exudative lesion (intra-/subretinal fluid leakage from an active neovascular or edematous process).\nStep 3 (Clinical decision): Active exudation favors continued anti-VEGF per guideline. Decision: continue\nStep 4 (Predicted treatment response): Under continued anti-VEGF the expected course is a partial reduction in central subfield thickness, visual acuity stable, with retinal fluid persisted. Overall this is a good responder.",
+   "dec": 1,
+   "bm": {
+    "IRF": 1,
+    "SRF": 1,
+    "PED": 0,
+    "HRF": NaN
+   },
+   "prog": "partial_response",
+   "resp": "good_responder",
+   "gt_dec": "continue",
+   "gt_prog": "worsening",
+   "gt_resp": "good_responder",
+   "delta_cst": 63.0
+  }
+ }
+}

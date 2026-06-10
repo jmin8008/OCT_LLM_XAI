@@ -1,0 +1,41 @@
+{
+ "n_train": 183,
+ "n_test": 35,
+ "features": [
+  "age",
+  "gender_male",
+  "pre_va",
+  "pre_cst",
+  "drug_avastin",
+  "drug_steroid"
+ ],
+ "decision": {
+  "test_continue_rate": 0.6,
+  "majority_acc": 0.6,
+  "logreg": {
+   "balanced_acc": 0.536,
+   "roc_auc": 0.588
+  },
+  "gbm": {
+   "balanced_acc": 0.524,
+   "roc_auc": 0.578
+  }
+ },
+ "prognosis": {
+  "majority_acc": 0.314,
+  "logreg": {
+   "acc": 0.457
+  },
+  "gbm": {
+   "acc": 0.343
+  }
+ },
+ "decision_logreg_coefs": {
+  "age": 0.129,
+  "gender_male": 0.0,
+  "pre_va": -0.046,
+  "pre_cst": 0.281,
+  "drug_avastin": 0.236,
+  "drug_steroid": -0.261
+ }
+}
