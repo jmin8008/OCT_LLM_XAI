@@ -1,0 +1,138 @@
+% References for the Anti-VEGF VLM Spectrum + Neuro-Symbolic Guideline KG XAI paper.
+% Primary methodological source for the KG axis (E7): Wang 2025 (Sensors).
+
+@article{wang2025explainable,
+  title   = {Explainable Artificial Intelligence Framework for Predicting Treatment Outcomes in Age-Related Macular Degeneration},
+  author  = {Wang, Mini Han},
+  journal = {Sensors},
+  volume  = {25},
+  number  = {22},
+  pages   = {6879},
+  year    = {2025},
+  doi     = {10.3390/s25226879},
+  note    = {Neuro-symbolic + LLM framework: ontology KG (SNOMED-CT/ICD-10) + symbolic rules + RAG-LLM narratives; >85\% rule-supported reasoning, >90\% biomarker-citation accuracy, test AUROC 0.94, Brier 0.07}
+}
+
+% Secondary scaffolding reference (KG data structure / knowledge encoder only; DQN imitation NOT adopted).
+@article{zhang2023kad,
+  title   = {Knowledge-enhanced visual-language pre-training on chest radiology images},
+  author  = {Zhang, Xiaoman and others},
+  journal = {Nature Communications},
+  volume  = {14},
+  pages   = {4542},
+  year    = {2023},
+  note    = {KAD: UMLS knowledge graph + knowledge encoder; used here only as code scaffolding reference}
+}
+
+% Tier-3 specialist VLM (RetinaVLM). Published in npj Digital Medicine 2025;
+% arXiv:2407.08410 preprint title was "Specialist vision-language models for
+% clinical ophthalmology" — superseded by the journal version below.
+@article{holland2025retinavlm,
+  title   = {Specialized Curricula for Training Vision-Language Models in Retinal Image Analysis},
+  author  = {Holland, Robbie and others},
+  journal = {npj Digital Medicine},
+  volume  = {8},
+  pages   = {532},
+  year    = {2025},
+  note    = {RetinaVLM; preprint arXiv:2407.08410. TODO: verify exact npj DM DOI before submission}
+}
+
+% Tier-2 medical-generalist VLM.
+@inproceedings{li2023llavamed,
+  title     = {{LLaVA-Med}: Training a Large Language-and-Vision Assistant for Biomedicine in One Day},
+  author    = {Li, Chunyuan and others},
+  booktitle = {NeurIPS},
+  year      = {2023}
+}
+
+% Tier-1 generalist VLM (latest as of 2026-05).
+@article{qwen2025qwen3vl,
+  title   = {Qwen3-VL Technical Report},
+  author  = {{Qwen Team, Alibaba Cloud}},
+  journal = {arXiv preprint arXiv:2511.21631},
+  year    = {2025},
+  note    = {Qwen3-VL-8B-Instruct used as Tier-1 generalist VLM}
+}
+
+% APTOS-2021 anti-VEGF benchmark.
+@article{aptos2025bluesky,
+  title   = {APTOS 2021 Big Data Competition: anti-VEGF treatment response prediction},
+  author  = {{APTOS}},
+  journal = {arXiv preprint arXiv:2505.05768},
+  year    = {2025},
+  note    = {Official scoring formula; BlueSky 1st-place reference scores}
+}
+
+% Attention rollout XAI.
+@inproceedings{abnar2020rollout,
+  title     = {Quantifying Attention Flow in Transformers},
+  author    = {Abnar, Samira and Zuidema, Willem},
+  booktitle = {ACL},
+  year      = {2020}
+}
+
+% ---------------------------------------------------------------------------
+% New spine (2026-06-10): single-image CDSS illusion + SFT paradox.
+% ---------------------------------------------------------------------------
+
+% Attention is not explanation — extended here to training-time (attention-KL arm C).
+@inproceedings{jain2019attention,
+  title     = {Attention is not Explanation},
+  author    = {Jain, Sarthak and Wallace, Byron C.},
+  booktitle = {NAACL-HLT},
+  year      = {2019},
+  note      = {arXiv:1902.10186; attention weights do not provide faithful explanations}
+}
+
+@inproceedings{wiegreffe2019attention,
+  title     = {Attention is not not Explanation},
+  author    = {Wiegreffe, Sarah and Pinter, Yuval},
+  booktitle = {EMNLP-IJCNLP},
+  year      = {2019},
+  note      = {arXiv:1908.04626; rebuttal — depends on the definition of explanation}
+}
+
+% Shortcut learning — decision collapse as label-prior shortcut.
+@article{geirhos2020shortcut,
+  title   = {Shortcut Learning in Deep Neural Networks},
+  author  = {Geirhos, Robert and Jacobsen, J{\"o}rn-Henrik and Michaelis, Claudio and Zemel, Richard and Brendel, Wieland and Bethge, Matthias and Wichmann, Felix A.},
+  journal = {Nature Machine Intelligence},
+  volume  = {2},
+  pages   = {665--673},
+  year    = {2020},
+  doi     = {10.1038/s42256-020-00257-z},
+  note    = {arXiv:2004.07780}
+}
+
+@article{degrave2021covid,
+  title   = {AI for Radiographic {COVID}-19 Detection Selects Shortcuts over Signal},
+  author  = {DeGrave, Alex J. and Janizek, Joseph D. and Lee, Su-In},
+  journal = {Nature Machine Intelligence},
+  volume  = {3},
+  pages   = {610--619},
+  year    = {2021},
+  doi     = {10.1038/s42256-021-00338-7},
+  note    = {medical AI relies on confounders, not pathology}
+}
+
+% Catastrophic forgetting — theoretical anchor for the SFT paradox (C3).
+@incollection{mccloskey1989catastrophic,
+  title     = {Catastrophic Interference in Connectionist Networks: The Sequential Learning Problem},
+  author    = {McCloskey, Michael and Cohen, Neal J.},
+  booktitle = {Psychology of Learning and Motivation},
+  volume    = {24},
+  pages     = {109--165},
+  year      = {1989},
+  publisher = {Academic Press}
+}
+
+@article{kirkpatrick2017ewc,
+  title   = {Overcoming Catastrophic Forgetting in Neural Networks},
+  author  = {Kirkpatrick, James and Pascanu, Razvan and Rabinowitz, Neil and Veness, Joel and Desjardins, Guillaume and Rusu, Andrei A. and Milan, Kieran and Quan, John and Ramalho, Tiago and Grabska-Barwinska, Agnieszka and others},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume  = {114},
+  number  = {13},
+  pages   = {3521--3526},
+  year    = {2017},
+  doi     = {10.1073/pnas.1611835114}
+}
