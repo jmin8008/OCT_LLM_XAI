@@ -2,7 +2,7 @@
  {
   "id": "2L_factual",
   "eye_id": "2L",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/2L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -27,7 +27,7 @@
  {
   "id": "2L_cf",
   "eye_id": "2L",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/2L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -186,7 +186,7 @@
  {
   "id": "11L_factual",
   "eye_id": "11L",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/11L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -211,7 +211,7 @@
  {
   "id": "11L_cf",
   "eye_id": "11L",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/11L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -579,7 +579,7 @@
  {
   "id": "27R_factual",
   "eye_id": "27R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/27R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -604,7 +604,7 @@
  {
   "id": "27R_cf",
   "eye_id": "27R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/27R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -671,7 +671,7 @@
  {
   "id": "32R_factual",
   "eye_id": "32R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/32R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -696,7 +696,7 @@
  {
   "id": "32R_cf",
   "eye_id": "32R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/32R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -809,7 +809,7 @@
  {
   "id": "43R_factual",
   "eye_id": "43R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/43R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -834,7 +834,7 @@
  {
   "id": "43R_cf",
   "eye_id": "43R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/43R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -901,7 +901,7 @@
  {
   "id": "45L_factual",
   "eye_id": "45L",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/45L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -926,7 +926,7 @@
  {
   "id": "45L_cf",
   "eye_id": "45L",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/45L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1223,7 +1223,7 @@
  {
   "id": "57R_factual",
   "eye_id": "57R",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/57R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1248,7 +1248,7 @@
  {
   "id": "57R_cf",
   "eye_id": "57R",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/57R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1269,7 +1269,7 @@
  {
   "id": "63R_factual",
   "eye_id": "63R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/63R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1294,7 +1294,7 @@
  {
   "id": "63R_cf",
   "eye_id": "63R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/63R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1315,7 +1315,7 @@
  {
   "id": "69R_factual",
   "eye_id": "69R",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/69R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1340,7 +1340,7 @@
  {
   "id": "69R_cf",
   "eye_id": "69R",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/69R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1407,7 +1407,7 @@
  {
   "id": "77L_factual",
   "eye_id": "77L",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/77L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1432,7 +1432,7 @@
  {
   "id": "79L_factual",
   "eye_id": "79L",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/79L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1457,7 +1457,7 @@
  {
   "id": "79L_cf",
   "eye_id": "79L",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/79L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1478,7 +1478,7 @@
  {
   "id": "80R_factual",
   "eye_id": "80R",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/80R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1503,7 +1503,7 @@
  {
   "id": "80R_cf",
   "eye_id": "80R",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/80R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1524,7 +1524,7 @@
  {
   "id": "83L_factual",
   "eye_id": "83L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/83L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1549,7 +1549,7 @@
  {
   "id": "83L_cf",
   "eye_id": "83L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/83L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1662,7 +1662,7 @@
  {
   "id": "102R_factual",
   "eye_id": "102R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/102R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1687,7 +1687,7 @@
  {
   "id": "102R_cf",
   "eye_id": "102R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/102R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1800,7 +1800,7 @@
  {
   "id": "110R_factual",
   "eye_id": "110R",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/110R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1825,7 +1825,7 @@
  {
   "id": "110R_cf",
   "eye_id": "110R",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/110R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1892,7 +1892,7 @@
  {
   "id": "112R_factual",
   "eye_id": "112R",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/112R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1917,7 +1917,7 @@
  {
   "id": "112R_cf",
   "eye_id": "112R",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/112R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1938,7 +1938,7 @@
  {
   "id": "114R_factual",
   "eye_id": "114R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/114R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1963,7 +1963,7 @@
  {
   "id": "115R_factual",
   "eye_id": "115R",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/115R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -1988,7 +1988,7 @@
  {
   "id": "115R_cf",
   "eye_id": "115R",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/115R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2101,7 +2101,7 @@
  {
   "id": "120R_factual",
   "eye_id": "120R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/120R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2126,7 +2126,7 @@
  {
   "id": "120R_cf",
   "eye_id": "120R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/120R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2310,7 +2310,7 @@
  {
   "id": "134L_factual",
   "eye_id": "134L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/134L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2335,7 +2335,7 @@
  {
   "id": "134L_cf",
   "eye_id": "134L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/134L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2540,7 +2540,7 @@
  {
   "id": "149R_factual",
   "eye_id": "149R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/149R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2565,7 +2565,7 @@
  {
   "id": "149R_cf",
   "eye_id": "149R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/149R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2586,7 +2586,7 @@
  {
   "id": "152R_factual",
   "eye_id": "152R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/152R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2611,7 +2611,7 @@
  {
   "id": "152R_cf",
   "eye_id": "152R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/152R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2632,7 +2632,7 @@
  {
   "id": "155L_factual",
   "eye_id": "155L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/155L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2841,7 +2841,7 @@
  {
   "id": "183R_factual",
   "eye_id": "183R",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/183R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2866,7 +2866,7 @@
  {
   "id": "183R_cf",
   "eye_id": "183R",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/183R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -2979,7 +2979,7 @@
  {
   "id": "190L_factual",
   "eye_id": "190L",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/190L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3004,7 +3004,7 @@
  {
   "id": "190L_cf",
   "eye_id": "190L",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/190L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3117,7 +3117,7 @@
  {
   "id": "195L_factual",
   "eye_id": "195L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/195L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3142,7 +3142,7 @@
  {
   "id": "195L_cf",
   "eye_id": "195L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/195L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3301,7 +3301,7 @@
  {
   "id": "204R_factual",
   "eye_id": "204R",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/204R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3326,7 +3326,7 @@
  {
   "id": "204R_cf",
   "eye_id": "204R",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/204R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3418,7 +3418,7 @@
  {
   "id": "208R_factual",
   "eye_id": "208R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/208R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3443,7 +3443,7 @@
  {
   "id": "208R_cf",
   "eye_id": "208R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/208R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3464,7 +3464,7 @@
  {
   "id": "209R_factual",
   "eye_id": "209R",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/209R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3489,7 +3489,7 @@
  {
   "id": "210L_factual",
   "eye_id": "210L",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/210L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3514,7 +3514,7 @@
  {
   "id": "210L_cf",
   "eye_id": "210L",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/210L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3811,7 +3811,7 @@
  {
   "id": "224R_factual",
   "eye_id": "224R",
-  "split": "test",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/224R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3836,7 +3836,7 @@
  {
   "id": "224R_cf",
   "eye_id": "224R",
-  "split": "test",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/224R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3857,7 +3857,7 @@
  {
   "id": "226R_factual",
   "eye_id": "226R",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/226R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3882,7 +3882,7 @@
  {
   "id": "226R_cf",
   "eye_id": "226R",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/226R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3903,7 +3903,7 @@
  {
   "id": "229R_factual",
   "eye_id": "229R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/229R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3928,7 +3928,7 @@
  {
   "id": "229R_cf",
   "eye_id": "229R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/229R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3949,7 +3949,7 @@
  {
   "id": "230L_factual",
   "eye_id": "230L",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/230L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -3974,7 +3974,7 @@
  {
   "id": "230L_cf",
   "eye_id": "230L",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/230L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4087,7 +4087,7 @@
  {
   "id": "265L_factual",
   "eye_id": "265L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/265L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4112,7 +4112,7 @@
  {
   "id": "265L_cf",
   "eye_id": "265L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/265L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4225,7 +4225,7 @@
  {
   "id": "273L_factual",
   "eye_id": "273L",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/273L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4250,7 +4250,7 @@
  {
   "id": "273L_cf",
   "eye_id": "273L",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/273L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4271,7 +4271,7 @@
  {
   "id": "278R_factual",
   "eye_id": "278R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/278R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4296,7 +4296,7 @@
  {
   "id": "278R_cf",
   "eye_id": "278R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/278R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4317,7 +4317,7 @@
  {
   "id": "280R_factual",
   "eye_id": "280R",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/280R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4342,7 +4342,7 @@
  {
   "id": "280R_cf",
   "eye_id": "280R",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/280R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4363,7 +4363,7 @@
  {
   "id": "281L_factual",
   "eye_id": "281L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/281L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4388,7 +4388,7 @@
  {
   "id": "281L_cf",
   "eye_id": "281L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/281L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4547,7 +4547,7 @@
  {
   "id": "299R_factual",
   "eye_id": "299R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/299R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4572,7 +4572,7 @@
  {
   "id": "299R_cf",
   "eye_id": "299R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/299R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4731,7 +4731,7 @@
  {
   "id": "304L_factual",
   "eye_id": "304L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/304L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4756,7 +4756,7 @@
  {
   "id": "304L_cf",
   "eye_id": "304L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/304L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4869,7 +4869,7 @@
  {
   "id": "312L_factual",
   "eye_id": "312L",
-  "split": "test",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/312L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4894,7 +4894,7 @@
  {
   "id": "312L_cf",
   "eye_id": "312L",
-  "split": "test",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/312L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4915,7 +4915,7 @@
  {
   "id": "313L_factual",
   "eye_id": "313L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/313L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -4940,7 +4940,7 @@
  {
   "id": "313L_cf",
   "eye_id": "313L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/313L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5007,7 +5007,7 @@
  {
   "id": "319R_factual",
   "eye_id": "319R",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/319R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5032,7 +5032,7 @@
  {
   "id": "319R_cf",
   "eye_id": "319R",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/319R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5099,7 +5099,7 @@
  {
   "id": "326R_factual",
   "eye_id": "326R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/326R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5124,7 +5124,7 @@
  {
   "id": "326R_cf",
   "eye_id": "326R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/326R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5145,7 +5145,7 @@
  {
   "id": "327R_factual",
   "eye_id": "327R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/327R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5170,7 +5170,7 @@
  {
   "id": "327R_cf",
   "eye_id": "327R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/327R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5237,7 +5237,7 @@
  {
   "id": "330R_factual",
   "eye_id": "330R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/330R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5262,7 +5262,7 @@
  {
   "id": "330R_cf",
   "eye_id": "330R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/330R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5329,7 +5329,7 @@
  {
   "id": "341L_factual",
   "eye_id": "341L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/341L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5354,7 +5354,7 @@
  {
   "id": "341L_cf",
   "eye_id": "341L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/341L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5421,7 +5421,7 @@
  {
   "id": "343R_factual",
   "eye_id": "343R",
-  "split": "test",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/343R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5446,7 +5446,7 @@
  {
   "id": "343R_cf",
   "eye_id": "343R",
-  "split": "test",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/343R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5513,7 +5513,7 @@
  {
   "id": "347R_factual",
   "eye_id": "347R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/347R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5538,7 +5538,7 @@
  {
   "id": "347R_cf",
   "eye_id": "347R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/347R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5651,7 +5651,7 @@
  {
   "id": "351R_factual",
   "eye_id": "351R",
-  "split": "test",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/351R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5676,7 +5676,7 @@
  {
   "id": "351R_cf",
   "eye_id": "351R",
-  "split": "test",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/351R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5697,7 +5697,7 @@
  {
   "id": "352L_factual",
   "eye_id": "352L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/352L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5722,7 +5722,7 @@
  {
   "id": "352L_cf",
   "eye_id": "352L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/352L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5743,7 +5743,7 @@
  {
   "id": "357R_factual",
   "eye_id": "357R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/357R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5768,7 +5768,7 @@
  {
   "id": "357R_cf",
   "eye_id": "357R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/357R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5835,7 +5835,7 @@
  {
   "id": "361L_factual",
   "eye_id": "361L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/361L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -5860,7 +5860,7 @@
  {
   "id": "361L_cf",
   "eye_id": "361L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/361L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6019,7 +6019,7 @@
  {
   "id": "376R_factual",
   "eye_id": "376R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/376R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6044,7 +6044,7 @@
  {
   "id": "376R_cf",
   "eye_id": "376R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/376R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6157,7 +6157,7 @@
  {
   "id": "382L_factual",
   "eye_id": "382L",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/382L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6182,7 +6182,7 @@
  {
   "id": "382L_cf",
   "eye_id": "382L",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/382L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6203,7 +6203,7 @@
  {
   "id": "388L_factual",
   "eye_id": "388L",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/388L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6228,7 +6228,7 @@
  {
   "id": "388L_cf",
   "eye_id": "388L",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/388L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6249,7 +6249,7 @@
  {
   "id": "396L_factual",
   "eye_id": "396L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/396L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6274,7 +6274,7 @@
  {
   "id": "396L_cf",
   "eye_id": "396L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/396L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6295,7 +6295,7 @@
  {
   "id": "397L_factual",
   "eye_id": "397L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/397L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6320,7 +6320,7 @@
  {
   "id": "397L_cf",
   "eye_id": "397L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/397L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6341,7 +6341,7 @@
  {
   "id": "398R_factual",
   "eye_id": "398R",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/398R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6366,7 +6366,7 @@
  {
   "id": "398R_cf",
   "eye_id": "398R",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/398R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6433,7 +6433,7 @@
  {
   "id": "404L_factual",
   "eye_id": "404L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/404L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6458,7 +6458,7 @@
  {
   "id": "404L_cf",
   "eye_id": "404L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/404L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6525,7 +6525,7 @@
  {
   "id": "411R_factual",
   "eye_id": "411R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/411R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6550,7 +6550,7 @@
  {
   "id": "411R_cf",
   "eye_id": "411R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/411R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6617,7 +6617,7 @@
  {
   "id": "413L_factual",
   "eye_id": "413L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/413L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6642,7 +6642,7 @@
  {
   "id": "413L_cf",
   "eye_id": "413L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/413L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6709,7 +6709,7 @@
  {
   "id": "417L_factual",
   "eye_id": "417L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/417L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6734,7 +6734,7 @@
  {
   "id": "417L_cf",
   "eye_id": "417L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/417L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6801,7 +6801,7 @@
  {
   "id": "420R_factual",
   "eye_id": "420R",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/420R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6826,7 +6826,7 @@
  {
   "id": "420R_cf",
   "eye_id": "420R",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/420R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6893,7 +6893,7 @@
  {
   "id": "423L_factual",
   "eye_id": "423L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/423L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6918,7 +6918,7 @@
  {
   "id": "423L_cf",
   "eye_id": "423L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/423L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6939,7 +6939,7 @@
  {
   "id": "426L_factual",
   "eye_id": "426L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/426L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6964,7 +6964,7 @@
  {
   "id": "426L_cf",
   "eye_id": "426L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/426L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -6985,7 +6985,7 @@
  {
   "id": "427L_factual",
   "eye_id": "427L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/427L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7010,7 +7010,7 @@
  {
   "id": "427L_cf",
   "eye_id": "427L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/427L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7077,7 +7077,7 @@
  {
   "id": "429L_factual",
   "eye_id": "429L",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/429L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7102,7 +7102,7 @@
  {
   "id": "429L_cf",
   "eye_id": "429L",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/429L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7215,7 +7215,7 @@
  {
   "id": "453L_factual",
   "eye_id": "453L",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/453L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7240,7 +7240,7 @@
  {
   "id": "453L_cf",
   "eye_id": "453L",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/453L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7261,7 +7261,7 @@
  {
   "id": "454L_factual",
   "eye_id": "454L",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/454L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7286,7 +7286,7 @@
  {
   "id": "454L_cf",
   "eye_id": "454L",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/454L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7353,7 +7353,7 @@
  {
   "id": "457L_factual",
   "eye_id": "457L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/457L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7378,7 +7378,7 @@
  {
   "id": "457L_cf",
   "eye_id": "457L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/457L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7445,7 +7445,7 @@
  {
   "id": "461L_factual",
   "eye_id": "461L",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/461L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7470,7 +7470,7 @@
  {
   "id": "461L_cf",
   "eye_id": "461L",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/461L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7491,7 +7491,7 @@
  {
   "id": "463L_factual",
   "eye_id": "463L",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/463L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7516,7 +7516,7 @@
  {
   "id": "463L_cf",
   "eye_id": "463L",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/463L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7675,7 +7675,7 @@
  {
   "id": "475L_factual",
   "eye_id": "475L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/475L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7700,7 +7700,7 @@
  {
   "id": "475L_cf",
   "eye_id": "475L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/475L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7905,7 +7905,7 @@
  {
   "id": "495R_factual",
   "eye_id": "495R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/495R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7930,7 +7930,7 @@
  {
   "id": "495R_cf",
   "eye_id": "495R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/495R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -7997,7 +7997,7 @@
  {
   "id": "500L_factual",
   "eye_id": "500L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/500L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8022,7 +8022,7 @@
  {
   "id": "500L_cf",
   "eye_id": "500L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/500L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8135,7 +8135,7 @@
  {
   "id": "503R_factual",
   "eye_id": "503R",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/503R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8160,7 +8160,7 @@
  {
   "id": "503R_cf",
   "eye_id": "503R",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/503R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8181,7 +8181,7 @@
  {
   "id": "507R_factual",
   "eye_id": "507R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/507R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8206,7 +8206,7 @@
  {
   "id": "507R_cf",
   "eye_id": "507R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/507R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8319,7 +8319,7 @@
  {
   "id": "516L_factual",
   "eye_id": "516L",
-  "split": "train",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/516L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8344,7 +8344,7 @@
  {
   "id": "516L_cf",
   "eye_id": "516L",
-  "split": "train",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/516L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8457,7 +8457,7 @@
  {
   "id": "523L_factual",
   "eye_id": "523L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/523L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8482,7 +8482,7 @@
  {
   "id": "523L_cf",
   "eye_id": "523L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/523L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8595,7 +8595,7 @@
  {
   "id": "532L_factual",
   "eye_id": "532L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/532L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8620,7 +8620,7 @@
  {
   "id": "532L_cf",
   "eye_id": "532L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/532L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8687,7 +8687,7 @@
  {
   "id": "540R_factual",
   "eye_id": "540R",
-  "split": "test",
+  "split": "train",
   "type": "factual",
   "image": "fluid_masks_v2/clean/540R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8712,7 +8712,7 @@
  {
   "id": "540R_cf",
   "eye_id": "540R",
-  "split": "test",
+  "split": "train",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/540R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8779,7 +8779,7 @@
  {
   "id": "545L_factual",
   "eye_id": "545L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/545L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8804,7 +8804,7 @@
  {
   "id": "545L_cf",
   "eye_id": "545L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/545L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8871,7 +8871,7 @@
  {
   "id": "551L_factual",
   "eye_id": "551L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/551L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8896,7 +8896,7 @@
  {
   "id": "551L_cf",
   "eye_id": "551L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/551L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8917,7 +8917,7 @@
  {
   "id": "554R_factual",
   "eye_id": "554R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/554R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -8942,7 +8942,7 @@
  {
   "id": "554R_cf",
   "eye_id": "554R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/554R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9055,7 +9055,7 @@
  {
   "id": "562R_factual",
   "eye_id": "562R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/562R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9080,7 +9080,7 @@
  {
   "id": "562R_cf",
   "eye_id": "562R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/562R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9101,7 +9101,7 @@
  {
   "id": "564L_factual",
   "eye_id": "564L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/564L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9126,7 +9126,7 @@
  {
   "id": "564L_cf",
   "eye_id": "564L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/564L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9147,7 +9147,7 @@
  {
   "id": "565L_factual",
   "eye_id": "565L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/565L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9172,7 +9172,7 @@
  {
   "id": "565L_cf",
   "eye_id": "565L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/565L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9561,7 +9561,7 @@
  {
   "id": "585R_factual",
   "eye_id": "585R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/585R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9586,7 +9586,7 @@
  {
   "id": "585R_cf",
   "eye_id": "585R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/585R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9607,7 +9607,7 @@
  {
   "id": "587R_factual",
   "eye_id": "587R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/587R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9632,7 +9632,7 @@
  {
   "id": "587R_cf",
   "eye_id": "587R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/587R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9653,7 +9653,7 @@
  {
   "id": "589R_factual",
   "eye_id": "589R",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/589R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9678,7 +9678,7 @@
  {
   "id": "589R_cf",
   "eye_id": "589R",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/589R.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9791,7 +9791,7 @@
  {
   "id": "595L_factual",
   "eye_id": "595L",
-  "split": "test",
+  "split": "val",
   "type": "factual",
   "image": "fluid_masks_v2/clean/595L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9816,7 +9816,7 @@
  {
   "id": "595L_cf",
   "eye_id": "595L",
-  "split": "test",
+  "split": "val",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/595L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9837,7 +9837,7 @@
  {
   "id": "596L_factual",
   "eye_id": "596L",
-  "split": "train",
+  "split": "test",
   "type": "factual",
   "image": "fluid_masks_v2/clean/596L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",
@@ -9862,7 +9862,7 @@
  {
   "id": "596L_cf",
   "eye_id": "596L",
-  "split": "train",
+  "split": "test",
   "type": "counterfactual",
   "image": "fluid_masks_v2/occluded/596L.png",
   "prompt": "This is a pre-treatment macular OCT B-scan. Reason step by step:\nStep 1 (Visual findings): state which retinal fluid biomarkers are present — IRF (intraretinal fluid), SRF (subretinal fluid), PED (pigment epithelial detachment).\nStep 2 (Pathophysiology): from the image alone, infer the underlying disease activity.\nStep 3 (Clinical decision): based on the findings and any provided clinical context, decide per guideline whether to continue or stop anti-VEGF therapy. State exactly 'Decision: continue' or 'Decision: stop'.\nStep 4 (Predicted treatment response): predict the composite response to anti-VEGF — anatomic central-subfield-thickness change, visual-acuity change, and fluid resolution — and conclude whether this is a good responder or a poor responder.",

@@ -149,6 +149,14 @@ multi-modal/longitudinal CDSS는 향후 과제.
 - **(E) ★ SFT의 역설 ✓ (tier2 한정) — 가장 novel.** 정형 CoT SFT가 그 메타 판별력을 덮음.
   tier2 A_meta rGPbal 0.758 → B_meta 0.500 역전(cont 1.0). net-negative SFT의 증거.
 
+> **arm D 설계 의도 (반증 프레이밍).** arm D는 유체 픽셀을 counterfactual로 제거(occlusion)해
+> **"유체(단일 영상) 소견만으로 continue/stop을 판단할 수 있다"는 암묵 가정을 직접 반증**하기
+> 위한 실험이다 — 유체를 지웠을 때 결정이 인과적으로 따라 변하는지를 본다. 결과는 결정이
+> 유체 제거를 따라가지 않고 라벨 prior로 collapse → **유체만으로는 결정이 grounded되지 않음**을
+> 보인다. (단 occlusion이 저해상 grayscale 백본에 *지각 불가*인 confound가 겹쳐, 인과 결론은
+> perceptibility 재검 뒤로 한정 — §8.) ⚠️ 실제 dry-eye의 임상 결정 분포는 arm D의 *반증 논리와
+> 별개*이며 arm D 라벨의 정당성 근거로 쓰지 않는다(기껏해야 (B)/(C2)의 부수적 방증).
+
 ---
 
 ## 7. 산출물 (Deliverables)
@@ -168,8 +176,9 @@ multi-modal/longitudinal CDSS는 향후 과제.
 - **Negative-result framing 수용성:** 핵심 결과가 negative이므로, "모델 결함" 인상을 피하고
   *패러다임 한계의 인과 실증*으로 당당히 프레이밍해야 함(§1·§5). target venue는 position/
   findings를 받는 곳(예: findings track, clinically-oriented workshop) 우선 검토.
-- **n=35 검정력:** 셀 차이 대부분 n.s. → 핵심 셀에 bootstrap CI/permutation test로 n.s.를
-  명시(EXPERIMENTAL_PROTOCOL §3.3). 질적 패턴의 *3백본 반복*을 신뢰 근거로.
+- **검정력(eye-level):** 결정 N이 eye 수 제한(현 test 35 → 재실행 test≈70, 최소포함조건).
+  셀 차이 대부분 n.s. → 핵심 셀 bootstrap CI/permutation으로 명시; 질적 패턴 *3백본 반복*을
+  신뢰 근거로. 특히 **dry eye는 전체 7개뿐**이라 quota(≥2)로 붕괴만 막을 뿐 근본적으로 약함.
 - **(E) 메타 역전의 단일백본 한정성:** A_meta>B_meta 역전은 tier2에서만 관측(A_meta가 애초
   높았던 유일 백본). "메타가 zero-shot 우위를 준 곳에서 SFT가 지웠다"로 *한정 서술*.
 - **occlusion 지각불가 confound:** arm D all-stop collapse는 occlusion이 192×192 grayscale

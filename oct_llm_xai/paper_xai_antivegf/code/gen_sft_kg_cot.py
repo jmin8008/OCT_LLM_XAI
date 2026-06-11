@@ -30,6 +30,7 @@ ROOT = "/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/oct_llm_xai/paper_xai_antivegf"
 META = f"{ROOT}/fluid_masks_v2/metadata_v2.json"
 KG = f"{ROOT}/code/antivegf_guideline_kg_v2.json"
 OUT = f"{ROOT}/sft_data"
+SPLIT_V04 = f"{ROOT}/sft_data/split_v04.json"   # v0.4 train/val/test (make_split_v04.py)
 PIC_CSV = ("/home/ubuntu/bionexus/jgy/OCT_LLM_XAI/data_response/anti-vegf-dataset/"
            "APTOS-2021/Final Datasets/train_anno_pic.csv")
 
@@ -162,6 +163,15 @@ def build(node_narr, bm, decision, delta_cst, delta_va, post_fluid_present, occl
 def main():
     os.makedirs(OUT, exist_ok=True)
     meta = json.load(open(META))
+    # v0.4 split (train/val/test, Core-only Quota gate) overrides metadata's legacy
+    # train/test 'split' field when present; falls back to m['split'] otherwise.
+    split_map = {}
+    if os.path.exists(SPLIT_V04):
+        split_map = {k: v for k, v in json.load(open(SPLIT_V04)).items() if not k.startswith("_")}
+        print(f"using v0.4 split {SPLIT_V04}: " +
+              ", ".join(f"{s}={sum(v==s for v in split_map.values())}" for s in ("train", "val", "test")))
+    def split_of(eye):
+        return split_map.get(eye, None)
     kg = json.load(open(KG))
     node_narr = {n["id"]: n.get("narrative", n["label"]) for n in kg["nodes"]}
     post_fluid = load_post_fluid()
@@ -173,6 +183,7 @@ def main():
     resp_dist = Counter()
     for m in meta:
         eye = m["eye_id"]
+        eye_split = split_of(eye) or m.get("split")     # v0.4 split, else legacy
         bm = m["biomarkers"]
         decision = "continue" if m["continue_injection"] == 1 else "stop"
         dcst, dva = m["delta_cst"], m["delta_va"]
@@ -199,7 +210,7 @@ def main():
 
         target, patho = build(node_narr, bm, decision, dcst, dva, pf, occluded=False)
         rows.append({
-            "id": f"{eye}_factual", "eye_id": eye, "split": m["split"], "type": "factual",
+            "id": f"{eye}_factual", "eye_id": eye, "split": eye_split, "type": "factual",
             "image": f"fluid_masks_v2/clean/{eye}.png",
             "prompt": PROMPT, "target": target,
             "nodes_gt": {
@@ -220,7 +231,7 @@ def main():
             n_cf += 1
             cf_target, _ = build(node_narr, bm, decision, dcst, dva, pf, occluded=True)
             rows.append({
-                "id": f"{eye}_cf", "eye_id": eye, "split": m["split"], "type": "counterfactual",
+                "id": f"{eye}_cf", "eye_id": eye, "split": eye_split, "type": "counterfactual",
                 "image": f"fluid_masks_v2/occluded/{eye}.png", "prompt": PROMPT, "target": cf_target,
                 "nodes_gt": {"biomarkers": {"IRF": 0, "SRF": 0, "PED": int(bm.get("PED", 0))},
                              "pathophysiology": "dry_macula", "decision": "stop",
@@ -234,6 +245,9 @@ def main():
 
     fac = [r for r in rows if r["type"] == "factual"]
     print(f"SFT rows: {len(rows)} (factual={len(fac)}, cf={len(rows)-len(fac)})")
+    print("  split (rows): " + ", ".join(
+        f"{s}={sum(r['split']==s for r in rows)} ({sum(r['split']==s for r in fac)} factual)"
+        for s in ("train", "val", "test")))
     print(f"  divergent (guideline vs decision): {n_div}/{len(fac)}")
     print(f"  Step-4 response GT dist: {dict(resp_dist)}")
     print(f"  decision dist: {dict(Counter(r['nodes_gt']['decision'] for r in fac))}")
